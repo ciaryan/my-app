@@ -333,7 +333,7 @@ export const PUZZLE_GROUPS: PuzzleGroup[] = [
     id: 'anagram-countries',
     category: 'Anagrams of European countries',
     difficulty: 4,
-    words: ['Pains', 'Laity', 'Atlas', 'Rabies'],
+    words: ['Pains', 'Laity', 'Sprucy', 'Rabies'],
     overlapTags: ['emotions', 'religion', 'books', 'disease'],
   },
   {
