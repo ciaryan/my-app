@@ -16,8 +16,10 @@ export default function Home() {
         <section className="space-y-4 text-base leading-relaxed text-foreground/80">
           <p>
             I&apos;m an AI Engineer at the{' '}
-            <strong className="text-foreground">Government Digital Service</strong>,
-            where I work on Gov UK Chat — integrating LLMs, building RAG
+            <strong className="text-foreground">
+              Government Digital Service
+            </strong>
+            , where I work on Gov UK Chat — integrating LLMs, building RAG
             evaluation pipelines, and designing agentic architectures for public
             services.
           </p>
@@ -28,8 +30,9 @@ export default function Home() {
             engines, and multi-agent prototyping for executive decision-making.
           </p>
           <p>
-            I hold a First Class Honours MA in Statistics from University College Dublin and I am a
-            Google Certified ML Engineer & AWS Certified AI Practitioner. I&apos;m interested in how agentic
+            I hold a First Class Honours MA in Statistics from University
+            College Dublin and I am a Google Certified ML Engineer & AWS
+            Certified AI Practitioner. I&apos;m interested in how agentic
             workflows and LLMs can be applied responsibly at scale.
           </p>
         </section>
@@ -52,10 +55,16 @@ export default function Home() {
             LinkedIn
           </a>
           <Link
+            href="/play/connections"
+            className="text-muted transition-colors hover:text-foreground"
+          >
+            Connections
+          </Link>
+          <Link
             href="/idle"
             className="text-muted transition-colors hover:text-foreground"
           >
-            Play
+            Idle
           </Link>
         </nav>
       </main>
