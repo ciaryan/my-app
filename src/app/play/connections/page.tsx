@@ -143,6 +143,7 @@ export default function ConnectionsPage() {
   const [showStats, setShowStats] = useState(false);
   const [copied, setCopied] = useState(false);
   const [showCompleted, setShowCompleted] = useState(false);
+  const [pastGuesses, setPastGuesses] = useState<string[][]>([]);
 
   useEffect(() => {
     const init = initGameState();
@@ -191,6 +192,15 @@ export default function ConnectionsPage() {
   const handleSubmit = useCallback(() => {
     if (selected.size !== 4 || status !== 'playing' || !puzzle) return;
 
+    const guess = Array.from(selected).sort();
+    const isDuplicate = pastGuesses.some(
+      (prev) => prev.every((w, i) => w === guess[i]),
+    );
+    if (isDuplicate) {
+      setFeedback('Already guessed!');
+      return;
+    }
+
     const selectedWords = Array.from(selected);
     const matchedGroup = unsolvedGroups.find((g) =>
       g.words.every((w) => selected.has(w)),
@@ -233,12 +243,14 @@ export default function ConnectionsPage() {
       setFeedback(oneAway ? 'One away...' : 'Not quite!');
       setShakeWords(new Set(selectedWords));
       setTimeout(() => setShakeWords(new Set()), 500);
+      setPastGuesses((prev) => [...prev, guess]);
 
       if (newMistakes >= MAX_MISTAKES) {
         setStatus('lost');
         const remaining = unsolvedGroups;
         setSolved([...solved, ...remaining]);
         setBoard([]);
+        setSelected(new Set());
         setGuessHistory((prev) => [
           ...prev,
           ...remaining.map((g) => g.difficulty),
@@ -258,8 +270,6 @@ export default function ConnectionsPage() {
         saveHistory(h);
         setHistory(h);
       }
-
-      setSelected(new Set());
     }
   }, [
     selected,
@@ -269,6 +279,7 @@ export default function ConnectionsPage() {
     solved,
     mistakes,
     guessHistory,
+    pastGuesses,
   ]);
 
   const shareText = useMemo(() => {
