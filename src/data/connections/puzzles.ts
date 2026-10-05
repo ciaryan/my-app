@@ -103,7 +103,7 @@ export const PUZZLE_GROUPS: PuzzleGroup[] = [
     id: 'music-instruments',
     category: 'Musical instruments',
     difficulty: 1,
-    words: ['Drum', 'Trumpet', 'Fiddle', 'Organ'],
+    words: ['Harp', 'Trumpet', 'Fiddle', 'Organ'],
     overlapTags: ['body', 'actions', 'irish-music'],
   },
   {
@@ -112,6 +112,34 @@ export const PUZZLE_GROUPS: PuzzleGroup[] = [
     difficulty: 1,
     words: ['Thunder', 'Frost', 'Hail', 'Storm'],
     overlapTags: ['names', 'greetings', 'superhero'],
+  },
+  {
+    id: 'irish-rivers',
+    category: 'Irish rivers',
+    difficulty: 1,
+    words: ['Shannon', 'Liffey', 'Boyne', 'Lee'],
+    overlapTags: ['names', 'water', 'geography'],
+  },
+  {
+    id: 'irish-foods',
+    category: 'Traditional Irish dishes',
+    difficulty: 1,
+    words: ['Boxty', 'Coddle', 'Colcannon', 'Barmbrack'],
+    overlapTags: ['food', 'potatoes', 'baking', 'halloween'],
+  },
+  {
+    id: 'late-late-hosts',
+    category: 'Late Late Show hosts',
+    difficulty: 1,
+    words: ['Byrne', 'Kenny', 'Tubridy', 'Kielty'],
+    overlapTags: ['names', 'surnames', 'television', 'rte'],
+  },
+  {
+    id: 'irish-high-street',
+    category: 'Classic Irish retail stores',
+    difficulty: 1,
+    words: ['Penneys', 'Dunnes', 'Eason', 'Arnotts'],
+    overlapTags: ['names', 'surnames', 'shopping', 'clothing'],
   },
 
   // ── Difficulty 2 (Green) ─────────────────────────────────────────
@@ -220,6 +248,27 @@ export const PUZZLE_GROUPS: PuzzleGroup[] = [
     words: ['Saveloy', 'Roe', 'Scraps', 'Vinegar'],
     overlapTags: ['food', 'fish', 'states'],
   },
+  {
+    id: 'irish-writers',
+    category: 'Famous Irish writers',
+    difficulty: 2,
+    words: ['Joyce', 'Yeats', 'Wilde', 'Beckett'],
+    overlapTags: ['names', 'adjectives', 'literature'],
+  },
+  {
+    id: 'irish-radio',
+    category: 'Irish radio stations',
+    difficulty: 2,
+    words: ['Spin', 'Today', 'Lyric', 'Beat'],
+    overlapTags: ['music', 'time', 'actions', 'media'],
+  },
+  {
+    id: 'irish-puppets',
+    category: 'Irish children\'s TV puppets',
+    difficulty: 2,
+    words: ['Bosco', 'Dustin', 'Zig', 'Zag'],
+    overlapTags: ['names', 'actions', 'directions', 'animals'],
+  },
 
   // ── Difficulty 3 (Blue) ──────────────────────────────────────────
   {
@@ -327,6 +376,34 @@ export const PUZZLE_GROUPS: PuzzleGroup[] = [
     words: ['George', 'Andrew', 'Patrick', 'David'],
     overlapTags: ['names', 'royalty', 'star-trek'],
   },
+  {
+    id: 'irish-blank',
+    category: 'Irish ___',
+    difficulty: 3,
+    words: ['Stew', 'Setter', 'Whiskey', 'Times'],
+    overlapTags: ['food', 'dogs', 'drinks', 'newspapers'],
+  },
+  {
+    id: 'irish-fools',
+    category: 'Hiberno-English slang for "fool" or "idiot"',
+    difficulty: 3,
+    words: ['Eejit', 'Gombeen', 'Amadán', 'Lúdramán'],
+    overlapTags: ['slang', 'insults', 'gaelic'],
+  },
+  {
+    id: 'father-ted-clergy',
+    category: 'Clergy in Father Ted',
+    difficulty: 3,
+    words: ['Stone', 'Brennan', 'Stack', 'Furlong'],
+    overlapTags: ['names', 'nature', 'measurements', 'comedy'],
+  },
+  {
+    id: 'deli-counter',
+    category: 'Staples of an Irish deli hot counter',
+    difficulty: 3,
+    words: ['Jambon', 'Wedges', 'Fillet', 'Goujon'],
+    overlapTags: ['food', 'french', 'shoes', 'shapes'],
+  },
 
   // ── Difficulty 4 (Purple — hardest) ──────────────────────────────
   {
@@ -417,8 +494,8 @@ export const PUZZLE_GROUPS: PuzzleGroup[] = [
     id: 'words-mean-nothing',
     category: 'Words meaning "nothing"',
     difficulty: 4,
-    words: ['Zilch', 'Nought', 'Nil', 'Nowt'],
-    overlapTags: ['numbers', 'sports', 'northern', 'slang'],
+    words: ['Zilch', 'Naught', 'Nil', 'Diddly'],
+    overlapTags: ['numbers', 'sports', 'slang'],
   },
   {
     id: 'parts-of-castle',
@@ -433,5 +510,33 @@ export const PUZZLE_GROUPS: PuzzleGroup[] = [
     difficulty: 4,
     words: ['Lack of Pies', 'Roaring Pain', 'Nosey Cook', 'Belly Jeans'],
     overlapTags: ['food', 'weather', 'cooking', 'clothing'],
+  },
+  {
+    id: 'starts-with-county',
+    category: 'Words starting with an Irish county',
+    difficulty: 4,
+    words: ['Corkscrew', 'Mayonnaise', 'Downpour', 'Claret'],
+    overlapTags: ['wine', 'food', 'weather', 'colours'],
+  },
+  {
+    id: 'irish-streets',
+    category: 'Famous Irish streets (omitting "Street")',
+    difficulty: 4,
+    words: ['Grafton', 'Shop', 'Henry', 'Eyre'],
+    overlapTags: ['names', 'shopping', 'literature', 'places'],
+  },
+  {
+    id: 'irish-folk-songs',
+    category: 'First word in iconic Irish folk songs',
+    difficulty: 4,
+    words: ['Dirty', 'Wild', 'Black', 'Fields'],
+    overlapTags: ['adjectives', 'colours', 'nature', 'music'],
+  },
+  {
+    id: 'irish-political-parties',
+    category: 'First words of Irish political parties',
+    difficulty: 4,
+    words: ['Fine', 'Fianna', 'Sinn', 'Labour'],
+    overlapTags: ['adjectives', 'politics', 'work', 'gaelic'],
   },
 ];
