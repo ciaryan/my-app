@@ -7,7 +7,7 @@ export interface DailyPuzzle {
   shuffledWords: string[];
 }
 
-const EPOCH = '2026-09-12';
+const EPOCH = '2026-10-04';
 
 function seededRandom(seed: number): () => number {
   let s = seed;
@@ -56,8 +56,8 @@ function selectGroups(
     byDifficulty.set(g.difficulty, list);
   }
 
-  for (const [, list] of byDifficulty) {
-    shuffle(list, rand);
+  for (const [key, list] of byDifficulty) {
+    byDifficulty.set(key, shuffle(list, rand));
   }
 
   const d1 = byDifficulty.get(1) ?? [];
