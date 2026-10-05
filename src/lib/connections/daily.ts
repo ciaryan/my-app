@@ -34,56 +34,28 @@ function shuffle<T>(arr: T[], rand: () => number): T[] {
   return a;
 }
 
-function hasOverlap(groups: PuzzleGroup[]): boolean {
-  for (let i = 0; i < groups.length; i++) {
-    for (let j = i + 1; j < groups.length; j++) {
-      const shared = groups[i].overlapTags.some((tag) =>
-        groups[j].overlapTags.includes(tag),
-      );
-      if (shared) return true;
-    }
-  }
-  return false;
-}
+function getGroupForDifficulty(
+  difficulty: number,
+  puzzleNumber: number,
+): PuzzleGroup {
+  const groups = PUZZLE_GROUPS.filter((g) => g.difficulty === difficulty);
+  const count = groups.length;
+  const cycle = Math.floor((puzzleNumber - 1) / count);
+  const idx = (puzzleNumber - 1) % count;
 
-function selectGroups(
-  rand: () => number,
-): [PuzzleGroup, PuzzleGroup, PuzzleGroup, PuzzleGroup] | null {
-  const byDifficulty = new Map<number, PuzzleGroup[]>();
-  for (const g of PUZZLE_GROUPS) {
-    const list = byDifficulty.get(g.difficulty) ?? [];
-    list.push(g);
-    byDifficulty.set(g.difficulty, list);
-  }
+  const seed = hashString(EPOCH) ^ (difficulty * 7919 + cycle * 104729);
+  const shuffled = shuffle(groups, seededRandom(seed));
 
-  for (const [key, list] of byDifficulty) {
-    byDifficulty.set(key, shuffle(list, rand));
-  }
-
-  const d1 = byDifficulty.get(1) ?? [];
-  const d2 = byDifficulty.get(2) ?? [];
-  const d3 = byDifficulty.get(3) ?? [];
-  const d4 = byDifficulty.get(4) ?? [];
-
-  for (const g1 of d1) {
-    for (const g2 of d2) {
-      for (const g3 of d3) {
-        for (const g4 of d4) {
-          const combo = [g1, g2, g3, g4];
-          if (hasOverlap(combo)) {
-            return combo as [
-              PuzzleGroup,
-              PuzzleGroup,
-              PuzzleGroup,
-              PuzzleGroup,
-            ];
-          }
-        }
-      }
+  if (cycle > 0 && idx === 0) {
+    const prevSeed =
+      hashString(EPOCH) ^ (difficulty * 7919 + (cycle - 1) * 104729);
+    const prevShuffled = shuffle(groups, seededRandom(prevSeed));
+    if (shuffled[0].id === prevShuffled[count - 1].id) {
+      [shuffled[0], shuffled[1]] = [shuffled[1], shuffled[0]];
     }
   }
 
-  return [d1[0], d2[0], d3[0], d4[0]];
+  return shuffled[idx];
 }
 
 export function getDailyPuzzle(dateStr?: string): DailyPuzzle {
@@ -92,12 +64,16 @@ export function getDailyPuzzle(dateStr?: string): DailyPuzzle {
   const todayMs = new Date(today).getTime();
   const puzzleNumber = Math.floor((todayMs - epochMs) / 86_400_000) + 1;
 
-  const seed = hashString(today);
-  const rand = seededRandom(seed);
+  const groups: [PuzzleGroup, PuzzleGroup, PuzzleGroup, PuzzleGroup] = [
+    getGroupForDifficulty(1, puzzleNumber),
+    getGroupForDifficulty(2, puzzleNumber),
+    getGroupForDifficulty(3, puzzleNumber),
+    getGroupForDifficulty(4, puzzleNumber),
+  ];
 
-  const groups = selectGroups(rand)!;
+  const dailyRand = seededRandom(hashString(today));
   const allWords = groups.flatMap((g) => g.words);
-  const shuffledWords = shuffle(allWords, rand);
+  const shuffledWords = shuffle(allWords, dailyRand);
 
   return { number: puzzleNumber, date: today, groups, shuffledWords };
 }
