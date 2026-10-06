@@ -13,7 +13,7 @@ interface GameResult {
   date: string;
   solved: boolean;
   mistakes: number;
-  solveOrder: number[];
+  solveOrder: number[][];
 }
 
 interface ConnectionsHistory {
@@ -100,13 +100,16 @@ function initGameState() {
   const existing = getExistingResult(hist, daily.number);
 
   if (existing) {
+    const solveOrder = existing.solveOrder.map((entry) =>
+      Array.isArray(entry) ? entry : Array(4).fill(entry) as number[],
+    );
     return {
       puzzle: daily,
       board: [] as string[],
       solved: [...daily.groups],
       mistakes: existing.mistakes,
       status: (existing.solved ? 'won' : 'lost') as GameStatus,
-      guessHistory: existing.solveOrder,
+      guessHistory: solveOrder,
       showCompleted: true,
       history: hist,
     };
@@ -118,7 +121,7 @@ function initGameState() {
     solved: [] as PuzzleGroup[],
     mistakes: 0,
     status: 'playing' as GameStatus,
-    guessHistory: [] as number[],
+    guessHistory: [] as number[][],
     showCompleted: false,
     history: hist,
   };
@@ -135,7 +138,7 @@ export default function ConnectionsPage() {
   const [status, setStatus] = useState<GameStatus>('playing');
   const [shakeWords, setShakeWords] = useState<Set<string>>(() => new Set());
   const [feedback, setFeedback] = useState<string | null>(null);
-  const [guessHistory, setGuessHistory] = useState<number[]>([]);
+  const [guessHistory, setGuessHistory] = useState<number[][]>([]);
   const [history, setHistory] = useState<ConnectionsHistory>(() => ({
     results: [],
     stats: { played: 0, won: 0, currentStreak: 0, maxStreak: 0 },
@@ -162,6 +165,17 @@ export default function ConnectionsPage() {
     const solvedIds = new Set(solved.map((g) => g.id));
     return puzzle.groups.filter((g) => !solvedIds.has(g.id));
   }, [puzzle, solved]);
+
+  const wordDifficulty = useMemo(() => {
+    if (!puzzle) return new Map<string, number>();
+    const map = new Map<string, number>();
+    for (const group of puzzle.groups) {
+      for (const word of group.words) {
+        map.set(word, group.difficulty);
+      }
+    }
+    return map;
+  }, [puzzle]);
 
   const toggleSelect = useCallback(
     (word: string) => {
@@ -212,7 +226,8 @@ export default function ConnectionsPage() {
       setBoard((prev) => prev.filter((w) => !selected.has(w)));
       setSelected(new Set());
       setFeedback(null);
-      setGuessHistory((prev) => [...prev, matchedGroup.difficulty]);
+      const correctRow = Array(4).fill(matchedGroup.difficulty) as number[];
+      setGuessHistory((prev) => [...prev, correctRow]);
 
       if (newSolved.length === 4) {
         setStatus('won');
@@ -222,7 +237,7 @@ export default function ConnectionsPage() {
           date: puzzle.date,
           solved: true,
           mistakes,
-          solveOrder: [...guessHistory, matchedGroup.difficulty],
+          solveOrder: [...guessHistory, correctRow],
         };
         h.results.push(result);
         h.stats.played++;
@@ -238,12 +253,16 @@ export default function ConnectionsPage() {
         return overlap === 3;
       });
 
+      const incorrectRow = selectedWords
+        .map((w) => wordDifficulty.get(w) ?? 1)
+        .sort((a, b) => a - b);
       const newMistakes = mistakes + 1;
       setMistakes(newMistakes);
       setFeedback(oneAway ? 'One away...' : 'Not quite!');
       setShakeWords(new Set(selectedWords));
       setTimeout(() => setShakeWords(new Set()), 500);
       setPastGuesses((prev) => [...prev, guess]);
+      setGuessHistory((prev) => [...prev, incorrectRow]);
 
       if (newMistakes >= MAX_MISTAKES) {
         setStatus('lost');
@@ -251,10 +270,10 @@ export default function ConnectionsPage() {
         setSolved([...solved, ...remaining]);
         setBoard([]);
         setSelected(new Set());
-        setGuessHistory((prev) => [
-          ...prev,
-          ...remaining.map((g) => g.difficulty),
-        ]);
+        const revealedRows = remaining.map(
+          (g) => Array(4).fill(g.difficulty) as number[],
+        );
+        setGuessHistory((prev) => [...prev, ...revealedRows]);
 
         const h = loadHistory();
         const result: GameResult = {
@@ -262,7 +281,7 @@ export default function ConnectionsPage() {
           date: puzzle.date,
           solved: false,
           mistakes: newMistakes,
-          solveOrder: [...guessHistory, ...remaining.map((g) => g.difficulty)],
+          solveOrder: [...guessHistory, incorrectRow, ...revealedRows],
         };
         h.results.push(result);
         h.stats.played++;
@@ -280,6 +299,7 @@ export default function ConnectionsPage() {
     mistakes,
     guessHistory,
     pastGuesses,
+    wordDifficulty,
   ]);
 
   const shareText = useMemo(() => {
@@ -288,8 +308,8 @@ export default function ConnectionsPage() {
     const solveOrder = showCompleted
       ? (getExistingResult(history, puzzle.number)?.solveOrder ?? guessHistory)
       : guessHistory;
-    for (const diff of solveOrder) {
-      lines.push((DIFFICULTY_EMOJI[diff] ?? '').repeat(4));
+    for (const row of solveOrder) {
+      lines.push(row.map((d) => DIFFICULTY_EMOJI[d] ?? '').join(''));
     }
     if (status === 'lost') {
       lines.push(`${mistakes}/${MAX_MISTAKES} mistakes`);
