@@ -304,7 +304,7 @@ export default function ConnectionsPage() {
 
   const shareText = useMemo(() => {
     if (!puzzle || status === 'playing') return '';
-    const lines = [`Connections #${puzzle.number}`];
+    const lines = [`Ciaryan's Connections #${puzzle.number}`];
     for (const row of guessHistory) {
       lines.push(row.map((d) => DIFFICULTY_EMOJI[d] ?? '').join(''));
     }
