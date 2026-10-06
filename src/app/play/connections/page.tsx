@@ -305,17 +305,14 @@ export default function ConnectionsPage() {
   const shareText = useMemo(() => {
     if (!puzzle || status === 'playing') return '';
     const lines = [`Connections #${puzzle.number}`];
-    const solveOrder = showCompleted
-      ? (getExistingResult(history, puzzle.number)?.solveOrder ?? guessHistory)
-      : guessHistory;
-    for (const row of solveOrder) {
+    for (const row of guessHistory) {
       lines.push(row.map((d) => DIFFICULTY_EMOJI[d] ?? '').join(''));
     }
     if (status === 'lost') {
       lines.push(`${mistakes}/${MAX_MISTAKES} mistakes`);
     }
     return lines.join('\n');
-  }, [puzzle, status, guessHistory, mistakes, history, showCompleted]);
+  }, [puzzle, status, guessHistory, mistakes]);
 
   const handleShare = useCallback(async () => {
     try {
