@@ -36,17 +36,22 @@ import {
   ON_THIS_DAY,
   ON_THIS_DAY_QUESTIONS,
   ON_THIS_DAY_WORDING,
+  HISTORY_DAYS,
   PREFERRED_CATEGORIES,
   REUSE_AFTER_DAYS,
   TRIVIA_CATEGORIES,
 } from '@/lib/quiz/trivia';
 
 const OUTPUT_PATH = path.join(process.cwd(), 'src/data/trivia/today.json');
-/** Articles used by recent quizzes, so sticky most-read pages don't repeat. */
+/**
+ * Questions asked in recent quizzes. Most-read lists are sticky, so an
+ * article is skipped for REUSE_AFTER_DAYS, then may return with a question
+ * about a different fact.
+ */
 const USED_PATH = path.join(process.cwd(), 'src/data/trivia/used.json');
 
 interface UsedArticles {
-  articles: { url: string; date: string }[];
+  articles: { url: string; date: string; question: string; answer: string }[];
 }
 
 async function loadUsed(): Promise<UsedArticles> {
@@ -73,6 +78,7 @@ Write ${CANDIDATE_COUNT} multiple-choice questions: ${CANDIDATE_COUNT - ON_THIS_
 - Write the question in your own words and give enough context that it makes sense on its own. "On this day" questions MUST begin "On this day in <year>, ..." or "Born on this day in <year>, ..."; "popular" questions must not mention today's date or that the article is popular.
 - "explanation" is one or two sentences confirming the answer, paraphrased in your own words rather than restating the item.
 - Originality is checked automatically: any question or explanation that repeats more than five consecutive words from its item is rejected. Names and titles are fine; rephrase everything around them.
+- Some items list "previousQuestions" already asked about that article. A question on such an item must be about a different fact with a different answer.
 - Avoid questions about deaths, violence, crime or tragedy, and keep wording neutral and non-partisan.
 - Use British English.`;
 
@@ -137,10 +143,18 @@ async function main() {
     `most read: ${popular.length} items, on this day: ${onThisDayItems.length}`,
   );
   const used = await loadUsed();
-  const cutoff = addDays(date, -REUSE_AFTER_DAYS);
-  const recent = new Set(
-    used.articles.filter((a) => a.date > cutoff).map((a) => a.url),
+  const skipCutoff = addDays(date, -REUSE_AFTER_DAYS);
+  const historyCutoff = addDays(date, -HISTORY_DAYS);
+  const history = used.articles.filter(
+    (a) => a.date > historyCutoff && a.date !== date,
   );
+  const recent = new Set(
+    history.filter((a) => a.date > skipCutoff).map((a) => a.url),
+  );
+  const previous = new Map<string, typeof history>();
+  for (const a of history) {
+    previous.set(a.url, [...(previous.get(a.url) ?? []), a]);
+  }
   const items = [...popular, ...onThisDayItems].filter(
     (i) => !recent.has(i.page.url),
   );
@@ -162,6 +176,13 @@ async function main() {
         text: i.text,
         article: i.page.title,
         extract: i.page.extract,
+        ...(previous.has(i.page.url)
+          ? {
+              previousQuestions: previous
+                .get(i.page.url)!
+                .map((a) => `${a.question} (answer: ${a.answer})`),
+            }
+          : {}),
       })),
     ),
     schema: CandidatesSchema,
@@ -191,6 +212,17 @@ async function main() {
     });
     if (typeof result === 'string') {
       log(`dropped candidate ${i + 1}: ${result}`);
+      continue;
+    }
+    const repeated = previous
+      .get(item.page.url)
+      ?.find(
+        (a) =>
+          a.answer.toLowerCase() ===
+          candidate.correctOption.trim().toLowerCase(),
+      );
+    if (repeated) {
+      log(`dropped candidate ${i + 1}: same answer as on ${repeated.date}`);
       continue;
     }
     if (
@@ -234,8 +266,13 @@ async function main() {
   await writeJsonAtomic(OUTPUT_PATH, quiz);
   await writeJsonAtomic(USED_PATH, {
     articles: [
-      ...used.articles.filter((a) => a.date > cutoff && a.date !== date),
-      ...quiz.questions.map((q) => ({ url: q.sourceUrl, date })),
+      ...history,
+      ...quiz.questions.map((q) => ({
+        url: q.sourceUrl,
+        date,
+        question: q.question,
+        answer: q.options[q.answerIndex],
+      })),
     ],
   });
   log(`wrote ${path.relative(process.cwd(), OUTPUT_PATH)} and used.json`);

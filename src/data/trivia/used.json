@@ -2,23 +2,33 @@
   "articles": [
     {
       "url": "https://en.wikipedia.org/wiki/Spider-Man%3A_Brand_New_Day",
-      "date": "2026-10-09"
+      "date": "2026-10-09",
+      "question": "Spider-Man: Brand New Day follows which earlier film in the Marvel Cinematic Universe Spider-Man series?",
+      "answer": "Spider-Man: No Way Home"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Ted_Lasso",
-      "date": "2026-10-09"
+      "date": "2026-10-09",
+      "question": "In the comedy-drama Ted Lasso, the title character is an American coach hired to manage a team in which sport?",
+      "answer": "English football"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Dublin_and_Kingstown_Railway",
-      "date": "2026-10-09"
+      "date": "2026-10-09",
+      "question": "Ireland's first public railway opened on this day in 1834, linking Dublin with which harbour?",
+      "answer": "Kingstown"
     },
     {
       "url": "https://en.wikipedia.org/wiki/East_of_Eden_(novel)",
-      "date": "2026-10-09"
+      "date": "2026-10-09",
+      "question": "Which Nobel Prize-winning author wrote the 1952 novel East of Eden?",
+      "answer": "John Steinbeck"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Hannah_Fry",
-      "date": "2026-10-09"
+      "date": "2026-10-09",
+      "question": "Mathematician and TV presenter Hannah Fry holds a chair in helping the public understand maths at which university?",
+      "answer": "University of Cambridge"
     }
   ]
 }
