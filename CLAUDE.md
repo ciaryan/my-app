@@ -43,7 +43,7 @@ Multiple-choice quiz (5 questions, 4 options) on yesterday's news, regenerated d
 - `npm run quiz:generate` — fetch current events, call Gemini, write JSON
 - `npm run quiz:validate` — schema + content checks; must pass before any commit of quiz data. `-- --fresh` also requires today's date (the workflow uses it).
 - Scripts run with `tsx` (CommonJS output, so no top-level await — wrap in `main()`). `quiz:generate` loads `.env.local` if present.
-- Gemini client lives in `src/lib/ai/gemini.ts`, shared with the planned Connections agent. Key is `GEMINI_API_KEY` (Actions secret, never NEXT_PUBLIC_, never imported from `src/app`). Model name comes from `GEMINI_MODEL`.
+- Gemini client lives in `src/lib/ai/gemini.ts`, shared with the planned Connections agent. Key is `GEMINI_API_KEY` (Actions secret, never NEXT_PUBLIC_, never imported from `src/app`). Model name comes from `GEMINI_MODEL`; optional `GEMINI_FALLBACK_MODEL` (workflow defaults it to `gemini-3.7-flash`) is tried when the main model is overloaded, timing out or out of quota.
 - Questions must be original (no long verbatim runs from the source) and each needs a source URL that was actually fetched. Attribute Wikipedia (CC BY-SA 4.0) on the page.
 - Gemini free tier is about 20 requests/day per model (each model has its own quota; it reset around midnight UK time when tested Oct 2026). A run makes 2 calls (generate + one batched verify), so keep it batched. Daily-quota 429s fail fast instead of retrying.
 - If generation or validation fails, keep the previous `today.json`.

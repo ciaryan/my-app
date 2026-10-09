@@ -14,7 +14,7 @@ import { randomInt } from 'node:crypto';
 import { rename, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { z } from 'zod';
-import { generateJson, getGeminiModel } from '@/lib/ai/gemini';
+import { generateJson, getGeminiModels } from '@/lib/ai/gemini';
 import { originalityProblems } from '@/lib/quiz/checks';
 import { addDays, londonDate } from '@/lib/quiz/dates';
 import {
@@ -149,8 +149,10 @@ function toQuestion(
   return question;
 }
 
-async function verifyAll(questions: QuizQuestion[]): Promise<QuizQuestion[]> {
-  const { verdicts } = await generateJson({
+async function verifyAll(
+  questions: QuizQuestion[],
+): Promise<{ questions: QuizQuestion[]; model: string }> {
+  const { data, model } = await generateJson({
     system: VERIFIER_SYSTEM,
     prompt: JSON.stringify(
       questions.map((q) => ({
@@ -163,8 +165,9 @@ async function verifyAll(questions: QuizQuestion[]): Promise<QuizQuestion[]> {
     schema: VerdictsSchema,
     temperature: 0,
   });
-  const byId = new Map(verdicts.map((v) => [v.id, v]));
-  return questions.filter((q) => {
+  log(`verified with ${model}`);
+  const byId = new Map(data.verdicts.map((v) => [v.id, v]));
+  const kept = questions.filter((q) => {
     const verdict = byId.get(q.id);
     const ok =
       verdict !== undefined &&
@@ -175,6 +178,7 @@ async function verifyAll(questions: QuizQuestion[]): Promise<QuizQuestion[]> {
     );
     return ok;
   });
+  return { questions: kept, model };
 }
 
 function pickVaried(questions: QuizQuestion[]): QuizQuestion[] {
@@ -201,8 +205,9 @@ async function main() {
   // Portal pages are keyed by UTC date and keep filling up through the day,
   // so use the previous day's page.
   const newsDate = addDays(new Date().toISOString().slice(0, 10), -1);
-  const model = getGeminiModel();
-  log(`quiz ${quizDate}, news ${newsDate}, model ${model}`);
+  log(
+    `quiz ${quizDate}, news ${newsDate}, models ${getGeminiModels().join(' then ')}`,
+  );
 
   const pages = await fetchPages(newsDate);
   const events = pages.flatMap((p) => p.events);
@@ -211,7 +216,7 @@ async function main() {
   }
   const byId = new Map(events.map((e) => [e.id, e]));
 
-  const { questions: candidates } = await generateJson({
+  const generated = await generateJson({
     system: GENERATOR_SYSTEM,
     prompt: JSON.stringify(
       events.map((e) => ({
@@ -224,7 +229,8 @@ async function main() {
     schema: CandidatesSchema,
     temperature: 0.7,
   });
-  log(`${candidates.length} candidates`);
+  const candidates = generated.data.questions;
+  log(`${candidates.length} candidates from ${generated.model}`);
 
   const usedEvents = new Set<string>();
   const checked: QuizQuestion[] = [];
@@ -252,7 +258,8 @@ async function main() {
     );
   }
 
-  const verified = await verifyAll(checked);
+  const verification = await verifyAll(checked);
+  const verified = verification.questions;
 
   const questions = pickVaried(verified);
   if (questions.length < QUESTION_COUNT) {
@@ -266,7 +273,7 @@ async function main() {
     date: quizDate,
     newsDate,
     generatedAt: new Date().toISOString(),
-    model,
+    model: [...new Set([generated.model, verification.model])].join(', '),
     source: {
       name: 'Wikipedia: Portal:Current events',
       url: pages[0].url,

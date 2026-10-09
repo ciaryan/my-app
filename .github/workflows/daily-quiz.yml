@@ -35,6 +35,9 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          # Used if the main model is overloaded or out of quota. Override with
+          # a GEMINI_FALLBACK_MODEL repo variable.
+          GEMINI_FALLBACK_MODEL: ${{ vars.GEMINI_FALLBACK_MODEL || 'gemini-3.7-flash' }}
 
       - name: Format quiz
         run: npx prettier --write src/data/quiz/today.json
