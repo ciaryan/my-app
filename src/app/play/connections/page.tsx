@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, useMemo, useEffect } from 'react';
+import { useState, useCallback, useMemo, useSyncExternalStore } from 'react';
 import Link from 'next/link';
 import { getDailyPuzzle } from '@/lib/connections/daily';
 import type { DailyPuzzle } from '@/lib/connections/daily';
@@ -110,7 +110,6 @@ function initGameState() {
       mistakes: existing.mistakes,
       status: (existing.solved ? 'won' : 'lost') as GameStatus,
       guessHistory: solveOrder,
-      showCompleted: true,
       history: hist,
     };
   }
@@ -122,43 +121,47 @@ function initGameState() {
     mistakes: 0,
     status: 'playing' as GameStatus,
     guessHistory: [] as number[][],
-    showCompleted: false,
     history: hist,
   };
 }
 
+const subscribeNoop = () => () => {};
+
 export default function ConnectionsPage() {
-  // Only computed client-side (via effect below) since it reads localStorage;
-  // starting as null keeps the first client render identical to the SSR output.
-  const [puzzle, setPuzzle] = useState<DailyPuzzle | null>(null);
-  const [board, setBoard] = useState<string[]>([]);
+  // The game reads localStorage on its first render, so only mount it in the
+  // browser; the server and hydration render show the loading state instead.
+  const isClient = useSyncExternalStore(
+    subscribeNoop,
+    () => true,
+    () => false,
+  );
+  if (!isClient) {
+    return (
+      <div className="flex flex-1 items-center justify-center px-6 py-12 md:py-24">
+        <p className="text-muted">Loading...</p>
+      </div>
+    );
+  }
+  return <ConnectionsGame />;
+}
+
+function ConnectionsGame() {
+  const [init] = useState(initGameState);
+  const [puzzle] = useState<DailyPuzzle | null>(init.puzzle);
+  const [board, setBoard] = useState<string[]>(init.board);
   const [selected, setSelected] = useState<Set<string>>(() => new Set());
-  const [solved, setSolved] = useState<PuzzleGroup[]>([]);
-  const [mistakes, setMistakes] = useState(0);
-  const [status, setStatus] = useState<GameStatus>('playing');
+  const [solved, setSolved] = useState<PuzzleGroup[]>(init.solved);
+  const [mistakes, setMistakes] = useState(init.mistakes);
+  const [status, setStatus] = useState<GameStatus>(init.status);
   const [shakeWords, setShakeWords] = useState<Set<string>>(() => new Set());
   const [feedback, setFeedback] = useState<string | null>(null);
-  const [guessHistory, setGuessHistory] = useState<number[][]>([]);
-  const [history, setHistory] = useState<ConnectionsHistory>(() => ({
-    results: [],
-    stats: { played: 0, won: 0, currentStreak: 0, maxStreak: 0 },
-  }));
+  const [guessHistory, setGuessHistory] = useState<number[][]>(
+    init.guessHistory,
+  );
+  const [history, setHistory] = useState<ConnectionsHistory>(init.history);
   const [showStats, setShowStats] = useState(false);
   const [copied, setCopied] = useState(false);
-  const [showCompleted, setShowCompleted] = useState(false);
   const [pastGuesses, setPastGuesses] = useState<string[][]>([]);
-
-  useEffect(() => {
-    const init = initGameState();
-    setPuzzle(init.puzzle);
-    setBoard(init.board);
-    setSolved(init.solved);
-    setMistakes(init.mistakes);
-    setStatus(init.status);
-    setGuessHistory(init.guessHistory);
-    setHistory(init.history);
-    setShowCompleted(init.showCompleted);
-  }, []);
 
   const unsolvedGroups = useMemo(() => {
     if (!puzzle) return [];
