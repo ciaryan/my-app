@@ -45,6 +45,7 @@ Multiple-choice quiz (5 questions, 4 options) on yesterday's news, regenerated d
 - Scripts run with `tsx` (CommonJS output, so no top-level await — wrap in `main()`). `quiz:generate` loads `.env.local` if present.
 - Gemini client lives in `src/lib/ai/gemini.ts`, shared with the planned Connections agent. Key is `GEMINI_API_KEY` (Actions secret, never NEXT_PUBLIC_, never imported from `src/app`). Model name comes from `GEMINI_MODEL`.
 - Questions must be original (no long verbatim runs from the source) and each needs a source URL that was actually fetched. Attribute Wikipedia (CC BY-SA 4.0) on the page.
+- Gemini free tier is about 20 requests/day per model (each model has its own quota; it reset around midnight UK time when tested Oct 2026). A run makes 2 calls (generate + one batched verify), so keep it batched. Daily-quota 429s fail fast instead of retrying.
 - If generation or validation fails, keep the previous `today.json`.
 - Quiz dates use Europe/London. (Connections uses UTC; leave it.)
 - Each committed quiz triggers a Vercel production deploy of ciaryan.com.
