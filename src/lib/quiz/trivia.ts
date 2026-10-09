@@ -25,5 +25,9 @@ export const PREFERRED_CATEGORIES: TriviaCategory[] = [
 /** `story` values marking where a trivia question came from. */
 export const MOST_READ = 'Most read';
 export const ON_THIS_DAY = 'On this day';
+/** On this day questions must say so, e.g. "On this day in 1834, …". */
+export const ON_THIS_DAY_WORDING = /\b(on|born on) this day\b/i;
+/** Days before a Wikipedia article can be used again. */
+export const REUSE_AFTER_DAYS = 30;
 /** Of the five questions, how many come from the On this day feed. */
 export const ON_THIS_DAY_QUESTIONS = 1;

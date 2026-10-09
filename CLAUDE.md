@@ -95,5 +95,7 @@ Five pub quiz questions from five different rounds, built on the same pipeline a
 - `scripts/trivia/generate.ts` runs daily at 05:37 UTC via `.github/workflows/daily-trivia.yml`, after the news quiz, and writes `src/data/trivia/today.json` (`TriviaFileSchema`). It uses the same Gemini models, fallback and 2-calls-per-run budget as the news quiz.
 - Rounds (`src/lib/quiz/trivia.ts`): Gemini tags each question with one of Royalty, Film, Music, TV, Sport, History, Science, Geography, Literature or Art. Each question's `story` field records its source (`Most read` or `On this day`).
 - The picker takes exactly 1 On this day question plus 4 most-read ones, all from different rounds. Royalty, Film and Music are filled first when available. The On this day slot takes a preferred round the most-read questions can't cover (often Royalty); otherwise it takes a non-preferred round.
-- `trivia:validate` checks schema, originality, distinct and known rounds, and exactly 1 On this day question; `-- --fresh` also requires today's date.
+- On this day questions must say so ("On this day in <year>, …" / "Born on this day…"), enforced by `ON_THIS_DAY_WORDING` in both generator and validator.
+- No repeats: `src/data/trivia/used.json` lists the article URLs each quiz used; anything used in the last 30 days (`REUSE_AFTER_DAYS`) is filtered out before prompting, because most-read lists are sticky. The generator rewrites it after each quiz, and the workflow commits it with `today.json`.
+- `trivia:validate` checks schema, originality, distinct and known rounds, exactly 1 On this day question and its wording; `-- --fresh` also requires today's date.
 - Questions link to the Wikipedia article only (`readMore` is unset). The page stores answers under `trivia-history`.

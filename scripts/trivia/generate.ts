@@ -9,10 +9,11 @@
 //
 // On any failure the script exits non-zero and leaves today.json untouched.
 
+import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { z } from 'zod';
 import { generateJson, getGeminiModels } from '@/lib/ai/gemini';
-import { londonDate } from '@/lib/quiz/dates';
+import { addDays, londonDate } from '@/lib/quiz/dates';
 import {
   buildQuestion,
   CandidateSchema,
@@ -34,11 +35,27 @@ import {
   MOST_READ,
   ON_THIS_DAY,
   ON_THIS_DAY_QUESTIONS,
+  ON_THIS_DAY_WORDING,
   PREFERRED_CATEGORIES,
+  REUSE_AFTER_DAYS,
   TRIVIA_CATEGORIES,
 } from '@/lib/quiz/trivia';
 
 const OUTPUT_PATH = path.join(process.cwd(), 'src/data/trivia/today.json');
+/** Articles used by recent quizzes, so sticky most-read pages don't repeat. */
+const USED_PATH = path.join(process.cwd(), 'src/data/trivia/used.json');
+
+interface UsedArticles {
+  articles: { url: string; date: string }[];
+}
+
+async function loadUsed(): Promise<UsedArticles> {
+  try {
+    return JSON.parse(await readFile(USED_PATH, 'utf8')) as UsedArticles;
+  } catch {
+    return { articles: [] };
+  }
+}
 const CANDIDATE_COUNT = 13;
 const ON_THIS_DAY_CANDIDATES = 3;
 
@@ -53,7 +70,7 @@ Write ${CANDIDATE_COUNT} multiple-choice questions: ${CANDIDATE_COUNT - ON_THIS_
 - Favour well-known people, works and events that a general pub quiz audience could reasonably know or guess. Skip obscure items.
 - Exactly ${OPTION_COUNT} options. One is correct; the other three are plausible but clearly wrong according to the item (same type of thing: other years, other countries, other people of the same role, other works by similar artists).
 - Put the correct answer first in "options" (it will be shuffled later) and set "correctOption" to its text.
-- Write the question in your own words and give enough context that it makes sense on its own. "On this day" questions may say "On this day in <year>" or "Born on this day in <year>"; "popular" questions must not mention today's date or that the article is popular.
+- Write the question in your own words and give enough context that it makes sense on its own. "On this day" questions MUST begin "On this day in <year>, ..." or "Born on this day in <year>, ..."; "popular" questions must not mention today's date or that the article is popular.
 - "explanation" is one or two sentences confirming the answer, paraphrased in your own words rather than restating the item.
 - Originality is checked automatically: any question or explanation that repeats more than five consecutive words from its item is rejected. Names and titles are fine; rephrase everything around them.
 - Avoid questions about deaths, violence, crime or tragedy, and keep wording neutral and non-partisan.
@@ -119,7 +136,17 @@ async function main() {
   log(
     `most read: ${popular.length} items, on this day: ${onThisDayItems.length}`,
   );
-  const items = [...popular, ...onThisDayItems];
+  const used = await loadUsed();
+  const cutoff = addDays(date, -REUSE_AFTER_DAYS);
+  const recent = new Set(
+    used.articles.filter((a) => a.date > cutoff).map((a) => a.url),
+  );
+  const items = [...popular, ...onThisDayItems].filter(
+    (i) => !recent.has(i.page.url),
+  );
+  log(
+    `${popular.length + onThisDayItems.length - items.length} items skipped as used in the last ${REUSE_AFTER_DAYS} days`,
+  );
   if (items.length < QUESTION_COUNT) {
     throw new Error(`Only ${items.length} usable items found`);
   }
@@ -166,6 +193,13 @@ async function main() {
       log(`dropped candidate ${i + 1}: ${result}`);
       continue;
     }
+    if (
+      result.story === ON_THIS_DAY &&
+      !ON_THIS_DAY_WORDING.test(result.question)
+    ) {
+      log(`dropped candidate ${i + 1}: On this day question doesn't say so`);
+      continue;
+    }
     checked.push(result);
     usedItems.add(item.id);
   }
@@ -198,7 +232,13 @@ async function main() {
   });
 
   await writeJsonAtomic(OUTPUT_PATH, quiz);
-  log(`wrote ${path.relative(process.cwd(), OUTPUT_PATH)}`);
+  await writeJsonAtomic(USED_PATH, {
+    articles: [
+      ...used.articles.filter((a) => a.date > cutoff && a.date !== date),
+      ...quiz.questions.map((q) => ({ url: q.sourceUrl, date })),
+    ],
+  });
+  log(`wrote ${path.relative(process.cwd(), OUTPUT_PATH)} and used.json`);
 }
 
 runGenerator(main);

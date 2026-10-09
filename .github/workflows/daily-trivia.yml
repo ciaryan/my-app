@@ -40,7 +40,7 @@ jobs:
           GEMINI_FALLBACK_MODEL: ${{ vars.GEMINI_FALLBACK_MODEL || 'gemini-3.7-flash' }}
 
       - name: Format trivia
-        run: npx prettier --write src/data/trivia/today.json
+        run: npx prettier --write src/data/trivia/today.json src/data/trivia/used.json
 
       - name: Validate trivia
         run: npm run trivia:validate -- --fresh
@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add src/data/trivia/today.json
+          git add src/data/trivia/today.json src/data/trivia/used.json
           if git diff --cached --quiet; then
             echo 'No changes to commit'
             exit 0

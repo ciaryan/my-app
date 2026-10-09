@@ -10,6 +10,7 @@ import {
   MOST_READ,
   ON_THIS_DAY,
   ON_THIS_DAY_QUESTIONS,
+  ON_THIS_DAY_WORDING,
   TRIVIA_CATEGORIES,
 } from '@/lib/quiz/trivia';
 
@@ -41,6 +42,9 @@ async function main() {
       );
     }
     for (const q of quiz.questions) {
+      if (q.story === ON_THIS_DAY && !ON_THIS_DAY_WORDING.test(q.question)) {
+        errors.push(`${q.id}: On this day question doesn't say "on this day"`);
+      }
       if (q.story !== ON_THIS_DAY && q.story !== MOST_READ) {
         errors.push(`${q.id}: unknown source "${q.story}"`);
       }
