@@ -14,6 +14,8 @@ export const QuizQuestionSchema = z
   .object({
     id: z.string().min(1),
     category: z.string().min(1),
+    /** Wikipedia story chain, e.g. "Gaza war > Gaza war hostage crisis". */
+    story: z.string(),
     question: z.string().min(10).max(300),
     options: z.array(z.string().min(1).max(120)).length(OPTION_COUNT),
     answerIndex: z

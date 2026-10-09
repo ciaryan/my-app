@@ -6,7 +6,8 @@
 // 3. Blind-verify the candidates: a second Gemini call answers each one using
 //    only its own source entry. Drop any it gets wrong or finds ambiguous.
 //    Both passes are single calls — the free tier allows ~20 requests a day.
-// 4. Pick QUESTION_COUNT across varied categories, validate, write atomically.
+// 4. Pick QUESTION_COUNT across varied categories (at most one conflict
+//    question, exactly one sports question), validate, write atomically.
 //
 // On any failure the script exits non-zero and leaves today.json untouched.
 
@@ -29,6 +30,12 @@ import {
   type CurrentEvent,
   type CurrentEventsPage,
 } from '@/lib/quiz/sources/wikipedia';
+import {
+  isConflict,
+  isSports,
+  MAX_CONFLICT_QUESTIONS,
+  SPORTS_QUESTIONS,
+} from '@/lib/quiz/topics';
 
 const OUTPUT_PATH = path.join(process.cwd(), 'src/data/quiz/today.json');
 const CANDIDATE_COUNT = 12;
@@ -48,7 +55,9 @@ Write ${CANDIDATE_COUNT} multiple-choice questions. Rules:
 - Write the question in your own words and give enough context that it makes sense on its own.
 - "explanation" is one or two sentences confirming the answer, paraphrased in your own words rather than restating the entry.
 - Originality is checked automatically: any question or explanation that repeats more than five consecutive words from its entry is rejected. Names and titles are fine; rephrase everything around them.
-- Prefer a spread of categories (politics, science, business, sport, culture, international relations) and avoid more than one question per story.
+- Prefer a spread of categories (politics, science, business, culture, international relations, disasters, law) and avoid more than one question per story.
+- If any entries are in the "Sports" category, write at least 2 questions from them (from different entries where possible).
+- Entries marked "conflict": true are about wars and attacks. Write at most 2 questions from them.
 - Avoid questions whose answer is a death toll or casualty count, questions about victims or private individuals, and graphic detail. Keep wording neutral and non-partisan.
 - Use British English.`;
 
@@ -109,13 +118,25 @@ function entryContext(event: CurrentEvent): string {
 
 async function fetchPages(newsDate: string): Promise<CurrentEventsPage[]> {
   const pages = [await fetchCurrentEvents(newsDate)];
-  log(`${pages[0].title}: ${pages[0].events.length} entries`);
-  if (pages[0].events.length < MIN_EVENTS) {
+  const main = pages[0];
+  log(`${main.title}: ${main.events.length} entries`);
+  const thin = main.events.length < MIN_EVENTS;
+  const noSports = !main.events.some((e) => isSports(e.category));
+  if (thin || noSports) {
     const earlier = await fetchCurrentEvents(addDays(newsDate, -1));
-    log(`${earlier.title}: ${earlier.events.length} entries (topping up)`);
+    // A quiet day borrows everything; otherwise only the sports entries.
+    if (!thin)
+      earlier.events = earlier.events.filter((e) => isSports(e.category));
+    log(
+      `${earlier.title}: ${earlier.events.length} entries (topping up${thin ? '' : ' sports'})`,
+    );
     pages.push(earlier);
   }
   return pages;
+}
+
+function eventIsConflict(event: CurrentEvent): boolean {
+  return isConflict(event.category, event.topics.join(' > '));
 }
 
 function toQuestion(
@@ -132,6 +153,7 @@ function toQuestion(
   const question: QuizQuestion = {
     id: `${event.id}-q${index + 1}`,
     category: event.category,
+    story: event.topics.join(' > '),
     question: candidate.question.trim(),
     options: shuffled,
     answerIndex: shuffled.indexOf(correct),
@@ -182,19 +204,29 @@ async function verifyAll(
 }
 
 function pickVaried(questions: QuizQuestion[]): QuizQuestion[] {
-  const picked: QuizQuestion[] = [];
+  const conflict = (q: QuizQuestion) => isConflict(q.category, q.story);
+  const sports = (q: QuizQuestion) => isSports(q.category);
+  // Sports first so its slot is always filled when there is one.
+  const picked = questions.filter(sports).slice(0, SPORTS_QUESTIONS);
   const perCategory = new Map<string, number>();
+  for (const q of picked) {
+    perCategory.set(q.category, (perCategory.get(q.category) ?? 0) + 1);
+  }
+  let conflicts = picked.filter(conflict).length;
   // First pass favours unseen categories; second pass fills up to the cap.
   for (const limit of [1, MAX_PER_CATEGORY]) {
     for (const q of questions) {
       if (picked.length === QUESTION_COUNT) break;
-      if (picked.includes(q)) continue;
+      if (picked.includes(q) || sports(q)) continue;
+      if (conflict(q) && conflicts >= MAX_CONFLICT_QUESTIONS) continue;
       const n = perCategory.get(q.category) ?? 0;
       if (n >= limit) continue;
       picked.push(q);
       perCategory.set(q.category, n + 1);
+      if (conflict(q)) conflicts++;
     }
   }
+  if (!picked.some(sports)) log('no verified sports question available');
   return picked;
 }
 
@@ -223,6 +255,7 @@ async function main() {
         id: e.id,
         category: e.category,
         story: e.topics.join(' > ') || undefined,
+        conflict: eventIsConflict(e) || undefined,
         text: e.text,
       })),
     ),

@@ -6,6 +6,12 @@ import path from 'node:path';
 import { originalityProblems } from '@/lib/quiz/checks';
 import { londonDate } from '@/lib/quiz/dates';
 import { QuizFileSchema } from '@/lib/quiz/schema';
+import {
+  isConflict,
+  isSports,
+  MAX_CONFLICT_QUESTIONS,
+  SPORTS_QUESTIONS,
+} from '@/lib/quiz/topics';
 
 const QUIZ_PATH = path.join(process.cwd(), 'src/data/quiz/today.json');
 
@@ -26,6 +32,19 @@ async function main() {
     }
     if (quiz.newsDate > quiz.date) {
       errors.push(`newsDate ${quiz.newsDate} is after date ${quiz.date}`);
+    }
+    const conflict = quiz.questions.filter((q) =>
+      isConflict(q.category, q.story),
+    ).length;
+    const sports = quiz.questions.filter((q) => isSports(q.category)).length;
+    if (conflict > MAX_CONFLICT_QUESTIONS) {
+      errors.push(
+        `${conflict} conflict questions, max ${MAX_CONFLICT_QUESTIONS}`,
+      );
+    }
+    // Zero is allowed for days with no sports news at all.
+    if (sports > SPORTS_QUESTIONS) {
+      errors.push(`${sports} sports questions, max ${SPORTS_QUESTIONS}`);
     }
     for (const q of quiz.questions) {
       for (const problem of originalityProblems(q)) {
