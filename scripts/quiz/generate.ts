@@ -56,8 +56,8 @@ Write ${CANDIDATE_COUNT} multiple-choice questions. Rules:
 - "explanation" is one or two sentences confirming the answer, paraphrased in your own words rather than restating the entry.
 - Originality is checked automatically: any question or explanation that repeats more than five consecutive words from its entry is rejected. Names and titles are fine; rephrase everything around them.
 - Prefer a spread of categories (politics, science, business, culture, international relations, disasters, law) and avoid more than one question per story.
-- If any entries are in the "Sports" category, write at least 2 questions from them (from different entries where possible).
-- Entries marked "conflict": true are about wars and attacks. Write at most 2 questions from them.
+- If any entries are in the "Sports" category, write at LEAST 2 questions from them (from different entries where possible). Prioritise UK and Irish news for sports, if any exists.
+- Entries marked "conflict": true are about wars and attacks. Write at MOST 2 questions from them.
 - Avoid questions whose answer is a death toll or casualty count, questions about victims or private individuals, and graphic detail. Keep wording neutral and non-partisan.
 - Use British English.`;
 
