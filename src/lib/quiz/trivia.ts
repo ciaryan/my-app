@@ -21,3 +21,9 @@ export const PREFERRED_CATEGORIES: TriviaCategory[] = [
   'Film',
   'Music',
 ];
+
+/** `story` values marking where a trivia question came from. */
+export const MOST_READ = 'Most read';
+export const ON_THIS_DAY = 'On this day';
+/** Of the five questions, how many come from the On this day feed. */
+export const ON_THIS_DAY_QUESTIONS = 1;

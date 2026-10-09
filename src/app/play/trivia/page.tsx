@@ -5,7 +5,7 @@ import DailyQuiz from '../_components/DailyQuiz';
 
 export const metadata: Metadata = {
   title: 'Daily Trivia — Ciarán Ryan',
-  description: 'Five pub quiz questions on what happened on this day.',
+  description: 'Five daily pub quiz questions from five different rounds.',
 };
 
 // Parsed at build time; an invalid file fails the build rather than shipping.
@@ -16,11 +16,11 @@ export default function TriviaPage() {
     <DailyQuiz
       quiz={quiz}
       title="Daily Trivia"
-      subtitle="Five pub quiz rounds on what happened on this day"
+      subtitle="Five pub quiz rounds, from what people are reading and what happened on this day"
       storageKey="trivia-history"
       epoch="2026-10-09"
       path="/play/trivia"
-      sourceName="Wikipedia's On this day pages"
+      sourceName="Wikipedia's most-read articles and On this day pages"
     />
   );
 }

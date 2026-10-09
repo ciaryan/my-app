@@ -6,7 +6,12 @@ import path from 'node:path';
 import { originalityProblems } from '@/lib/quiz/checks';
 import { londonDate } from '@/lib/quiz/dates';
 import { TriviaFileSchema } from '@/lib/quiz/schema';
-import { TRIVIA_CATEGORIES } from '@/lib/quiz/trivia';
+import {
+  MOST_READ,
+  ON_THIS_DAY,
+  ON_THIS_DAY_QUESTIONS,
+  TRIVIA_CATEGORIES,
+} from '@/lib/quiz/trivia';
 
 const QUIZ_PATH = path.join(process.cwd(), 'src/data/trivia/today.json');
 
@@ -29,7 +34,16 @@ async function main() {
     if (new Set(categories).size !== categories.length) {
       errors.push(`rounds repeat: ${categories.join(', ')}`);
     }
+    const onThisDay = quiz.questions.filter((q) => q.story === ON_THIS_DAY);
+    if (onThisDay.length !== ON_THIS_DAY_QUESTIONS) {
+      errors.push(
+        `${onThisDay.length} On this day questions, expected ${ON_THIS_DAY_QUESTIONS}`,
+      );
+    }
     for (const q of quiz.questions) {
+      if (q.story !== ON_THIS_DAY && q.story !== MOST_READ) {
+        errors.push(`${q.id}: unknown source "${q.story}"`);
+      }
       if (!(TRIVIA_CATEGORIES as readonly string[]).includes(q.category)) {
         errors.push(`${q.id}: unknown round "${q.category}"`);
       }

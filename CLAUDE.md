@@ -86,9 +86,14 @@ On any failure the script exits non-zero and leaves the previous `today.json`; t
 
 ## Daily trivia
 
-Five pub quiz questions from different rounds on what happened on today's date, built on the same pipeline as the news quiz. Live at https://www.ciaryan.com/play/trivia.
+Five pub quiz questions from five different rounds, built on the same pipeline as the news quiz. Four come from yesterday's most-read Wikipedia articles, which change daily and lean towards films, TV, music, sport and celebrities. One comes from "On this day" for today's date. Live at https://www.ciaryan.com/play/trivia.
 
-- Source: Wikipedia's "On this day" feed (`https://en.wikipedia.org/api/rest_v1/feed/onthisday/all/MM/DD`, CC BY-SA 4.0), parsed in `src/lib/quiz/sources/onthisday.ts`. It uses selected anniversaries, events and up to 30 notable births (filtered to pub-quiz professions, ranked by article lead length as a fame proxy). Violent or tragic entries are filtered out. Extracts are trimmed to 300 characters to keep the prompt small, because larger prompts hit 504 timeouts.
+- Sources (CC BY-SA 4.0):
+  - `src/lib/quiz/sources/mostread.ts` reads `mostread` from the featured feed (`/api/rest_v1/feed/featured/YYYY/MM/DD`, which lists the previous day's top articles). It falls back a day if not yet published. It drops list pages, recent deaths (description ending "–<this or last year>)") and anything matching the `GRIM` filter.
+  - `src/lib/quiz/sources/onthisday.ts` reads `/api/rest_v1/feed/onthisday/all/MM/DD`: selected anniversaries, events and up to 10 notable births, filtered to pub-quiz professions and ranked by article lead length as a fame proxy. Violent or tragic entries are filtered out.
+  - Extracts are trimmed (500/300 characters) to keep the prompt small, because larger prompts hit 504 timeouts.
 - `scripts/trivia/generate.ts` runs daily at 05:37 UTC via `.github/workflows/daily-trivia.yml`, after the news quiz, and writes `src/data/trivia/today.json` (`TriviaFileSchema`). It uses the same Gemini models, fallback and 2-calls-per-run budget as the news quiz.
-- Rounds (`src/lib/quiz/trivia.ts`): Gemini tags each question with one of Royalty, Film, Music, TV, Sport, History, Science, Geography, Literature or Art. The picker takes 5 different rounds, filling Royalty, Film and Music first when available. `trivia:validate` checks schema, originality and distinct, known rounds; `-- --fresh` also requires today's date.
+- Rounds (`src/lib/quiz/trivia.ts`): Gemini tags each question with one of Royalty, Film, Music, TV, Sport, History, Science, Geography, Literature or Art. Each question's `story` field records its source (`Most read` or `On this day`).
+- The picker takes exactly 1 On this day question plus 4 most-read ones, all from different rounds. Royalty, Film and Music are filled first when available. The On this day slot takes a preferred round the most-read questions can't cover (often Royalty); otherwise it takes a non-preferred round.
+- `trivia:validate` checks schema, originality, distinct and known rounds, and exactly 1 On this day question; `-- --fresh` also requires today's date.
 - Questions link to the Wikipedia article only (`readMore` is unset). The page stores answers under `trivia-history`.

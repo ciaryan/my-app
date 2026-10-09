@@ -6,17 +6,18 @@ const USER_AGENT =
   'ciaryan.com-news-quiz/1.0 (https://ciaryan.com; daily quiz generator)';
 const MAX_EXTRACT_CHARS = 300;
 /** Births kept, longest lead extracts first (a rough proxy for fame). */
-const MAX_BIRTHS = 30;
+const MAX_BIRTHS = 10;
 
 /** Births are numerous; keep the people pub quizzes ask about. */
 const PUB_QUIZ_PEOPLE =
   /\b(king|queen|prince|princess|monarch|emperor|empress|duke|duchess|singer|songwriter|musician|rapper|composer|guitarist|drummer|band|actor|actress|film|director|comedian|television|presenter|footballer|cricketer|golfer|boxer|tennis|athlete|racing|novelist|author|poet|playwright|painter|artist|sculptor|physicist|chemist|astronaut|inventor|explorer|prime minister|president)\b/i;
 
 /** Skip entries about violence and tragedy — not pub quiz material. */
-const GRIM =
-  /\b(murder\w*|massacre\w*|killed|killing|kills|bomb\w*|shooting|shot dead|terror\w*|genocide|execut\w*|crash\w*|disaster\w*|earthquake|abduct\w*|assassinat\w*)\b/i;
+export const GRIM =
+  /\b(murder\w*|massacre\w*|killed|killing|kills|rape\w*|sex crime|serial killer|death row|bomb\w*|shooting|shot dead|terror\w*|genocide|execut\w*|crash\w*|disaster\w*|earthquake|abduct\w*|assassinat\w*)\b/i;
 
-export type OnThisDayKind = 'selected' | 'event' | 'birth';
+/** 'popular' items come from the most-read feed (see mostread.ts). */
+export type OnThisDayKind = 'selected' | 'event' | 'birth' | 'popular';
 
 export interface OnThisDayItem {
   id: string;
@@ -111,6 +112,10 @@ export async function fetchOnThisDay(date: string): Promise<OnThisDayItem[]> {
 
 /** The text a question must be answerable from. */
 export function itemContext(item: OnThisDayItem): string {
+  if (item.kind === 'popular') {
+    const about = item.page.description ? ` (${item.page.description})` : '';
+    return `${item.page.title}${about}: ${item.page.extract}`;
+  }
   const who = item.page.description
     ? `${item.page.title} (${item.page.description})`
     : item.page.title;
