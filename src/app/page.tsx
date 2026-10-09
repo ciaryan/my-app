@@ -11,6 +11,24 @@ export default function Home() {
           <p className="text-lg text-muted">
             AI Engineer &middot; Data Scientist &middot; AI for public good
           </p>
+          <nav className="flex gap-6 text-sm font-medium">
+            <a
+              href="https://github.com/ciaryan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground/80 underline decoration-muted decoration-1 underline-offset-4 transition-colors hover:text-foreground hover:decoration-foreground"
+            >
+              GitHub <span aria-hidden="true">&#8599;</span>
+            </a>
+            <a
+              href="https://linkedin.com/in/ciaran27ryan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground/80 underline decoration-muted decoration-1 underline-offset-4 transition-colors hover:text-foreground hover:decoration-foreground"
+            >
+              LinkedIn <span aria-hidden="true">&#8599;</span>
+            </a>
+          </nav>
         </header>
 
         <section className="space-y-4 text-base leading-relaxed text-foreground/80">
@@ -37,42 +55,31 @@ export default function Home() {
           </p>
         </section>
 
-        <nav className="flex gap-6 text-sm font-medium">
-          <a
-            href="https://github.com/ciaryan"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted transition-colors hover:text-foreground"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://linkedin.com/in/ciaran27ryan"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted transition-colors hover:text-foreground"
-          >
-            LinkedIn
-          </a>
-          <Link
-            href="/play/connections"
-            className="text-muted transition-colors hover:text-foreground"
-          >
-            Connections
-          </Link>
-          <Link
-            href="/play/news-quiz"
-            className="text-muted transition-colors hover:text-foreground"
-          >
-            News Quiz
-          </Link>
-          <Link
-            href="/idle"
-            className="text-muted transition-colors hover:text-foreground"
-          >
-            Idle
-          </Link>
-        </nav>
+        <section className="space-y-3">
+          <h2 className="text-sm font-bold uppercase tracking-wide text-muted">
+            Play
+          </h2>
+          <nav className="flex flex-wrap gap-x-8 gap-y-2 text-lg font-medium">
+            <Link
+              href="/play/connections"
+              className="text-foreground transition-colors hover:text-muted"
+            >
+              Connections
+            </Link>
+            <Link
+              href="/play/news-quiz"
+              className="text-foreground transition-colors hover:text-muted"
+            >
+              News Quiz
+            </Link>
+            <Link
+              href="/idle"
+              className="text-foreground transition-colors hover:text-muted"
+            >
+              Idle
+            </Link>
+          </nav>
+        </section>
       </main>
     </div>
   );
