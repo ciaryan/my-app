@@ -3,7 +3,7 @@
 import { useState, useSyncExternalStore } from 'react';
 import Link from 'next/link';
 import { formatLongDate, londonDate } from '@/lib/quiz/dates';
-import type { QuizFile, QuizQuestion } from '@/lib/quiz/schema';
+import type { QuizQuestion } from '@/lib/quiz/schema';
 
 // ── Types ──────────────────────────────────────────────────────────
 
@@ -12,18 +12,31 @@ interface QuizHistory {
   answers: Record<string, number[]>;
 }
 
-// ── Constants ──────────────────────────────────────────────────────
-
-const STORAGE_KEY = 'news-quiz-history';
-const EPOCH = '2026-10-09';
+export interface DailyQuizProps {
+  quiz: {
+    date: string;
+    questions: QuizQuestion[];
+    source: { url: string; license: string; licenseUrl: string };
+  };
+  title: string;
+  subtitle: string;
+  /** localStorage key for answers, keyed by quiz date. */
+  storageKey: string;
+  /** Date of quiz #1, for numbering. */
+  epoch: string;
+  /** Path for the share text, e.g. "/play/news-quiz". */
+  path: string;
+  /** Link text for the source in the footer, e.g. "Wikipedia's Current events portal". */
+  sourceName: string;
+}
 
 // ── Helpers ────────────────────────────────────────────────────────
 
-const STORAGE_EVENT = 'news-quiz-history-change';
+const STORAGE_EVENT = 'daily-quiz-history-change';
 
-function readStorage(): string {
+function readStorage(key: string): string {
   try {
-    return localStorage.getItem(STORAGE_KEY) ?? '';
+    return localStorage.getItem(key) ?? '';
   } catch {
     return '';
   }
@@ -48,21 +61,21 @@ function parseHistory(raw: string): QuizHistory {
   return { answers: {} };
 }
 
-function saveAnswers(date: string, answers: number[]) {
+function saveAnswers(key: string, date: string, answers: number[]) {
   try {
-    const history = parseHistory(readStorage());
+    const history = parseHistory(readStorage(key));
     history.answers[date] = answers;
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
+    localStorage.setItem(key, JSON.stringify(history));
     window.dispatchEvent(new Event(STORAGE_EVENT));
   } catch {
     // storage unavailable
   }
 }
 
-function quizNumber(date: string): number {
+function quizNumber(date: string, epoch: string): number {
   const days =
     (new Date(`${date}T00:00:00Z`).getTime() -
-      new Date(`${EPOCH}T00:00:00Z`).getTime()) /
+      new Date(`${epoch}T00:00:00Z`).getTime()) /
     86_400_000;
   return Math.round(days) + 1;
 }
@@ -80,14 +93,16 @@ function SourceLinks({ question }: { question: QuizQuestion }) {
       >
         Source: Wikipedia
       </a>
-      <a
-        href={question.readMore.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="underline underline-offset-2 hover:text-foreground"
-      >
-        Read more: {question.readMore.publisher} &#8599;
-      </a>
+      {question.readMore && (
+        <a
+          href={question.readMore.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2 hover:text-foreground"
+        >
+          Read more: {question.readMore.publisher} &#8599;
+        </a>
+      )}
     </p>
   );
 }
@@ -111,9 +126,18 @@ function optionClass(
   return `${base} border-border bg-background text-muted`;
 }
 
-export default function NewsQuiz({ quiz }: { quiz: QuizFile }) {
+export default function DailyQuiz({
+  quiz,
+  title,
+  subtitle,
+  storageKey,
+  epoch,
+  path,
+  sourceName,
+}: DailyQuizProps) {
+  const read = () => readStorage(storageKey);
   // null during SSR and hydration; localStorage contents ('' if empty) after.
-  const stored = useSyncExternalStore(subscribe, readStorage, () => null);
+  const stored = useSyncExternalStore(subscribe, read, () => null);
   const today = useSyncExternalStore(subscribe, londonDate, () => quiz.date);
   // True between answering a question and moving on to the next one.
   const [revealing, setRevealing] = useState(false);
@@ -130,20 +154,20 @@ export default function NewsQuiz({ quiz }: { quiz: QuizFile }) {
   const score = answers.filter(
     (a, i) => a === quiz.questions[i].answerIndex,
   ).length;
-  const number = quizNumber(quiz.date);
+  const number = quizNumber(quiz.date, epoch);
 
   function choose(index: number) {
     if (revealing) return;
-    saveAnswers(quiz.date, [...answers, index]);
+    saveAnswers(storageKey, quiz.date, [...answers, index]);
     setRevealing(true);
   }
 
   const shareText = [
-    `Ciaryan's News Quiz #${number}`,
+    `Ciaryan's ${title} #${number}`,
     answers
       .map((a, i) => (a === quiz.questions[i].answerIndex ? '🟩' : '🟥'))
       .join('') + ` ${score}/${total}`,
-    'ciaryan.com/play/news-quiz',
+    `ciaryan.com${path}`,
   ].join('\n');
 
   async function handleShare() {
@@ -174,14 +198,12 @@ export default function NewsQuiz({ quiz }: { quiz: QuizFile }) {
 
         <div className="space-y-1 text-center">
           <h1 className="text-2xl font-bold tracking-tight text-foreground">
-            News Quiz
+            {title}
           </h1>
           <p className="font-mono text-xs text-muted">
             #{number} &middot; {quiz.date}
           </p>
-          <p className="text-sm text-muted">
-            Five questions on the news from {formatLongDate(quiz.newsDate)}
-          </p>
+          <p className="text-sm text-muted">{subtitle}</p>
           {isStale && (
             <p className="text-xs text-muted">
               Today&apos;s quiz isn&apos;t ready yet &mdash; this is the quiz
@@ -301,7 +323,7 @@ export default function NewsQuiz({ quiz }: { quiz: QuizFile }) {
             rel="noopener noreferrer"
             className="underline underline-offset-2 hover:text-foreground"
           >
-            Wikipedia&apos;s Current events portal
+            {sourceName}
           </a>{' '}
           and checked automatically, so mistakes are possible &mdash; follow the
           source links. Text adapted under{' '}

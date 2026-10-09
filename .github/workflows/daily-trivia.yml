@@ -1,0 +1,59 @@
+name: Daily trivia
+
+on:
+  schedule:
+    # 05:37 UTC = 06:37 BST / 05:37 GMT, after the news quiz. Off the hour to dodge cron congestion.
+    - cron: '37 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-trivia
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # Each step fails the job on error; today.json is only replaced on
+      # success and is only committed if validation passes, so the site keeps
+      # serving the previous quiz otherwise.
+      - name: Generate trivia
+        run: npm run trivia:generate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          # Used if the main model is overloaded or out of quota. Override with
+          # a GEMINI_FALLBACK_MODEL repo variable.
+          GEMINI_FALLBACK_MODEL: ${{ vars.GEMINI_FALLBACK_MODEL || 'gemini-3.7-flash' }}
+
+      - name: Format trivia
+        run: npx prettier --write src/data/trivia/today.json
+
+      - name: Validate trivia
+        run: npm run trivia:validate -- --fresh
+
+      - name: Commit and push
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add src/data/trivia/today.json
+          if git diff --cached --quiet; then
+            echo 'No changes to commit'
+            exit 0
+          fi
+          git commit -m "Daily trivia for $(TZ=Europe/London date +%F)"
+          git pull --rebase
+          git push

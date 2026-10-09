@@ -10,7 +10,9 @@
     "format:check": "prettier --check .",
     "lint": "eslint .",
     "quiz:generate": "tsx --env-file-if-exists=.env.local scripts/quiz/generate.ts",
-    "quiz:validate": "tsx scripts/quiz/validate.ts"
+    "quiz:validate": "tsx scripts/quiz/validate.ts",
+    "trivia:generate": "tsx --env-file-if-exists=.env.local scripts/trivia/generate.ts",
+    "trivia:validate": "tsx scripts/trivia/validate.ts"
   },
   "dependencies": {
     "@google/genai": "^2.28.0",

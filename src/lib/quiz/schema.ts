@@ -31,7 +31,9 @@ export const QuizQuestionSchema = z
     /** Wikipedia article for the wider story, if the entry linked one. */
     topicUrl: wikipediaUrl.optional(),
     /** A news report cited by the Wikipedia entry — link only. */
-    readMore: z.object({ publisher: z.string().min(1), url: httpsUrl }),
+    readMore: z
+      .object({ publisher: z.string().min(1), url: httpsUrl })
+      .optional(),
   })
   .refine(
     (q) =>
@@ -63,5 +65,22 @@ export const QuizFileSchema = z.object({
     }),
 });
 
+/** Daily trivia from Wikipedia's "On this day" feed. */
+export const TriviaFileSchema = z.object({
+  version: z.literal(1),
+  /** Date the quiz is for (Europe/London); questions are anniversaries of it. */
+  date: isoDate,
+  generatedAt: z.iso.datetime(),
+  model: z.string().min(1),
+  source: z.object({
+    name: z.string().min(1),
+    url: wikipediaUrl,
+    license: z.literal('CC BY-SA 4.0'),
+    licenseUrl: httpsUrl,
+  }),
+  questions: QuizFileSchema.shape.questions,
+});
+
 export type QuizQuestion = z.infer<typeof QuizQuestionSchema>;
 export type QuizFile = z.infer<typeof QuizFileSchema>;
+export type TriviaFile = z.infer<typeof TriviaFileSchema>;

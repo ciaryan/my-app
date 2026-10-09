@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import quizData from '@/data/quiz/today.json';
+import { formatLongDate } from '@/lib/quiz/dates';
 import { QuizFileSchema } from '@/lib/quiz/schema';
-import NewsQuiz from './NewsQuiz';
+import DailyQuiz from '../_components/DailyQuiz';
 
 export const metadata: Metadata = {
   title: 'News Quiz — Ciarán Ryan',
@@ -12,5 +13,15 @@ export const metadata: Metadata = {
 const quiz = QuizFileSchema.parse(quizData);
 
 export default function NewsQuizPage() {
-  return <NewsQuiz quiz={quiz} />;
+  return (
+    <DailyQuiz
+      quiz={quiz}
+      title="News Quiz"
+      subtitle={`Five questions on the news from ${formatLongDate(quiz.newsDate)}`}
+      storageKey="news-quiz-history"
+      epoch="2026-10-09"
+      path="/play/news-quiz"
+      sourceName="Wikipedia's Current events portal"
+    />
+  );
 }

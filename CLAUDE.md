@@ -12,6 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run format` — Prettier (single quotes, semicolons, trailing commas)
 - `npm run format:check` — check formatting without writing
 - `npm run quiz:generate` / `npm run quiz:validate` — news quiz pipeline (see below)
+- `npm run trivia:generate` / `npm run trivia:validate` — daily trivia pipeline (see below)
 
 No test framework is configured. Lint should be clean (no errors or warnings).
 
@@ -25,6 +26,9 @@ Personal portfolio site for Ciarán Ryan (ciaryan.com). Next.js 16 App Router wi
 - `/idle` — client-side idle/clicker game (`src/app/idle/page.tsx`, `'use client'`)
 - `/play/connections` — daily Connections puzzle game (`src/app/play/connections/page.tsx`, `'use client'`)
 - `/play/news-quiz` — daily news quiz (`src/app/play/news-quiz/`, see below)
+- `/play/trivia` — daily "On this day" pub quiz (`src/app/play/trivia/`, see below)
+
+Both quizzes render the shared client component `src/app/play/_components/DailyQuiz.tsx`, configured by props (title, storage key, epoch, share path).
 
 **localStorage in client components:** don't read it in a mount effect and `setState` (the `react-hooks/set-state-in-effect` lint rule errors). Use `useSyncExternalStore` — either to read storage directly (news quiz) or to gate mounting until the client so `useState` initialisers can read it (Connections).
 
@@ -55,7 +59,8 @@ On any failure the script exits non-zero and leaves the previous `today.json`; t
 - `src/lib/quiz/schema.ts` — Zod schema for the quiz file, shared by the page, generator and validator.
 - `src/lib/quiz/checks.ts` (copied-words check), `topics.ts` (topic mix rules), `dates.ts` (Europe/London dates).
 - `scripts/quiz/validate.ts` — `npm run quiz:validate`. Checks schema, originality and topic caps; `-- --fresh` also requires today's London date.
-- `src/app/play/news-quiz/page.tsx` (server; parses the JSON at build time, so an invalid file fails the build) and `NewsQuiz.tsx` (client; answers in localStorage under `news-quiz-history`, keyed by quiz date).
+- `src/lib/quiz/pipeline.ts` — generator pieces shared with the trivia quiz: `buildQuestion` (shuffle + schema + originality), batched blind `verifyAll`, atomic write, `runGenerator`.
+- `src/app/play/news-quiz/page.tsx` (server; parses the JSON at build time, so an invalid file fails the build) renders `DailyQuiz`, which stores answers in localStorage under `news-quiz-history`, keyed by quiz date.
 
 **Rules:**
 
@@ -78,3 +83,12 @@ On any failure the script exits non-zero and leaves the previous `today.json`; t
 - To test pipeline logic without quota, run `generate.ts` from a throwaway script that replaces `globalThis.fetch` for `generativelanguage.googleapis.com` with canned responses (the SDK uses global fetch), then `require('./generate')`. Back up `today.json` first.
 - Scripts run with `tsx` (CommonJS output, so no top-level await; wrap code in `main()`).
 - Workflows can only be started by hand from the Actions tab once they exist on `main`.
+
+## Daily trivia
+
+Five pub quiz questions from different rounds on what happened on today's date, built on the same pipeline as the news quiz. Live at https://www.ciaryan.com/play/trivia.
+
+- Source: Wikipedia's "On this day" feed (`https://en.wikipedia.org/api/rest_v1/feed/onthisday/all/MM/DD`, CC BY-SA 4.0), parsed in `src/lib/quiz/sources/onthisday.ts`. It uses selected anniversaries, events and up to 30 notable births (filtered to pub-quiz professions, ranked by article lead length as a fame proxy). Violent or tragic entries are filtered out. Extracts are trimmed to 300 characters to keep the prompt small, because larger prompts hit 504 timeouts.
+- `scripts/trivia/generate.ts` runs daily at 05:37 UTC via `.github/workflows/daily-trivia.yml`, after the news quiz, and writes `src/data/trivia/today.json` (`TriviaFileSchema`). It uses the same Gemini models, fallback and 2-calls-per-run budget as the news quiz.
+- Rounds (`src/lib/quiz/trivia.ts`): Gemini tags each question with one of Royalty, Film, Music, TV, Sport, History, Science, Geography, Literature or Art. The picker takes 5 different rounds, filling Royalty, Film and Music first when available. `trivia:validate` checks schema, originality and distinct, known rounds; `-- --fresh` also requires today's date.
+- Questions link to the Wikipedia article only (`readMore` is unset). The page stores answers under `trivia-history`.

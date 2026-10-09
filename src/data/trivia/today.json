@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T15:54:08.449Z",
+  "model": "hand-written-seed",
+  "source": {
+    "name": "Wikipedia: On this day (October 9)",
+    "url": "https://en.wikipedia.org/wiki/October_9",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "questions": [
+    {
+      "id": "2026-10-09-birth-136-q1",
+      "category": "Royalty",
+      "story": "",
+      "question": "Prince Edward, Duke of Kent, born on this day in 1935, is a first cousin of which monarch?",
+      "options": ["George V", "George VI", "Edward VIII", "Elizabeth II"],
+      "answerIndex": 3,
+      "explanation": "His father was a brother of George VI and Edward VIII, which makes him a first cousin of the late Queen Elizabeth II.",
+      "context": "On this day in 1935: Prince Edward, Duke of Kent\nPrince Edward, Duke of Kent (British prince (born 1935)): Prince Edward, Duke of Kent, is a member of the British royal family. The elder son of Prince George, Duke of Kent, and Princess Marina of Greece and Denmark, he is a grandson of George V, nephew of Edward VIII and George VI, and first cousin of Elizabeth II.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Prince_Edward%2C_Duke_of_Kent"
+    },
+    {
+      "id": "2026-10-09-birth-88-q2",
+      "category": "Film",
+      "story": "",
+      "question": "Which film-maker, known for blending fairy tales, gothic style and horror, was born on this day in 1964?",
+      "options": [
+        "Alfonso Cuarón",
+        "Alejandro González Iñárritu",
+        "Pedro Almodóvar",
+        "Guillermo del Toro"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Mexican director Guillermo del Toro is celebrated for finding beauty in the grotesque.",
+      "context": "On this day in 1964: Guillermo del Toro, Mexican-American director, producer, and screenwriter\nGuillermo del Toro (Mexican filmmaker (born 1964)): Guillermo del Toro Gómez is a Mexican filmmaker and actor. His work has been characterized by a strong connection to fairy tales, gothicism, and horror, often blending the genres, with an effort to infuse visual or poetic beauty in the grotesque.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guillermo_del_Toro"
+    },
+    {
+      "id": "2026-10-09-selected-3-q3",
+      "category": "Music",
+      "story": "",
+      "question": "Which Andrew Lloyd Webber musical opened in London's West End on this day in 1986?",
+      "options": [
+        "Cats",
+        "Evita",
+        "The Phantom of the Opera",
+        "Sunset Boulevard"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Phantom of the Opera premiered in London in 1986 and went on to become the longest-running show on Broadway.",
+      "context": "On this day in 1986: The Phantom of the Opera, a musical by Andrew Lloyd Webber and currently the longest-running Broadway show in history, opened in London's West End.\nThe Phantom of the Opera (1986 musical) (1986 musical by Andrew Lloyd Webber): The Phantom of the Opera is a musical with music by Andrew Lloyd Webber, lyrics by Charles Hart, and additional lyrics by Richard Stilgoe, with a libretto by Lloyd Webber and Stilgoe, inspired by the 1910 novel by Gaston Leroux, it tells the tragic story of beautiful soprano Christine Daaé, who beco",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1986_musical)"
+    },
+    {
+      "id": "2026-10-09-selected-18-q4",
+      "category": "Science",
+      "story": "",
+      "question": "On this day in 1676, which Dutch scientist wrote to the Royal Society describing tiny \"animalcules\"?",
+      "options": [
+        "Christiaan Huygens",
+        "Robert Hooke",
+        "Antonie van Leeuwenhoek",
+        "Jan Swammerdam"
+      ],
+      "answerIndex": 2,
+      "explanation": "Van Leeuwenhoek, often called the father of microbiology, gave the earliest known account of protozoa.",
+      "context": "On this day in 1676: Antonie van Leeuwenhoek wrote a letter to the Royal Society describing \"animalcules\" – the first known description of protozoa (pictured).\nAntonie van Leeuwenhoek (Dutch microbiologist (1632–1723)): Antonie Philips van Leeuwenhoek was a Dutch microbiologist and microscopist in the Golden Age of Dutch art, science and technology. A largely self-taught man in science, he is commonly known as \"the Father of Microbiology\", and one of the first microscopists and microbiologists.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek"
+    },
+    {
+      "id": "2026-10-09-event-39-q5",
+      "category": "History",
+      "story": "",
+      "question": "Ireland's first public railway opened on this day in 1834, linking Dublin with which harbour?",
+      "options": ["Rosslare", "Kingstown", "Wexford", "Howth"],
+      "answerIndex": 1,
+      "explanation": "The Dublin and Kingstown Railway ran from Westland Row to the harbour at Kingstown, now Dún Laoghaire.",
+      "context": "On this day in 1834: Opening of the Dublin and Kingstown Railway, the first public railway on the island of Ireland.\nDublin and Kingstown Railway (Ireland's first passenger railway (1834–1856)): The Dublin and Kingstown Railway (D&KR), which opened in 1834, was Ireland's first passenger railway. It linked Westland Row in Dublin with Kingstown Harbour in County Dublin.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dublin_and_Kingstown_Railway"
+    }
+  ]
+}

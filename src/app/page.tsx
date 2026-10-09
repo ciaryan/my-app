@@ -73,6 +73,12 @@ export default function Home() {
               News Quiz
             </Link>
             <Link
+              href="/play/trivia"
+              className="text-foreground transition-colors hover:text-muted"
+            >
+              Trivia
+            </Link>
+            <Link
               href="/idle"
               className="text-foreground transition-colors hover:text-muted"
             >
