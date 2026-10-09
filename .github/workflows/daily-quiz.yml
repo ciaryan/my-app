@@ -1,0 +1,56 @@
+name: Daily news quiz
+
+on:
+  schedule:
+    # 05:17 UTC = 06:17 BST / 05:17 GMT. Off the hour to dodge cron congestion.
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-quiz
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # Each step fails the job on error; today.json is only replaced on
+      # success and is only committed if validation passes, so the site keeps
+      # serving the previous quiz otherwise.
+      - name: Generate quiz
+        run: npm run quiz:generate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+
+      - name: Format quiz
+        run: npx prettier --write src/data/quiz/today.json
+
+      - name: Validate quiz
+        run: npm run quiz:validate -- --fresh
+
+      - name: Commit and push
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add src/data/quiz/today.json
+          if git diff --cached --quiet; then
+            echo 'No changes to commit'
+            exit 0
+          fi
+          git commit -m "News quiz for $(TZ=Europe/London date +%F)"
+          git pull --rebase
+          git push

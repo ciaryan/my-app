@@ -61,6 +61,12 @@ export default function Home() {
             Connections
           </Link>
           <Link
+            href="/play/news-quiz"
+            className="text-muted transition-colors hover:text-foreground"
+          >
+            News Quiz
+          </Link>
+          <Link
             href="/idle"
             className="text-muted transition-colors hover:text-foreground"
           >
