@@ -264,7 +264,7 @@ export const PUZZLE_GROUPS: PuzzleGroup[] = [
   },
   {
     id: 'irish-puppets',
-    category: 'Irish children\'s TV puppets',
+    category: "Irish children's TV puppets",
     difficulty: 2,
     words: ['Bosco', 'Dustin', 'Zig', 'Zag'],
     overlapTags: ['names', 'actions', 'directions', 'animals'],
