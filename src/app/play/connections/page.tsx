@@ -101,7 +101,7 @@ function initGameState() {
 
   if (existing) {
     const solveOrder = existing.solveOrder.map((entry) =>
-      Array.isArray(entry) ? entry : Array(4).fill(entry) as number[],
+      Array.isArray(entry) ? entry : (Array(4).fill(entry) as number[]),
     );
     return {
       puzzle: daily,
@@ -210,8 +210,8 @@ function ConnectionsGame() {
     if (selected.size !== 4 || status !== 'playing' || !puzzle) return;
 
     const guess = Array.from(selected).sort();
-    const isDuplicate = pastGuesses.some(
-      (prev) => prev.every((w, i) => w === guess[i]),
+    const isDuplicate = pastGuesses.some((prev) =>
+      prev.every((w, i) => w === guess[i]),
     );
     if (isDuplicate) {
       setFeedback('Already guessed!');
