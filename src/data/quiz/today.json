@@ -1,31 +1,31 @@
 {
   "version": 1,
-  "date": "2026-10-09",
-  "newsDate": "2026-10-08",
-  "generatedAt": "2026-10-09T15:16:24.973Z",
-  "model": "gemini-3.7-flash",
+  "date": "2026-10-10",
+  "newsDate": "2026-10-09",
+  "generatedAt": "2026-10-10T11:11:49.588Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
-    "revisionIds": [1379355732],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
+    "revisionIds": [1379490386, 1379462758],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-08-16-q1",
+      "id": "2026-10-08-18-q10",
       "category": "Sports",
       "story": "2026 Nippon Professional Baseball season",
-      "question": "Which Hanshin Tigers player captured the Nippon Professional Baseball Triple Crown in 2026?",
+      "question": "Which Hanshin Tigers player captured baseball's Triple Crown during the 2026 Nippon Professional Baseball campaign?",
       "options": [
-        "Munetaka Murakami",
-        "Yoshinobu Yamamoto",
         "Teruaki Satō",
-        "Shohei Ohtani"
+        "Shintaro Fujinami",
+        "Munetaka Murakami",
+        "Koji Chikamoto"
       ],
-      "answerIndex": 2,
-      "explanation": "Satō claimed the NPB Triple Crown, becoming the first player to achieve the batting milestone since Murakami did so in 2022.",
-      "context": "2026 Nippon Professional Baseball season: In baseball, Teruaki Satō of the Hanshin Tigers wins the Triple Crown; the last NPB Triple Crown was won by Munetaka Murakami in 2022.",
+      "answerIndex": 0,
+      "explanation": "Teruaki Satō accomplished the rare feat by winning the Triple Crown while competing for the Hanshin Tigers.",
+      "context": "2026 Nippon Professional Baseball season: In baseball, Teruaki Satō of the Hanshin Tigers wins the Triple Crown.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
       "topicUrl": "https://en.wikipedia.org/wiki/2026_Nippon_Professional_Baseball_season",
       "readMore": {
@@ -34,82 +34,76 @@
       }
     },
     {
-      "id": "2026-10-08-2-q3",
-      "category": "Armed conflicts and attacks",
-      "story": "Middle Eastern crisis > 2026 Iran war",
-      "question": "According to statements by U.S. President Donald Trump, American armed forces will refrain from attacking Iran prior to which event?",
+      "id": "2026-10-09-1-q1",
+      "category": "Arts and culture",
+      "story": "",
+      "question": "Who became the first Asian to be appointed dean of the College of Cardinals after Pope Leo XIV approved his election?",
       "options": [
-        "The presidential inauguration",
-        "The midterm elections",
-        "The United Nations General Assembly",
-        "The G7 summit"
+        "Malcolm Ranjith",
+        "Luis Antonio Tagle",
+        "Charles Maung Bo",
+        "Oswald Gracias"
       ],
       "answerIndex": 1,
-      "explanation": "Trump confirmed that the American military would hold off on any strikes against Iran until after the upcoming midterms.",
-      "context": "Middle Eastern crisis > 2026 Iran war: U.S. president Donald Trump says that the U.S. military will not attack Iran before the midterm elections next month.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Iran_war",
+      "explanation": "Pope Leo XIV confirmed the appointment of Filipino cardinal Luis Antonio Tagle, marking the first time an Asian cleric has headed the papal electing body.",
+      "context": "Pope Leo XIV approves Filipino cardinal Luis Antonio Tagle's election as dean of the College of Cardinals, making him the first Asian to lead the body that elects a new pope.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
       "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/trump-iran-war-midterms-attack-422b1799a1a06466279ac265f560e014"
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/pope-leo-approves-tagle-first-asian-dean-catholic-cardinals-2026-10-09/"
       }
     },
     {
-      "id": "2026-10-08-5-q5",
-      "category": "Arts and culture",
-      "story": "2026 Nobel Prize in Literature",
-      "question": "Which Canadian author was awarded the 2026 Nobel Prize in Literature?",
-      "options": [
-        "Michael Ondaatje",
-        "Margaret Atwood",
-        "Anne Carson",
-        "Alice Munro"
-      ],
-      "answerIndex": 2,
-      "explanation": "Carson received the literature prize for her innovative and playful body of work engaging with ancient classical traditions.",
-      "context": "2026 Nobel Prize in Literature: Canadian poet Anne Carson is awarded the Nobel Prize in Literature for \"her bold and inventive oeuvre that, in playful dialogue with the classical tradition, has created new forms for contemporary literature\".",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Nobel_Prize_in_Literature",
-      "readMore": {
-        "publisher": "BBC News",
-        "url": "https://www.bbc.com/news/articles/cq4g1j54nepyo"
-      }
-    },
-    {
-      "id": "2026-10-08-7-q7",
-      "category": "Business and economy",
-      "story": "AI boom, Semiconductor industry in Taiwan",
-      "question": "Surging global demand for which category of goods helped push Taiwan's monthly exports to a record $87.2 billion in September 2026?",
-      "options": [
-        "Photovoltaic solar panels",
-        "Consumer telecommunications handsets",
-        "Electric vehicle batteries",
-        "Artificial intelligence hardware"
-      ],
-      "answerIndex": 3,
-      "explanation": "Taiwanese finance authorities attributed the unprecedented export totals to strong international demand for computer hardware tied to artificial intelligence.",
-      "context": "AI boom, Semiconductor industry in Taiwan: Taiwan's finance ministry reports that exports reached a record US$87.2 billion in September, while imports rose to a record $63.6 billion and the trade surplus reached a record $23.6 billion, citing demand for artificial intelligence-related hardware.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
-      "topicUrl": "https://en.wikipedia.org/wiki/AI_boom",
-      "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/taiwan-says-exports-hit-record-september-ai-demand"
-      }
-    },
-    {
-      "id": "2026-10-08-9-q9",
+      "id": "2026-10-09-3-q2",
       "category": "Disasters and accidents",
       "story": "2026 Atlantic hurricane season > Hurricane Isaias",
-      "question": "Ahead of the arrival of Hurricane Isaias, Governor Brian Kemp declared a state of emergency in which U.S. state?",
-      "options": ["Georgia", "South Carolina", "Florida", "North Carolina"],
+      "question": "Near which community in the American state of Florida did Hurricane Isaias make landfall before decreasing in intensity to category 1?",
+      "options": ["Destin", "Panama City", "Key West", "Pensacola"],
       "answerIndex": 0,
-      "explanation": "Governor Kemp issued emergency orders across Georgia to prepare the state for potential impacts from the approaching hurricane.",
-      "context": "2026 Atlantic hurricane season > Hurricane Isaias: In the United States, Georgia governor Brian Kemp declares a state of emergency ahead of Hurricane Isaias.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
+      "explanation": "Hurricane Isaias reached the Florida coast close to Destin, subsequently diminishing to category 1 strength.",
+      "context": "2026 Atlantic hurricane season > Hurricane Isaias: Isaias makes landfall near Destin, Florida, and weakens to a category 1 hurricane.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
       "topicUrl": "https://en.wikipedia.org/wiki/Hurricane_Isaias_(2026)",
       "readMore": {
-        "publisher": "Fox 5 Atlanta",
-        "url": "https://www.fox5atlanta.com/news/gov-kemp-declares-statewide-emergency-ahead-hurricane-isaias"
+        "publisher": "AP",
+        "url": "https://apnews.com/article/hurricane-isaias-landfall-gulf-alabama-mississippi-919a46d4bd705726b4e57f18ce677ac5"
+      }
+    },
+    {
+      "id": "2026-10-09-6-q5",
+      "category": "International relations",
+      "story": "Montenegro–Russia relations",
+      "question": "Which European nation deported Russian military commentator Mikhail Zvinchuk and four compatriots citing national security concerns?",
+      "options": ["Albania", "Montenegro", "North Macedonia", "Serbia"],
+      "answerIndex": 1,
+      "explanation": "Authorities in Montenegro apprehended the five Russian citizens in Risan before expelling them for reasons linked to national security.",
+      "context": "Montenegro–Russia relations: Montenegro expels Russian military blogger Mikhail Zvinchuk and four other Russian nationals on national security grounds after detaining them in Risan.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
+      "topicUrl": "https://en.wikipedia.org/wiki/Montenegro%E2%80%93Russia_relations",
+      "readMore": {
+        "publisher": "AFP via RFI",
+        "url": "https://www.rfi.fr/en/international-news/20261009-montenegro-expels-popular-russian-war-blogger-wanted-by-us"
+      }
+    },
+    {
+      "id": "2026-10-09-7-q6",
+      "category": "Law and crime",
+      "story": "2026 Nobel Peace Prize",
+      "question": "Which South African jurist and former UN human rights chief was named the recipient of the Nobel Peace Prize?",
+      "options": [
+        "Richard Goldstone",
+        "Edwin Cameron",
+        "Navi Pillay",
+        "Mogoeng Mogoeng"
+      ],
+      "answerIndex": 2,
+      "explanation": "Navi Pillay received the prestigious honour in recognition of her lifelong work advocating for international law and peace.",
+      "context": "2026 Nobel Peace Prize: South African judge and former United Nations High Commissioner for Human Rights Navi Pillay is awarded the Nobel Peace Prize for \"her efforts to promote peace and international law\".",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Nobel_Peace_Prize",
+      "readMore": {
+        "publisher": "DW",
+        "url": "https://www.dw.com/en/nobel-peace-prize-2026-goes-to-navanethem-navi-pillay-for-her-efforts-to-promote-peace-and-international-law/live-79598020"
       }
     }
   ]
