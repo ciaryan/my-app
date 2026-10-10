@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-10-09",
-  "generatedAt": "2026-10-09T16:05:43.515Z",
-  "model": "hand-written-seed",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T11:24:34.149Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,79 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-10-09-popular-25-q1",
+      "id": "2026-10-10-event-48-q11",
+      "category": "Royalty",
+      "story": "On this day",
+      "question": "On this day in 1471, the Swedish regent Sten Sture the Elder repelled an attack by which monarch?",
+      "options": [
+        "Christian I of Denmark",
+        "Christopher of Bavaria",
+        "John of Denmark",
+        "Eric of Pomerania"
+      ],
+      "answerIndex": 0,
+      "explanation": "With support from local farmers and miners, Swedish regent Sten Sture successfully defended against King Christian I of Denmark.",
+      "context": "On this day in 1471: Sten Sture the Elder, the Regent of Sweden, with the help of farmers and miners, repels an attack by King Christian I of Denmark.\nSten Sture the Elder (Regent of Sweden (r. 1470–1497; 1501–1503)): Sten Sture the Elder was a Swedish statesman and regent of Sweden from 1470 to 1497 and again from 1501 to 1503.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sten_Sture_the_Elder"
+    },
+    {
+      "id": "2026-10-10-popular-17-q5",
       "category": "Film",
       "story": "Most read",
-      "question": "Spider-Man: Brand New Day follows which earlier film in the Marvel Cinematic Universe Spider-Man series?",
-      "options": [
-        "Spider-Man: Far From Home",
-        "Spider-Man: Homecoming",
-        "Spider-Man: Into the Spider-Verse",
-        "Spider-Man: No Way Home"
-      ],
-      "answerIndex": 3,
-      "explanation": "The 2026 film is the fourth MCU Spider-Man outing, picking up after No Way Home from 2021.",
-      "context": "Spider-Man: Brand New Day (2026 Marvel Studios film): Spider-Man: Brand New Day is a 2026 American superhero film based on the Marvel Comics character Spider-Man. Produced by Columbia Pictures, Marvel Studios, and Pascal Pictures, and distributed by Sony Pictures Releasing, it is the 38th film in the Marvel Cinematic Universe (MCU) and the fourth film in the MCU Spider-Man film series following Spider-Man: No Way Home (2021).",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Spider-Man%3A_Brand_New_Day"
+      "question": "Directed by Aaron Sorkin as a sequel to The Social Network, the 2026 film The Social Reckoning centres on a whistleblower leak from which company?",
+      "options": ["Amazon", "Facebook", "Google", "Twitter"],
+      "answerIndex": 1,
+      "explanation": "The Social Reckoning dramatises the disclosure of confidential internal documents from Facebook by whistleblower Frances Haugen.",
+      "context": "The Social Reckoning (2026 film by Aaron Sorkin): The Social Reckoning is a 2026 American biographical legal thriller film written, co-produced, and directed by Aaron Sorkin. A sequel to The Social Network (2010), it dramatizes the 2021 Facebook leak by the whistleblower Frances Haugen and Jeff Horwitz. It stars Mikey Madison, Jeremy Allen White, Jeremy Strong, Bill Burr, Wunmi Mosaku, Betty Gilpin, and Billy Magnussen.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Social_Reckoning"
     },
     {
-      "id": "2026-10-09-popular-26-q2",
-      "category": "TV",
+      "id": "2026-10-10-popular-25-q2",
+      "category": "Music",
       "story": "Most read",
-      "question": "In the comedy-drama Ted Lasso, the title character is an American coach hired to manage a team in which sport?",
+      "question": "Which English singer-songwriter achieved global fame with the hit singles 'You're Beautiful' and 'Goodbye My Lover'?",
+      "options": ["Damien Rice", "James Morrison", "David Gray", "James Blunt"],
+      "answerIndex": 3,
+      "explanation": "James Blunt is an English musician celebrated for his chart-topping ballad 'You're Beautiful' as well as 'Goodbye My Lover'.",
+      "context": "James Blunt (English musician (born 1974)): James Blunt is an English singer, songwriter and musician. He is known for his songs \"You're Beautiful\" and \"Goodbye My Lover\".",
+      "sourceUrl": "https://en.wikipedia.org/wiki/James_Blunt"
+    },
+    {
+      "id": "2026-10-10-popular-18-q1",
+      "category": "Art",
+      "story": "Most read",
+      "question": "American photographer Ansel Adams, renowned for his black-and-white landscapes of the American West, co-founded which group promoting sharp focus and pure photography?",
       "options": [
-        "English rugby union",
-        "Scottish rugby league",
-        "English football",
-        "English cricket"
+        "Magnum Photos",
+        "Group f/64",
+        "The Photo-Secession",
+        "The Linked Ring"
       ],
-      "answerIndex": 2,
-      "explanation": "Ted, a college American football coach, is brought over to take charge of an English football club.",
-      "context": "Ted Lasso (American sports comedy-drama television series): Ted Lasso is an American sports comedy-drama television series developed by Jason Sudeikis, Bill Lawrence, Brendan Hunt, and Joe Kelly. It is based on a character Sudeikis portrayed in a series of promotional media for NBC Sports' coverage of England's football Premier League. The show follows Ted Lasso, an American college football coach who is hired to coach an English football team, A.F.C.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ted_Lasso"
+      "answerIndex": 1,
+      "explanation": "Ansel Adams co-founded Group f/64, an association dedicated to unmanipulated photography that utilised sharp focus and complete tonal range.",
+      "context": "Ansel Adams (American photographer and environmentalist (1902–1984)): Ansel Easton Adams was an American landscape photographer and environmentalist known for his black-and-white images of the American West. He helped found Group f/64, an association of photographers advocating \"pure\" photography which favored sharp focus and the use of the full tonal range of a photograph.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ansel_Adams"
     },
     {
-      "id": "2026-10-09-event-39-q5",
-      "category": "History",
-      "story": "On this day",
-      "question": "Ireland's first public railway opened on this day in 1834, linking Dublin with which harbour?",
-      "options": ["Wexford", "Howth", "Kingstown", "Rosslare"],
-      "answerIndex": 2,
-      "explanation": "The Dublin and Kingstown Railway ran from Westland Row to the harbour at Kingstown, now Dún Laoghaire.",
-      "context": "On this day in 1834: Opening of the Dublin and Kingstown Railway, the first public railway on the island of Ireland.\nDublin and Kingstown Railway (Ireland's first passenger railway (1834–1856)): The Dublin and Kingstown Railway (D&KR), which opened in 1834, was Ireland's first passenger railway. It linked Westland Row in Dublin with Kingstown Harbour in County Dublin.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Dublin_and_Kingstown_Railway"
-    },
-    {
-      "id": "2026-10-09-popular-4-q3",
+      "id": "2026-10-10-popular-4-q3",
       "category": "Literature",
       "story": "Most read",
-      "question": "Which Nobel Prize-winning author wrote the 1952 novel East of Eden?",
+      "question": "The horror television miniseries Carrie, developed by Mike Flanagan, is adapted from the 1974 debut novel by which author?",
       "options": [
-        "Saul Bellow",
-        "Ernest Hemingway",
-        "John Steinbeck",
-        "William Faulkner"
+        "Clive Barker",
+        "Dean Koontz",
+        "Stephen King",
+        "Peter Straub"
       ],
       "answerIndex": 2,
-      "explanation": "Steinbeck regarded the family saga as his magnum opus.",
-      "context": "East of Eden (novel) (1952 novel by John Steinbeck): East of Eden is a 1952 family saga novel by American author and Nobel Prize winner John Steinbeck. Many regard the work as Steinbeck's most ambitious novel, and Steinbeck himself considered it his magnum opus.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/East_of_Eden_(novel)"
-    },
-    {
-      "id": "2026-10-09-popular-21-q4",
-      "category": "Science",
-      "story": "Most read",
-      "question": "Mathematician and TV presenter Hannah Fry holds a chair in helping the public understand maths at which university?",
-      "options": [
-        "Imperial College London",
-        "University of Oxford",
-        "University of Cambridge",
-        "University College London"
-      ],
-      "answerIndex": 2,
-      "explanation": "Fry holds the Cambridge chair and is a fellow of Queens' College; she was previously at UCL.",
-      "context": "Hannah Fry (British mathematician and broadcaster (born 1984)): Hannah Mary Fry is a British mathematician, author and broadcaster. She is the first Professor of the Public Understanding of Mathematics at the University of Cambridge, and a fellow of Queens' College, Cambridge. She was previously the president of the Institute of Mathematics and its Applications and was a professor of the mathematics of cities at University College London.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Hannah_Fry"
+      "explanation": "The miniseries is based on Stephen King's 1974 novel Carrie, marking the story's fourth screen adaptation.",
+      "context": "Carrie (miniseries) (2026 miniseries by Mike Flanagan): Carrie is an American supernatural horror television miniseries developed by Mike Flanagan, and produced by Amazon MGM Studios for Amazon Prime Video. The first series adaptation of the eponymous franchise, it is based on the 1974 novel by Stephen King, and is the fourth screen adaptation of the novel.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Carrie_(miniseries)"
     }
   ]
 }
