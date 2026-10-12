@@ -2,50 +2,50 @@
   "version": 1,
   "date": "2026-10-12",
   "newsDate": "2026-10-11",
-  "generatedAt": "2026-10-12T11:45:48.383Z",
+  "generatedAt": "2026-10-12T16:33:48.017Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
     "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
-    "revisionIds": [1379868941, 1379801467],
+    "revisionIds": [1379899370, 1379884862],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-10-10-q2",
+      "id": "2026-10-10-12-q2",
       "category": "Sports",
-      "story": "2026–27 La Liga",
-      "question": "Why did referee José María Sánchez Martínez abandon the La Liga match between Rayo Vallecano and Athletic Bilbao?",
+      "story": "2026 Il Lombardia",
+      "question": "French cyclist Paul Seixas made history by becoming the youngest winner of which prestigious monument classic race in Italy?",
       "options": [
-        "Severe weather flooded the pitch and made play hazardous",
-        "A power failure disabled the floodlights and VAR system",
-        "Supporters invaded the pitch following a disputed penalty decision",
-        "Spectators threw objects onto the pitch in protest against Rayo's club president"
+        "Strade Bianche",
+        "Tirreno–Adriatico",
+        "Milan–San Remo",
+        "Giro di Lombardia"
       ],
       "answerIndex": 3,
-      "explanation": "The fixture was halted because supporters hurled projectiles onto the pitch during a protest against Rayo Vallecano president Raúl Martín Presa.",
-      "context": "2026–27 La Liga: In association football, the match between Rayo Vallecano and Athletic Bilbao is abandoned by referee José María Sánchez Martínez due to fans throwing objects at the pitch to protest against Rayo president Raúl Martín Presa.",
+      "explanation": "Paul Seixas became the youngest rider ever to win the Giro di Lombardia by triumphing in its 120th edition.",
+      "context": "2026 Il Lombardia: In cycling, French cyclist Paul Seixas wins the 120th edition of the Giro di Lombardia in Italy, becoming the youngest person to do so.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_10",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Il_Lombardia",
       "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/sports/soccer/rayo-bilbao-match-abandoned-after-fans-protest-against-club-owner-2026-10-10/"
+        "publisher": "NBC Sports",
+        "url": "https://www.nbcsports.com/cycling/news/paul-seixas-becomes-youngest-winner-of-tour-of-lombardy-at-20"
       }
     },
     {
-      "id": "2026-10-11-18-q4",
+      "id": "2026-10-11-18-q1",
       "category": "Politics and elections",
       "story": "2027 French presidential election",
-      "question": "Which politician was chosen as the Socialist Party candidate for the 2027 French presidential race after winning over 66% of the primary vote?",
+      "question": "Which French politician won more than 66% of the first-round vote in the Socialist Party primary to become their 2027 presidential election candidate?",
       "options": [
-        "François Hollande",
-        "Benoît Hamon",
+        "Olivier Faure",
         "Raphaël Glucksmann",
-        "Olivier Faure"
+        "François Hollande",
+        "Jean-Luc Mélenchon"
       ],
-      "answerIndex": 2,
-      "explanation": "Raphaël Glucksmann achieved victory in the first round of the Socialist Party primary, securing more than 66% of ballots to become their presidential nominee.",
+      "answerIndex": 1,
+      "explanation": "Raphaël Glucksmann secured the nomination after winning over two-thirds of the votes during the opening round of the Socialist primary.",
       "context": "2027 French presidential election: Raphaël Glucksmann is elected as a candidate in the 2027 presidential election during the Socialist Party primary, receiving more than 66% of the votes in the first round.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
       "topicUrl": "https://en.wikipedia.org/wiki/2027_French_presidential_election",
@@ -55,55 +55,56 @@
       }
     },
     {
-      "id": "2026-10-11-15-q7",
+      "id": "2026-10-11-14-q7",
+      "category": "Health and environment",
+      "story": "2026 Ebola epidemic",
+      "question": "Health officials in which East African country reported that nearly 300 tests had come back clear since a single Ebola fatality earlier in the month?",
+      "options": ["Kenya", "Rwanda", "Tanzania", "Uganda"],
+      "answerIndex": 0,
+      "explanation": "The Kenyan health ministry confirmed zero additional Ebola infections following 293 negative diagnostic tests conducted after a patient's death.",
+      "context": "2026 Ebola epidemic: The Kenyan health ministry reports that no Ebola cases have been reported since one patient died from the disease on October 5, with 293 tests conducted.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Ebola_epidemic",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenya-finds-no-new-ebola-cases-after-293-tests-2026-10-11/"
+      }
+    },
+    {
+      "id": "2026-10-11-4-q9",
+      "category": "Armed conflicts and attacks",
+      "story": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis",
+      "question": "According to the United Kingdom Maritime Trade Operations, a commercial tanker was struck by an unknown projectile in which vital Middle Eastern waterway?",
+      "options": [
+        "Bab-el-Mandeb",
+        "Strait of Hormuz",
+        "Strait of Malacca",
+        "Suez Canal"
+      ],
+      "answerIndex": 1,
+      "explanation": "British maritime monitors reported that an unidentified projectile hit a tanker as it was travelling through the Strait of Hormuz.",
+      "context": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis: The United Kingdom Maritime Trade Operations reports that a tanker transiting in the Strait of Hormuz has been hit by an unknown projectile.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+      "readMore": {
+        "publisher": "Middle East Eye",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-it-received-report-tanker-hit-projectile-hormuz"
+      }
+    },
+    {
+      "id": "2026-10-11-15-q11",
       "category": "Health and environment",
       "story": "2026 Indonesia wildfires",
-      "question": "Eight orangutans saved from wildfires were returned to protected habitat in which Indonesian province?",
-      "options": [
-        "Central Sumatra",
-        "South Sulawesi",
-        "East Java",
-        "West Kalimantan"
-      ],
+      "question": "International Animal Rescue partnered with the forestry ministry of which country to release rescued primates following devastating wildfires?",
+      "options": ["Malaysia", "Brazil", "Madagascar", "Indonesia"],
       "answerIndex": 3,
-      "explanation": "International Animal Rescue and the Indonesian forestry ministry released the eight rescued primates into a protected forest located in West Kalimantan.",
+      "explanation": "The Indonesian forestry ministry collaborated with the animal charity to return eight rescued orangutans to the wild.",
       "context": "2026 Indonesia wildfires: The Indonesian forestry ministry and International Animal Rescue release eight orangutans rescued from wildfires into a protected wildforest in West Kalimantan after fires destroyed habitat near plantations.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
       "topicUrl": "https://en.wikipedia.org/wiki/2026_Indonesia_wildfires",
       "readMore": {
         "publisher": "AFP",
         "url": "https://www.afp.com/en/indonesia-releases-eight-orangutans-rescued-fires-protected-forest"
-      }
-    },
-    {
-      "id": "2026-10-11-13-q9",
-      "category": "Disasters and accidents",
-      "story": "",
-      "question": "In Chile, where did a passenger bus crash into a housing complex after hurtling down a slope?",
-      "options": ["Concepción", "Valparaíso", "Antofagasta", "Santiago"],
-      "answerIndex": 1,
-      "explanation": "The deadly crash occurred when a bus travelled down an incline and collided with residential buildings in the city of Valparaíso.",
-      "context": "One person is killed and around 19 others are injured, including four critically, when a passenger bus plunges down a slope and crashes into a residential complex in Valparaíso, Chile.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
-      "readMore": {
-        "publisher": "Teletrece in Spanish",
-        "url": "https://www.t13.cl/noticia/nacional/accidente-bus-valparaiso-actualizan-estado-salud-pasajeros-11-10-2026"
-      }
-    },
-    {
-      "id": "2026-10-11-5-q12",
-      "category": "Armed conflicts and attacks",
-      "story": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis",
-      "question": "Near which Omani city was the commercial tanker MT Petro Dolphin targeted by an unmanned drone?",
-      "options": ["Salalah", "Muscat", "Sohar", "Sur"],
-      "answerIndex": 2,
-      "explanation": "The MT Petro Dolphin was hit by a drone in waters near Sohar, prompting Omani emergency teams to search for missing crew.",
-      "context": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis: A drone strikes the tanker MT Petro Dolphin near Sohar, Oman, leaving two Indian sailors missing and prompting the rescue of nine others. Omani authorities conduct search-and-rescue operations for the missing crew members.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
-      "readMore": {
-        "publisher": "AFP via Arab News",
-        "url": "https://www.arabnews.com/middle-east/two-indian-sailors-missing-after-vessel-attacked-off-oman-3005812"
       }
     }
   ]

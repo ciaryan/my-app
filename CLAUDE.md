@@ -67,13 +67,14 @@ On any failure the script exits non-zero and leaves the previous `today.json`; t
 - **Never feed publisher content (BBC, Guardian, NYT, Irish Times RSS or APIs) into an LLM.** Their terms forbid AI processing or automated summarising (checked Oct 2026). Publisher articles appear only as "read more" links taken from the Wikipedia entry's citations.
 - Wikipedia text is CC BY-SA 4.0. Keep the attribution and licence note on the page.
 - Questions and explanations must be original, and every question needs a source URL.
-- Topic mix (`src/lib/quiz/topics.ts`): at most 1 conflict question (the "Armed conflicts and attacks" category, or a story chain mentioning war/conflict) and exactly 1 sports question. If yesterday has no sports news, sports entries are borrowed from the day before; with none at all the quiz goes ahead without one. The validator enforces the caps.
+- Topic mix (`src/lib/quiz/topics.ts`): at most 1 heavy question (the "Armed conflicts and attacks" or "Disasters and accidents" categories, or a story chain mentioning war/conflict) and exactly 1 sports question. If yesterday has no sports news, sports entries are borrowed from the day before; with none at all the quiz goes ahead without one. The validator enforces the caps.
+- Keep it guessable and light: the prompt asks for answers a casual UK pub quiz audience could know (the country, not the province; the animal, not the official), and favours lighter stories. The generator drops any question phrased "which … province/region/state/city/town…" (`LOCAL_PLACE_QUESTION`), and the shared verifier (`verifyAll`, also used by trivia) drops answers it flags as `obscure`.
 - Quiz dates use Europe/London. (Connections uses UTC; leave it.)
 
 **Gemini config and quota:**
 
 - `GEMINI_API_KEY` is an Actions repository secret; `GEMINI_MODEL` (currently `gemini-3.8-flash`) is a repository variable. Never use a `NEXT_PUBLIC_` prefix and never add them to Vercel; the site never calls Gemini at runtime.
-- `GEMINI_FALLBACK_MODEL` (workflow defaults it to `gemini-3.7-flash`) is tried when the main model is overloaded, timing out or out of quota. A model that reports exhausted quota is skipped for the rest of the run. The quiz file's `model` field records which model(s) were used.
+- `GEMINI_FALLBACK_MODEL` (recommended `gemini-3.6-flash`, which was far less overloaded than 3.7 in Oct 2026; the workflow defaults to `gemini-3.7-flash` if the repo variable is unset) is tried when the main model is overloaded, timing out or out of quota. A model that reports exhausted quota is skipped for the rest of the run. The quiz file's `model` field records which model(s) were used.
 - The free tier allows about 20 requests/day per model, and each model has its own quota (it reset around midnight UK time when tested Oct 2026). A run makes 2 calls, so keep verification batched. Daily-quota 429s fail fast; only 5xx, timeouts and short rate-limit waits are retried.
 
 **Running locally:**

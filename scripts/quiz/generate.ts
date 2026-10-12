@@ -6,7 +6,7 @@
 // 3. Blind-verify the candidates: a second Gemini call answers each one using
 //    only its own source entry. Drop any it gets wrong or finds ambiguous.
 //    Both passes are single calls — the free tier allows ~20 requests a day.
-// 4. Pick QUESTION_COUNT across varied categories (at most one conflict
+// 4. Pick QUESTION_COUNT across varied categories (at most one heavy
 //    question, exactly one sports question), validate, write atomically.
 //
 // On any failure the script exits non-zero and leaves today.json untouched.
@@ -36,9 +36,9 @@ import {
   type CurrentEventsPage,
 } from '@/lib/quiz/sources/wikipedia';
 import {
-  isConflict,
+  isHeavy,
   isSports,
-  MAX_CONFLICT_QUESTIONS,
+  MAX_HEAVY_QUESTIONS,
   SPORTS_QUESTIONS,
 } from '@/lib/quiz/topics';
 
@@ -46,6 +46,9 @@ const OUTPUT_PATH = path.join(process.cwd(), 'src/data/quiz/today.json');
 const CANDIDATE_COUNT = 12;
 const MIN_EVENTS = 10;
 const MAX_PER_CATEGORY = 2;
+/** "Which Pakistani province…": local place answers most players won't know. */
+const LOCAL_PLACE_QUESTION =
+  /\bwhich (\S+ ){0,2}(province|region|state|county|district|city|town|village|municipality)\b/i;
 
 // ── Gemini prompts ─────────────────────────────────────────────────
 
@@ -60,9 +63,10 @@ Write ${CANDIDATE_COUNT} multiple-choice questions. Rules:
 - Write the question in your own words and give enough context that it makes sense on its own.
 - "explanation" is one or two sentences confirming the answer, paraphrased in your own words rather than restating the entry.
 - Originality is checked automatically: any question or explanation that repeats more than five consecutive words from its entry is rejected. Names and titles are fine; rephrase everything around them.
-- Prefer a spread of categories (politics, science, business, culture, international relations, disasters, law) and avoid more than one question per story.
+- Keep the tone light. Prefer politics, science, business, culture, environment, sport and quirky or uplifting stories, with a spread of categories and no more than one question per story.
+- Make questions answerable by a general UK pub quiz audience who follow the news casually. Ask about the most recognisable part of the story: the country rather than a province, region or city; the animal, product or famous person rather than a little-known official or organisation. Never make the answer an obscure local place name.
 - If any entries are in the "Sports" category, write at LEAST 2 questions from them (from different entries where possible). Prioritise UK and Irish news for sports, if any exists.
-- Entries marked "conflict": true are about wars and attacks. Write at MOST 2 questions from them.
+- Entries marked "heavy": true are about wars, attacks, disasters or accidents. Write at MOST 2 questions from them, and avoid dark details such as targets, weapons or crash sites.
 - Avoid questions whose answer is a death toll or casualty count, questions about victims or private individuals, and graphic detail. Keep wording neutral and non-partisan.
 - Use British English.`;
 
@@ -97,12 +101,12 @@ async function fetchPages(newsDate: string): Promise<CurrentEventsPage[]> {
   return pages;
 }
 
-function eventIsConflict(event: CurrentEvent): boolean {
-  return isConflict(event.category, event.topics.join(' > '));
+function eventIsHeavy(event: CurrentEvent): boolean {
+  return isHeavy(event.category, event.topics.join(' > '));
 }
 
 function pickVaried(questions: QuizQuestion[]): QuizQuestion[] {
-  const conflict = (q: QuizQuestion) => isConflict(q.category, q.story);
+  const conflict = (q: QuizQuestion) => isHeavy(q.category, q.story);
   const sports = (q: QuizQuestion) => isSports(q.category);
   // Sports first so its slot is always filled when there is one.
   const picked = questions.filter(sports).slice(0, SPORTS_QUESTIONS);
@@ -116,7 +120,7 @@ function pickVaried(questions: QuizQuestion[]): QuizQuestion[] {
     for (const q of questions) {
       if (picked.length === QUESTION_COUNT) break;
       if (picked.includes(q) || sports(q)) continue;
-      if (conflict(q) && conflicts >= MAX_CONFLICT_QUESTIONS) continue;
+      if (conflict(q) && conflicts >= MAX_HEAVY_QUESTIONS) continue;
       const n = perCategory.get(q.category) ?? 0;
       if (n >= limit) continue;
       picked.push(q);
@@ -153,7 +157,7 @@ async function main() {
         id: e.id,
         category: e.category,
         story: e.topics.join(' > ') || undefined,
-        conflict: eventIsConflict(e) || undefined,
+        heavy: eventIsHeavy(e) || undefined,
         text: e.text,
       })),
     ),
@@ -173,6 +177,10 @@ async function main() {
     }
     if (usedEvents.has(event.id)) {
       log(`dropped candidate ${i + 1}: duplicate entry ${event.id}`);
+      continue;
+    }
+    if (LOCAL_PLACE_QUESTION.test(candidate.question)) {
+      log(`dropped candidate ${i + 1}: asks for a local place`);
       continue;
     }
     const result = buildQuestion(candidate, {

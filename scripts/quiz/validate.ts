@@ -7,9 +7,9 @@ import { originalityProblems } from '@/lib/quiz/checks';
 import { londonDate } from '@/lib/quiz/dates';
 import { QuizFileSchema } from '@/lib/quiz/schema';
 import {
-  isConflict,
+  isHeavy,
   isSports,
-  MAX_CONFLICT_QUESTIONS,
+  MAX_HEAVY_QUESTIONS,
   SPORTS_QUESTIONS,
 } from '@/lib/quiz/topics';
 
@@ -34,12 +34,12 @@ async function main() {
       errors.push(`newsDate ${quiz.newsDate} is after date ${quiz.date}`);
     }
     const conflict = quiz.questions.filter((q) =>
-      isConflict(q.category, q.story),
+      isHeavy(q.category, q.story),
     ).length;
     const sports = quiz.questions.filter((q) => isSports(q.category)).length;
-    if (conflict > MAX_CONFLICT_QUESTIONS) {
+    if (conflict > MAX_HEAVY_QUESTIONS) {
       errors.push(
-        `${conflict} conflict questions, max ${MAX_CONFLICT_QUESTIONS}`,
+        `${conflict} heavy (conflict/disaster) questions, max ${MAX_HEAVY_QUESTIONS}`,
       );
     }
     // Zero is allowed for days with no sports news at all.

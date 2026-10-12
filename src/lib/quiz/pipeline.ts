@@ -70,6 +70,7 @@ You are given a list of items, each with an "id", a "source" text and a multiple
 Return one verdict per item, with the same "id":
 - "chosenIndex": the 0-based index of the option the source states is correct, or -1 if the source does not clearly state the answer.
 - "ambiguous": true if more than one option could be considered correct from the source, or the question is misleading.
+- "obscure": true if the correct answer is something a casual UK pub quiz player couldn't reasonably know or guess, such as a province, state, region or city (other than a world-famous one), or a little-known official or organisation. Famous people, countries, well-known works and things the question itself makes guessable are not obscure.
 - "reason": one short sentence.`;
 
 const VerdictsSchema = z.object({
@@ -78,6 +79,7 @@ const VerdictsSchema = z.object({
       id: z.string(),
       chosenIndex: z.number().int(),
       ambiguous: z.boolean(),
+      obscure: z.boolean(),
       reason: z.string(),
     }),
   ),
@@ -110,9 +112,10 @@ export async function verifyAll(
     const ok =
       verdict !== undefined &&
       verdict.chosenIndex === q.answerIndex &&
-      !verdict.ambiguous;
+      !verdict.ambiguous &&
+      !verdict.obscure;
     log(
-      `${ok ? 'kept   ' : 'dropped'} ${q.id}: ${verdict?.reason ?? 'no verdict returned'}`,
+      `${ok ? 'kept   ' : 'dropped'} ${q.id}: ${verdict?.obscure ? '(obscure) ' : ''}${verdict?.reason ?? 'no verdict returned'}`,
     );
     return ok;
   });
