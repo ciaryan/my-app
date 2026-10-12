@@ -2,10 +2,12 @@
 // Connections agent). Never import this from src/app — the API key must not
 // reach the browser bundle. ESLint enforces this.
 
-import { ApiError, GoogleGenAI } from '@google/genai';
+import { ApiError, GoogleGenAI, ThinkingLevel } from '@google/genai';
 import { z } from 'zod';
 
-const DEFAULT_TIMEOUT_MS = 120_000;
+// The SDK also sends this to Google as X-Server-Timeout, so it is the
+// server's deadline too: too short and slow responses come back as 504.
+const DEFAULT_TIMEOUT_MS = 300_000;
 const MAX_ATTEMPTS = 3;
 /** Longest server-requested wait we'll honour before giving up. */
 const MAX_RETRY_DELAY_MS = 60_000;
@@ -145,18 +147,39 @@ async function generateWithModel<T extends z.ZodType>(
   schema: T,
   temperature: number,
 ): Promise<z.infer<T>> {
-  const response = await withRetry(() =>
-    getClient().models.generateContent({
-      model,
-      contents: prompt,
-      config: {
-        systemInstruction: system,
-        temperature,
-        responseMimeType: 'application/json',
-        responseJsonSchema: toResponseSchema(schema),
-      },
-    }),
-  );
+  const request = (thinking: boolean) =>
+    withRetry(() =>
+      getClient().models.generateContent({
+        model,
+        contents: prompt,
+        config: {
+          systemInstruction: system,
+          temperature,
+          responseMimeType: 'application/json',
+          responseJsonSchema: toResponseSchema(schema),
+          // Low thinking keeps responses well inside the deadline; these
+          // tasks don't need deep reasoning.
+          ...(thinking
+            ? { thinkingConfig: { thinkingLevel: ThinkingLevel.LOW } }
+            : {}),
+        },
+      }),
+    );
+  let response;
+  try {
+    response = await request(true);
+  } catch (err) {
+    // Models without thinking-level support reject the option; retry plain.
+    if (!(
+      err instanceof ApiError &&
+      err.status === 400 &&
+      /thinking/i.test(err.message)
+    )) {
+      throw err;
+    }
+    console.warn(`[gemini] ${model} rejected thinkingLevel; retrying without`);
+    response = await request(false);
+  }
 
   const text = response.text;
   if (!text) {

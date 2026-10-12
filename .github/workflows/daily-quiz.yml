@@ -4,6 +4,9 @@ on:
   schedule:
     # 05:17 UTC = 06:17 BST / 05:17 GMT. Off the hour to dodge cron congestion.
     - cron: '17 5 * * *'
+    # Retries if Google was overloaded earlier. They skip once today's quiz exists.
+    - cron: '17 7 * * *'
+    - cron: '17 9 * * *'
   workflow_dispatch:
 
 permissions:
@@ -27,10 +30,20 @@ jobs:
 
       - run: npm ci
 
+      # A retry run (or a manual one) does nothing if today's quiz already
+      # passed validation, so it doesn't spend Gemini quota.
+      - name: Check if today's quiz exists
+        id: existing
+        run: |
+          if npm run -s quiz:validate -- --fresh; then
+            echo "done=true" >> "$GITHUB_OUTPUT"
+          fi
+
       # Each step fails the job on error; today.json is only replaced on
       # success and is only committed if validation passes, so the site keeps
       # serving the previous quiz otherwise.
       - name: Generate quiz
+        if: steps.existing.outputs.done != 'true'
         run: npm run quiz:generate
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -40,12 +53,15 @@ jobs:
           GEMINI_FALLBACK_MODEL: ${{ vars.GEMINI_FALLBACK_MODEL || 'gemini-3.7-flash' }}
 
       - name: Format quiz
+        if: steps.existing.outputs.done != 'true'
         run: npx prettier --write src/data/quiz/today.json
 
       - name: Validate quiz
+        if: steps.existing.outputs.done != 'true'
         run: npm run quiz:validate -- --fresh
 
       - name: Commit and push
+        if: steps.existing.outputs.done != 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

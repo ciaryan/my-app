@@ -1,109 +1,109 @@
 {
   "version": 1,
-  "date": "2026-10-10",
-  "newsDate": "2026-10-09",
-  "generatedAt": "2026-10-10T11:11:49.588Z",
+  "date": "2026-10-12",
+  "newsDate": "2026-10-11",
+  "generatedAt": "2026-10-12T11:45:48.383Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
-    "revisionIds": [1379490386, 1379462758],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
+    "revisionIds": [1379868941, 1379801467],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-08-18-q10",
+      "id": "2026-10-10-10-q2",
       "category": "Sports",
-      "story": "2026 Nippon Professional Baseball season",
-      "question": "Which Hanshin Tigers player captured baseball's Triple Crown during the 2026 Nippon Professional Baseball campaign?",
+      "story": "2026–27 La Liga",
+      "question": "Why did referee José María Sánchez Martínez abandon the La Liga match between Rayo Vallecano and Athletic Bilbao?",
       "options": [
-        "Teruaki Satō",
-        "Shintaro Fujinami",
-        "Munetaka Murakami",
-        "Koji Chikamoto"
+        "Severe weather flooded the pitch and made play hazardous",
+        "A power failure disabled the floodlights and VAR system",
+        "Supporters invaded the pitch following a disputed penalty decision",
+        "Spectators threw objects onto the pitch in protest against Rayo's club president"
       ],
-      "answerIndex": 0,
-      "explanation": "Teruaki Satō accomplished the rare feat by winning the Triple Crown while competing for the Hanshin Tigers.",
-      "context": "2026 Nippon Professional Baseball season: In baseball, Teruaki Satō of the Hanshin Tigers wins the Triple Crown.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Nippon_Professional_Baseball_season",
-      "readMore": {
-        "publisher": "Kyodo News",
-        "url": "https://english.kyodonews.net/articles/-/87621"
-      }
-    },
-    {
-      "id": "2026-10-09-1-q1",
-      "category": "Arts and culture",
-      "story": "",
-      "question": "Who became the first Asian to be appointed dean of the College of Cardinals after Pope Leo XIV approved his election?",
-      "options": [
-        "Malcolm Ranjith",
-        "Luis Antonio Tagle",
-        "Charles Maung Bo",
-        "Oswald Gracias"
-      ],
-      "answerIndex": 1,
-      "explanation": "Pope Leo XIV confirmed the appointment of Filipino cardinal Luis Antonio Tagle, marking the first time an Asian cleric has headed the papal electing body.",
-      "context": "Pope Leo XIV approves Filipino cardinal Luis Antonio Tagle's election as dean of the College of Cardinals, making him the first Asian to lead the body that elects a new pope.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
+      "answerIndex": 3,
+      "explanation": "The fixture was halted because supporters hurled projectiles onto the pitch during a protest against Rayo Vallecano president Raúl Martín Presa.",
+      "context": "2026–27 La Liga: In association football, the match between Rayo Vallecano and Athletic Bilbao is abandoned by referee José María Sánchez Martínez due to fans throwing objects at the pitch to protest against Rayo president Raúl Martín Presa.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_10",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/pope-leo-approves-tagle-first-asian-dean-catholic-cardinals-2026-10-09/"
+        "url": "https://www.reuters.com/sports/soccer/rayo-bilbao-match-abandoned-after-fans-protest-against-club-owner-2026-10-10/"
       }
     },
     {
-      "id": "2026-10-09-3-q2",
-      "category": "Disasters and accidents",
-      "story": "2026 Atlantic hurricane season > Hurricane Isaias",
-      "question": "Near which community in the American state of Florida did Hurricane Isaias make landfall before decreasing in intensity to category 1?",
-      "options": ["Destin", "Panama City", "Key West", "Pensacola"],
-      "answerIndex": 0,
-      "explanation": "Hurricane Isaias reached the Florida coast close to Destin, subsequently diminishing to category 1 strength.",
-      "context": "2026 Atlantic hurricane season > Hurricane Isaias: Isaias makes landfall near Destin, Florida, and weakens to a category 1 hurricane.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
-      "topicUrl": "https://en.wikipedia.org/wiki/Hurricane_Isaias_(2026)",
-      "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/hurricane-isaias-landfall-gulf-alabama-mississippi-919a46d4bd705726b4e57f18ce677ac5"
-      }
-    },
-    {
-      "id": "2026-10-09-6-q5",
-      "category": "International relations",
-      "story": "Montenegro–Russia relations",
-      "question": "Which European nation deported Russian military commentator Mikhail Zvinchuk and four compatriots citing national security concerns?",
-      "options": ["Albania", "Montenegro", "North Macedonia", "Serbia"],
-      "answerIndex": 1,
-      "explanation": "Authorities in Montenegro apprehended the five Russian citizens in Risan before expelling them for reasons linked to national security.",
-      "context": "Montenegro–Russia relations: Montenegro expels Russian military blogger Mikhail Zvinchuk and four other Russian nationals on national security grounds after detaining them in Risan.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
-      "topicUrl": "https://en.wikipedia.org/wiki/Montenegro%E2%80%93Russia_relations",
-      "readMore": {
-        "publisher": "AFP via RFI",
-        "url": "https://www.rfi.fr/en/international-news/20261009-montenegro-expels-popular-russian-war-blogger-wanted-by-us"
-      }
-    },
-    {
-      "id": "2026-10-09-7-q6",
-      "category": "Law and crime",
-      "story": "2026 Nobel Peace Prize",
-      "question": "Which South African jurist and former UN human rights chief was named the recipient of the Nobel Peace Prize?",
+      "id": "2026-10-11-18-q4",
+      "category": "Politics and elections",
+      "story": "2027 French presidential election",
+      "question": "Which politician was chosen as the Socialist Party candidate for the 2027 French presidential race after winning over 66% of the primary vote?",
       "options": [
-        "Richard Goldstone",
-        "Edwin Cameron",
-        "Navi Pillay",
-        "Mogoeng Mogoeng"
+        "François Hollande",
+        "Benoît Hamon",
+        "Raphaël Glucksmann",
+        "Olivier Faure"
       ],
       "answerIndex": 2,
-      "explanation": "Navi Pillay received the prestigious honour in recognition of her lifelong work advocating for international law and peace.",
-      "context": "2026 Nobel Peace Prize: South African judge and former United Nations High Commissioner for Human Rights Navi Pillay is awarded the Nobel Peace Prize for \"her efforts to promote peace and international law\".",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Nobel_Peace_Prize",
+      "explanation": "Raphaël Glucksmann achieved victory in the first round of the Socialist Party primary, securing more than 66% of ballots to become their presidential nominee.",
+      "context": "2027 French presidential election: Raphaël Glucksmann is elected as a candidate in the 2027 presidential election during the Socialist Party primary, receiving more than 66% of the votes in the first round.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
+      "topicUrl": "https://en.wikipedia.org/wiki/2027_French_presidential_election",
       "readMore": {
-        "publisher": "DW",
-        "url": "https://www.dw.com/en/nobel-peace-prize-2026-goes-to-navanethem-navi-pillay-for-her-efforts-to-promote-peace-and-international-law/live-79598020"
+        "publisher": "AFP via RFI",
+        "url": "https://www.rfi.fr/en/international-news/20261011-raphael-glucksmann-elected-centre-left-french-presidential-candidate"
+      }
+    },
+    {
+      "id": "2026-10-11-15-q7",
+      "category": "Health and environment",
+      "story": "2026 Indonesia wildfires",
+      "question": "Eight orangutans saved from wildfires were returned to protected habitat in which Indonesian province?",
+      "options": [
+        "Central Sumatra",
+        "South Sulawesi",
+        "East Java",
+        "West Kalimantan"
+      ],
+      "answerIndex": 3,
+      "explanation": "International Animal Rescue and the Indonesian forestry ministry released the eight rescued primates into a protected forest located in West Kalimantan.",
+      "context": "2026 Indonesia wildfires: The Indonesian forestry ministry and International Animal Rescue release eight orangutans rescued from wildfires into a protected wildforest in West Kalimantan after fires destroyed habitat near plantations.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Indonesia_wildfires",
+      "readMore": {
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/indonesia-releases-eight-orangutans-rescued-fires-protected-forest"
+      }
+    },
+    {
+      "id": "2026-10-11-13-q9",
+      "category": "Disasters and accidents",
+      "story": "",
+      "question": "In Chile, where did a passenger bus crash into a housing complex after hurtling down a slope?",
+      "options": ["Concepción", "Valparaíso", "Antofagasta", "Santiago"],
+      "answerIndex": 1,
+      "explanation": "The deadly crash occurred when a bus travelled down an incline and collided with residential buildings in the city of Valparaíso.",
+      "context": "One person is killed and around 19 others are injured, including four critically, when a passenger bus plunges down a slope and crashes into a residential complex in Valparaíso, Chile.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
+      "readMore": {
+        "publisher": "Teletrece in Spanish",
+        "url": "https://www.t13.cl/noticia/nacional/accidente-bus-valparaiso-actualizan-estado-salud-pasajeros-11-10-2026"
+      }
+    },
+    {
+      "id": "2026-10-11-5-q12",
+      "category": "Armed conflicts and attacks",
+      "story": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis",
+      "question": "Near which Omani city was the commercial tanker MT Petro Dolphin targeted by an unmanned drone?",
+      "options": ["Salalah", "Muscat", "Sohar", "Sur"],
+      "answerIndex": 2,
+      "explanation": "The MT Petro Dolphin was hit by a drone in waters near Sohar, prompting Omani emergency teams to search for missing crew.",
+      "context": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis: A drone strikes the tanker MT Petro Dolphin near Sohar, Oman, leaving two Indian sailors missing and prompting the rescue of nine others. Omani authorities conduct search-and-rescue operations for the missing crew members.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+      "readMore": {
+        "publisher": "AFP via Arab News",
+        "url": "https://www.arabnews.com/middle-east/two-indian-sailors-missing-after-vessel-attacked-off-oman-3005812"
       }
     }
   ]

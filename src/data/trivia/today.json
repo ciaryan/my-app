@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-10",
-  "generatedAt": "2026-10-10T11:24:34.149Z",
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T11:46:27.975Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,74 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-10-10-event-48-q11",
+      "id": "2026-10-12-event-51-q11",
       "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1471, the Swedish regent Sten Sture the Elder repelled an attack by which monarch?",
-      "options": [
-        "Christian I of Denmark",
-        "Christopher of Bavaria",
-        "John of Denmark",
-        "Eric of Pomerania"
-      ],
-      "answerIndex": 0,
-      "explanation": "With support from local farmers and miners, Swedish regent Sten Sture successfully defended against King Christian I of Denmark.",
-      "context": "On this day in 1471: Sten Sture the Elder, the Regent of Sweden, with the help of farmers and miners, repels an attack by King Christian I of Denmark.\nSten Sture the Elder (Regent of Sweden (r. 1470–1497; 1501–1503)): Sten Sture the Elder was a Swedish statesman and regent of Sweden from 1470 to 1497 and again from 1501 to 1503.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Sten_Sture_the_Elder"
+      "question": "On this day in 1822, which royal figure was proclaimed the first emperor of Brazil?",
+      "options": ["Manuel II", "Pedro II", "Pedro I", "John VI"],
+      "answerIndex": 2,
+      "explanation": "Pedro I of Brazil was proclaimed emperor on 12 October 1822, ruling until his abdication in 1831.",
+      "context": "On this day in 1822: Pedro I of Brazil is proclaimed the emperor.\nPedro I of Brazil (Emperor of Brazil (1822–31) and King of Portugal (1826)): Dom Pedro I, known in Brazil and in Portugal as \"the Liberator\" or \"the Soldier King\" in Portugal, was the founder and first ruler of the Empire of Brazil from 1822 to 1831 and King of Portugal in 1826.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pedro_I_of_Brazil"
     },
     {
-      "id": "2026-10-10-popular-17-q5",
+      "id": "2026-10-12-popular-5-q2",
       "category": "Film",
       "story": "Most read",
-      "question": "Directed by Aaron Sorkin as a sequel to The Social Network, the 2026 film The Social Reckoning centres on a whistleblower leak from which company?",
-      "options": ["Amazon", "Facebook", "Google", "Twitter"],
-      "answerIndex": 1,
-      "explanation": "The Social Reckoning dramatises the disclosure of confidential internal documents from Facebook by whistleblower Frances Haugen.",
-      "context": "The Social Reckoning (2026 film by Aaron Sorkin): The Social Reckoning is a 2026 American biographical legal thriller film written, co-produced, and directed by Aaron Sorkin. A sequel to The Social Network (2010), it dramatizes the 2021 Facebook leak by the whistleblower Frances Haugen and Jeff Horwitz. It stars Mikey Madison, Jeremy Allen White, Jeremy Strong, Bill Burr, Wunmi Mosaku, Betty Gilpin, and Billy Magnussen.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/The_Social_Reckoning"
-    },
-    {
-      "id": "2026-10-10-popular-25-q2",
-      "category": "Music",
-      "story": "Most read",
-      "question": "Which English singer-songwriter achieved global fame with the hit singles 'You're Beautiful' and 'Goodbye My Lover'?",
-      "options": ["Damien Rice", "James Morrison", "David Gray", "James Blunt"],
-      "answerIndex": 3,
-      "explanation": "James Blunt is an English musician celebrated for his chart-topping ballad 'You're Beautiful' as well as 'Goodbye My Lover'.",
-      "context": "James Blunt (English musician (born 1974)): James Blunt is an English singer, songwriter and musician. He is known for his songs \"You're Beautiful\" and \"Goodbye My Lover\".",
-      "sourceUrl": "https://en.wikipedia.org/wiki/James_Blunt"
-    },
-    {
-      "id": "2026-10-10-popular-18-q1",
-      "category": "Art",
-      "story": "Most read",
-      "question": "American photographer Ansel Adams, renowned for his black-and-white landscapes of the American West, co-founded which group promoting sharp focus and pure photography?",
+      "question": "Which American actor directed the 2026 crime thriller film Animals, which he also starred in alongside Kerry Washington and Steven Yeun?",
       "options": [
-        "Magnum Photos",
-        "Group f/64",
-        "The Photo-Secession",
-        "The Linked Ring"
-      ],
-      "answerIndex": 1,
-      "explanation": "Ansel Adams co-founded Group f/64, an association dedicated to unmanipulated photography that utilised sharp focus and complete tonal range.",
-      "context": "Ansel Adams (American photographer and environmentalist (1902–1984)): Ansel Easton Adams was an American landscape photographer and environmentalist known for his black-and-white images of the American West. He helped found Group f/64, an association of photographers advocating \"pure\" photography which favored sharp focus and the use of the full tonal range of a photograph.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ansel_Adams"
-    },
-    {
-      "id": "2026-10-10-popular-4-q3",
-      "category": "Literature",
-      "story": "Most read",
-      "question": "The horror television miniseries Carrie, developed by Mike Flanagan, is adapted from the 1974 debut novel by which author?",
-      "options": [
-        "Clive Barker",
-        "Dean Koontz",
-        "Stephen King",
-        "Peter Straub"
+        "Matt Damon",
+        "Bradley Cooper",
+        "Ben Affleck",
+        "George Clooney"
       ],
       "answerIndex": 2,
-      "explanation": "The miniseries is based on Stephen King's 1974 novel Carrie, marking the story's fourth screen adaptation.",
-      "context": "Carrie (miniseries) (2026 miniseries by Mike Flanagan): Carrie is an American supernatural horror television miniseries developed by Mike Flanagan, and produced by Amazon MGM Studios for Amazon Prime Video. The first series adaptation of the eponymous franchise, it is based on the 1974 novel by Stephen King, and is the fourth screen adaptation of the novel.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Carrie_(miniseries)"
+      "explanation": "Animals was directed and co-written by Ben Affleck, who also features in the lead cast.",
+      "context": "Animals (2026 film) (2026 film by Ben Affleck): Animals is a 2026 American crime thriller film directed by Ben Affleck and written by Affleck, Connor O. McIntyre and Billy Ray. It stars Affleck, Kerry Washington, Gillian Anderson, Adriana Paz with Luis Gerardo Méndez, and Steven Yeun. The film received negative reviews from critics.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Animals_(2026_film)"
+    },
+    {
+      "id": "2026-10-12-popular-30-q1",
+      "category": "Music",
+      "story": "Most read",
+      "question": "Which Spanish singer and songwriter graduated with a musicology degree from the Catalonia College of Music in 2017?",
+      "options": ["Bad Gyal", "Rosalía", "Aitana", "Lola Índigo"],
+      "answerIndex": 1,
+      "explanation": "Rosalía developed a passion for traditional Spanish folk music at 14 and went on to complete her degree in musicology in 2017.",
+      "context": "Rosalía (Spanish singer-songwriter (born 1992)): Rosalía Vila Tobella, known mononymously as Rosalía, is a Spanish singer-songwriter and actress. She has been described as an \"atypical pop star\" due to her genre-bending musical style. After being enthralled by Spanish folk music at age 14, she studied musicology at the Catalonia College of Music and graduated in 2017.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rosal%C3%ADa"
+    },
+    {
+      "id": "2026-10-12-popular-6-q4",
+      "category": "TV",
+      "story": "Most read",
+      "question": "Adapted from the 1952 John Steinbeck novel, which actress stars in the 2026 limited series East of Eden created by Zoe Kazan?",
+      "options": [
+        "Saoirse Ronan",
+        "Daisy Edgar-Jones",
+        "Florence Pugh",
+        "Anya Taylor-Joy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Florence Pugh stars in the 2026 Netflix television adaptation of John Steinbeck's novel East of Eden.",
+      "context": "East of Eden (2026 miniseries) (American period drama miniseries by Zoe Kazan): East of Eden is a 2026 American historical drama television limited series created by Zoe Kazan, starring Florence Pugh. It is adapted from the 1952 novel by John Steinbeck and premiered on Netflix on October 1, 2026. It received generally positive reviews from critics.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/East_of_Eden_(2026_miniseries)"
+    },
+    {
+      "id": "2026-10-12-popular-12-q6",
+      "category": "Sport",
+      "story": "Most read",
+      "question": "For which Premier League football club does Welsh international forward Lewis Koumas play?",
+      "options": [
+        "Everton",
+        "Aston Villa",
+        "Wolverhampton Wanderers",
+        "Liverpool"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lewis Koumas represents the Wales national side internationally and plays club football as a forward for Liverpool.",
+      "context": "Lewis Koumas (Wales international footballer (born 2005)): Lewis Terence Koumas is a professional footballer who plays as a forward for Premier League club Liverpool. Born in England, he plays for the Wales national team.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lewis_Koumas"
     }
   ]
 }
