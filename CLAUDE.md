@@ -69,6 +69,7 @@ On any failure the script exits non-zero and leaves the previous `today.json`; t
 - Questions and explanations must be original, and every question needs a source URL.
 - Topic mix (`src/lib/quiz/topics.ts`): at most 1 heavy question (the "Armed conflicts and attacks" or "Disasters and accidents" categories, or a story chain mentioning war/conflict) and exactly 1 sports question. If yesterday has no sports news, sports entries are borrowed from the day before; with none at all the quiz goes ahead without one. The validator enforces the caps.
 - Keep it guessable and light: the prompt asks for answers a casual UK pub quiz audience could know (the country, not the province; the animal, not the official), and favours lighter stories. The generator drops any question phrased "which … province/region/state/city/town…" (`LOCAL_PLACE_QUESTION`), and the shared verifier (`verifyAll`, also used by trivia) drops answers it flags as `obscure`.
+- Ranking: the verifier also rates each question 1–5 for `fun` and `guessable`. `verifyAll` returns survivors best-first: guessable 3+ always ranks above harder ones, then by fun + guessable. Both pickers walk that order, so each slot gets the best question that fits the mix rules. Low-guessability questions are only used when there aren't enough others.
 - Quiz dates use Europe/London. (Connections uses UTC; leave it.)
 
 **Gemini config and quota:**

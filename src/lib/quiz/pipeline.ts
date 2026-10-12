@@ -71,7 +71,12 @@ Return one verdict per item, with the same "id":
 - "chosenIndex": the 0-based index of the option the source states is correct, or -1 if the source does not clearly state the answer.
 - "ambiguous": true if more than one option could be considered correct from the source, or the question is misleading.
 - "obscure": true if the correct answer is something a casual UK pub quiz player couldn't reasonably know or guess, such as a province, state, region or city (other than a world-famous one), or a little-known official or organisation. Famous people, countries, well-known works and things the question itself makes guessable are not obscure.
+- "fun": 1-5, how enjoyable the question is for a pub quiz crowd (5 = a story people will enjoy talking about; 1 = dry or grim).
+- "guessable": 1-5, how likely a casual player is to know or reasonably guess the answer (5 = most people; 1 = almost nobody).
 - "reason": one short sentence.`;
+
+/** Guessability score (1-5) a question needs to rank among the preferred. */
+const MIN_GUESSABLE = 3;
 
 const VerdictsSchema = z.object({
   verdicts: z.array(
@@ -80,6 +85,8 @@ const VerdictsSchema = z.object({
       chosenIndex: z.number().int(),
       ambiguous: z.boolean(),
       obscure: z.boolean(),
+      fun: z.number().int().min(1).max(5),
+      guessable: z.number().int().min(1).max(5),
       reason: z.string(),
     }),
   ),
@@ -87,7 +94,10 @@ const VerdictsSchema = z.object({
 
 /**
  * One batched Gemini call answers every question blind from its own
- * `context`. Keeps only questions it answers correctly and unambiguously.
+ * `context` and rates it for fun and guessability. Keeps only questions it
+ * answers correctly, unambiguously and finds not obscure, sorted best-first
+ * (guessable 3+ first, then fun + guessable) so pickers that walk the list in
+ * order take the best.
  */
 export async function verifyAll(
   questions: QuizQuestion[],
@@ -107,6 +117,13 @@ export async function verifyAll(
   });
   log(`verified with ${model}`);
   const byId = new Map(data.verdicts.map((v) => [v.id, v]));
+  // Guessable (3+) questions always rank above hard ones, so a fun but
+  // unguessable question is only used when there aren't enough others.
+  const score = (q: QuizQuestion) => {
+    const v = byId.get(q.id);
+    if (!v) return 0;
+    return (v.guessable >= MIN_GUESSABLE ? 100 : 0) + v.fun + v.guessable;
+  };
   const kept = questions.filter((q) => {
     const verdict = byId.get(q.id);
     const ok =
@@ -114,11 +131,16 @@ export async function verifyAll(
       verdict.chosenIndex === q.answerIndex &&
       !verdict.ambiguous &&
       !verdict.obscure;
+    const rating = verdict
+      ? ` [fun ${verdict.fun}, guessable ${verdict.guessable}]`
+      : '';
     log(
-      `${ok ? 'kept   ' : 'dropped'} ${q.id}: ${verdict?.obscure ? '(obscure) ' : ''}${verdict?.reason ?? 'no verdict returned'}`,
+      `${ok ? 'kept   ' : 'dropped'} ${q.id}${rating}: ${verdict?.obscure ? '(obscure) ' : ''}${verdict?.reason ?? 'no verdict returned'}`,
     );
     return ok;
   });
+  // Stable sort: ties keep the generator's order.
+  kept.sort((a, b) => score(b) - score(a));
   return { questions: kept, model };
 }
 
