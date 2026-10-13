@@ -11,6 +11,7 @@
 //
 // On any failure the script exits non-zero and leaves today.json untouched.
 
+import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { z } from 'zod';
 import { generateJson, getGeminiModels } from '@/lib/ai/gemini';
@@ -144,7 +145,23 @@ async function main() {
   );
 
   const pages = await fetchPages(newsDate);
-  const events = pages.flatMap((p) => p.events);
+  // Thin days borrow the previous page, which the last quiz drew from too;
+  // skip any entry that quiz already asked about.
+  const previousContexts = new Set<string>();
+  try {
+    const previous = QuizFileSchema.parse(
+      JSON.parse(await readFile(OUTPUT_PATH, 'utf8')),
+    );
+    for (const q of previous.questions) previousContexts.add(q.context);
+  } catch {
+    // No usable previous quiz.
+  }
+  const events = pages
+    .flatMap((p) => p.events)
+    .filter((e) => !previousContexts.has(entryContext(e)));
+  log(
+    `${pages.flatMap((p) => p.events).length - events.length} entries skipped as used in the previous quiz`,
+  );
   if (events.length < QUESTION_COUNT) {
     throw new Error(`Only ${events.length} usable entries found`);
   }
