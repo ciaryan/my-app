@@ -2,11 +2,13 @@ name: Daily trivia
 
 on:
   schedule:
-    # 05:37 UTC = 06:37 BST / 05:37 GMT, after the news quiz. Off the hour to dodge cron congestion.
-    - cron: '37 5 * * *'
+    # GitHub runs scheduled workflows hours late (6-8h observed in Oct 2026),
+    # so schedule just after midnight UTC to land around breakfast UK time.
+    # 00:37 UTC is already the new day in London (01:37 BST / 00:37 GMT).
+    - cron: '37 0 * * *'
     # Retries if Google was overloaded earlier. They skip once today's quiz exists.
-    - cron: '37 7 * * *'
-    - cron: '37 9 * * *'
+    - cron: '37 2 * * *'
+    - cron: '37 4 * * *'
   workflow_dispatch:
 
 permissions:

@@ -44,7 +44,7 @@ Both quizzes render the shared client component `src/app/play/_components/DailyQ
 
 Five multiple-choice questions (4 options each) on yesterday's news, regenerated daily by GitHub Actions and deployed by Vercel. It shares only the "daily" idea with Connections, not its UI. Live at https://www.ciaryan.com/play/news-quiz.
 
-**Pipeline** (`scripts/quiz/generate.ts`, run daily at 05:17 UTC by `.github/workflows/daily-quiz.yml`):
+**Pipeline** (`scripts/quiz/generate.ts`, run daily by `.github/workflows/daily-quiz.yml` at 00:17 UTC, with retries at 02:17 and 04:17 that skip if today's quiz already validates. GitHub runs schedules 6–8 hours late, which is why they're set just after midnight):
 
 1. Fetch yesterday's (UTC) Wikipedia `Portal:Current events/<YYYY Month D>` page via the MediaWiki `action=parse` API (`src/lib/quiz/sources/wikipedia.ts`). Pages keep being edited for a day or two, so never use today's.
 2. One Gemini call writes about 12 candidates. Code then shuffles options, attaches URLs from the parsed entry (never from the model), and drops candidates that fail the schema or copy more than 7 consecutive words from their source.
@@ -94,7 +94,7 @@ Five pub quiz questions from five different rounds, built on the same pipeline a
   - `src/lib/quiz/sources/mostread.ts` reads `mostread` from the featured feed (`/api/rest_v1/feed/featured/YYYY/MM/DD`, which lists the previous day's top articles). It falls back a day if not yet published. It drops list pages, recent deaths (description ending "–<this or last year>)") and anything matching the `GRIM` filter.
   - `src/lib/quiz/sources/onthisday.ts` reads `/api/rest_v1/feed/onthisday/all/MM/DD`: selected anniversaries, events and up to 10 notable births, filtered to pub-quiz professions and ranked by article lead length as a fame proxy. Violent or tragic entries are filtered out.
   - Extracts are trimmed (500/300 characters) to keep the prompt small, because larger prompts hit 504 timeouts.
-- `scripts/trivia/generate.ts` runs daily at 05:37 UTC via `.github/workflows/daily-trivia.yml`, after the news quiz, and writes `src/data/trivia/today.json` (`TriviaFileSchema`). It uses the same Gemini models, fallback and 2-calls-per-run budget as the news quiz.
+- `scripts/trivia/generate.ts` runs daily via `.github/workflows/daily-trivia.yml` at 00:37 UTC (retries 02:37, 04:37), after the news quiz, and writes `src/data/trivia/today.json` (`TriviaFileSchema`). It uses the same Gemini models, fallback and 2-calls-per-run budget as the news quiz.
 - Rounds (`src/lib/quiz/trivia.ts`): Gemini tags each question with one of Royalty, Film, Music, TV, Sport, History, Science, Geography, Literature or Art. Each question's `story` field records its source (`Most read` or `On this day`).
 - The picker takes exactly 1 On this day question plus 4 most-read ones, all from different rounds. Royalty, Film and Music are filled first when available. The On this day slot takes a preferred round the most-read questions can't cover (often Royalty); otherwise it takes a non-preferred round.
 - On this day questions must say so ("On this day in <year>, …" / "Born on this day…"), enforced by `ON_THIS_DAY_WORDING` in both generator and validator.
