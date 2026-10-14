@@ -1,110 +1,103 @@
 {
   "version": 1,
-  "date": "2026-10-12",
-  "newsDate": "2026-10-11",
-  "generatedAt": "2026-10-12T16:33:48.017Z",
+  "date": "2026-10-14",
+  "newsDate": "2026-10-13",
+  "generatedAt": "2026-10-14T09:17:16.313Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
-    "revisionIds": [1379899370, 1379884862],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_13",
+    "revisionIds": [1380190392],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-10-12-q2",
+      "id": "2026-10-13-16-q1",
       "category": "Sports",
-      "story": "2026 Il Lombardia",
-      "question": "French cyclist Paul Seixas made history by becoming the youngest winner of which prestigious monument classic race in Italy?",
-      "options": [
-        "Strade Bianche",
-        "Tirreno–Adriatico",
-        "Milan–San Remo",
-        "Giro di Lombardia"
-      ],
-      "answerIndex": 3,
-      "explanation": "Paul Seixas became the youngest rider ever to win the Giro di Lombardia by triumphing in its 120th edition.",
-      "context": "2026 Il Lombardia: In cycling, French cyclist Paul Seixas wins the 120th edition of the Giro di Lombardia in Italy, becoming the youngest person to do so.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_10",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Il_Lombardia",
+      "story": "",
+      "question": "Which African country has Formula 1 announced will host a new grand prix from the early 2030s?",
+      "options": ["Kenya", "Rwanda", "Morocco", "Nigeria"],
+      "answerIndex": 1,
+      "explanation": "Formula 1 announced that Kigali, Rwanda, will host a grand prix for at least ten years, marking the championship's first race in Africa since 1993.",
+      "context": "In auto racing, Formula 1 announces a new grand prix in Kigali, Rwanda, to run for at least 10 years starting in the early 2030s with a new track. This would be the first F1 grand prix in Africa since South Africa in 1993.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_13",
       "readMore": {
-        "publisher": "NBC Sports",
-        "url": "https://www.nbcsports.com/cycling/news/paul-seixas-becomes-youngest-winner-of-tour-of-lombardy-at-20"
+        "publisher": "AP",
+        "url": "https://apnews.com/article/f1-africa-rwanda-grand-prix-0f71bcd619e82380ab226b012e4ec21f"
       }
     },
     {
-      "id": "2026-10-11-18-q1",
-      "category": "Politics and elections",
-      "story": "2027 French presidential election",
-      "question": "Which French politician won more than 66% of the first-round vote in the Socialist Party primary to become their 2027 presidential election candidate?",
+      "id": "2026-10-13-12-q7",
+      "category": "Law and crime",
+      "story": "Murder of Tupac Shakur",
+      "question": "Former gang leader Duane 'Keffe D' Davis received a prison sentence of at least 40 years for his role in the 1996 murder of which famous musician?",
       "options": [
-        "Olivier Faure",
-        "Raphaël Glucksmann",
-        "François Hollande",
-        "Jean-Luc Mélenchon"
+        "Tupac Shakur",
+        "Big L",
+        "The Notorious B.I.G.",
+        "Jam Master Jay"
+      ],
+      "answerIndex": 0,
+      "explanation": "A court in Nevada handed Davis a minimum term of four decades behind bars for planning the drive-by shooting of Tupac Shakur in Las Vegas.",
+      "context": "Murder of Tupac Shakur: The Clark County District Court in Nevada, United States, sentences former Crips gang leader Duane \"Keffe D\" Davis to a minimum of 40 years in prison for orchestrating the 1996 murder of rapper Tupac Shakur in Las Vegas.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_13",
+      "topicUrl": "https://en.wikipedia.org/wiki/Murder_of_Tupac_Shakur",
+      "readMore": {
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261013-ex-gang-leader-sentenced-to-minimum-40-years-for-tupac-murder"
+      }
+    },
+    {
+      "id": "2026-10-13-8-q3",
+      "category": "Health and environment",
+      "story": "",
+      "question": "Which animals did wildlife authorities in Bali release back into the ocean after intercepting a smuggling boat?",
+      "options": [
+        "Manta rays",
+        "Green sea turtles",
+        "Bottlenose dolphins",
+        "Whale sharks"
       ],
       "answerIndex": 1,
-      "explanation": "Raphaël Glucksmann secured the nomination after winning over two-thirds of the votes during the opening round of the Socialist primary.",
-      "context": "2027 French presidential election: Raphaël Glucksmann is elected as a candidate in the 2027 presidential election during the Socialist Party primary, receiving more than 66% of the votes in the first round.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
-      "topicUrl": "https://en.wikipedia.org/wiki/2027_French_presidential_election",
+      "explanation": "Indonesian officials returned twenty protected green sea turtles to the sea after rescuing them from a deserted smuggler vessel.",
+      "context": "Indonesian authorities release 20 protected green sea turtles back into the oceans off Bali after they were seized from an empty boat abandoned by wildlife smugglers last week.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_13",
       "readMore": {
-        "publisher": "AFP via RFI",
-        "url": "https://www.rfi.fr/en/international-news/20261011-raphael-glucksmann-elected-centre-left-french-presidential-candidate"
+        "publisher": "AP",
+        "url": "https://apnews.com/article/indonesia-green-sea-turtles-smuggling-release-59ea1574cd61427628d51b4152e3f994"
       }
     },
     {
-      "id": "2026-10-11-14-q7",
-      "category": "Health and environment",
-      "story": "2026 Ebola epidemic",
-      "question": "Health officials in which East African country reported that nearly 300 tests had come back clear since a single Ebola fatality earlier in the month?",
-      "options": ["Kenya", "Rwanda", "Tanzania", "Uganda"],
+      "id": "2026-10-13-4-q11",
+      "category": "Armed conflicts and attacks",
+      "story": "Russo-Ukrainian war > Bulgaria–Russia relations, Violations of non-combatant airspace during the Russo-Ukrainian war",
+      "question": "Which country summoned Russia's ambassador after commercial cargo vessels were attacked by drones off its Black Sea coast?",
+      "options": ["Bulgaria", "Turkey", "Romania", "Georgia"],
       "answerIndex": 0,
-      "explanation": "The Kenyan health ministry confirmed zero additional Ebola infections following 293 negative diagnostic tests conducted after a patient's death.",
-      "context": "2026 Ebola epidemic: The Kenyan health ministry reports that no Ebola cases have been reported since one patient died from the disease on October 5, with 293 tests conducted.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Ebola_epidemic",
+      "explanation": "Bulgarian Prime Minister Rumen Radev called in the Russian diplomat after two merchant ships were struck off the coast of Bulgaria.",
+      "context": "Russo-Ukrainian war > Bulgaria–Russia relations, Violations of non-combatant airspace during the Russo-Ukrainian war: Two merchant ships are hit by unknown drones off Bulgaria's Black Sea coast, with one sinking. Eleven crew members are missing and 20 in total are rescued. Bulgarian prime minister Rumen Radev has blamed Russia and summoned its ambassador. It is the second such attack in six days.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_13",
+      "topicUrl": "https://en.wikipedia.org/wiki/Bulgaria%E2%80%93Russia_relations",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenya-finds-no-new-ebola-cases-after-293-tests-2026-10-11/"
+        "url": "https://www.reuters.com/world/europe/drone-sinks-ship-off-bulgaria-coast-prime-minister-says-2026-10-13/"
       }
     },
     {
-      "id": "2026-10-11-4-q9",
-      "category": "Armed conflicts and attacks",
-      "story": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis",
-      "question": "According to the United Kingdom Maritime Trade Operations, a commercial tanker was struck by an unknown projectile in which vital Middle Eastern waterway?",
-      "options": [
-        "Bab-el-Mandeb",
-        "Strait of Hormuz",
-        "Strait of Malacca",
-        "Suez Canal"
-      ],
+      "id": "2026-10-13-11-q5",
+      "category": "Law and crime",
+      "story": "LGBTQ rights in Hungary",
+      "question": "Parliament in which European nation voted to overturn substantial parts of a controversial 2021 anti-LGBTQ child protection statute?",
+      "options": ["Poland", "Hungary", "Slovakia", "Romania"],
       "answerIndex": 1,
-      "explanation": "British maritime monitors reported that an unidentified projectile hit a tanker as it was travelling through the Strait of Hormuz.",
-      "context": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis: The United Kingdom Maritime Trade Operations reports that a tanker transiting in the Strait of Hormuz has been hit by an unknown projectile.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+      "explanation": "The Hungarian National Assembly passed legislation rolling back most elements of the law that had been introduced during Viktor Orbán's tenure.",
+      "context": "LGBTQ rights in Hungary: The Hungarian National Assembly passes an amendment repealing most provisions of the anti-LGBTQ child protection law that was previously passed during former prime minister Viktor Orbán's tenure in 2021.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_13",
+      "topicUrl": "https://en.wikipedia.org/wiki/LGBTQ_rights_in_Hungary",
       "readMore": {
-        "publisher": "Middle East Eye",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-it-received-report-tanker-hit-projectile-hormuz"
-      }
-    },
-    {
-      "id": "2026-10-11-15-q11",
-      "category": "Health and environment",
-      "story": "2026 Indonesia wildfires",
-      "question": "International Animal Rescue partnered with the forestry ministry of which country to release rescued primates following devastating wildfires?",
-      "options": ["Malaysia", "Brazil", "Madagascar", "Indonesia"],
-      "answerIndex": 3,
-      "explanation": "The Indonesian forestry ministry collaborated with the animal charity to return eight rescued orangutans to the wild.",
-      "context": "2026 Indonesia wildfires: The Indonesian forestry ministry and International Animal Rescue release eight orangutans rescued from wildfires into a protected wildforest in West Kalimantan after fires destroyed habitat near plantations.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Indonesia_wildfires",
-      "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/indonesia-releases-eight-orangutans-rescued-fires-protected-forest"
+        "publisher": "DW",
+        "url": "https://www.dw.com/en/hungarys-parliament-votes-to-reverse-anti-lgbtq-legislation-from-orban-era/a-79647826"
       }
     }
   ]

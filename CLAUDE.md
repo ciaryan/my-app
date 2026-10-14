@@ -75,8 +75,9 @@ On any failure the script exits non-zero and leaves the previous `today.json`; t
 **Gemini config and quota:**
 
 - `GEMINI_API_KEY` is an Actions repository secret; `GEMINI_MODEL` (currently `gemini-3.8-flash`) is a repository variable. Never use a `NEXT_PUBLIC_` prefix and never add them to Vercel; the site never calls Gemini at runtime.
-- `GEMINI_FALLBACK_MODEL` (recommended `gemini-3.6-flash`, which was far less overloaded than 3.7 in Oct 2026; the workflow defaults to `gemini-3.7-flash` if the repo variable is unset) is tried when the main model is overloaded, timing out or out of quota. A model that reports exhausted quota is skipped for the rest of the run. The quiz file's `model` field records which model(s) were used.
-- The free tier allows about 20 requests/day per model, and each model has its own quota (it reset around midnight UK time when tested Oct 2026). A run makes 2 calls, so keep verification batched. Daily-quota 429s fail fast; only 5xx, timeouts and short rate-limit waits are retried.
+- `GEMINI_FALLBACK_MODEL` is a comma-separated chain tried in order when the main model is overloaded, timing out or out of quota (repo variable recommended `gemini-3.6-flash,gemini-3.5-flash`; the workflow uses that if the variable is unset). Each model has its own quota and load. A model that reports exhausted quota is skipped for the rest of the run. The quiz file's `model` field records which model(s) were used.
+- Failed attempts still count against the daily quota, and news + trivia share each model's quota. Hence only 2 attempts per call; the workflows' later scheduled runs are the real retries.
+- The free tier allows about 20 requests/day per model, and each model has its own quota (evidence from Oct 2026 points to a reset at midnight US Pacific time, 07:00/08:00 UTC, not midnight UK). Overnight scheduled runs therefore share quota with the previous UK daytime, so heavy local testing during the day can starve the next night's runs. A run makes 2 calls, so keep verification batched. Daily-quota 429s fail fast; only 5xx, timeouts and short rate-limit waits are retried.
 
 **Running locally:**
 

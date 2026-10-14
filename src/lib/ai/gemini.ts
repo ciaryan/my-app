@@ -8,7 +8,9 @@ import { z } from 'zod';
 // The SDK also sends this to Google as X-Server-Timeout, so it is the
 // server's deadline too: too short and slow responses come back as 504.
 const DEFAULT_TIMEOUT_MS = 300_000;
-const MAX_ATTEMPTS = 3;
+// Every attempt counts against the free-tier daily quota, even failed ones,
+// and the workflows' later scheduled runs already act as retries.
+const MAX_ATTEMPTS = 2;
 /** Longest server-requested wait we'll honour before giving up. */
 const MAX_RETRY_DELAY_MS = 60_000;
 
@@ -22,11 +24,18 @@ function requireEnv(name: string): string {
   return value;
 }
 
-/** Primary model, then GEMINI_FALLBACK_MODEL if set and different. */
+/**
+ * Primary model, then any GEMINI_FALLBACK_MODEL models (comma-separated, in
+ * order). Each model has its own quota and load, so a chain survives more.
+ */
 export function getGeminiModels(): string[] {
-  const primary = requireEnv('GEMINI_MODEL');
-  const fallback = process.env.GEMINI_FALLBACK_MODEL;
-  return fallback && fallback !== primary ? [primary, fallback] : [primary];
+  const models = [
+    requireEnv('GEMINI_MODEL'),
+    ...(process.env.GEMINI_FALLBACK_MODEL ?? '').split(','),
+  ]
+    .map((m) => m.trim())
+    .filter(Boolean);
+  return [...new Set(models)];
 }
 
 function getClient(): GoogleGenAI {
