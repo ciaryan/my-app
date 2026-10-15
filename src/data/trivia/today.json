@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-14",
-  "generatedAt": "2026-10-14T08:06:29.300Z",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T05:05:10.992Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,74 +11,84 @@
   },
   "questions": [
     {
-      "id": "2026-10-14-selected-19-q11",
-      "category": "Literature",
+      "id": "2026-10-15-event-35-q11",
+      "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1926, which English author published the classic children's book 'Winnie-the-Pooh', illustrated by E. H. Shepard?",
+      "question": "On this day in 1793, which former Queen of France was put on trial and convicted of treason?",
       "options": [
-        "Kenneth Grahame",
-        "Beatrix Potter",
-        "A. A. Milne",
-        "J. M. Barrie"
+        "Madame du Barry",
+        "Marie de' Medici",
+        "Marie Antoinette",
+        "Anne of Austria"
       ],
       "answerIndex": 2,
-      "explanation": "Milne created the beloved bear Winnie-the-Pooh in a collection of stories first published on 14 October 1926.",
-      "context": "On this day in 1926: The first book featuring English author A. A. Milne's fictional bear Winnie-the-Pooh was published.\nWinnie-the-Pooh (book) (1926 book by A. A. Milne): Winnie-the-Pooh is a 1926 children's book by English author A. A. Milne and English illustrator E. H. Shepard.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Winnie-the-Pooh_(book)"
+      "explanation": "On this day in 1793, Marie Antoinette was tried and found guilty of treason before her execution.",
+      "context": "On this day in 1793: Queen Marie Antoinette of France is tried and convicted of treason.\nMarie Antoinette (Queen of France from 1774 to 1792): Marie Antoinette was Queen of France as the wife of Louis XVI from 10 May 1774 until the abolition of the French monarchy in 1792 during the French Revolution.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Marie_Antoinette"
     },
     {
-      "id": "2026-10-14-popular-4-q1",
+      "id": "2026-10-15-popular-7-q5",
       "category": "Film",
       "story": "Most read",
-      "question": "Which 2010 western film served as the breakthrough screen performance for Hailee Steinfeld, earning her an Academy Award nomination?",
-      "options": ["The Homesman", "Slow West", "Hostiles", "True Grit"],
-      "answerIndex": 3,
-      "explanation": "Steinfeld rose to prominence with her role in the 2010 adaptation of True Grit, which earned her widespread critical acclaim and an Oscar nomination.",
-      "context": "Hailee Steinfeld (American actress and singer (born 1996)): Hailee Steinfeld is an American actress and singer. She had her breakthrough with the western film True Grit (2010), which earned her various accolades, including nominations for an Academy Award, a BAFTA Award, a Critics' Choice Movie Award and an Actor Award.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Hailee_Steinfeld"
-    },
-    {
-      "id": "2026-10-14-popular-5-q6",
-      "category": "TV",
-      "story": "Most read",
-      "question": "In the critically acclaimed drama Breaking Bad, what is the familial relationship between the hitmen Marco and Leonel Salamanca, played by Luis and Daniel Moncada?",
+      "question": "Which actress played roles in Cruel Intentions, Legally Blonde, and the Hellboy film series?",
       "options": [
-        "Brothers who are twins",
-        "Father and son",
-        "Stepbrothers",
-        "Uncle and nephew"
-      ],
-      "answerIndex": 0,
-      "explanation": "Known on the show as 'The Cousins', the Salamanca hitmen are twin brothers, although in reality actor Luis Moncada is three years older than Daniel.",
-      "context": "Daniel and Luis Moncada (Honduran-American actors (born 1980 and 1977)): Daniel Moncada and Luis Moncada are Honduran actors and brothers best known for their role as \"The Cousins\" Leonel and Marco Salamanca on the award-winning AMC crime drama series Breaking Bad (2008–2013) and its spin-off Better Call Saul (2015–2022). Despite playing twins on television, Luis is the elder brother by three years.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Daniel_and_Luis_Moncada"
-    },
-    {
-      "id": "2026-10-14-popular-15-q3",
-      "category": "Science",
-      "story": "Most read",
-      "question": "Which organic chemical compound, classified as a cyclic monoterpene, is responsible for the main scent in citrus fruit peels?",
-      "options": ["Menthol", "Limonene", "Pinene", "Myrcene"],
-      "answerIndex": 1,
-      "explanation": "Limonene is an aliphatic hydrocarbon that derives its name from the Italian word for lemon and constitutes the primary aroma component in citrus peels.",
-      "context": "Limonene (Type of molecule): Limonene is a slightly yellow-green liquid aliphatic hydrocarbon classified as a cyclic monoterpene, and is the major component in the fragrance and essential oil of citrus fruit peels, taking its name from Italian limone 'lemon'.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Limonene"
-    },
-    {
-      "id": "2026-10-14-popular-9-q5",
-      "category": "Sport",
-      "story": "Most read",
-      "question": "Which NFL franchise drafted quarterback Josh Allen seventh overall in the 2018 draft following his collegiate career with Reedley and Wyoming?",
-      "options": [
-        "Arizona Cardinals",
-        "New York Jets",
-        "Buffalo Bills",
-        "Cleveland Browns"
+        "Reese Witherspoon",
+        "Sarah Michelle Gellar",
+        "Selma Blair",
+        "Ali Larter"
       ],
       "answerIndex": 2,
-      "explanation": "Allen was drafted seventh overall by the Buffalo Bills in 2018 and became known as one of the league's top dual-threat quarterbacks.",
-      "context": "Josh Allen (American football player (born 1996)): Joshua Patrick Allen is an American professional football quarterback for the Buffalo Bills of the National Football League (NFL). He is regarded as one of the greatest dual-threat quarterbacks of all time and is the NFL leader in quarterback rushing touchdowns. A lightly recruited high school prospect, Allen began his college football career with the Reedley Tigers before transferring to the Wyoming Cowboys. He was selected seventh overall by the Bills in the 2018 NFL draft.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Josh_Allen"
+      "explanation": "Selma Blair is recognised for her appearances in hit films such as Cruel Intentions, Legally Blonde, and Hellboy.",
+      "context": "Selma Blair (American actress (born 1972)): Selma Blair is an American actress. She is known for her roles in Cruel Intentions, Legally Blonde, The Sweetest Thing, and the Hellboy franchise.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Selma_Blair"
+    },
+    {
+      "id": "2026-10-15-popular-15-q1",
+      "category": "TV",
+      "story": "Most read",
+      "question": "Which television presenter hosted the E4 reality spin-off series Big Brother's Big Mouth?",
+      "options": [
+        "Dermot O'Leary",
+        "Davina McCall",
+        "Russell Brand",
+        "Rylan Clark"
+      ],
+      "answerIndex": 2,
+      "explanation": "Russell Brand initially gained widespread fame in the United Kingdom hosting Big Brother's Big Mouth on E4.",
+      "context": "Russell Brand (English comedian, actor, and podcaster (born 1975)): Russell Edward Brand is an English comedian, actor, podcaster, and media personality. He initially was a stand-up comedian and radio and television presenter in the UK, where he received public attention for being the host of the television show Big Brother's Big Mouth, which was a spin-off from the reality show Big Brother, broadcast on E4.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Russell_Brand"
+    },
+    {
+      "id": "2026-10-15-popular-27-q4",
+      "category": "Sport",
+      "story": "Most read",
+      "question": "Which boxer held the title of undisputed world heavyweight champion from 1987 until 1990?",
+      "options": [
+        "Buster Douglas",
+        "Mike Tyson",
+        "Evander Holyfield",
+        "Lennox Lewis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mike Tyson dominated the heavyweight division as its undisputed champion between 1987 and 1990.",
+      "context": "Mike Tyson (American boxer and media personality (born 1966)): Michael Gerard Tyson is an American former professional boxer who competed between 1985 and 2024. Nicknamed \"Iron Mike\" and \"Kid Dynamite\" in his early career, and later known as \"the Baddest Man on the Planet\", Tyson is widely regarded as one of the greatest heavyweight boxers of all time, and one of the most intimidating men in boxing history. He reigned as the undisputed world heavyweight champion from 1987 to 1990.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mike_Tyson"
+    },
+    {
+      "id": "2026-10-15-popular-12-q7",
+      "category": "History",
+      "story": "Most read",
+      "question": "In legislative assemblies following the Westminster system, what term is used for insults or accusations of dishonesty that breach speaking standards?",
+      "options": [
+        "Defamatory discourse",
+        "Contempt of the House",
+        "Unparliamentary language",
+        "Breach of privilege"
+      ],
+      "answerIndex": 2,
+      "explanation": "In Westminster parliaments, improper speech such as profanities or claims that another member is lying is known as unparliamentary language.",
+      "context": "Unparliamentary language (Words that offend the dignity of an assembly): \n\nParliaments and legislative bodies around the world impose certain rules and standards during debates. Tradition has evolved that there are words or phrases that are deemed inappropriate for use in the legislature whilst it is in session. \nIn a Westminster system, this is called unparliamentary language and there are similar rules in some but not all other legislative systems. This includes, but is not limited to, the suggestion of dishonesty or the use of profanity.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Unparliamentary_language"
     }
   ]
 }
