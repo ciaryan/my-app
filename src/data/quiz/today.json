@@ -1,95 +1,101 @@
 {
   "version": 1,
-  "date": "2026-10-15",
-  "newsDate": "2026-10-14",
-  "generatedAt": "2026-10-15T04:43:05.060Z",
+  "date": "2026-10-16",
+  "newsDate": "2026-10-15",
+  "generatedAt": "2026-10-16T04:35:16.281Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_14",
-    "revisionIds": [1380337090, 1380346886],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
+    "revisionIds": [1380509741, 1380469985],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-13-16-q9",
-      "category": "Sports",
-      "story": "2026 World Artistic Gymnastics Championships",
-      "question": "Which country refused entry visas to three Russian athletes scheduled to compete at the World Artistic Gymnastics Championships in Rotterdam?",
-      "options": ["Switzerland", "The Netherlands", "France", "Belgium"],
+      "id": "2026-10-15-3-q1",
+      "category": "Business and economy",
+      "story": "China–North Korea relations",
+      "question": "After facing a twelve-year delay, a major new bridge across the Yalu River has finally opened, linking China with which neighbouring nation?",
+      "options": ["Mongolia", "North Korea", "Russia", "Vietnam"],
       "answerIndex": 1,
-      "explanation": "Dutch authorities denied travel visas to three Russian gymnasts ahead of the global event hosted in Rotterdam.",
-      "context": "2026 World Artistic Gymnastics Championships: The Netherlands denies visas to Russian artistic gymnasts Anna Kalmykova, Viktoria Listunova, and Angelina Melnikova for the world championships in Rotterdam, while four other Russian gymnasts receive permission to enter the country.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_13",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_World_Artistic_Gymnastics_Championships",
+      "explanation": "The New Yalu River Bridge connects the Chinese city of Dandong with Sinuiju in North Korea.",
+      "context": "China–North Korea relations: The New Yalu River Bridge connecting Dandong, China, and Sinuiju, North Korea, opens following a 12-year delay.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
+      "topicUrl": "https://en.wikipedia.org/wiki/China%E2%80%93North_Korea_relations",
+      "readMore": {
+        "publisher": "BBC News",
+        "url": "https://www.bbc.com/news/articles/ck1exgw3j115o"
+      }
+    },
+    {
+      "id": "2026-10-15-12-q7",
+      "category": "Science and technology",
+      "story": "",
+      "question": "The International Bureau of Weights and Measures decided that which timekeeping adjustment will be phased out from May 2027?",
+      "options": [
+        "Leap years",
+        "Leap seconds",
+        "Daylight saving time",
+        "Coordinated time zones"
+      ],
+      "answerIndex": 1,
+      "explanation": "Officials voted to eliminate leap seconds to ensure Coordinated Universal Time remains continuous, opting instead for occasional leap hours if needed.",
+      "context": "At the General Conference on Weights and Measures, the International Bureau of Weights and Measures votes to abolish future leap seconds and make Coordinated Universal Time (UTC) continuous, starting 20 May 2027. To account for future differences between UTC and International Atomic Time, a leap hour will be observed as needed.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
+      "readMore": {
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/science/2026/oct/15/times-up-for-the-leap-second-as-scientists-swap-it-for-the-leap-hour"
+      }
+    },
+    {
+      "id": "2026-10-15-10-q5",
+      "category": "Law and crime",
+      "story": "",
+      "question": "Police in which South American capital arrested at least 25 individuals following clashes at a student and staff protest over university funding?",
+      "options": ["Montevideo", "Santiago", "Buenos Aires", "Bogotá"],
+      "answerIndex": 2,
+      "explanation": "The arrests took place in Buenos Aires after protests against higher education funding cuts turned violent.",
+      "context": "Argentine police arrest at least 25 people after clashes during a university funding protest in Buenos Aires, while eight police officers are injured.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
+      "readMore": {
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261015-argentine-demonstration-over-education-cuts-ends-in-clashes"
+      }
+    },
+    {
+      "id": "2026-10-15-5-q9",
+      "category": "Disasters and accidents",
+      "story": "",
+      "question": "A maritime rescue operation was initiated after a commercial vessel flying the flag of which microstate caught fire off the coast of Romania?",
+      "options": ["San Marino", "Malta", "Liechtenstein", "Monaco"],
+      "answerIndex": 0,
+      "explanation": "Seven crew members went missing when a tanker registered in San Marino caught alight in the Black Sea.",
+      "context": "Seven people are missing after a San Marino-flagged tanker catches fire off the coast of Romania amid recent drone attacks on merchant shipping in the Black Sea. Search and rescue operations are underway to locate the missing crew members.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
+      "readMore": {
+        "publisher": "Politico",
+        "url": "https://www.politico.eu/article/seven-missing-after-tanker-catches-fire-off-romanian-coast/"
+      }
+    },
+    {
+      "id": "2026-10-15-11-q6",
+      "category": "Law and crime",
+      "story": "",
+      "question": "Jeffrey Donaldson, who was sentenced to 15 years in prison following a criminal trial, previously served as the leader of which political party?",
+      "options": [
+        "Ulster Unionist Party",
+        "Democratic Unionist Party",
+        "Alliance Party",
+        "Social Democratic and Labour Party"
+      ],
+      "answerIndex": 1,
+      "explanation": "Donaldson is a former leader of Northern Ireland's Democratic Unionist Party (DUP).",
+      "context": "Northern Irish politician and former Democratic Unionist Party leader Jeffrey Donaldson is sentenced to 15 years in prison for child sexual abuse and rape. The offences occurred between 1985 and 2008.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
       "readMore": {
         "publisher": "AP",
-        "url": "https://apnews.com/article/gymnastics-worlds-russia-visas-melnikova-netherlands-1bee80f9911eb215dd8decf227601d4c"
-      }
-    },
-    {
-      "id": "2026-10-14-8-q4",
-      "category": "Law and crime",
-      "story": "Russo-Ukrainian war > Nord Stream pipelines sabotage",
-      "question": "In which country did a suspect go on trial at a regional court in Hamburg over the 2022 sabotage of the Nord Stream pipelines?",
-      "options": ["Poland", "Denmark", "Germany", "Sweden"],
-      "answerIndex": 2,
-      "explanation": "A Ukrainian national accused of damaging the undersea pipelines faced legal proceedings at the Higher Regional Court in Hamburg.",
-      "context": "Russo-Ukrainian war > Nord Stream pipelines sabotage: The Ukrainian citizen accused of sabotaging the Nord Stream pipelines in 2022 faces trial at the Higher Regional Court in Hamburg, Germany,",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_14",
-      "topicUrl": "https://en.wikipedia.org/wiki/Nord_Stream_pipelines_sabotage",
-      "readMore": {
-        "publisher": "DW",
-        "url": "https://www.dw.com/en/nord-stream-pipeline-sabotage-suspect-on-trial-germany-hamburg/a-79647617"
-      }
-    },
-    {
-      "id": "2026-10-14-14-q8",
-      "category": "Science and technology",
-      "story": "Ancient maritime history > Kekova shipwreck",
-      "question": "Archaeologists began excavating what is believed to be the world's oldest known shipwreck off the coast of which country?",
-      "options": ["Egypt", "Cyprus", "Greece", "Turkey"],
-      "answerIndex": 3,
-      "explanation": "Dating back to between 2700 and 2400 BC, the ancient vessel was uncovered at Kekova in Turkey.",
-      "context": "Ancient maritime history > Kekova shipwreck: The oldest known shipwreck in the world (2700–2400 BC) is excavated in Kekova, Turkey.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_14",
-      "topicUrl": "https://en.wikipedia.org/wiki/Kekova_shipwreck",
-      "readMore": {
-        "publisher": "CNN",
-        "url": "https://www.cnn.com/2026/10/14/science/worlds-oldest-shipwreck-turkey-scli-intl"
-      }
-    },
-    {
-      "id": "2026-10-14-5-q1",
-      "category": "Health and environment",
-      "story": "2026 Southeast Asian haze",
-      "question": "Which country saw its air pollution surge to annual record highs in October 2026 due to drifting smoke from Indonesian forest fires?",
-      "options": ["Thailand", "Singapore", "The Philippines", "Vietnam"],
-      "answerIndex": 1,
-      "explanation": "Singapore registered its worst air quality readings of the year as PM2.5 levels soared from cross-border haze.",
-      "context": "2026 Southeast Asian haze: Singapore records its highest air pollution level of 2026 as one-hour PM2.5 concentrations reach about 288 micrograms per cubic metre amid haze from Indonesian wildfires.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_14",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Southeast_Asian_haze",
-      "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/indonesia-haze-spikes-singapore-pollution-shuts-east-timor-schools"
-      }
-    },
-    {
-      "id": "2026-10-14-7-q3",
-      "category": "International relations",
-      "story": "Colombia–Israel relations",
-      "question": "Which South American nation established an embassy in Jerusalem while also reinstating a free trade deal with Israel?",
-      "options": ["Colombia", "Peru", "Chile", "Ecuador"],
-      "answerIndex": 0,
-      "explanation": "Colombia set up its new diplomatic mission in Jerusalem alongside the restoration of bilateral free trade agreements with Israel.",
-      "context": "Colombia–Israel relations: Colombia opens an embassy in Jerusalem and restores its free trade agreement with Israel.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_14",
-      "topicUrl": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Israel_relations",
-      "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/americas/colombia-opens-embassy-jerusalem-restores-free-trade-deal-with-israel-2026-10-14/"
+        "url": "https://apnews.com/article/northern-ireland-jeffrey-donaldson-sex-abuse-sentencing-fa1b6045dca0deccecadd77ee87b0927"
       }
     }
   ]
