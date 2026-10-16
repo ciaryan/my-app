@@ -70,7 +70,8 @@ You are given a list of items, each with an "id", a "source" text and a multiple
 Return one verdict per item, with the same "id":
 - "chosenIndex": the 0-based index of the option the source states is correct, or -1 if the source does not clearly state the answer.
 - "ambiguous": true if more than one option could be considered correct from the source, or the question is misleading.
-- "obscure": true if the correct answer is something a casual UK pub quiz player couldn't reasonably know or guess, such as a province, state, region or city (other than a world-famous one), or a little-known official or organisation. Famous people, countries, well-known works and things the question itself makes guessable are not obscure.
+- "obscure": true if the correct answer is something a casual UK pub quiz player couldn't reasonably know or guess, such as a province, state, region or city (other than a world-famous one), or a little-known official or organisation. Famous people, countries and well-known works are not obscure.
+- "giveaway": true if the question's own wording makes the answer obvious without knowing the news, e.g. a "which country" question that names a city, venue or landmark in that country ("which country refused visas for a championship in Rotterdam?", "in which country is a trial held in a Hamburg court?"), or any question naming a person or place that points straight to the option asked for, or it states the answer's category in a way only one option fits.
 - "fun": 1-5, how enjoyable the question is for a pub quiz crowd (5 = a story people will enjoy talking about; 1 = dry or grim).
 - "guessable": 1-5, how likely a casual player is to know or reasonably guess the answer (5 = most people; 1 = almost nobody).
 - "reason": one short sentence.`;
@@ -85,6 +86,7 @@ const VerdictsSchema = z.object({
       chosenIndex: z.number().int(),
       ambiguous: z.boolean(),
       obscure: z.boolean(),
+      giveaway: z.boolean(),
       fun: z.number().int().min(1).max(5),
       guessable: z.number().int().min(1).max(5),
       reason: z.string(),
@@ -130,12 +132,13 @@ export async function verifyAll(
       verdict !== undefined &&
       verdict.chosenIndex === q.answerIndex &&
       !verdict.ambiguous &&
-      !verdict.obscure;
+      !verdict.obscure &&
+      !verdict.giveaway;
     const rating = verdict
       ? ` [fun ${verdict.fun}, guessable ${verdict.guessable}]`
       : '';
     log(
-      `${ok ? 'kept   ' : 'dropped'} ${q.id}${rating}: ${verdict?.obscure ? '(obscure) ' : ''}${verdict?.reason ?? 'no verdict returned'}`,
+      `${ok ? 'kept   ' : 'dropped'} ${q.id}${rating}: ${verdict?.obscure ? '(obscure) ' : ''}${verdict?.giveaway ? '(giveaway) ' : ''}${verdict?.reason ?? 'no verdict returned'}`,
     );
     return ok;
   });
