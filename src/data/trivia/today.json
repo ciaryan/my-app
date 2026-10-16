@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-15",
-  "generatedAt": "2026-10-15T05:05:10.992Z",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T07:30:16.449Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,84 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-10-15-event-35-q11",
-      "category": "Royalty",
+      "id": "2026-10-16-birth-134-q13",
+      "category": "Music",
       "story": "On this day",
-      "question": "On this day in 1793, which former Queen of France was put on trial and convicted of treason?",
+      "question": "Born on this day in 1947, Bob Weir was a founding member, guitarist, and vocalist of which famous American rock band?",
       "options": [
-        "Madame du Barry",
-        "Marie de' Medici",
-        "Marie Antoinette",
-        "Anne of Austria"
+        "The Grateful Dead",
+        "Jefferson Airplane",
+        "The Doors",
+        "The Byrds"
       ],
-      "answerIndex": 2,
-      "explanation": "On this day in 1793, Marie Antoinette was tried and found guilty of treason before her execution.",
-      "context": "On this day in 1793: Queen Marie Antoinette of France is tried and convicted of treason.\nMarie Antoinette (Queen of France from 1774 to 1792): Marie Antoinette was Queen of France as the wife of Louis XVI from 10 May 1774 until the abolition of the French monarchy in 1792 during the French Revolution.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Marie_Antoinette"
+      "answerIndex": 0,
+      "explanation": "Bob Weir helped form the Grateful Dead and remained a core member throughout the band's career until they disbanded in 1995.",
+      "context": "On this day in 1947: Bob Weir, American singer-songwriter and guitarist (died 2026)\nBob Weir (American musician (1947–2026)): Robert Hall Weir was an American musician and songwriter best known as a founding member of the Grateful Dead. After the group disbanded in 1995, he performed with the Other Ones, later known as the Dead, together with other former members of the Grateful Dead.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bob_Weir"
     },
     {
-      "id": "2026-10-15-popular-7-q5",
+      "id": "2026-10-16-popular-7-q3",
       "category": "Film",
       "story": "Most read",
-      "question": "Which actress played roles in Cruel Intentions, Legally Blonde, and the Hellboy film series?",
-      "options": [
-        "Reese Witherspoon",
-        "Sarah Michelle Gellar",
-        "Selma Blair",
-        "Ali Larter"
-      ],
-      "answerIndex": 2,
-      "explanation": "Selma Blair is recognised for her appearances in hit films such as Cruel Intentions, Legally Blonde, and Hellboy.",
-      "context": "Selma Blair (American actress (born 1972)): Selma Blair is an American actress. She is known for her roles in Cruel Intentions, Legally Blonde, The Sweetest Thing, and the Hellboy franchise.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Selma_Blair"
+      "question": "Which video game publisher created the franchise that served as the basis for the 2026 martial arts comedy film Street Fighter?",
+      "options": ["Sega", "Capcom", "Bandai Namco", "Konami"],
+      "answerIndex": 1,
+      "explanation": "The 2026 movie directed by Kitao Sakurai is the third live-action film adaptation of Capcom's Street Fighter games.",
+      "context": "Street Fighter (2026 film) (2026 film by Kitao Sakurai): Street Fighter is a 2026 martial arts comedy film directed by Kitao Sakurai and written by Sakurai and T. J. Fixman, with a story by Dalan Musson and Gary Dauberman. It is the third live-action feature-length film based on the Street Fighter video game series by Capcom.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Street_Fighter_(2026_film)"
     },
     {
-      "id": "2026-10-15-popular-15-q1",
+      "id": "2026-10-16-popular-27-q9",
+      "category": "Science",
+      "story": "Most read",
+      "question": "What health technology company did Elizabeth Holmes establish in 2003 before being convicted of fraud?",
+      "options": ["Theranos", "Labcorp", "Quest Diagnostics", "Grail"],
+      "answerIndex": 0,
+      "explanation": "Elizabeth Holmes founded the blood-testing firm Theranos, which collapsed following revelations of fraudulent claims.",
+      "context": "Elizabeth Holmes (American businesswoman (born 1984)): Elizabeth Anne Holmes is an American businesswoman convicted of fraud in connection with her health technology company Theranos. Holmes founded Theranos in 2003, and its valuation soared in the early 2010s after it claimed to have revolutionized blood testing by developing methods that needed only very small volumes of blood, such as from a fingerprick.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+    },
+    {
+      "id": "2026-10-16-popular-15-q6",
       "category": "TV",
       "story": "Most read",
-      "question": "Which television presenter hosted the E4 reality spin-off series Big Brother's Big Mouth?",
+      "question": "Which Friday the 13th character is portrayed by Linda Cardellini as the central lead in the prequel television series Crystal Lake?",
       "options": [
-        "Dermot O'Leary",
-        "Davina McCall",
-        "Russell Brand",
-        "Rylan Clark"
+        "Alice Hardy",
+        "Chris Higgins",
+        "Pamela Voorhees",
+        "Ginny Field"
       ],
       "answerIndex": 2,
-      "explanation": "Russell Brand initially gained widespread fame in the United Kingdom hosting Big Brother's Big Mouth on E4.",
-      "context": "Russell Brand (English comedian, actor, and podcaster (born 1975)): Russell Edward Brand is an English comedian, actor, podcaster, and media personality. He initially was a stand-up comedian and radio and television presenter in the UK, where he received public attention for being the host of the television show Big Brother's Big Mouth, which was a spin-off from the reality show Big Brother, broadcast on E4.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Russell_Brand"
+      "explanation": "Cardellini plays Pamela Voorhees in Crystal Lake, a prequel series exploring events before the 1980 film.",
+      "context": "Crystal Lake (TV series) (2026 American slasher series): Crystal Lake is a American slasher television series developed by Brad Caleb Kane that is based on the Friday the 13th film franchise. It is a prequel to the 1980 film and stars Linda Cardellini in the leading role of Pamela Voorhees, with Callum Vinson as a young Jason Voorhees, William Catlett, Devin Kessler, Cameron Scoggins and Gwendolyn Sundstrom.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crystal_Lake_(TV_series)"
     },
     {
-      "id": "2026-10-15-popular-27-q4",
-      "category": "Sport",
+      "id": "2026-10-16-popular-13-q5",
+      "category": "Geography",
       "story": "Most read",
-      "question": "Which boxer held the title of undisputed world heavyweight champion from 1987 until 1990?",
-      "options": [
-        "Buster Douglas",
-        "Mike Tyson",
-        "Evander Holyfield",
-        "Lennox Lewis"
-      ],
-      "answerIndex": 1,
-      "explanation": "Mike Tyson dominated the heavyweight division as its undisputed champion between 1987 and 1990.",
-      "context": "Mike Tyson (American boxer and media personality (born 1966)): Michael Gerard Tyson is an American former professional boxer who competed between 1985 and 2024. Nicknamed \"Iron Mike\" and \"Kid Dynamite\" in his early career, and later known as \"the Baddest Man on the Planet\", Tyson is widely regarded as one of the greatest heavyweight boxers of all time, and one of the most intimidating men in boxing history. He reigned as the undisputed world heavyweight champion from 1987 to 1990.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Mike_Tyson"
-    },
-    {
-      "id": "2026-10-15-popular-12-q7",
-      "category": "History",
-      "story": "Most read",
-      "question": "In legislative assemblies following the Westminster system, what term is used for insults or accusations of dishonesty that breach speaking standards?",
-      "options": [
-        "Defamatory discourse",
-        "Contempt of the House",
-        "Unparliamentary language",
-        "Breach of privilege"
-      ],
-      "answerIndex": 2,
-      "explanation": "In Westminster parliaments, improper speech such as profanities or claims that another member is lying is known as unparliamentary language.",
-      "context": "Unparliamentary language (Words that offend the dignity of an assembly): \n\nParliaments and legislative bodies around the world impose certain rules and standards during debates. Tradition has evolved that there are words or phrases that are deemed inappropriate for use in the legislature whilst it is in session. \nIn a Westminster system, this is called unparliamentary language and there are similar rules in some but not all other legislative systems. This includes, but is not limited to, the suggestion of dishonesty or the use of profanity.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Unparliamentary_language"
+      "question": "In which US state can the unincorporated community of Neatsville be found in Adair County?",
+      "options": ["Kentucky", "Ohio", "Virginia", "Tennessee"],
+      "answerIndex": 0,
+      "explanation": "Neatsville is located in Adair County within the state of Kentucky at the junction of routes 206 and 76.",
+      "context": "Neatsville, Kentucky (Unincorporated community in Kentucky, US): Neatsville is an unincorporated community in Adair County, located in the U.S. state of Kentucky. It is located at the junction of Kentucky Route 206 and Kentucky Route 76. Its elevation is 705 feet (215 m). For unknown reasons, the town's name was spelled as Neetsville from 1876 until 1886, when the town's post office closed. In its early history from around the 1810s to 1900, Neatsville progressively grew to become a well-established, incorporated town.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Neatsville%2C_Kentucky"
     }
   ]
 }
