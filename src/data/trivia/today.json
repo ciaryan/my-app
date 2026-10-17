@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-16",
-  "generatedAt": "2026-10-16T07:30:16.449Z",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T04:55:04.585Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,69 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-10-16-birth-134-q13",
+      "id": "2026-10-17-selected-12-q11",
       "category": "Music",
       "story": "On this day",
-      "question": "Born on this day in 1947, Bob Weir was a founding member, guitarist, and vocalist of which famous American rock band?",
+      "question": "On this day in 1771, the pastoral opera Ascanio in Alba premiered in Milan, having been composed at age 15 by which musical prodigy?",
       "options": [
-        "The Grateful Dead",
-        "Jefferson Airplane",
-        "The Doors",
-        "The Byrds"
+        "Ludwig van Beethoven",
+        "Franz Joseph Haydn",
+        "Christoph Willibald Gluck",
+        "Wolfgang Amadeus Mozart"
       ],
-      "answerIndex": 0,
-      "explanation": "Bob Weir helped form the Grateful Dead and remained a core member throughout the band's career until they disbanded in 1995.",
-      "context": "On this day in 1947: Bob Weir, American singer-songwriter and guitarist (died 2026)\nBob Weir (American musician (1947–2026)): Robert Hall Weir was an American musician and songwriter best known as a founding member of the Grateful Dead. After the group disbanded in 1995, he performed with the Other Ones, later known as the Dead, together with other former members of the Grateful Dead.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Bob_Weir"
+      "answerIndex": 3,
+      "explanation": "Mozart composed Ascanio in Alba when he was only 15 years old for an archducal wedding in Milan.",
+      "context": "On this day in 1771: Ascanio in Alba, an opera composed by Wolfgang Amadeus Mozart (pictured) at the age of 15, premiered in Milan.\nAscanio in Alba (1771 pastoral opera by Wolfgang Amadeus Mozart): Ascanio in Alba, K. 111, is an opera in two parts by Wolfgang Amadeus Mozart to an Italian libretto by Giuseppe Parini. The pastoral work was commissioned by the Empress Maria Theresa for the wedding of her son, Archduke Ferdinand Karl, to Maria Beatrice d'Este on 15 October 1771.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ascanio_in_Alba"
     },
     {
-      "id": "2026-10-16-popular-7-q3",
+      "id": "2026-10-17-popular-34-q1",
       "category": "Film",
       "story": "Most read",
-      "question": "Which video game publisher created the franchise that served as the basis for the 2026 martial arts comedy film Street Fighter?",
-      "options": ["Sega", "Capcom", "Bandai Namco", "Konami"],
-      "answerIndex": 1,
-      "explanation": "The 2026 movie directed by Kitao Sakurai is the third live-action film adaptation of Capcom's Street Fighter games.",
-      "context": "Street Fighter (2026 film) (2026 film by Kitao Sakurai): Street Fighter is a 2026 martial arts comedy film directed by Kitao Sakurai and written by Sakurai and T. J. Fixman, with a story by Dalan Musson and Gary Dauberman. It is the third live-action feature-length film based on the Street Fighter video game series by Capcom.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Street_Fighter_(2026_film)"
-    },
-    {
-      "id": "2026-10-16-popular-27-q9",
-      "category": "Science",
-      "story": "Most read",
-      "question": "What health technology company did Elizabeth Holmes establish in 2003 before being convicted of fraud?",
-      "options": ["Theranos", "Labcorp", "Quest Diagnostics", "Grail"],
-      "answerIndex": 0,
-      "explanation": "Elizabeth Holmes founded the blood-testing firm Theranos, which collapsed following revelations of fraudulent claims.",
-      "context": "Elizabeth Holmes (American businesswoman (born 1984)): Elizabeth Anne Holmes is an American businesswoman convicted of fraud in connection with her health technology company Theranos. Holmes founded Theranos in 2003, and its valuation soared in the early 2010s after it claimed to have revolutionized blood testing by developing methods that needed only very small volumes of blood, such as from a fingerprick.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
-    },
-    {
-      "id": "2026-10-16-popular-15-q6",
-      "category": "TV",
-      "story": "Most read",
-      "question": "Which Friday the 13th character is portrayed by Linda Cardellini as the central lead in the prequel television series Crystal Lake?",
+      "question": "Which acclaimed actress received a Best Actress prize at the Karlovy Vary Film Festival for her leading performance in the 1998 film Wicked?",
       "options": [
-        "Alice Hardy",
-        "Chris Higgins",
-        "Pamela Voorhees",
-        "Ginny Field"
+        "Hilary Swank",
+        "Julia Stiles",
+        "Margaret Qualley",
+        "Mackenzie Davis"
       ],
-      "answerIndex": 2,
-      "explanation": "Cardellini plays Pamela Voorhees in Crystal Lake, a prequel series exploring events before the 1980 film.",
-      "context": "Crystal Lake (TV series) (2026 American slasher series): Crystal Lake is a American slasher television series developed by Brad Caleb Kane that is based on the Friday the 13th film franchise. It is a prequel to the 1980 film and stars Linda Cardellini in the leading role of Pamela Voorhees, with Callum Vinson as a young Jason Voorhees, William Catlett, Devin Kessler, Cameron Scoggins and Gwendolyn Sundstrom.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Crystal_Lake_(TV_series)"
+      "answerIndex": 1,
+      "explanation": "Julia Stiles gained critical recognition for starring in Wicked (1998), taking home the Best Actress award at Karlovy Vary.",
+      "context": "Julia Stiles (American actress (born 1981)): Julia O'Hara Stiles is an American actress and director. Stiles began acting at the age of 11 as part of New York's La MaMa Experimental Theatre Club. Her film debut was a small role at age 15 in I Love You, I Love You Not (1996), followed by a lead role in Wicked (1998) for which she received the Karlovy Vary Film Festival Award for Best Actress. Stiles co-starred in the made-for-TV mini-series The '60s (1999) as a teenage daughter in a middle-class American family from Chicago.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Julia_Stiles"
     },
     {
-      "id": "2026-10-16-popular-13-q5",
+      "id": "2026-10-17-popular-11-q8",
       "category": "Geography",
       "story": "Most read",
-      "question": "In which US state can the unincorporated community of Neatsville be found in Adair County?",
-      "options": ["Kentucky", "Ohio", "Virginia", "Tennessee"],
-      "answerIndex": 0,
-      "explanation": "Neatsville is located in Adair County within the state of Kentucky at the junction of routes 206 and 76.",
-      "context": "Neatsville, Kentucky (Unincorporated community in Kentucky, US): Neatsville is an unincorporated community in Adair County, located in the U.S. state of Kentucky. It is located at the junction of Kentucky Route 206 and Kentucky Route 76. Its elevation is 705 feet (215 m). For unknown reasons, the town's name was spelled as Neetsville from 1876 until 1886, when the town's post office closed. In its early history from around the 1810s to 1900, Neatsville progressively grew to become a well-established, incorporated town.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Neatsville%2C_Kentucky"
+      "question": "In 2019, Ilhan Omar began representing a congressional district covering which major American metropolitan city?",
+      "options": ["Chicago", "Minneapolis", "Milwaukee", "Detroit"],
+      "answerIndex": 1,
+      "explanation": "Ilhan Omar serves Minnesota's 5th congressional district, which encompasses the entire city of Minneapolis.",
+      "context": "Ilhan Omar (American politician (born 1982)): Ilhan Abdullahi Omar is an American politician serving as the U.S. representative for Minnesota's 5th congressional district since 2019. The district includes all of Minneapolis and some of its first-ring suburbs. From 2017 to 2019, Omar served in the Minnesota House of Representatives, representing part of Minneapolis. She is a member of the Democratic Party.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ilhan_Omar"
+    },
+    {
+      "id": "2026-10-17-popular-3-q3",
+      "category": "TV",
+      "story": "Most read",
+      "question": "Which television personality and Bollywood superstar returned to host the 20th season of the Indian reality show Bigg Boss?",
+      "options": ["Ajay Devgn", "Imran Khan", "Rajinikanth", "Salman Khan"],
+      "answerIndex": 3,
+      "explanation": "Bigg Boss season 20 marked the seventeenth consecutive year Salman Khan hosted the popular reality series.",
+      "context": "Bigg Boss (Hindi TV series) season 20 (Season of television series): Bigg Boss 20, also known as Bigg Boss: Tathas-two, is the twentieth season of the Indian Hindi-language reality television series Bigg Boss. It premiered on 6 September 2026 on Colors TV and streams digitally on JioHotstar. Salman Khan is hosting the show for the seventeenth consecutive season.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bigg_Boss_(Hindi_TV_series)_season_20"
+    },
+    {
+      "id": "2026-10-17-popular-8-q7",
+      "category": "History",
+      "story": "Most read",
+      "question": "Prior to resigning in 2026, American media personality Kimberly Guilfoyle served diplomatically as the United States ambassador to which European country?",
+      "options": ["Spain", "Italy", "Cyprus", "Greece"],
+      "answerIndex": 3,
+      "explanation": "Kimberly Guilfoyle served as the US ambassador to Greece starting in 2025 before stepping down in 2026.",
+      "context": "Kimberly Guilfoyle (American diplomat and media personality (born 1969)): Kimberly Ann Guilfoyle is an American media personality and politician who served as the United States ambassador to Greece from 2025 until her resignation in 2026. She previously served as an advisor and led the fundraising division of the Donald Trump 2020 presidential campaign.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kimberly_Guilfoyle"
     }
   ]
 }
