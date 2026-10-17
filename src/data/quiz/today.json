@@ -1,101 +1,98 @@
 {
   "version": 1,
-  "date": "2026-10-16",
-  "newsDate": "2026-10-15",
-  "generatedAt": "2026-10-16T04:35:16.281Z",
+  "date": "2026-10-17",
+  "newsDate": "2026-10-16",
+  "generatedAt": "2026-10-17T04:30:39.214Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
-    "revisionIds": [1380509741, 1380469985],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_16",
+    "revisionIds": [1380666679, 1380614492],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-15-3-q1",
-      "category": "Business and economy",
-      "story": "China–North Korea relations",
-      "question": "After facing a twelve-year delay, a major new bridge across the Yalu River has finally opened, linking China with which neighbouring nation?",
-      "options": ["Mongolia", "North Korea", "Russia", "Vietnam"],
-      "answerIndex": 1,
-      "explanation": "The New Yalu River Bridge connects the Chinese city of Dandong with Sinuiju in North Korea.",
-      "context": "China–North Korea relations: The New Yalu River Bridge connecting Dandong, China, and Sinuiju, North Korea, opens following a 12-year delay.",
+      "id": "2026-10-15-16-q2",
+      "category": "Sports",
+      "story": "2026 Major League Baseball season",
+      "question": "Which baseball team secured a place in the 2026 World Series, reaching the championship round for the first time since 1982 by sweeping the Los Angeles Dodgers?",
+      "options": [
+        "San Diego Padres",
+        "Chicago Cubs",
+        "Philadelphia Phillies",
+        "Milwaukee Brewers"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Milwaukee Brewers swept the NLCS against the Dodgers to reach the World Series for the first time in over four decades.",
+      "context": "2026 Major League Baseball season: In baseball, the Milwaukee Brewers sweep the Los Angeles Dodgers in the NLCS to advance to the 2026 World Series, their first since 1982.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
-      "topicUrl": "https://en.wikipedia.org/wiki/China%E2%80%93North_Korea_relations",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Major_League_Baseball_season",
       "readMore": {
-        "publisher": "BBC News",
-        "url": "https://www.bbc.com/news/articles/ck1exgw3j115o"
+        "publisher": "ESPN",
+        "url": "https://www.espn.com/mlb/story/_/id/50193819/brewers-sweep-dodgers-nlcs-advance-world-series"
       }
     },
     {
-      "id": "2026-10-15-12-q7",
+      "id": "2026-10-15-14-q3",
       "category": "Science and technology",
       "story": "",
-      "question": "The International Bureau of Weights and Measures decided that which timekeeping adjustment will be phased out from May 2027?",
-      "options": [
-        "Leap years",
-        "Leap seconds",
-        "Daylight saving time",
-        "Coordinated time zones"
-      ],
+      "question": "According to research published by RAS Techniques and Instruments, what unusual colour is the newly identified star designated WD J1330+6435?",
+      "options": ["Pink", "Green", "Gold", "Purple"],
       "answerIndex": 1,
-      "explanation": "Officials voted to eliminate leap seconds to ensure Coordinated Universal Time remains continuous, opting instead for occasional leap hours if needed.",
-      "context": "At the General Conference on Weights and Measures, the International Bureau of Weights and Measures votes to abolish future leap seconds and make Coordinated Universal Time (UTC) continuous, starting 20 May 2027. To account for future differences between UTC and International Atomic Time, a leap hour will be observed as needed.",
+      "explanation": "Astronomers announced the discovery of the first green star, named WD J1330+6435.",
+      "context": "Astronomers discover the first green star, WD J1330+6435, according to a study published by RAS Techniques and Instruments.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
       "readMore": {
-        "publisher": "The Guardian",
-        "url": "https://www.theguardian.com/science/2026/oct/15/times-up-for-the-leap-second-as-scientists-swap-it-for-the-leap-hour"
+        "publisher": "Popular Science",
+        "url": "https://www.popsci.com/science/first-green-star-reddest-star/"
       }
     },
     {
-      "id": "2026-10-15-10-q5",
-      "category": "Law and crime",
-      "story": "",
-      "question": "Police in which South American capital arrested at least 25 individuals following clashes at a student and staff protest over university funding?",
-      "options": ["Montevideo", "Santiago", "Buenos Aires", "Bogotá"],
+      "id": "2026-10-16-3-q6",
+      "category": "International relations",
+      "story": "Hungary–Ukraine relations, Accession of Ukraine to the European Union",
+      "question": "Which European Union member state withdrew its objections to Ukraine's EU accession negotiations following discussions over minority rights?",
+      "options": ["Slovakia", "Poland", "Hungary", "Austria"],
       "answerIndex": 2,
-      "explanation": "The arrests took place in Buenos Aires after protests against higher education funding cuts turned violent.",
-      "context": "Argentine police arrest at least 25 people after clashes during a university funding protest in Buenos Aires, while eight police officers are injured.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
+      "explanation": "Hungary agreed to remove its opposition to further EU accession talks after progress was made regarding the rights of ethnic Hungarians in Ukraine.",
+      "context": "Hungary–Ukraine relations, Accession of Ukraine to the European Union: Hungarian prime minister Péter Magyar and Ukrainian president Volodymyr Zelenskyy agree to improve bilateral relations during a meeting in Brussels, Belgium, with Hungary lifting objections to further European Union accession talks for Ukraine following progress on ethnic Hungarian minority rights in Ukraine.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_16",
+      "topicUrl": "https://en.wikipedia.org/wiki/Hungary%E2%80%93Ukraine_relations",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/hungary-ukraine-agree-reset-ties-magyar-says-2026-10-16/"
+      }
+    },
+    {
+      "id": "2026-10-16-1-q4",
+      "category": "Health and environment",
+      "story": "Deforestation of the Amazon rainforest",
+      "question": "Environment minister João Paulo Capobianco announced that deforestation in the Amazon had dropped to its second-lowest level since 1988 in which South American nation?",
+      "options": ["Bolivia", "Brazil", "Peru", "Colombia"],
+      "answerIndex": 1,
+      "explanation": "Deforestation in Brazil's portion of the Amazon decreased to 5,796 square kilometres during the twelve-month period up to July 2026.",
+      "context": "Deforestation of the Amazon rainforest: Brazilian environment minister João Paulo Capobianco reports that deforestation in Brazil's Amazon rainforest fell to 5,796 km (2,238 sq mi) in the year through July 2026, the lowest level since 1988 except for 2012.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_16",
+      "topicUrl": "https://en.wikipedia.org/wiki/Deforestation_of_the_Amazon_rainforest",
       "readMore": {
         "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261015-argentine-demonstration-over-education-cuts-ends-in-clashes"
+        "url": "https://www.france24.com/en/live-news/20261016-deforestation-in-brazil-amazon-hits-nearly-four-decade-low"
       }
     },
     {
-      "id": "2026-10-15-5-q9",
-      "category": "Disasters and accidents",
+      "id": "2026-10-15-4-q8",
+      "category": "Business and economy",
       "story": "",
-      "question": "A maritime rescue operation was initiated after a commercial vessel flying the flag of which microstate caught fire off the coast of Romania?",
-      "options": ["San Marino", "Malta", "Liechtenstein", "Monaco"],
-      "answerIndex": 0,
-      "explanation": "Seven crew members went missing when a tanker registered in San Marino caught alight in the Black Sea.",
-      "context": "Seven people are missing after a San Marino-flagged tanker catches fire off the coast of Romania amid recent drone attacks on merchant shipping in the Black Sea. Search and rescue operations are underway to locate the missing crew members.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
-      "readMore": {
-        "publisher": "Politico",
-        "url": "https://www.politico.eu/article/seven-missing-after-tanker-catches-fire-off-romanian-coast/"
-      }
-    },
-    {
-      "id": "2026-10-15-11-q6",
-      "category": "Law and crime",
-      "story": "",
-      "question": "Jeffrey Donaldson, who was sentenced to 15 years in prison following a criminal trial, previously served as the leader of which political party?",
-      "options": [
-        "Ulster Unionist Party",
-        "Democratic Unionist Party",
-        "Alliance Party",
-        "Social Democratic and Labour Party"
-      ],
+      "question": "Italian lender UniCredit received regulatory permission from the European Central Bank to increase its ownership stake above 30% in which major German bank?",
+      "options": ["KfW", "Commerzbank", "DZ Bank", "Deutsche Bank"],
       "answerIndex": 1,
-      "explanation": "Donaldson is a former leader of Northern Ireland's Democratic Unionist Party (DUP).",
-      "context": "Northern Irish politician and former Democratic Unionist Party leader Jeffrey Donaldson is sentenced to 15 years in prison for child sexual abuse and rape. The offences occurred between 1985 and 2008.",
+      "explanation": "The ECB granted UniCredit approval to build a stake exceeding 30% in Commerzbank, clearing the way for a potential takeover.",
+      "context": "The European Central Bank authorizes UniCredit to raise its stake in Commerzbank above 30% without an upper limit, allowing the Italian bank to proceed toward taking control of the German lender.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
       "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/northern-ireland-jeffrey-donaldson-sex-abuse-sentencing-fa1b6045dca0deccecadd77ee87b0927"
+        "publisher": "The Eastern Herald",
+        "url": "https://easternherald.com/2026/10/15/unicredit-commerzbank-ecb-approval-control/"
       }
     }
   ]
