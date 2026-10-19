@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-17",
-  "generatedAt": "2026-10-17T04:55:04.585Z",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T10:14:55.463Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,69 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-10-17-selected-12-q11",
-      "category": "Music",
+      "id": "2026-10-19-event-39-q12",
+      "category": "Literature",
       "story": "On this day",
-      "question": "On this day in 1771, the pastoral opera Ascanio in Alba premiered in Milan, having been composed at age 15 by which musical prodigy?",
-      "options": [
-        "Ludwig van Beethoven",
-        "Franz Joseph Haydn",
-        "Christoph Willibald Gluck",
-        "Wolfgang Amadeus Mozart"
-      ],
-      "answerIndex": 3,
-      "explanation": "Mozart composed Ascanio in Alba when he was only 15 years old for an archducal wedding in Milan.",
-      "context": "On this day in 1771: Ascanio in Alba, an opera composed by Wolfgang Amadeus Mozart (pictured) at the age of 15, premiered in Milan.\nAscanio in Alba (1771 pastoral opera by Wolfgang Amadeus Mozart): Ascanio in Alba, K. 111, is an opera in two parts by Wolfgang Amadeus Mozart to an Italian libretto by Giuseppe Parini. The pastoral work was commissioned by the Empress Maria Theresa for the wedding of her son, Archduke Ferdinand Karl, to Maria Beatrice d'Este on 15 October 1771.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ascanio_in_Alba"
+      "question": "On this day in 1847, the acclaimed classic novel Jane Eyre by Charlotte Brontë was published under which pen name?",
+      "options": ["Acton Bell", "Currer Bell", "Mary Ann Evans", "Ellis Bell"],
+      "answerIndex": 1,
+      "explanation": "Brontë originally brought out Jane Eyre under the male pseudonym Currer Bell with publisher Smith, Elder & Co.",
+      "context": "On this day in 1847: The novel Jane Eyre is published in London.\nJane Eyre (1847 novel by Charlotte Brontë): Jane Eyre is a novel by the English writer Charlotte Brontë. It was published under her pen name \"Currer Bell\" on 19 October 1847 by Smith, Elder & Co. of London. The first American edition was published in January 1848 by Harper & Brothers of New York.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jane_Eyre"
     },
     {
-      "id": "2026-10-17-popular-34-q1",
+      "id": "2026-10-19-popular-3-q3",
       "category": "Film",
       "story": "Most read",
-      "question": "Which acclaimed actress received a Best Actress prize at the Karlovy Vary Film Festival for her leading performance in the 1998 film Wicked?",
+      "question": "The 2026 documentary film You Can See Everything, directed by Nathan Fielder and Lance Oppenheim, follows the life of which Theranos founder prior to her imprisonment?",
       "options": [
-        "Hilary Swank",
-        "Julia Stiles",
-        "Margaret Qualley",
-        "Mackenzie Davis"
+        "Anna Delvey",
+        "Elizabeth Holmes",
+        "Sunny Balwani",
+        "Martha Stewart"
       ],
       "answerIndex": 1,
-      "explanation": "Julia Stiles gained critical recognition for starring in Wicked (1998), taking home the Best Actress award at Karlovy Vary.",
-      "context": "Julia Stiles (American actress (born 1981)): Julia O'Hara Stiles is an American actress and director. Stiles began acting at the age of 11 as part of New York's La MaMa Experimental Theatre Club. Her film debut was a small role at age 15 in I Love You, I Love You Not (1996), followed by a lead role in Wicked (1998) for which she received the Karlovy Vary Film Festival Award for Best Actress. Stiles co-starred in the made-for-TV mini-series The '60s (1999) as a teenage daughter in a middle-class American family from Chicago.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Julia_Stiles"
+      "explanation": "The documentary centres on Theranos founder Elizabeth Holmes and her partner Billy Evans in the period leading up to her prison sentence.",
+      "context": "You Can See Everything (2026 documentary film by Nathan Fielder and Lance Oppenheim): You Can See Everything is a 2026 American documentary film directed by Nathan Fielder and Lance Oppenheim. It follows Elizabeth Holmes, the founder of the defunct health technology company Theranos, and her partner Billy Evans, who invite a film crew to document them beginning in the weeks before Holmes began serving a United States federal prison sentence for defrauding investors.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/You_Can_See_Everything"
     },
     {
-      "id": "2026-10-17-popular-11-q8",
+      "id": "2026-10-19-popular-7-q4",
+      "category": "Music",
+      "story": "Most read",
+      "question": "Anirudh Ravichander, renowned for his work primarily in Tamil cinema, is celebrated in which creative profession?",
+      "options": [
+        "Composer and playback singer",
+        "Choreographer and dancer",
+        "Film editor and director",
+        "Costume and set designer"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ravichander is a prominent music composer and playback singer who has won numerous accolades including two Filmfare Awards South.",
+      "context": "Anirudh Ravichander (Indian composer and playback singer (born 1990)): Anirudh Ravichander, also credited mononymously as Anirudh, is an Indian composer and playback singer who works primarily in Tamil cinema. He has also composed for Telugu and Hindi films. He has won two Filmfare Awards South, ten SIIMA Awards, six Edison Awards and five Vijay awards.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Anirudh_Ravichander"
+    },
+    {
+      "id": "2026-10-19-popular-16-q7",
       "category": "Geography",
       "story": "Most read",
-      "question": "In 2019, Ilhan Omar began representing a congressional district covering which major American metropolitan city?",
-      "options": ["Chicago", "Minneapolis", "Milwaukee", "Detroit"],
+      "question": "Along with Edmund Hillary, which Sherpa mountaineer became one of the first two climbers confirmed to reach the summit of Mount Everest in May 1953?",
+      "options": ["Babu Chiri", "Tenzing Norgay", "Ang Rita", "Kami Rita"],
       "answerIndex": 1,
-      "explanation": "Ilhan Omar serves Minnesota's 5th congressional district, which encompasses the entire city of Minneapolis.",
-      "context": "Ilhan Omar (American politician (born 1982)): Ilhan Abdullahi Omar is an American politician serving as the U.S. representative for Minnesota's 5th congressional district since 2019. The district includes all of Minneapolis and some of its first-ring suburbs. From 2017 to 2019, Omar served in the Minnesota House of Representatives, representing part of Minneapolis. She is a member of the Democratic Party.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ilhan_Omar"
+      "explanation": "Tenzing Norgay reached the summit of Mount Everest on 29 May 1953 alongside New Zealand mountaineer Edmund Hillary.",
+      "context": "Tenzing Norgay (Nepalese-Indian mountaineer (1914–1986)): Tenzing Norgay, born Namgyal Wangdi, and also referred to as Sherpa Tenzing, was a Nepalese-Indian Sherpa mountaineer. On 29 May 1953, he and Edmund Hillary were the first people confirmed to have reached the summit of Mount Everest, as part of the 1953 British Mount Everest expedition. Time named Norgay one of the 100 most influential people of the 20th century.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tenzing_Norgay"
     },
     {
-      "id": "2026-10-17-popular-3-q3",
+      "id": "2026-10-19-popular-22-q8",
       "category": "TV",
       "story": "Most read",
-      "question": "Which television personality and Bollywood superstar returned to host the 20th season of the Indian reality show Bigg Boss?",
-      "options": ["Ajay Devgn", "Imran Khan", "Rajinikanth", "Salman Khan"],
-      "answerIndex": 3,
-      "explanation": "Bigg Boss season 20 marked the seventeenth consecutive year Salman Khan hosted the popular reality series.",
-      "context": "Bigg Boss (Hindi TV series) season 20 (Season of television series): Bigg Boss 20, also known as Bigg Boss: Tathas-two, is the twentieth season of the Indian Hindi-language reality television series Bigg Boss. It premiered on 6 September 2026 on Colors TV and streams digitally on JioHotstar. Salman Khan is hosting the show for the seventeenth consecutive season.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Bigg_Boss_(Hindi_TV_series)_season_20"
-    },
-    {
-      "id": "2026-10-17-popular-8-q7",
-      "category": "History",
-      "story": "Most read",
-      "question": "Prior to resigning in 2026, American media personality Kimberly Guilfoyle served diplomatically as the United States ambassador to which European country?",
-      "options": ["Spain", "Italy", "Cyprus", "Greece"],
-      "answerIndex": 3,
-      "explanation": "Kimberly Guilfoyle served as the US ambassador to Greece starting in 2025 before stepping down in 2026.",
-      "context": "Kimberly Guilfoyle (American diplomat and media personality (born 1969)): Kimberly Ann Guilfoyle is an American media personality and politician who served as the United States ambassador to Greece from 2025 until her resignation in 2026. She previously served as an advisor and led the fundraising division of the Donald Trump 2020 presidential campaign.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Kimberly_Guilfoyle"
+      "question": "In the political thriller television series The Diplomat, Keri Russell plays an American diplomat who unexpectedly receives an ambassadorial posting to which country?",
+      "options": ["The United Kingdom", "Germany", "Russia", "France"],
+      "answerIndex": 0,
+      "explanation": "Debora Cahn's series stars Russell as a seasoned diplomat named US ambassador to the Court of St James's in the United Kingdom.",
+      "context": "The Diplomat (American TV series) (2023 Netflix political thriller by Debora Cahn): The Diplomat is an American political thriller television series with elements of a romantic comedy. It was created by Debora Cahn. First airing in 2023, it stars Keri Russell as a veteran US diplomat who is unexpectedly appointed as the ambassador to the United Kingdom amid an emerging international crisis.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Diplomat_(American_TV_series)"
     }
   ]
 }
