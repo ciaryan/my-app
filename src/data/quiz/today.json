@@ -1,52 +1,31 @@
 {
   "version": 1,
-  "date": "2026-10-18",
-  "newsDate": "2026-10-17",
-  "generatedAt": "2026-10-18T04:37:35.426Z",
+  "date": "2026-10-19",
+  "newsDate": "2026-10-18",
+  "generatedAt": "2026-10-19T04:43:47.095Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
-    "revisionIds": [1380826028],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_18",
+    "revisionIds": [1380968810, 1380962066],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-17-18-q12",
-      "category": "Sports",
-      "story": "2026–27 NHL season",
-      "question": "Which National Hockey League team made history by recording a natural hat trick in three consecutive fixtures?",
-      "options": [
-        "Carolina Hurricanes",
-        "Florida Panthers",
-        "Boston Bruins",
-        "Tampa Bay Lightning"
-      ],
-      "answerIndex": 1,
-      "explanation": "The Florida Panthers established a new league milestone by achieving natural hat tricks in three back-to-back games.",
-      "context": "2026–27 NHL season: In ice hockey, the Florida Panthers become the first team in the National Hockey League to record a natural hat trick in three consecutive games.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_NHL_season",
-      "readMore": {
-        "publisher": "The Athletic via The New York Times",
-        "url": "https://www.nytimes.com/athletic/7699587/2026/10/17/panthers-nhl-natural-hat-tricks-verhaeghe-history/"
-      }
-    },
-    {
-      "id": "2026-10-17-14-q8",
+      "id": "2026-10-17-15-q6",
       "category": "Law and crime",
-      "story": "2026 French fuel protests",
-      "question": "Which prominent protest movement joined student demonstrations across France to rally against rising fuel costs?",
+      "story": "2026 European unrest > 2026 French fuel protests",
+      "question": "Which historic movement joined forces with French student demonstrations over climbing fuel costs across France?",
       "options": [
-        "BlackBloc",
-        "Indignados",
+        "Black Blocs",
+        "Extinction Rebellion",
         "Yellow vests",
-        "Extinction Rebellion"
+        "Indignados"
       ],
       "answerIndex": 2,
-      "explanation": "Members of the Yellow vests movement held major rallies over escalating fuel expenses, teaming up with protesting students.",
-      "context": "2026 French fuel protests: Yellow vests activists hold mass demonstrations across France against rising fuel prices and join the student protests.",
+      "explanation": "Activists associated with the yellow vests took to the streets nationwide over fuel prices and linked up with student marches.",
+      "context": "2026 European unrest > 2026 French fuel protests: Yellow vests activists hold mass demonstrations across France against rising fuel prices and join the student protests.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
       "topicUrl": "https://en.wikipedia.org/wiki/2026_French_fuel_protests",
       "readMore": {
@@ -55,30 +34,29 @@
       }
     },
     {
-      "id": "2026-10-17-17-q11",
-      "category": "Politics and elections",
-      "story": "Protests against Donald Trump",
-      "question": "Demonstrations dubbed the 'No Kings' protests were held across the United States opposing which political figure?",
-      "options": ["Donald Trump", "Joe Biden", "JD Vance", "Kamala Harris"],
-      "answerIndex": 0,
-      "explanation": "The demonstrations targeted Donald Trump and his administration while encouraging voter turnout before midterm elections.",
-      "context": "Protests against Donald Trump: The fourth round of No Kings protests are held across the United States against president Donald Trump and his administration and to encourage early voting ahead of the upcoming midterm elections.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
-      "topicUrl": "https://en.wikipedia.org/wiki/Protests_against_Donald_Trump",
+      "id": "2026-10-18-3-q1",
+      "category": "Health and environment",
+      "story": "",
+      "question": "Which disease control initiative did Equatorial Guinea announce it would expand beyond Bioko Island to its mainland and Annobón?",
+      "options": ["Tuberculosis", "Yellow fever", "Cholera", "Malaria"],
+      "answerIndex": 3,
+      "explanation": "Equatorial Guinea is broadening its anti-malaria campaign across the rest of the nation following successful suppression of the illness on Bioko.",
+      "context": "Equatorial Guinea announces that it will expand its program against malaria to the mainland and Annobón. The program has already heavily reduced malaria cases on Bioko Island.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_18",
       "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/no-kings-movement-seeks-boost-early-voting"
+        "publisher": "The Independent",
+        "url": "https://www.independent.co.uk/news/equatorial-guinea-malaria-world-health-organization-rhode-island-african-b3068688.html"
       }
     },
     {
-      "id": "2026-10-17-1-q1",
+      "id": "2026-10-17-1-q4",
       "category": "Armed conflicts and attacks",
-      "story": "Egypt–Saudi Arabia relations, Houthi–Saudi conflict",
-      "question": "Which country's president recently offered full military and defensive support to Saudi Arabia if requested?",
-      "options": ["Jordan", "Egypt", "Pakistan", "Turkey"],
-      "answerIndex": 1,
-      "explanation": "President Abdel Fattah El-Sisi pledged that Egypt stands ready to take necessary actions to assist and defend Saudi Arabia.",
-      "context": "Egypt–Saudi Arabia relations, Houthi–Saudi conflict: Egyptian president Abdel Fattah El-Sisi states that Egypt will take all necessary steps to protect and defend Saudi Arabia should the latter so desire.",
+      "story": "Middle Eastern crisis (2023–present) > Yemeni civil war > Egypt–Saudi Arabia relations, Houthi–Saudi conflict",
+      "question": "Which neighbouring country did Egyptian President Abdel Fattah El-Sisi promise to defend and support if called upon?",
+      "options": ["Jordan", "Sudan", "Saudi Arabia", "Kuwait"],
+      "answerIndex": 2,
+      "explanation": "President El-Sisi affirmed Egypt's readiness to assist and safeguard Saudi Arabia should the nation desire aid.",
+      "context": "Middle Eastern crisis (2023–present) > Yemeni civil war > Egypt–Saudi Arabia relations, Houthi–Saudi conflict: Egyptian president Abdel Fattah El-Sisi states that Egypt will take all necessary steps to protect and defend Saudi Arabia should the latter so desire.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
       "topicUrl": "https://en.wikipedia.org/wiki/Egypt%E2%80%93Saudi_Arabia_relations",
       "readMore": {
@@ -87,19 +65,45 @@
       }
     },
     {
-      "id": "2026-10-17-8-q3",
-      "category": "Health and environment",
-      "story": "2026 Ebola epidemic",
-      "question": "Health officials in which East African country recently confirmed an increase in cases of Bundibugyo ebolavirus?",
-      "options": ["Tanzania", "Rwanda", "Uganda", "Kenya"],
+      "id": "2026-10-17-17-q12",
+      "category": "Politics and elections",
+      "story": "2026 Czech Senate election",
+      "question": "In a historic Senate election in Czechia, which governing political movement finished in third place after the coalition failed to win any seats?",
+      "options": [
+        "Civic Democratic Party",
+        "Pirate Party",
+        "Mayors and Independents",
+        "ANO 2011"
+      ],
       "answerIndex": 3,
-      "explanation": "Kenya reported four newly confirmed infections among healthcare workers and a relative, bringing the country's case count to seven.",
-      "context": "2026 Ebola epidemic: Kenya confirms four additional cases of Bundibugyo ebolavirus, including three health workers who treated Kenya's first patient and one of his relatives, raising the national total to seven. All four are already in quarantine.",
+      "explanation": "Prime Minister Andrej Babiš's ANO 2011 secured third position as opposition parties took 22 of the 27 available senatorial seats.",
+      "context": "2026 Czech Senate election: In Czechia, opposition parties win 22 of the contested 27 seats in the Senate. The lead party of prime minister Andrej Babiš's government, ANO 2011, comes in third place. The election is the first time in the country's history where governing parties did not win a single seat in a senatorial election.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Ebola_epidemic",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Czech_Senate_election",
       "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261017-four-more-ebola-cases-detected-in-kenya-bringing-total-to-seven"
+        "publisher": "AP",
+        "url": "https://apnews.com/article/czech-republic-senate-election-babis-d206f3edbc7ea0f73b0dbd07b339820b"
+      }
+    },
+    {
+      "id": "2026-10-18-4-q2",
+      "category": "International relations",
+      "story": "Free trade agreements of Vietnam",
+      "question": "Vietnam signed a comprehensive free trade agreement eliminating tariffs with which regional trading bloc?",
+      "options": [
+        "Gulf Cooperation Council",
+        "Eurasian Economic Union",
+        "European Free Trade Association",
+        "Mercosur"
+      ],
+      "answerIndex": 2,
+      "explanation": "The newly signed pact between Vietnam and the European Free Trade Association covers agricultural, industrial, and fisheries trade.",
+      "context": "Free trade agreements of Vietnam: Vietnam signs a free trade agreement with the European Free Trade Association (Iceland, Liechtenstein, Norway, and Switzerland) that reduces or eliminates tariffs on industrial, agricultural, and fish products and covers services, intellectual property, and sustainable development.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_18",
+      "topicUrl": "https://en.wikipedia.org/wiki/Free_trade_agreements_of_Vietnam",
+      "readMore": {
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/vietnam-signs-free-trade-deal-four-european-nations"
       }
     }
   ]
