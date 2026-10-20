@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-19",
-  "generatedAt": "2026-10-19T10:14:55.463Z",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T05:14:55.530Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,69 +11,64 @@
   },
   "questions": [
     {
-      "id": "2026-10-19-event-39-q12",
-      "category": "Literature",
+      "id": "2026-10-20-birth-56-q9",
+      "category": "Music",
       "story": "On this day",
-      "question": "On this day in 1847, the acclaimed classic novel Jane Eyre by Charlotte Brontë was published under which pen name?",
-      "options": ["Acton Bell", "Currer Bell", "Mary Ann Evans", "Ellis Bell"],
+      "question": "Born on this day in 1971, which Australian entertainer starred on Young Talent Time before playing Emma Jackson in the soap opera Home and Away?",
+      "options": [
+        "Delta Goodrem",
+        "Dannii Minogue",
+        "Kylie Minogue",
+        "Natalie Imbruglia"
+      ],
       "answerIndex": 1,
-      "explanation": "Brontë originally brought out Jane Eyre under the male pseudonym Currer Bell with publisher Smith, Elder & Co.",
-      "context": "On this day in 1847: The novel Jane Eyre is published in London.\nJane Eyre (1847 novel by Charlotte Brontë): Jane Eyre is a novel by the English writer Charlotte Brontë. It was published under her pen name \"Currer Bell\" on 19 October 1847 by Smith, Elder & Co. of London. The first American edition was published in January 1848 by Harper & Brothers of New York.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Jane_Eyre"
+      "explanation": "Dannii Minogue made early television appearances on Young Talent Time and Home and Away before establishing a successful music career.",
+      "context": "On this day in 1971: Dannii Minogue, Australian singer-songwriter and actress\nDannii Minogue (Australian singer and actress (born 1971)): Danielle Jane Minogue is an Australian singer, television personality, and actress. She first appeared on the television talent show Young Talent Time (1982–1988) before gaining recognition for her role as Emma Jackson on the soap opera Home and Away (1988–1990).",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dannii_Minogue"
     },
     {
-      "id": "2026-10-19-popular-3-q3",
+      "id": "2026-10-20-popular-1-q2",
       "category": "Film",
       "story": "Most read",
-      "question": "The 2026 documentary film You Can See Everything, directed by Nathan Fielder and Lance Oppenheim, follows the life of which Theranos founder prior to her imprisonment?",
-      "options": [
-        "Anna Delvey",
-        "Elizabeth Holmes",
-        "Sunny Balwani",
-        "Martha Stewart"
-      ],
-      "answerIndex": 1,
-      "explanation": "The documentary centres on Theranos founder Elizabeth Holmes and her partner Billy Evans in the period leading up to her prison sentence.",
-      "context": "You Can See Everything (2026 documentary film by Nathan Fielder and Lance Oppenheim): You Can See Everything is a 2026 American documentary film directed by Nathan Fielder and Lance Oppenheim. It follows Elizabeth Holmes, the founder of the defunct health technology company Theranos, and her partner Billy Evans, who invite a film crew to document them beginning in the weeks before Holmes began serving a United States federal prison sentence for defrauding investors.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/You_Can_See_Everything"
+      "question": "Which veteran actor reprised his role alongside Ramya Krishnan and Yogi Babu in Nelson Dilipkumar's action comedy sequel Jailer 2?",
+      "options": ["Chiranjeevi", "Mammootty", "Rajinikanth", "Kamal Haasan"],
+      "answerIndex": 2,
+      "explanation": "Rajinikanth returned to star in Jailer 2, following up the success of the 2023 original directed by Nelson Dilipkumar.",
+      "context": "Jailer 2 (2026 Indian film by Nelson Dilipkumar): Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar. It was produced by Kalanithi Maran through Sun Pictures. A sequel to Jailer (2023), the film stars Rajinikanth, Ramya Krishnan, Yogi Babu, Mirnaa and Rithvik reprising their roles from the predecessor, with S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and Vidya Balan joining the cast.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jailer_2"
     },
     {
-      "id": "2026-10-19-popular-7-q4",
-      "category": "Music",
+      "id": "2026-10-20-popular-17-q5",
+      "category": "Science",
       "story": "Most read",
-      "question": "Anirudh Ravichander, renowned for his work primarily in Tamil cinema, is celebrated in which creative profession?",
-      "options": [
-        "Composer and playback singer",
-        "Choreographer and dancer",
-        "Film editor and director",
-        "Costume and set designer"
-      ],
-      "answerIndex": 0,
-      "explanation": "Ravichander is a prominent music composer and playback singer who has won numerous accolades including two Filmfare Awards South.",
-      "context": "Anirudh Ravichander (Indian composer and playback singer (born 1990)): Anirudh Ravichander, also credited mononymously as Anirudh, is an Indian composer and playback singer who works primarily in Tamil cinema. He has also composed for Telugu and Hindi films. He has won two Filmfare Awards South, ten SIIMA Awards, six Edison Awards and five Vijay awards.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Anirudh_Ravichander"
+      "question": "Which controversial company, founded by Elizabeth Holmes in 2003, falsely claimed to have developed revolutionary blood-testing technology?",
+      "options": ["23andMe", "Labcorp", "Theranos", "Quest Diagnostics"],
+      "answerIndex": 2,
+      "explanation": "Theranos raised hundreds of millions of dollars on promises of cutting-edge blood diagnostic technology before collapsing amidst fraud convictions.",
+      "context": "Theranos (American health-technology company): Theranos Inc. was an American privately held corporation that was touted as a breakthrough health technology company. Founded in 2003 by then–19-year-old Elizabeth Holmes, Theranos raised more than US$700 million from venture capitalists and private investors, resulting in a $9 billion valuation at its peak in 2013 and 2014.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Theranos"
     },
     {
-      "id": "2026-10-19-popular-16-q7",
-      "category": "Geography",
+      "id": "2026-10-20-popular-19-q1",
+      "category": "History",
       "story": "Most read",
-      "question": "Along with Edmund Hillary, which Sherpa mountaineer became one of the first two climbers confirmed to reach the summit of Mount Everest in May 1953?",
-      "options": ["Babu Chiri", "Tenzing Norgay", "Ang Rita", "Kami Rita"],
+      "question": "Which ancient Egyptian deity was classically depicted wearing the atef crown and carrying a crook and flail?",
+      "options": ["Horus", "Osiris", "Ra", "Anubis"],
       "answerIndex": 1,
-      "explanation": "Tenzing Norgay reached the summit of Mount Everest on 29 May 1953 alongside New Zealand mountaineer Edmund Hillary.",
-      "context": "Tenzing Norgay (Nepalese-Indian mountaineer (1914–1986)): Tenzing Norgay, born Namgyal Wangdi, and also referred to as Sherpa Tenzing, was a Nepalese-Indian Sherpa mountaineer. On 29 May 1953, he and Edmund Hillary were the first people confirmed to have reached the summit of Mount Everest, as part of the 1953 British Mount Everest expedition. Time named Norgay one of the 100 most influential people of the 20th century.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Tenzing_Norgay"
+      "explanation": "In ancient Egyptian religion, Osiris was usually shown bearing a pharaoh's beard, an atef crown, and holding the symbolic shepherd's crook and flail.",
+      "context": "Osiris (Ancient Egyptian god of the afterlife): Osiris was the god of fertility, agriculture, the afterlife, the dead, resurrection, life, and vegetation in ancient Egyptian religion. He was classically depicted with a pharaoh's beard, partially mummy-wrapped at the legs, wearing a distinctive atef crown and holding a symbolic crook and flail. He was one of the first to be associated with the mummy wrap.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Osiris"
     },
     {
-      "id": "2026-10-19-popular-22-q8",
+      "id": "2026-10-20-popular-31-q3",
       "category": "TV",
       "story": "Most read",
-      "question": "In the political thriller television series The Diplomat, Keri Russell plays an American diplomat who unexpectedly receives an ambassadorial posting to which country?",
-      "options": ["The United Kingdom", "Germany", "Russia", "France"],
+      "question": "Which television spin-off of the miniseries WandaVision was created for Disney+ by Terry Matalas?",
+      "options": ["VisionQuest", "Ironheart", "Armor Wars", "Agatha All Along"],
       "answerIndex": 0,
-      "explanation": "Debora Cahn's series stars Russell as a seasoned diplomat named US ambassador to the Court of St James's in the United Kingdom.",
-      "context": "The Diplomat (American TV series) (2023 Netflix political thriller by Debora Cahn): The Diplomat is an American political thriller television series with elements of a romantic comedy. It was created by Debora Cahn. First airing in 2023, it stars Keri Russell as a veteran US diplomat who is unexpectedly appointed as the ambassador to the United Kingdom amid an emerging international crisis.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/The_Diplomat_(American_TV_series)"
+      "explanation": "Terry Matalas created VisionQuest as an MCU series based on the character Vision, serving as a spin-off to WandaVision.",
+      "context": "VisionQuest (Marvel Studios television miniseries): VisionQuest is an American television miniseries created by Terry Matalas for the streaming service Disney+, based on Marvel Comics featuring the character Vision. A spin-off from the miniseries WandaVision (2021), it is the 18th television series in the Marvel Cinematic Universe (MCU) from Marvel Studios and is produced under its Marvel Television label. The series shares continuity with the films of the MCU.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/VisionQuest"
     }
   ]
 }
