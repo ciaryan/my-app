@@ -1,109 +1,109 @@
 {
   "version": 1,
-  "date": "2026-10-19",
-  "newsDate": "2026-10-18",
-  "generatedAt": "2026-10-19T04:43:47.095Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-10-20",
+  "newsDate": "2026-10-19",
+  "generatedAt": "2026-10-20T04:54:46.790Z",
+  "model": "gemini-3.8-flash, gemini-3.5-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_18",
-    "revisionIds": [1380968810, 1380962066],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
+    "revisionIds": [1381128417, 1381054409],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-17-15-q6",
-      "category": "Law and crime",
-      "story": "2026 European unrest > 2026 French fuel protests",
-      "question": "Which historic movement joined forces with French student demonstrations over climbing fuel costs across France?",
+      "id": "2026-10-19-11-q7",
+      "category": "Politics and elections",
+      "story": "2026 Alberta referendums, 2026 Alberta independence referendum",
+      "question": "Voters in the Canadian province of Alberta took part in multiple referendums, notably addressing which major issue?",
       "options": [
-        "Black Blocs",
-        "Extinction Rebellion",
-        "Yellow vests",
-        "Indignados"
+        "Independence from Canada",
+        "Abolishing provincial income tax",
+        "Adopting the US dollar",
+        "Banning oil exports"
       ],
-      "answerIndex": 2,
-      "explanation": "Activists associated with the yellow vests took to the streets nationwide over fuel prices and linked up with student marches.",
-      "context": "2026 European unrest > 2026 French fuel protests: Yellow vests activists hold mass demonstrations across France against rising fuel prices and join the student protests.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_French_fuel_protests",
+      "answerIndex": 0,
+      "explanation": "Albertans cast their ballots on ten questions, one of which asked whether the province should pursue separation from Canada.",
+      "context": "2026 Alberta referendums, 2026 Alberta independence referendum: Albertans vote on ten referendums, including one to decide if Alberta should seek separation from Canada.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Alberta_referendums",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/americas/alberta-votes-leaving-canada-separatist-movement-likely-outlast-expected-defeat-2026-10-19/"
+      }
+    },
+    {
+      "id": "2026-10-19-5-q1",
+      "category": "International relations",
+      "story": "Andorra–European Union relations, San Marino–European Union relations, Potential enlargement of the European Union",
+      "question": "Which two microstates recently formalised closer diplomatic ties by signing an association agreement with the European Union?",
+      "options": [
+        "San Marino and Malta",
+        "Andorra and San Marino",
+        "Monaco and Liechtenstein",
+        "Vatican City and Monaco"
+      ],
+      "answerIndex": 1,
+      "explanation": "Both Andorra and San Marino agreed to new association deals with the EU.",
+      "context": "Andorra–European Union relations, San Marino–European Union relations, Potential enlargement of the European Union: Andorra and San Marino each sign an association agreement with the European Union.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
+      "topicUrl": "https://en.wikipedia.org/wiki/Andorra%E2%80%93European_Union_relations",
+      "readMore": {
+        "publisher": "The Brussels Times",
+        "url": "https://www.brusselstimes.com/eu-affairs/2368520/eu-agreement-brings-andorra-san-marino-into-internal-market?utm_term=Autofeed&utm_medium=Social&utm_source=Twitter"
+      }
+    },
+    {
+      "id": "2026-10-19-7-q3",
+      "category": "Law and crime",
+      "story": "Cuba–United States relations > 1996 shootdown of Brothers to the Rescue aircraft, United States embargo against Cuba",
+      "question": "A court in the United States issued an arrest warrant for which former world leader concerning the 1996 downing of civilian planes?",
+      "options": [
+        "Raúl Castro",
+        "Daniel Ortega",
+        "Fidel Castro",
+        "Manuel Noriega"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Florida judge issued a no-bail warrant for former Cuban president Raúl Castro regarding charges tied to the 1996 Brothers to the Rescue shootdown.",
+      "context": "Cuba–United States relations > 1996 shootdown of Brothers to the Rescue aircraft, United States embargo against Cuba: A judge in Miami-Dade County, Florida, United States, issues a no-bail bond arrest warrant for former Cuban president Raúl Castro after Florida attorney general James Uthmeier charged Castro with conspiracy to commit first-degree murder by directing spies to infiltrate Brothers to the Rescue and ordering the attack on their planes in 1996.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
+      "topicUrl": "https://en.wikipedia.org/wiki/1996_shootdown_of_Brothers_to_the_Rescue_aircraft",
       "readMore": {
         "publisher": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/17/france-braces-for-nationwide-protests-with-yellow-vest-members-set-to-join"
+        "url": "https://www.aljazeera.com/news/2026/10/19/florida-issues-arrest-warrant-for-cuban-leader-raul-castro"
       }
     },
     {
-      "id": "2026-10-18-3-q1",
-      "category": "Health and environment",
+      "id": "2026-10-19-4-q8",
+      "category": "Disasters and accidents",
       "story": "",
-      "question": "Which disease control initiative did Equatorial Guinea announce it would expand beyond Bioko Island to its mainland and Annobón?",
-      "options": ["Tuberculosis", "Yellow fever", "Cholera", "Malaria"],
-      "answerIndex": 3,
-      "explanation": "Equatorial Guinea is broadening its anti-malaria campaign across the rest of the nation following successful suppression of the illness on Bioko.",
-      "context": "Equatorial Guinea announces that it will expand its program against malaria to the mainland and Annobón. The program has already heavily reduced malaria cases on Bioko Island.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_18",
-      "readMore": {
-        "publisher": "The Independent",
-        "url": "https://www.independent.co.uk/news/equatorial-guinea-malaria-world-health-organization-rhode-island-african-b3068688.html"
-      }
-    },
-    {
-      "id": "2026-10-17-1-q4",
-      "category": "Armed conflicts and attacks",
-      "story": "Middle Eastern crisis (2023–present) > Yemeni civil war > Egypt–Saudi Arabia relations, Houthi–Saudi conflict",
-      "question": "Which neighbouring country did Egyptian President Abdel Fattah El-Sisi promise to defend and support if called upon?",
-      "options": ["Jordan", "Sudan", "Saudi Arabia", "Kuwait"],
+      "question": "Rescue operations were launched following a fatal collapse at an open-pit gold mine in which country?",
+      "options": ["Peru", "Chile", "Colombia", "Bolivia"],
       "answerIndex": 2,
-      "explanation": "President El-Sisi affirmed Egypt's readiness to assist and safeguard Saudi Arabia should the nation desire aid.",
-      "context": "Middle Eastern crisis (2023–present) > Yemeni civil war > Egypt–Saudi Arabia relations, Houthi–Saudi conflict: Egyptian president Abdel Fattah El-Sisi states that Egypt will take all necessary steps to protect and defend Saudi Arabia should the latter so desire.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
-      "topicUrl": "https://en.wikipedia.org/wiki/Egypt%E2%80%93Saudi_Arabia_relations",
-      "readMore": {
-        "publisher": "AFP via Arab News",
-        "url": "https://www.arabnews.com/middle-east/egypts-sisi-seeks-parliament-approval-to-authorize-support-for-saudi-arabia-3006835"
-      }
-    },
-    {
-      "id": "2026-10-17-17-q12",
-      "category": "Politics and elections",
-      "story": "2026 Czech Senate election",
-      "question": "In a historic Senate election in Czechia, which governing political movement finished in third place after the coalition failed to win any seats?",
-      "options": [
-        "Civic Democratic Party",
-        "Pirate Party",
-        "Mayors and Independents",
-        "ANO 2011"
-      ],
-      "answerIndex": 3,
-      "explanation": "Prime Minister Andrej Babiš's ANO 2011 secured third position as opposition parties took 22 of the 27 available senatorial seats.",
-      "context": "2026 Czech Senate election: In Czechia, opposition parties win 22 of the contested 27 seats in the Senate. The lead party of prime minister Andrej Babiš's government, ANO 2011, comes in third place. The election is the first time in the country's history where governing parties did not win a single seat in a senatorial election.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Czech_Senate_election",
+      "explanation": "The fatal incident occurred at an open-pit site located in the Nariño Department of Colombia.",
+      "context": "Six miners are killed and at least 12 others are missing when an open pit gold mine collapses in Nariño Department, Colombia.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
       "readMore": {
         "publisher": "AP",
-        "url": "https://apnews.com/article/czech-republic-senate-election-babis-d206f3edbc7ea0f73b0dbd07b339820b"
+        "url": "https://apnews.com/article/colombia-mine-accident-gold-illegal-mining-bffbd24132af34a0cb14a414579d1e9b"
       }
     },
     {
-      "id": "2026-10-18-4-q2",
-      "category": "International relations",
-      "story": "Free trade agreements of Vietnam",
-      "question": "Vietnam signed a comprehensive free trade agreement eliminating tariffs with which regional trading bloc?",
-      "options": [
-        "Gulf Cooperation Council",
-        "Eurasian Economic Union",
-        "European Free Trade Association",
-        "Mercosur"
-      ],
-      "answerIndex": 2,
-      "explanation": "The newly signed pact between Vietnam and the European Free Trade Association covers agricultural, industrial, and fisheries trade.",
-      "context": "Free trade agreements of Vietnam: Vietnam signs a free trade agreement with the European Free Trade Association (Iceland, Liechtenstein, Norway, and Switzerland) that reduces or eliminates tariffs on industrial, agricultural, and fish products and covers services, intellectual property, and sustainable development.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_18",
-      "topicUrl": "https://en.wikipedia.org/wiki/Free_trade_agreements_of_Vietnam",
+      "id": "2026-10-19-8-q4",
+      "category": "Law and crime",
+      "story": "Israeli settler violence",
+      "question": "Which country's police detained ten individuals following assaults on European diplomats and an American photojournalist in the West Bank?",
+      "options": ["Lebanon", "Israel", "Egypt", "Jordan"],
+      "answerIndex": 1,
+      "explanation": "Israel Police took 10 suspects into custody and gathered evidence in relation to the attacks.",
+      "context": "Israeli settler violence: Israel Police arrest 10 people in the occupied West Bank over attacks on American photojournalist Heidi Levine and the mayor of Aulnoye-Aymeries, France, who were travelling with European diplomats, and seize vehicles and other evidence during raids.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
+      "topicUrl": "https://en.wikipedia.org/wiki/Israeli_settler_violence",
       "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/vietnam-signs-free-trade-deal-four-european-nations"
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261019-israel-announces-arrests-after-west-bank-settler-attacks-on-westerners"
       }
     }
   ]
