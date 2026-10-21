@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-20",
-  "generatedAt": "2026-10-20T05:14:55.530Z",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T08:01:50.623Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,64 +11,64 @@
   },
   "questions": [
     {
-      "id": "2026-10-20-birth-56-q9",
+      "id": "2026-10-21-birth-119-q13",
       "category": "Music",
       "story": "On this day",
-      "question": "Born on this day in 1971, which Australian entertainer starred on Young Talent Time before playing Emma Jackson in the soap opera Home and Away?",
-      "options": [
-        "Delta Goodrem",
-        "Dannii Minogue",
-        "Kylie Minogue",
-        "Natalie Imbruglia"
-      ],
-      "answerIndex": 1,
-      "explanation": "Dannii Minogue made early television appearances on Young Talent Time and Home and Away before establishing a successful music career.",
-      "context": "On this day in 1971: Dannii Minogue, Australian singer-songwriter and actress\nDannii Minogue (Australian singer and actress (born 1971)): Danielle Jane Minogue is an Australian singer, television personality, and actress. She first appeared on the television talent show Young Talent Time (1982–1988) before gaining recognition for her role as Emma Jackson on the soap opera Home and Away (1988–1990).",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Dannii_Minogue"
+      "question": "Born on this day in 1957, Steve Lukather is best known as a guitarist, vocalist, and sole constant original member of which rock band?",
+      "options": ["Toto", "Foreigner", "Journey", "Chicago"],
+      "answerIndex": 0,
+      "explanation": "Steve Lukather is the only founding musician who has continuously performed with the American rock band Toto throughout their career.",
+      "context": "On this day in 1957: Steve Lukather, American singer-songwriter, guitarist, and producer\nSteve Lukather (American guitarist, singer, songwriter, arranger and record producer (born 1957)): Steven Lee Lukather is an American guitarist, singer, songwriter, arranger, and record producer, best known as the sole continuous founding member of the rock band Toto.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Steve_Lukather"
     },
     {
-      "id": "2026-10-20-popular-1-q2",
+      "id": "2026-10-21-popular-39-q8",
       "category": "Film",
       "story": "Most read",
-      "question": "Which veteran actor reprised his role alongside Ramya Krishnan and Yogi Babu in Nelson Dilipkumar's action comedy sequel Jailer 2?",
-      "options": ["Chiranjeevi", "Mammootty", "Rajinikanth", "Kamal Haasan"],
+      "question": "Which Japanese animation studio teamed up with CD Projekt Red to produce the anime miniseries Cyberpunk: Edgerunners 2?",
+      "options": ["Wit Studio", "Mappa", "Trigger", "Bones"],
       "answerIndex": 2,
-      "explanation": "Rajinikanth returned to star in Jailer 2, following up the success of the 2023 original directed by Nelson Dilipkumar.",
-      "context": "Jailer 2 (2026 Indian film by Nelson Dilipkumar): Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar. It was produced by Kalanithi Maran through Sun Pictures. A sequel to Jailer (2023), the film stars Rajinikanth, Ramya Krishnan, Yogi Babu, Mirnaa and Rithvik reprising their roles from the predecessor, with S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and Vidya Balan joining the cast.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Jailer_2"
+      "explanation": "Cyberpunk: Edgerunners 2 was created as a co-production between video game developers CD Projekt Red and Studio Trigger.",
+      "context": "Cyberpunk: Edgerunners 2 (2026 anime series): Cyberpunk: Edgerunners 2  is an original net animation (ONA) miniseries created by Bartosz Sztybor, and co-produced by the Polish video game company CD Projekt Red and the Japanese animation studio Trigger. Set in the dystopian Cyberpunk universe created by Mike Pondsmith, the anime is a standalone sequel to Cyberpunk: Edgerunners and tie-in to the video game Cyberpunk 2077.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cyberpunk%3A_Edgerunners_2"
     },
     {
-      "id": "2026-10-20-popular-17-q5",
-      "category": "Science",
-      "story": "Most read",
-      "question": "Which controversial company, founded by Elizabeth Holmes in 2003, falsely claimed to have developed revolutionary blood-testing technology?",
-      "options": ["23andMe", "Labcorp", "Theranos", "Quest Diagnostics"],
-      "answerIndex": 2,
-      "explanation": "Theranos raised hundreds of millions of dollars on promises of cutting-edge blood diagnostic technology before collapsing amidst fraud convictions.",
-      "context": "Theranos (American health-technology company): Theranos Inc. was an American privately held corporation that was touted as a breakthrough health technology company. Founded in 2003 by then–19-year-old Elizabeth Holmes, Theranos raised more than US$700 million from venture capitalists and private investors, resulting in a $9 billion valuation at its peak in 2013 and 2014.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Theranos"
-    },
-    {
-      "id": "2026-10-20-popular-19-q1",
-      "category": "History",
-      "story": "Most read",
-      "question": "Which ancient Egyptian deity was classically depicted wearing the atef crown and carrying a crook and flail?",
-      "options": ["Horus", "Osiris", "Ra", "Anubis"],
-      "answerIndex": 1,
-      "explanation": "In ancient Egyptian religion, Osiris was usually shown bearing a pharaoh's beard, an atef crown, and holding the symbolic shepherd's crook and flail.",
-      "context": "Osiris (Ancient Egyptian god of the afterlife): Osiris was the god of fertility, agriculture, the afterlife, the dead, resurrection, life, and vegetation in ancient Egyptian religion. He was classically depicted with a pharaoh's beard, partially mummy-wrapped at the legs, wearing a distinctive atef crown and holding a symbolic crook and flail. He was one of the first to be associated with the mummy wrap.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Osiris"
-    },
-    {
-      "id": "2026-10-20-popular-31-q3",
+      "id": "2026-10-21-popular-12-q3",
       "category": "TV",
       "story": "Most read",
-      "question": "Which television spin-off of the miniseries WandaVision was created for Disney+ by Terry Matalas?",
-      "options": ["VisionQuest", "Ironheart", "Armor Wars", "Agatha All Along"],
+      "question": "Which character did Dylan Sprouse portray alongside his twin brother Cole in a popular Disney Channel sitcom and its spin-off?",
+      "options": ["Mr. Moseby", "Zack Martin", "Cody Martin", "London Tipton"],
+      "answerIndex": 1,
+      "explanation": "Dylan Sprouse played Zack Martin in The Suite Life of Zack & Cody and The Suite Life on Deck, starring alongside his brother Cole.",
+      "context": "Dylan Sprouse (American actor (born 1992)): Dylan Thomas Sprouse is an American actor. He is known for his role as Zack Martin on the Disney Channel series The Suite Life of Zack & Cody and its spin-off, The Suite Life on Deck, where he starred alongside his twin brother Cole Sprouse. He is one of the owners of All-Wise Meadery in Brooklyn, New York.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dylan_Sprouse"
+    },
+    {
+      "id": "2026-10-21-popular-1-q1",
+      "category": "History",
+      "story": "Most read",
+      "question": "Which grandfather of Kim Jong Un originally founded North Korea?",
+      "options": ["Kim Tu-bong", "Kim Chaek", "Kim Il Sung", "Kim Jong Il"],
+      "answerIndex": 2,
+      "explanation": "Kim Jong Un is the third ruler of North Korea from his dynasty, following his father Kim Jong Il and grandfather Kim Il Sung, who founded the state.",
+      "context": "Kim Jong Un (Supreme Leader of North Korea since 2011): \n\nKim Jong Un is a North Korean politician and dictator who has been serving as the supreme leader of North Korea since 2011, following the death of his father, Kim Jong Il. He is the third ruler from the Kim family to lead the country, which was founded by his grandfather Kim Il Sung. Kim holds the positions of general secretary of the Workers' Party of Korea (WPK) and president of the State Affairs Commission, as well as the highest offices in the Korean People's Army.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kim_Jong_Un"
+    },
+    {
+      "id": "2026-10-21-popular-15-q4",
+      "category": "Sport",
+      "story": "Most read",
+      "question": "Selected with the final pick of the 2022 NFL draft, quarterback Brock Purdy plays for which professional American football team?",
+      "options": [
+        "San Francisco 49ers",
+        "Seattle Seahawks",
+        "Los Angeles Rams",
+        "Arizona Cardinals"
+      ],
       "answerIndex": 0,
-      "explanation": "Terry Matalas created VisionQuest as an MCU series based on the character Vision, serving as a spin-off to WandaVision.",
-      "context": "VisionQuest (Marvel Studios television miniseries): VisionQuest is an American television miniseries created by Terry Matalas for the streaming service Disney+, based on Marvel Comics featuring the character Vision. A spin-off from the miniseries WandaVision (2021), it is the 18th television series in the Marvel Cinematic Universe (MCU) from Marvel Studios and is produced under its Marvel Television label. The series shares continuity with the films of the MCU.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/VisionQuest"
+      "explanation": "Brock Purdy was dubbed 'Mr. Irrelevant' after being drafted last in 2022, and went on to become starting quarterback for the San Francisco 49ers.",
+      "context": "Brock Purdy (American football player (born 1999)): Brock Richard Purdy is an American professional football quarterback for the San Francisco 49ers of the National Football League (NFL). He played college football for the Iowa State Cyclones and was selected by the 49ers with the final pick in the 2022 NFL draft, becoming that year's Mr. Irrelevant.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Brock_Purdy"
     }
   ]
 }
