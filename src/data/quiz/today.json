@@ -1,109 +1,95 @@
 {
   "version": 1,
-  "date": "2026-10-20",
-  "newsDate": "2026-10-19",
-  "generatedAt": "2026-10-20T04:54:46.790Z",
-  "model": "gemini-3.8-flash, gemini-3.5-flash",
+  "date": "2026-10-21",
+  "newsDate": "2026-10-20",
+  "generatedAt": "2026-10-21T07:44:04.278Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
-    "revisionIds": [1381128417, 1381054409],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_20",
+    "revisionIds": [1381274110, 1381274156],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-19-11-q7",
-      "category": "Politics and elections",
-      "story": "2026 Alberta referendums, 2026 Alberta independence referendum",
-      "question": "Voters in the Canadian province of Alberta took part in multiple referendums, notably addressing which major issue?",
-      "options": [
-        "Independence from Canada",
-        "Abolishing provincial income tax",
-        "Adopting the US dollar",
-        "Banning oil exports"
-      ],
+      "id": "2026-10-20-14-q9",
+      "category": "Science and technology",
+      "story": "Japanese space program",
+      "question": "Japan's space agency JAXA launched a mission aiming to collect surface samples from which Martian moon?",
+      "options": ["Phobos", "Io", "Titan", "Deimos"],
       "answerIndex": 0,
-      "explanation": "Albertans cast their ballots on ten questions, one of which asked whether the province should pursue separation from Canada.",
-      "context": "2026 Alberta referendums, 2026 Alberta independence referendum: Albertans vote on ten referendums, including one to decide if Alberta should seek separation from Canada.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Alberta_referendums",
+      "explanation": "The Martian Moons eXploration probe took off aboard an H3 rocket with plans to gather material from Phobos and return it to Earth.",
+      "context": "Japanese space program: JAXA launches the Martian Moons eXploration spacecraft from the Tanegashima Space Center toward Phobos aboard an H3 rocket, aiming to collect at least 10 grams of surface material from the Martian moon and return the samples to Earth in 2031.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_20",
+      "topicUrl": "https://en.wikipedia.org/wiki/Japanese_space_program",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/americas/alberta-votes-leaving-canada-separatist-movement-likely-outlast-expected-defeat-2026-10-19/"
+        "url": "https://www.reuters.com/science/japan-launches-mission-return-samples-mars-moon-2026-10-19/"
       }
     },
     {
-      "id": "2026-10-19-5-q1",
+      "id": "2026-10-20-9-q4",
       "category": "International relations",
-      "story": "Andorra–European Union relations, San Marino–European Union relations, Potential enlargement of the European Union",
-      "question": "Which two microstates recently formalised closer diplomatic ties by signing an association agreement with the European Union?",
-      "options": [
-        "San Marino and Malta",
-        "Andorra and San Marino",
-        "Monaco and Liechtenstein",
-        "Vatican City and Monaco"
-      ],
-      "answerIndex": 1,
-      "explanation": "Both Andorra and San Marino agreed to new association deals with the EU.",
-      "context": "Andorra–European Union relations, San Marino–European Union relations, Potential enlargement of the European Union: Andorra and San Marino each sign an association agreement with the European Union.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
-      "topicUrl": "https://en.wikipedia.org/wiki/Andorra%E2%80%93European_Union_relations",
-      "readMore": {
-        "publisher": "The Brussels Times",
-        "url": "https://www.brusselstimes.com/eu-affairs/2368520/eu-agreement-brings-andorra-san-marino-into-internal-market?utm_term=Autofeed&utm_medium=Social&utm_source=Twitter"
-      }
-    },
-    {
-      "id": "2026-10-19-7-q3",
-      "category": "Law and crime",
-      "story": "Cuba–United States relations > 1996 shootdown of Brothers to the Rescue aircraft, United States embargo against Cuba",
-      "question": "A court in the United States issued an arrest warrant for which former world leader concerning the 1996 downing of civilian planes?",
-      "options": [
-        "Raúl Castro",
-        "Daniel Ortega",
-        "Fidel Castro",
-        "Manuel Noriega"
-      ],
-      "answerIndex": 0,
-      "explanation": "A Florida judge issued a no-bail warrant for former Cuban president Raúl Castro regarding charges tied to the 1996 Brothers to the Rescue shootdown.",
-      "context": "Cuba–United States relations > 1996 shootdown of Brothers to the Rescue aircraft, United States embargo against Cuba: A judge in Miami-Dade County, Florida, United States, issues a no-bail bond arrest warrant for former Cuban president Raúl Castro after Florida attorney general James Uthmeier charged Castro with conspiracy to commit first-degree murder by directing spies to infiltrate Brothers to the Rescue and ordering the attack on their planes in 1996.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
-      "topicUrl": "https://en.wikipedia.org/wiki/1996_shootdown_of_Brothers_to_the_Rescue_aircraft",
-      "readMore": {
-        "publisher": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/19/florida-issues-arrest-warrant-for-cuban-leader-raul-castro"
-      }
-    },
-    {
-      "id": "2026-10-19-4-q8",
-      "category": "Disasters and accidents",
-      "story": "",
-      "question": "Rescue operations were launched following a fatal collapse at an open-pit gold mine in which country?",
-      "options": ["Peru", "Chile", "Colombia", "Bolivia"],
+      "story": "South Korea–Ukraine relations",
+      "question": "South Korea recalled additional diplomatic staff from which country following an argument concerning captured North Korean troops?",
+      "options": ["Poland", "Belarus", "Ukraine", "Russia"],
       "answerIndex": 2,
-      "explanation": "The fatal incident occurred at an open-pit site located in the Nariño Department of Colombia.",
-      "context": "Six miners are killed and at least 12 others are missing when an open pit gold mine collapses in Nariño Department, Colombia.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
+      "explanation": "Diplomatic personnel were pulled out of Ukraine by South Korea amid a disagreement over two captured North Korean soldiers.",
+      "context": "South Korea–Ukraine relations: South Korea withdraws additional embassy staff from Ukraine following a dispute over two captured North Korean soldiers who were transferred to South Korea.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_20",
+      "topicUrl": "https://en.wikipedia.org/wiki/South_Korea%E2%80%93Ukraine_relations",
       "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/colombia-mine-accident-gold-illegal-mining-bffbd24132af34a0cb14a414579d1e9b"
+        "publisher": "AFP via RFI",
+        "url": "https://www.rfi.fr/en/international-news/20261020-south-korea-to-withdraw-some-ukraine-embassy-staff-after-pow-row-1"
       }
     },
     {
-      "id": "2026-10-19-8-q4",
+      "id": "2026-10-20-2-q12",
+      "category": "Armed conflicts and attacks",
+      "story": "Sudanese civil war > Blue Nile campaign",
+      "question": "The armed forces of which country claimed to have repelled a joint assault in Blue Nile state?",
+      "options": ["Ethiopia", "South Sudan", "Sudan", "Chad"],
+      "answerIndex": 2,
+      "explanation": "The Sudanese Army stated that its troops successfully beat back an offensive launched by rival forces in Blue Nile state.",
+      "context": "Sudanese civil war > Blue Nile campaign: The Sudanese Army says that they have repelled an attack by the Rapid Support Forces and Sudan People's Liberation Movement–North (SPLM–N) on the Blue Nile state.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_20",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign",
+      "readMore": {
+        "publisher": "Sudan Tribune",
+        "url": "https://sudantribune.com/article/320207#google_vignette"
+      }
+    },
+    {
+      "id": "2026-10-20-6-q1",
+      "category": "Health and environment",
+      "story": "2026 Ebola epidemic",
+      "question": "Which African nation confirmed its first case of the Ebola virus during the current epidemic?",
+      "options": ["Nigeria", "Kenya", "Ghana", "South Africa"],
+      "answerIndex": 0,
+      "explanation": "Nigeria has officially confirmed its first recorded infection during the ongoing outbreak of Ebola.",
+      "context": "2026 Ebola epidemic: Nigeria announces its first case of Ebola virus in the epidemic.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_20",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Ebola_epidemic",
+      "readMore": {
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
+      }
+    },
+    {
+      "id": "2026-10-20-11-q6",
       "category": "Law and crime",
-      "story": "Israeli settler violence",
-      "question": "Which country's police detained ten individuals following assaults on European diplomats and an American photojournalist in the West Bank?",
-      "options": ["Lebanon", "Israel", "Egypt", "Jordan"],
+      "story": "2022 San Antonio migrant deaths",
+      "question": "A federal judge in the United States handed down a 30-year sentence to a smuggler from which country over a deadly 2022 incident in Texas?",
+      "options": ["Honduras", "Guatemala", "Mexico", "El Salvador"],
       "answerIndex": 1,
-      "explanation": "Israel Police took 10 suspects into custody and gathered evidence in relation to the attacks.",
-      "context": "Israeli settler violence: Israel Police arrest 10 people in the occupied West Bank over attacks on American photojournalist Heidi Levine and the mayor of Aulnoye-Aymeries, France, who were travelling with European diplomats, and seize vehicles and other evidence during raids.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
-      "topicUrl": "https://en.wikipedia.org/wiki/Israeli_settler_violence",
+      "explanation": "A citizen of Guatemala received a 30-year prison sentence in the US for his role in organising the fatal human trafficking run.",
+      "context": "2022 San Antonio migrant deaths: A United States federal judge sentences a Guatemalan national to 30 years in prison for helping organize a 2022 migrant-smuggling operation in San Antonio, Texas, that left 53 migrants dead and 11 injured.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_20",
+      "topicUrl": "https://en.wikipedia.org/wiki/2022_San_Antonio_migrant_deaths",
       "readMore": {
         "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261019-israel-announces-arrests-after-west-bank-settler-attacks-on-westerners"
+        "url": "https://www.france24.com/en/live-news/20261020-guatemalan-man-gets-30-years-for-truck-smuggling-deaths-of-53-migrants"
       }
     }
   ]
