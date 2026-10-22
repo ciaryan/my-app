@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-21T08:01:50.623Z",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T05:18:53.615Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,64 +11,84 @@
   },
   "questions": [
     {
-      "id": "2026-10-21-birth-119-q13",
+      "id": "2026-10-22-selected-6-q12",
       "category": "Music",
       "story": "On this day",
-      "question": "Born on this day in 1957, Steve Lukather is best known as a guitarist, vocalist, and sole constant original member of which rock band?",
-      "options": ["Toto", "Foreigner", "Journey", "Chicago"],
-      "answerIndex": 0,
-      "explanation": "Steve Lukather is the only founding musician who has continuously performed with the American rock band Toto throughout their career.",
-      "context": "On this day in 1957: Steve Lukather, American singer-songwriter, guitarist, and producer\nSteve Lukather (American guitarist, singer, songwriter, arranger and record producer (born 1957)): Steven Lee Lukather is an American guitarist, singer, songwriter, arranger, and record producer, best known as the sole continuous founding member of the rock band Toto.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Steve_Lukather"
-    },
-    {
-      "id": "2026-10-21-popular-39-q8",
-      "category": "Film",
-      "story": "Most read",
-      "question": "Which Japanese animation studio teamed up with CD Projekt Red to produce the anime miniseries Cyberpunk: Edgerunners 2?",
-      "options": ["Wit Studio", "Mappa", "Trigger", "Bones"],
-      "answerIndex": 2,
-      "explanation": "Cyberpunk: Edgerunners 2 was created as a co-production between video game developers CD Projekt Red and Studio Trigger.",
-      "context": "Cyberpunk: Edgerunners 2 (2026 anime series): Cyberpunk: Edgerunners 2  is an original net animation (ONA) miniseries created by Bartosz Sztybor, and co-produced by the Polish video game company CD Projekt Red and the Japanese animation studio Trigger. Set in the dystopian Cyberpunk universe created by Mike Pondsmith, the anime is a standalone sequel to Cyberpunk: Edgerunners and tie-in to the video game Cyberpunk 2077.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Cyberpunk%3A_Edgerunners_2"
-    },
-    {
-      "id": "2026-10-21-popular-12-q3",
-      "category": "TV",
-      "story": "Most read",
-      "question": "Which character did Dylan Sprouse portray alongside his twin brother Cole in a popular Disney Channel sitcom and its spin-off?",
-      "options": ["Mr. Moseby", "Zack Martin", "Cody Martin", "London Tipton"],
-      "answerIndex": 1,
-      "explanation": "Dylan Sprouse played Zack Martin in The Suite Life of Zack & Cody and The Suite Life on Deck, starring alongside his brother Cole.",
-      "context": "Dylan Sprouse (American actor (born 1992)): Dylan Thomas Sprouse is an American actor. He is known for his role as Zack Martin on the Disney Channel series The Suite Life of Zack & Cody and its spin-off, The Suite Life on Deck, where he starred alongside his twin brother Cole Sprouse. He is one of the owners of All-Wise Meadery in Brooklyn, New York.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Dylan_Sprouse"
-    },
-    {
-      "id": "2026-10-21-popular-1-q1",
-      "category": "History",
-      "story": "Most read",
-      "question": "Which grandfather of Kim Jong Un originally founded North Korea?",
-      "options": ["Kim Tu-bong", "Kim Chaek", "Kim Il Sung", "Kim Jong Il"],
-      "answerIndex": 2,
-      "explanation": "Kim Jong Un is the third ruler of North Korea from his dynasty, following his father Kim Jong Il and grandfather Kim Il Sung, who founded the state.",
-      "context": "Kim Jong Un (Supreme Leader of North Korea since 2011): \n\nKim Jong Un is a North Korean politician and dictator who has been serving as the supreme leader of North Korea since 2011, following the death of his father, Kim Jong Il. He is the third ruler from the Kim family to lead the country, which was founded by his grandfather Kim Il Sung. Kim holds the positions of general secretary of the Workers' Party of Korea (WPK) and president of the State Affairs Commission, as well as the highest offices in the Korean People's Army.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Kim_Jong_Un"
-    },
-    {
-      "id": "2026-10-21-popular-15-q4",
-      "category": "Sport",
-      "story": "Most read",
-      "question": "Selected with the final pick of the 2022 NFL draft, quarterback Brock Purdy plays for which professional American football team?",
+      "question": "On this day in 1966, which Motown vocal group became the first all-female act to top the US Billboard 200 album chart?",
       "options": [
-        "San Francisco 49ers",
-        "Seattle Seahawks",
-        "Los Angeles Rams",
-        "Arizona Cardinals"
+        "The Supremes",
+        "The Ronettes",
+        "The Shirelles",
+        "The Marvelettes"
       ],
       "answerIndex": 0,
-      "explanation": "Brock Purdy was dubbed 'Mr. Irrelevant' after being drafted last in 2022, and went on to become starting quarterback for the San Francisco 49ers.",
-      "context": "Brock Purdy (American football player (born 1999)): Brock Richard Purdy is an American professional football quarterback for the San Francisco 49ers of the National Football League (NFL). He played college football for the Iowa State Cyclones and was selected by the 49ers with the final pick in the 2022 NFL draft, becoming that year's Mr. Irrelevant.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Brock_Purdy"
+      "explanation": "The Supremes reached the peak of the Billboard 200 with their ninth studio release, The Supremes A' Go-Go.",
+      "context": "On this day in 1966: With their album The Supremes A' Go-Go, the Supremes became the first all-female group to reach number one on the Billboard 200 chart.\nThe Supremes A' Go-Go (Album by the Supremes): The Supremes A' Go-Go is the ninth studio album released by the Motown singing group the Supremes. It was the first album by an all-female group to reach number-one on the Billboard 200 album charts in the United States.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Supremes_A'_Go-Go"
+    },
+    {
+      "id": "2026-10-22-popular-20-q1",
+      "category": "Film",
+      "story": "Most read",
+      "question": "Which Shakespearean comedy served as the basis for the 1999 teen romantic comedy 10 Things I Hate About You?",
+      "options": [
+        "Twelfth Night",
+        "A Midsummer Night's Dream",
+        "The Taming of the Shrew",
+        "Much Ado About Nothing"
+      ],
+      "answerIndex": 2,
+      "explanation": "Directed by Gil Junger and starring Julia Stiles and Heath Ledger, the 1999 film was an adaptation of William Shakespeare's The Taming of the Shrew.",
+      "context": "10 Things I Hate About You (1999 film by Gil Junger): 10 Things I Hate About You is a 1999 American teen romantic comedy directed by Gil Junger from a screenplay by Karen McCullah Lutz and Kirsten Smith. Adapted from William Shakespeare's comedy The Taming of the Shrew, it stars Julia Stiles, Heath Ledger, Joseph Gordon-Levitt, Larisa Oleynik, Larry Miller, Andrew Keegan, David Krumholtz, Susan May Pratt, and Gabrielle Union.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/10_Things_I_Hate_About_You"
+    },
+    {
+      "id": "2026-10-22-popular-16-q3",
+      "category": "TV",
+      "story": "Most read",
+      "question": "The Apple TV+ spy thriller series Slow Horses, featuring MI5 rejects at Slough House, is based on the books of which novelist?",
+      "options": [
+        "John le Carré",
+        "Len Deighton",
+        "Mick Herron",
+        "Anthony Horowitz"
+      ],
+      "answerIndex": 2,
+      "explanation": "The series was adapted for television by Will Smith from the Slough House series of novels by Mick Herron.",
+      "context": "Slow Horses (British spy thriller TV series (2022–present)): Slow Horses is a British spy thriller television series based on the Slough House novels by Mick Herron, and adapted for television by the English comedian and writer Will Smith. It follows Slough House, an MI5 unit where disgraced or failed agents are consigned, under the supervision of Jackson Lamb.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Slow_Horses"
+    },
+    {
+      "id": "2026-10-22-popular-10-q5",
+      "category": "Sport",
+      "story": "Most read",
+      "question": "Which former professional football star is a minority shareholder in the Italian Serie A club Como 1907 alongside manager Cesc Fàbregas?",
+      "options": [
+        "David Trezeguet",
+        "Patrick Vieira",
+        "Thierry Henry",
+        "Zinedine Zidane"
+      ],
+      "answerIndex": 2,
+      "explanation": "Former French international Thierry Henry and Como manager Cesc Fàbregas are both minority investors in the Italian side.",
+      "context": "Como 1907 (Association football club in Italy): Como 1907 is an Italian professional football club based in Como, Lombardy, that competes in Serie A, the top flight of the Italian football system. Founded in 1907 as Como Foot-Ball Club, the team traditionally plays in royal blue and has hosted home matches at the Stadio Giuseppe Sinigaglia since 1928. The club was acquired in 2019 by the Hartono brothers through Djarum Group. Minority shareholders in the club include head coach Cesc Fàbregas and former international footballer Thierry Henry.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Como_1907"
+    },
+    {
+      "id": "2026-10-22-popular-4-q8",
+      "category": "Science",
+      "story": "Most read",
+      "question": "Before being bought out by Electronic Arts in 2007, which Canadian video game studio was founded by three newly qualified medical doctors in Edmonton?",
+      "options": [
+        "BioWare",
+        "Radical Entertainment",
+        "Ubisoft Montreal",
+        "Relic Entertainment"
+      ],
+      "answerIndex": 0,
+      "explanation": "BioWare was established in Alberta in 1995 by medical graduates Ray Muzyka, Greg Zeschuk and Augustine Yip.",
+      "context": "BioWare (Canadian video game developer): BioWare was a Canadian video game developer based in Edmonton, Alberta. It was founded in 1995 by newly graduated medical doctors Ray Muzyka, Greg Zeschuk and Augustine Yip. The company was acquired by American publisher Electronic Arts in 2007.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/BioWare"
     }
   ]
 }
