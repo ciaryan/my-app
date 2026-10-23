@@ -1,99 +1,96 @@
 {
   "version": 1,
-  "date": "2026-10-22",
-  "newsDate": "2026-10-21",
-  "generatedAt": "2026-10-22T04:52:44.818Z",
-  "model": "gemini-3.6-flash, gemini-3.8-flash",
+  "date": "2026-10-23",
+  "newsDate": "2026-10-22",
+  "generatedAt": "2026-10-23T04:54:19.041Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21",
-    "revisionIds": [1381386734, 1381377319],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
+    "revisionIds": [1381539854],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-21-4-q10",
-      "category": "Armed conflicts and attacks",
-      "story": "Russo-Ukrainian war > Peace negotiations in the Russo-Ukrainian war, United States and the Russo-Ukrainian war",
-      "question": "American diplomat Steve Witkoff recently held talks in Saint Petersburg with Vladimir Putin to discuss peace negotiations involving which country?",
-      "options": ["Moldova", "Syria", "Georgia", "Ukraine"],
+      "id": "2026-10-22-17-q10",
+      "category": "Sports",
+      "story": "",
+      "question": "Which country's marathon runner, Ruti Aga, received a six-year suspension from the Athletics Integrity Unit for doping and fraud offences?",
+      "options": ["Uganda", "Kenya", "Eritrea", "Ethiopia"],
       "answerIndex": 3,
-      "explanation": "The US envoy met with Russia's president to explore options for reopening diplomatic discussions over the war in Ukraine.",
-      "context": "Russo-Ukrainian war > Peace negotiations in the Russo-Ukrainian war, United States and the Russo-Ukrainian war: United States special envoy Steve Witkoff arrives in Saint Petersburg to talk with Russian president Vladimir Putin about potentially resolving the war with Ukraine. Putin states he would resume U.S.-mediated trilateral peace talks with Ukraine and the United States, on or after November 10.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21",
-      "topicUrl": "https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war",
+      "explanation": "Ethiopian athlete Ruti Aga received a lengthy ban after returning a positive drug test and providing fake paperwork to investigators.",
+      "context": "The Athletics Integrity Unit bans Ethiopian marathon runner Ruti Aga for six years after she tested positive for methylprednisolone and submitted false information and a forged prescription during an investigation.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
+      "readMore": {
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261022-marathon-star-aga-banned-six-years-for-doping-and-misleading-investigation"
+      }
+    },
+    {
+      "id": "2026-10-22-5-q2",
+      "category": "Arts and culture",
+      "story": "",
+      "question": "Which international judicial institution was awarded the 2026 Sakharov Prize by the European Parliament?",
+      "options": [
+        "International Court of Justice",
+        "International Criminal Court",
+        "Permanent Court of Arbitration",
+        "European Court of Human Rights"
+      ],
+      "answerIndex": 1,
+      "explanation": "The European Parliament recognised the International Criminal Court and its personnel with the Sakharov Prize for their commitment to global justice.",
+      "context": "The European Parliament awards its 2026 Sakharov Prize to the International Criminal Court and its officials for their work in global justice and upholding international law.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/us-envoy-witkoff-arrives-st-petersburg-talks-with-putin-2026-10-21/"
+        "url": "https://www.reuters.com/world/international-criminal-court-wins-eus-2026-sakharov-prize-2026-10-22/"
       }
     },
     {
-      "id": "2026-10-21-14-q7",
+      "id": "2026-10-22-14-q7",
       "category": "Science and technology",
-      "story": "2022–2026 video game industry layoffs",
-      "question": "Which long-running video game developer behind popular role-playing franchises is being shut down by parent publisher Electronic Arts?",
-      "options": ["Dice", "Maxis", "Respawn Entertainment", "BioWare"],
-      "answerIndex": 3,
-      "explanation": "Electronic Arts confirmed it is shuttering its Canadian-based BioWare studio as part of wider industry cutbacks.",
-      "context": "2022–2026 video game industry layoffs: American video game publisher Electronic Arts, which was recently bought-out by the Saudi Public Investment Fund, announces the closing of its Canadian studio BioWare.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21",
-      "topicUrl": "https://en.wikipedia.org/wiki/2022%E2%80%932026_video_game_industry_layoffs",
-      "readMore": {
-        "publisher": "Kotaku",
-        "url": "https://kotaku.com/ea-to-shut-down-bioware-and-cancel-the-next-mass-effect-game-2000748374"
-      }
-    },
-    {
-      "id": "2026-10-21-9-q9",
-      "category": "Law and crime",
-      "story": "Cross-strait relations",
-      "question": "Prosecutors in Taiwan have charged five individuals over an alleged plot to attack a satirical performer who criticises which organisation?",
-      "options": [
-        "Chinese Communist Party",
-        "World Health Organization",
-        "Taiwanese Armed Forces",
-        "United Nations"
-      ],
-      "answerIndex": 0,
-      "explanation": "The indicted suspects allegedly took payments to harm an anti-CCP comedian in New Taipei City.",
-      "context": "Cross-strait relations: Taiwanese prosecutors indict five people for allegedly accepting money and planning to injure an anti-Chinese Communist Party comedian in New Taipei City.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21",
-      "topicUrl": "https://en.wikipedia.org/wiki/Cross-strait_relations",
-      "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/taiwan-china-xi-jinping-comedian-huang-attacked-5de1ede690a3881d79f74624e81acf0c"
-      }
-    },
-    {
-      "id": "2026-10-21-7-q2",
-      "category": "Business and economy",
       "story": "",
-      "question": "Energy regulators have given the go-ahead for gas production to begin at the Jackdaw offshore field in which body of water?",
-      "options": ["Celtic Sea", "North Sea", "English Channel", "Irish Sea"],
-      "answerIndex": 1,
-      "explanation": "The UK North Sea Transition Authority granted approval for energy firm Adura to start supplying gas from the site.",
-      "context": "The North Sea Transition Authority (NSTA) of the United Kingdom approves production from the Jackdaw gas field after energy secretary Miatta Fahnbulleh authorized the NSTA to grant consent, allowing operator Adura to begin supplying gas by late October.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21",
+      "question": "The Onkalo repository, the first licensed deep geological disposal site for spent nuclear fuel, is located in which European country?",
+      "options": ["Finland", "Norway", "Sweden", "Switzerland"],
+      "answerIndex": 0,
+      "explanation": "The Finnish government approved an operating licence for Posiva's Onkalo repository in Eurajoki.",
+      "context": "The Finnish Government grants Posiva an operating license for the Onkalo spent nuclear fuel repository in Eurajoki, making it the world's first licensed deep geological disposal facility for spent nuclear fuel.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
       "readMore": {
-        "publisher": "UPI",
-        "url": "https://www.upi.com/Top_News/World-News/2026/10/21/Jackdaw-gasfield-production-greenlighted/2721792570621/"
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261022-finland-grants-licence-for-world-s-first-nuclear-waste-repository"
       }
     },
     {
-      "id": "2026-10-21-12-q5",
-      "category": "Politics and elections",
-      "story": "2026 European unrest, Gen Z protests",
-      "question": "Students and educators held widespread demonstrations across major cities in which European nation to demand better funding and affordable housing?",
-      "options": ["Portugal", "Spain", "Greece", "Italy"],
-      "answerIndex": 2,
-      "explanation": "Protesters gathered in Greek cities including Athens and Thessaloniki over the rising cost of living and education sector investment.",
-      "context": "2026 European unrest, Gen Z protests: Thousands of students and teachers march through Athens, Thessaloniki, and Patras in Greece to protest against the rising cost of living, calling for affordable student housing and more state investment in education.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_European_unrest",
+      "id": "2026-10-22-9-q3",
+      "category": "Health and environment",
+      "story": "",
+      "question": "Health authorities in which European nation identified the first human case of the livestock-associated Shamonda virus?",
+      "options": ["Spain", "Germany", "Italy", "France"],
+      "answerIndex": 3,
+      "explanation": "The first human detection of the Shamonda virus was recorded in France in a patient who had passed away from an unrelated ailment.",
+      "context": "France reports the first human case of the livestock Shamonda virus in a patient who died after being hospitalized with an unrelated condition.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
       "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/athens-greece-protest-student-education-cost-living-55e0df1ba0be02ae573bd0a55a520b3a"
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/france-reports-first-human-shamonda-virus-case-2026-10-22/"
+      }
+    },
+    {
+      "id": "2026-10-22-11-q5",
+      "category": "International relations",
+      "story": "2026 United Nations Secretary-General selection",
+      "question": "Diplomat Lana Nusseibeh launched a bid to become Secretary-General of the United Nations on behalf of which country?",
+      "options": ["United Arab Emirates", "Qatar", "Jordan", "Saudi Arabia"],
+      "answerIndex": 0,
+      "explanation": "Lana Nusseibeh, representing the UAE, formally entered the selection process for the UN Secretary-General position.",
+      "context": "2026 United Nations Secretary-General selection: Emirati diplomat Lana Nusseibeh announces her candidacy for Secretary-General of the United Nations.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_United_Nations_Secretary-General_selection",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/senior-uae-diplomat-lana-nusseibeh-enters-race-un-chief-2026-10-21/"
       }
     }
   ]
