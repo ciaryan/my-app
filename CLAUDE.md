@@ -36,7 +36,9 @@ Both quizzes render the shared client component `src/app/play/_components/DailyQ
 
 **Path alias:** `@/*` maps to `./src/*`.
 
-**Connections game:** Master puzzle data lives in `src/data/connections/puzzles.ts` (curated groups with overlap tags for red herrings). Daily selection logic in `src/lib/connections/daily.ts` uses a seeded PRNG keyed on the date. User history stored in localStorage. **Planned:** Replace deterministic selection with an LLM agent (Gemini via Google AI Studio) that composes daily puzzles from the master list with more nuanced cross-category overlap reasoning. Reuse `src/lib/ai/gemini.ts`. Only older Pro models are on the free tier, so expect to use Flash.
+**Connections game:** The launch groups are in `src/data/connections/puzzles.ts` (`ORIGINAL_GROUPS`, with overlap tags for red herrings). Later groups go in `added.json`, each with an `addedOn` date before which it can't appear. Daily selection in `src/lib/connections/daily.ts`: days before `LRU_FROM` (2026-10-24) keep the original seeded cycle so past puzzles don't change. From then on, each difficulty slot takes the least recently used available group whose words don't clash with the rest of the board. New groups are therefore all used before any old one repeats. User history stored in localStorage.
+
+- Adding groups: `npm run -s connections:prompt -- 10 | pbcopy` builds a prompt that lists every existing group (paste it into Gemini). Save the JSON reply and run `npm run connections:add -- <file> [--dry-run]`, which drops duplicates (same id or category, or 2+ shared words) and sets `addedOn` to tomorrow so today's puzzle never changes. `npm run connections:validate` checks all groups and reports when each difficulty first repeats a group. **Planned:** Replace deterministic selection with an LLM agent (Gemini via Google AI Studio) that composes daily puzzles from the master list with more nuanced cross-category overlap reasoning. Reuse `src/lib/ai/gemini.ts`. Only older Pro models are on the free tier, so expect to use Flash.
 
 **Security headers:** X-Frame-Options, HSTS, etc. configured in `next.config.ts` `headers()`.
 

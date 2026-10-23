@@ -1,0 +1,642 @@
+[
+  {
+    "id": "uk-supermarkets",
+    "category": "UK Supermarkets",
+    "difficulty": 1,
+    "words": ["Tesco", "Asda", "Sainsbury's", "Morrisons"],
+    "overlapTags": ["food", "retail", "shops"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "common-birds",
+    "category": "Common Birds",
+    "difficulty": 1,
+    "words": ["Magpie", "Starling", "Pigeon", "Seagull"],
+    "overlapTags": ["animals", "flight", "nature"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "breakfast-cereals",
+    "category": "Breakfast Cereals",
+    "difficulty": 1,
+    "words": ["Cornflakes", "Weetabix", "Cheerios", "Muesli"],
+    "overlapTags": ["morning", "food", "milk"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "living-room-furniture",
+    "category": "Living Room Furniture",
+    "difficulty": 1,
+    "words": ["Sofa", "Armchair", "Bookcase", "Footstool"],
+    "overlapTags": ["house", "wood", "relax"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "types-of-apple",
+    "category": "Types of Apple",
+    "difficulty": 1,
+    "words": ["Gala", "Braeburn", "Pink Lady", "Granny Smith"],
+    "overlapTags": ["fruit", "baking", "orchard"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "basic-shapes",
+    "category": "Basic Shapes",
+    "difficulty": 1,
+    "words": ["Circle", "Square", "Triangle", "Rectangle"],
+    "overlapTags": ["maths", "drawing", "geometry"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "car-parts",
+    "category": "Car Parts",
+    "difficulty": 1,
+    "words": ["Bumper", "Exhaust", "Bonnet", "Clutch"],
+    "overlapTags": ["driving", "mechanic", "vehicles"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "traditional-fairy-tales",
+    "category": "Traditional Fairy Tales",
+    "difficulty": 1,
+    "words": ["Cinderella", "Snow White", "Rapunzel", "Rumpelstiltskin"],
+    "overlapTags": ["stories", "disney", "books"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "zodiac-signs",
+    "category": "Zodiac Signs",
+    "difficulty": 1,
+    "words": ["Aries", "Taurus", "Gemini", "Cancer"],
+    "overlapTags": ["stars", "months", "astrology"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "headwear",
+    "category": "Things You Wear on Your Head",
+    "difficulty": 1,
+    "words": ["Hat", "Cap", "Helmet", "Beanie"],
+    "overlapTags": ["clothes", "winter", "safety"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "classic-sitcoms",
+    "category": "Classic UK & Irish Sitcoms",
+    "difficulty": 2,
+    "words": ["Fawlty Towers", "Father Ted", "Blackadder", "Derry Girls"],
+    "overlapTags": ["tv", "comedy", "laughs"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "uk-rivers",
+    "category": "UK Rivers",
+    "difficulty": 2,
+    "words": ["Thames", "Severn", "Trent", "Mersey"],
+    "overlapTags": ["water", "geography", "cities"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "pub-games",
+    "category": "Traditional Pub Games",
+    "difficulty": 2,
+    "words": ["Darts", "Skittles", "Dominoes", "Cribbage"],
+    "overlapTags": ["games", "sports", "drinking"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "famous-castles",
+    "category": "Famous Castles",
+    "difficulty": 2,
+    "words": ["Edinburgh", "Warwick", "Caernarfon", "Blarney"],
+    "overlapTags": ["history", "forts", "tourism"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "full-breakfast-items",
+    "category": "Cooked Breakfast Items",
+    "difficulty": 2,
+    "words": ["Hash Brown", "Fried Egg", "Mushroom", "Tomato"],
+    "overlapTags": ["food", "morning", "fry"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "scottish-islands",
+    "category": "Scottish Islands",
+    "difficulty": 2,
+    "words": ["Skye", "Mull", "Islay", "Arran"],
+    "overlapTags": ["geography", "whisky", "travel"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "slang-for-tired",
+    "category": "Slang for Exhausted",
+    "difficulty": 2,
+    "words": ["Knackered", "Wrecked", "Shattered", "Done"],
+    "overlapTags": ["sleep", "feelings", "broken"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "classic-sweets",
+    "category": "Classic Sweets",
+    "difficulty": 2,
+    "words": ["Wine Gums", "Jelly Babies", "Allsorts", "Pear Drops"],
+    "overlapTags": ["sugar", "treats", "tuck shop"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "dog-breeds",
+    "category": "Popular Dog Breeds",
+    "difficulty": 2,
+    "words": ["Labrador", "Greyhound", "Spaniel", "Terrier"],
+    "overlapTags": ["pets", "animals", "racing"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "cities-two-football-teams",
+    "category": "Cities with Two Major Football Teams",
+    "difficulty": 2,
+    "words": ["Manchester", "Sheffield", "Bristol", "Glasgow"],
+    "overlapTags": ["sport", "geography", "rivals"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "uk-phone-networks",
+    "category": "UK Mobile Networks",
+    "difficulty": 3,
+    "words": ["O2", "Three", "EE", "Vodafone"],
+    "overlapTags": ["technology", "numbers", "communication"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "irish-mythical-figures",
+    "category": "Irish Mythological Figures",
+    "difficulty": 3,
+    "words": ["Cú Chulainn", "Fionn", "Oisín", "Medb"],
+    "overlapTags": ["legends", "history", "stories"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "add-shire-county",
+    "category": "Add 'shire' to get an English county",
+    "difficulty": 3,
+    "words": ["York", "Lincoln", "Warwick", "Derby"],
+    "overlapTags": ["geography", "cities", "history"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "cricket-terms",
+    "category": "Terms in Cricket",
+    "difficulty": 3,
+    "words": ["Wicket", "Bails", "Crease", "Pitch"],
+    "overlapTags": ["sport", "grass", "batting"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "irish-tv-channels",
+    "category": "Irish TV Channels",
+    "difficulty": 3,
+    "words": ["RTÉ", "TG4", "Virgin", "UTV"],
+    "overlapTags": ["media", "broadcasting", "television"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "types-of-pastry",
+    "category": "Types of Pastry",
+    "difficulty": 3,
+    "words": ["Puff", "Filo", "Shortcrust", "Choux"],
+    "overlapTags": ["baking", "food", "dessert"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "famous-ships",
+    "category": "Famous Historical Ships",
+    "difficulty": 3,
+    "words": ["Titanic", "Cutty Sark", "Mary Rose", "Beagle"],
+    "overlapTags": ["sea", "history", "travel"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "dialect-bread-rolls",
+    "category": "Dialect Words for a Bread Roll",
+    "difficulty": 3,
+    "words": ["Bap", "Barm", "Cob", "Stottie"],
+    "overlapTags": ["food", "baking", "slang"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "british-fashion-designers",
+    "category": "British Fashion Designers",
+    "difficulty": 3,
+    "words": ["Quant", "Westwood", "McQueen", "McCartney"],
+    "overlapTags": ["clothes", "music", "art"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "sunday-roast-items",
+    "category": "Sunday Roast Components",
+    "difficulty": 3,
+    "words": ["Gravy", "Yorkshires", "Roast Potatoes", "Stuffing"],
+    "overlapTags": ["food", "weekend", "meat"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "starts-with-farm-animal",
+    "category": "Words Starting With a Farm Animal",
+    "difficulty": 4,
+    "words": ["Coward", "Pigment", "Bullion", "Sheepish"],
+    "overlapTags": ["emotions", "art", "money"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "sounds-like-letters",
+    "category": "Words That Sound Like Alphabet Letters",
+    "difficulty": 4,
+    "words": ["Sea", "Tea", "Cue", "Why"],
+    "overlapTags": ["water", "drinks", "questions", "snooker"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "ends-with-body-part",
+    "category": "Words Ending With a Body Part",
+    "difficulty": 4,
+    "words": ["Mistletoe", "Tulip", "Smear", "Worship"],
+    "overlapTags": ["flowers", "maths", "christmas"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "starts-with-vehicle",
+    "category": "Words Starting With a Vehicle",
+    "difficulty": 4,
+    "words": ["Carpet", "Vanilla", "Business", "Taxidermy"],
+    "overlapTags": ["flooring", "flavours", "work"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "words-hiding-numbers",
+    "category": "Words Hiding a Number",
+    "difficulty": 4,
+    "words": ["Bone", "Network", "Tent", "Weight"],
+    "overlapTags": ["anatomy", "camping", "internet"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "anagrams-body-parts",
+    "category": "Anagrams of Body Parts",
+    "difficulty": 4,
+    "words": ["Earth", "Ram", "Inch", "Sink"],
+    "overlapTags": ["animals", "plumbing", "measurements", "planets"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "blank-paper",
+    "category": "___ Paper",
+    "difficulty": 4,
+    "words": ["Toilet", "Wrapping", "Wall", "White"],
+    "overlapTags": ["bathroom", "gifts", "colours"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "things-that-are-flat",
+    "category": "Things Described as 'Flat'",
+    "difficulty": 4,
+    "words": ["Pancake", "Battery", "Tyre", "Note"],
+    "overlapTags": ["food", "cars", "music", "power"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "homophones-weather",
+    "category": "Homophones of Weather Words",
+    "difficulty": 4,
+    "words": ["Reign", "Son", "Missed", "Whether"],
+    "overlapTags": ["royalty", "family", "questions"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "starts-with-double-letters",
+    "category": "Words Starting With Double Letters",
+    "difficulty": 4,
+    "words": ["Aardvark", "Eel", "Llama", "Ooze"],
+    "overlapTags": ["animals", "slime", "nature"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "uk-high-street-banks",
+    "category": "UK High Street Banks",
+    "difficulty": 1,
+    "words": ["Barclays", "Halifax", "NatWest", "Lloyds"],
+    "overlapTags": ["finance", "money", "places"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "northern-irish-towns",
+    "category": "Northern Irish Towns",
+    "difficulty": 1,
+    "words": ["Bangor", "Omagh", "Coleraine", "Larne"],
+    "overlapTags": ["geography", "places"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "olympic-track-events",
+    "category": "Olympic Track Events",
+    "difficulty": 1,
+    "words": ["Sprint", "Hurdles", "Relay", "Steeplechase"],
+    "overlapTags": ["athletics", "running", "sports"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "types-of-pasta",
+    "category": "Types of Pasta",
+    "difficulty": 1,
+    "words": ["Penne", "Fusilli", "Macaroni", "Spaghetti"],
+    "overlapTags": ["food", "italian", "cooking"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "irish-rugby-provinces",
+    "category": "Irish Rugby Provinces",
+    "difficulty": 1,
+    "words": ["Leinster", "Munster", "Connacht", "Ulster"],
+    "overlapTags": ["sport", "geography", "teams"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "dublin-coastal-suburbs",
+    "category": "Dublin Coastal Suburbs",
+    "difficulty": 1,
+    "words": ["Howth", "Malahide", "Dalkey", "Killiney"],
+    "overlapTags": ["geography", "villages", "sea"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "types-of-shoe",
+    "category": "Types of Shoe",
+    "difficulty": 1,
+    "words": ["Boot", "Sandal", "Trainer", "Brogue"],
+    "overlapTags": ["clothing", "fashion", "feet"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "welsh-counties",
+    "category": "Welsh Counties",
+    "difficulty": 2,
+    "words": ["Gwynedd", "Powys", "Dyfed", "Clwyd"],
+    "overlapTags": ["geography", "places", "history"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "curry-house-dishes",
+    "category": "Curry House Dishes",
+    "difficulty": 1,
+    "words": ["Korma", "Bhuna", "Jalfrezi", "Madras"],
+    "overlapTags": ["food", "takeaway", "spice"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "irish-newspapers",
+    "category": "Irish Newspapers",
+    "difficulty": 1,
+    "words": ["Independent", "Examiner", "Herald", "Sunday World"],
+    "overlapTags": ["media", "reading", "news"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "harry-potter-houses",
+    "category": "Harry Potter Houses",
+    "difficulty": 1,
+    "words": ["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"],
+    "overlapTags": ["books", "magic", "colours"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "uk-shipping-forecast-areas",
+    "category": "UK Shipping Forecast Areas",
+    "difficulty": 2,
+    "words": ["Malin", "Dogger", "Lundy", "Fastnet"],
+    "overlapTags": ["radio", "sea", "weather"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "baking-ingredients",
+    "category": "Baking Ingredients",
+    "difficulty": 2,
+    "words": ["Flour", "Sugar", "Yeast", "Baking Powder"],
+    "overlapTags": ["food", "kitchen", "cakes"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "parts-of-a-bicycle",
+    "category": "Parts of a Bicycle",
+    "difficulty": 2,
+    "words": ["Saddle", "Pedal", "Chain", "Spoke"],
+    "overlapTags": ["transport", "cycling", "metal"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "english-cheeses",
+    "category": "Traditional English Cheeses",
+    "difficulty": 2,
+    "words": ["Cheddar", "Stilton", "Red Leicester", "Wensleydale"],
+    "overlapTags": ["food", "dairy", "places"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "famous-irish-actors",
+    "category": "Famous Irish Actors (Surnames)",
+    "difficulty": 2,
+    "words": ["Murphy", "Farrell", "Neeson", "Brosnan"],
+    "overlapTags": ["hollywood", "film", "names"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "things-with-a-tail",
+    "category": "Things With a Tail",
+    "difficulty": 2,
+    "words": ["Comet", "Kite", "Monkey", "Shirt"],
+    "overlapTags": ["animals", "space", "clothing"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "uk-theme-parks",
+    "category": "UK Theme Parks",
+    "difficulty": 2,
+    "words": ["Alton Towers", "Thorpe Park", "Legoland", "Chessington"],
+    "overlapTags": ["rides", "days out", "fun"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "irish-cider-brands",
+    "category": "Irish Cider Brands",
+    "difficulty": 2,
+    "words": ["Bulmers", "Orchard Thieves", "Rockshore", "Magners"],
+    "overlapTags": ["drinks", "alcohol", "pubs"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "irish-sea-ferry-ports",
+    "category": "Ferry ports on Ireland–Wales routes",
+    "difficulty": 2,
+    "words": ["Holyhead", "Fishguard", "Rosslare", "Pembroke"],
+    "overlapTags": ["travel", "boats", "wales"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "terms-in-snooker",
+    "category": "Terms in Snooker",
+    "difficulty": 3,
+    "words": ["Pocket", "Baize", "Break", "Spider"],
+    "overlapTags": ["sport", "insects", "clothing"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "uk-music-festivals",
+    "category": "Famous UK Music Festivals",
+    "difficulty": 3,
+    "words": ["Glastonbury", "Reading", "Download", "Creamfields"],
+    "overlapTags": ["music", "camping", "summer"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "irish-presidents",
+    "category": "Irish Presidents (Surnames)",
+    "difficulty": 3,
+    "words": ["Higgins", "McAleese", "Robinson", "Hillery"],
+    "overlapTags": ["politics", "history", "names"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "things-that-are-drawn",
+    "category": "Things That Are Drawn",
+    "difficulty": 3,
+    "words": ["Breath", "Blood", "Curtain", "Match"],
+    "overlapTags": ["body", "household", "sports"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "types-of-knot",
+    "category": "Types of Knot",
+    "difficulty": 3,
+    "words": ["Bowline", "Hitch", "Reef", "Figure Eight"],
+    "overlapTags": ["sailing", "tying", "sea"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "manchester-bands",
+    "category": "Bands from Manchester",
+    "difficulty": 3,
+    "words": ["Oasis", "Stone Roses", "Smiths", "Joy Division"],
+    "overlapTags": ["music", "britpop", "indie"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "slang-for-steal",
+    "category": "Slang for 'To Steal'",
+    "difficulty": 3,
+    "words": ["Nick", "Pinch", "Swipe", "Half-inch"],
+    "overlapTags": ["names", "actions", "crime"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "words-following-door",
+    "category": "Words That Can Follow 'Door'",
+    "difficulty": 3,
+    "words": ["Step", "Bell", "Way", "Mat"],
+    "overlapTags": ["house", "hardware", "sounds"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "london-railway-terminals",
+    "category": "London Railway Terminals",
+    "difficulty": 3,
+    "words": ["King's Cross", "Euston", "Waterloo", "Marylebone"],
+    "overlapTags": ["trains", "stations", "history"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "classic-irish-crisps",
+    "category": "Classic Irish Crisps Brands",
+    "difficulty": 3,
+    "words": ["Tayto", "Hunky Dorys", "Keoghs", "O'Donnells"],
+    "overlapTags": ["snacks", "food", "potatoes"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "blank-cake",
+    "category": "___ Cake",
+    "difficulty": 4,
+    "words": ["Fruit", "Sponge", "Carrot", "Jaffa"],
+    "overlapTags": ["baking", "cleaning", "veg", "places"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "starts-with-colour",
+    "category": "Words Starting With a Colour",
+    "difficulty": 4,
+    "words": ["Blacksmith", "Greenhouse", "Redhead", "Blueprint"],
+    "overlapTags": ["jobs", "buildings", "hair", "plans"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "contains-cat",
+    "category": "Words Containing 'Cat'",
+    "difficulty": 4,
+    "words": ["Catch", "Educate", "Vacate", "Scatter"],
+    "overlapTags": ["actions", "learning", "movement"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "blank-board",
+    "category": "___ Board",
+    "difficulty": 4,
+    "words": ["Skate", "Dash", "Surf", "Chalk"],
+    "overlapTags": ["sports", "cars", "ocean", "school"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "animal-homophones",
+    "category": "Homophones of Animals",
+    "difficulty": 4,
+    "words": ["Bare", "Dear", "Hair", "Foul"],
+    "overlapTags": ["body", "letters", "sports", "feelings"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "blank-master",
+    "category": "___ Master",
+    "difficulty": 4,
+    "words": ["Task", "Post", "Quiz", "Station"],
+    "overlapTags": ["jobs", "games", "mail", "trains"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "ends-in-musical-note",
+    "category": "Words Ending With a Musical Note",
+    "difficulty": 4,
+    "words": ["Tuxedo", "Before", "Salami", "Sofa"],
+    "overlapTags": ["clothing", "time", "food", "furniture"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "replace-first-letter-colour",
+    "category": "Replace the First Letter to Make a Colour",
+    "difficulty": 4,
+    "words": ["Bed", "Link", "Glue", "Fold"],
+    "overlapTags": ["furniture", "internet", "crafts", "paper"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "words-following-water",
+    "category": "Words That Can Follow 'Water'",
+    "difficulty": 4,
+    "words": ["Proof", "Fall", "Melon", "Mark"],
+    "overlapTags": ["seasons", "fruit", "names", "maths"],
+    "addedOn": "2026-10-24"
+  },
+  {
+    "id": "things-with-eyes",
+    "category": "Things With Eyes",
+    "difficulty": 4,
+    "words": ["Potato", "Needle", "Hurricane", "Peacock"],
+    "overlapTags": ["food", "sewing", "weather", "birds"],
+    "addedOn": "2026-10-24"
+  }
+]

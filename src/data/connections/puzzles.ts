@@ -1,12 +1,18 @@
+import added from './added.json';
+
 export interface PuzzleGroup {
   id: string;
   category: string;
   difficulty: 1 | 2 | 3 | 4;
   words: [string, string, string, string];
   overlapTags: string[];
+  /** First date (UTC, YYYY-MM-DD) the group may appear. Unset = since launch. */
+  addedOn?: string;
 }
 
-export const PUZZLE_GROUPS: PuzzleGroup[] = [
+// The launch set, which the legacy schedule cycles through. New groups go in
+// added.json via `npm run connections:add` (checked by connections:validate).
+export const ORIGINAL_GROUPS: PuzzleGroup[] = [
   // ── Difficulty 1 (Yellow — easiest) ──────────────────────────────
   {
     id: 'tube-lines',
@@ -539,4 +545,9 @@ export const PUZZLE_GROUPS: PuzzleGroup[] = [
     words: ['Fine', 'Fianna', 'Sinn', 'Labour'],
     overlapTags: ['adjectives', 'politics', 'work', 'gaelic'],
   },
+];
+
+export const PUZZLE_GROUPS: PuzzleGroup[] = [
+  ...ORIGINAL_GROUPS,
+  ...(added as PuzzleGroup[]),
 ];
