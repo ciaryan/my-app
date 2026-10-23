@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T05:18:53.615Z",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T05:16:37.082Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,84 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-10-22-selected-6-q12",
-      "category": "Music",
+      "id": "2026-10-23-event-54-q13",
+      "category": "History",
       "story": "On this day",
-      "question": "On this day in 1966, which Motown vocal group became the first all-female act to top the US Billboard 200 album chart?",
-      "options": [
-        "The Supremes",
-        "The Ronettes",
-        "The Shirelles",
-        "The Marvelettes"
-      ],
-      "answerIndex": 0,
-      "explanation": "The Supremes reached the peak of the Billboard 200 with their ninth studio release, The Supremes A' Go-Go.",
-      "context": "On this day in 1966: With their album The Supremes A' Go-Go, the Supremes became the first all-female group to reach number one on the Billboard 200 chart.\nThe Supremes A' Go-Go (Album by the Supremes): The Supremes A' Go-Go is the ninth studio album released by the Motown singing group the Supremes. It was the first album by an all-female group to reach number-one on the Billboard 200 album charts in the United States.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/The_Supremes_A'_Go-Go"
+      "question": "On this day in 1707, the very first Parliament of Great Britain convened following the unification of England and which other kingdom?",
+      "options": ["Ireland", "Scotland", "Hanover", "Wales"],
+      "answerIndex": 1,
+      "explanation": "The Parliament of Great Britain was established in 1707 when the Acts of Union merged the kingdoms of England and Scotland.",
+      "context": "On this day in 1707: The First Parliament of the Kingdom of Great Britain convenes.\nFirst Parliament of Great Britain (Parliament of the Kingdom of Great Britain from 1707 to 1708): The first Parliament of the Kingdom of Great Britain was established in 1707 after the merger of the Kingdom of England and the Kingdom of Scotland.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/First_Parliament_of_Great_Britain"
     },
     {
-      "id": "2026-10-22-popular-20-q1",
+      "id": "2026-10-23-popular-3-q2",
       "category": "Film",
       "story": "Most read",
-      "question": "Which Shakespearean comedy served as the basis for the 1999 teen romantic comedy 10 Things I Hate About You?",
+      "question": "In the 2026 DC Studios psychological thriller Clayface, which actor portrays the title role of Matt Hagen?",
       "options": [
-        "Twelfth Night",
-        "A Midsummer Night's Dream",
-        "The Taming of the Shrew",
-        "Much Ado About Nothing"
+        "Eddie Marsan",
+        "Tom Rhys Harries",
+        "David Dencik",
+        "Max Minghella"
       ],
-      "answerIndex": 2,
-      "explanation": "Directed by Gil Junger and starring Julia Stiles and Heath Ledger, the 1999 film was an adaptation of William Shakespeare's The Taming of the Shrew.",
-      "context": "10 Things I Hate About You (1999 film by Gil Junger): 10 Things I Hate About You is a 1999 American teen romantic comedy directed by Gil Junger from a screenplay by Karen McCullah Lutz and Kirsten Smith. Adapted from William Shakespeare's comedy The Taming of the Shrew, it stars Julia Stiles, Heath Ledger, Joseph Gordon-Levitt, Larisa Oleynik, Larry Miller, Andrew Keegan, David Krumholtz, Susan May Pratt, and Gabrielle Union.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/10_Things_I_Hate_About_You"
+      "answerIndex": 1,
+      "explanation": "Tom Rhys Harries stars as Matt Hagen, also known as Clayface, in the 2026 film directed by James Watkins.",
+      "context": "Clayface (film) (2026 DC Studios film): Clayface is a 2026 American body horror psychological thriller film based on the eponymous character from DC Comics. Directed by James Watkins from a screenplay by Mike Flanagan and Hossein Amini, it is the third film in the DC Universe (DCU). Tom Rhys Harries stars as Matt Hagen / Clayface, alongside Naomi Ackie, David Dencik, Max Minghella, and Eddie Marsan.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Clayface_(film)"
     },
     {
-      "id": "2026-10-22-popular-16-q3",
-      "category": "TV",
+      "id": "2026-10-23-popular-4-q1",
+      "category": "Music",
       "story": "Most read",
-      "question": "The Apple TV+ spy thriller series Slow Horses, featuring MI5 rejects at Slough House, is based on the books of which novelist?",
-      "options": [
-        "John le Carré",
-        "Len Deighton",
-        "Mick Herron",
-        "Anthony Horowitz"
-      ],
-      "answerIndex": 2,
-      "explanation": "The series was adapted for television by Will Smith from the Slough House series of novels by Mick Herron.",
-      "context": "Slow Horses (British spy thriller TV series (2022–present)): Slow Horses is a British spy thriller television series based on the Slough House novels by Mick Herron, and adapted for television by the English comedian and writer Will Smith. It follows Slough House, an MI5 unit where disgraced or failed agents are consigned, under the supervision of Jackson Lamb.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Slow_Horses"
+      "question": "Which rock music superstar was model and actress Jerry Hall in a long-term partnership with, having four children together?",
+      "options": ["David Bowie", "Mick Jagger", "Bryan Ferry", "Rod Stewart"],
+      "answerIndex": 1,
+      "explanation": "Jerry Hall had a long-term relationship with Rolling Stones frontman Mick Jagger before her later marriage to Rupert Murdoch.",
+      "context": "Jerry Hall (American model and actress (born 1956)): Jerry Faye Hall is an American model and actress. She began modeling in the 1970s and became one of the most sought-after models in the world. She transitioned into acting, appearing in the 1989 film Batman. Hall was the long-term partner of Rolling Stones frontman Mick Jagger, with whom she has four children. She was the fourth wife of Rupert Murdoch until they divorced in 2022.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jerry_Hall"
     },
     {
-      "id": "2026-10-22-popular-10-q5",
-      "category": "Sport",
+      "id": "2026-10-23-popular-33-q7",
+      "category": "Literature",
       "story": "Most read",
-      "question": "Which former professional football star is a minority shareholder in the Italian Serie A club Como 1907 alongside manager Cesc Fàbregas?",
+      "question": "Filmmaker Mike Flanagan developed a 2026 supernatural horror television series for Amazon Prime Video based on which author's debut 1974 novel?",
       "options": [
-        "David Trezeguet",
-        "Patrick Vieira",
-        "Thierry Henry",
-        "Zinedine Zidane"
-      ],
-      "answerIndex": 2,
-      "explanation": "Former French international Thierry Henry and Como manager Cesc Fàbregas are both minority investors in the Italian side.",
-      "context": "Como 1907 (Association football club in Italy): Como 1907 is an Italian professional football club based in Como, Lombardy, that competes in Serie A, the top flight of the Italian football system. Founded in 1907 as Como Foot-Ball Club, the team traditionally plays in royal blue and has hosted home matches at the Stadio Giuseppe Sinigaglia since 1928. The club was acquired in 2019 by the Hartono brothers through Djarum Group. Minority shareholders in the club include head coach Cesc Fàbregas and former international footballer Thierry Henry.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Como_1907"
-    },
-    {
-      "id": "2026-10-22-popular-4-q8",
-      "category": "Science",
-      "story": "Most read",
-      "question": "Before being bought out by Electronic Arts in 2007, which Canadian video game studio was founded by three newly qualified medical doctors in Edmonton?",
-      "options": [
-        "BioWare",
-        "Radical Entertainment",
-        "Ubisoft Montreal",
-        "Relic Entertainment"
+        "Stephen King",
+        "Dean Koontz",
+        "Clive Barker",
+        "Peter Straub"
       ],
       "answerIndex": 0,
-      "explanation": "BioWare was established in Alberta in 1995 by medical graduates Ray Muzyka, Greg Zeschuk and Augustine Yip.",
-      "context": "BioWare (Canadian video game developer): BioWare was a Canadian video game developer based in Edmonton, Alberta. It was founded in 1995 by newly graduated medical doctors Ray Muzyka, Greg Zeschuk and Augustine Yip. The company was acquired by American publisher Electronic Arts in 2007.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/BioWare"
+      "explanation": "Flanagan adapted Stephen King's 1974 debut novel Carrie into a television series for Amazon Prime Video.",
+      "context": "Carrie (TV series) (2026 television series by Mike Flanagan): Carrie is an American supernatural horror television series developed by Mike Flanagan, and produced by Amazon MGM Studios for Amazon Prime Video. The first series adaptation of the eponymous franchise, it is based on the 1974 novel by Stephen King, and is the fourth screen adaptation of the novel.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Carrie_(TV_series)"
+    },
+    {
+      "id": "2026-10-23-popular-10-q4",
+      "category": "Science",
+      "story": "Most read",
+      "question": "Originally standing for 'Personal Home Page', what does the popular web scripting language PHP now recursively stand for?",
+      "options": [
+        "PHP: Program Handler Protocol",
+        "PHP: Hypertext Preprocessor",
+        "PHP: Public Hosting Platform",
+        "PHP: Parsed Hypertext Package"
+      ],
+      "answerIndex": 1,
+      "explanation": "The scripting language created by Rasmus Lerdorf evolved from standing for 'Personal Home Page' into the recursive backronym 'PHP: Hypertext Preprocessor'.",
+      "context": "PHP (Scripting language created in 1994): PHP is a general-purpose scripting language geared toward web development. It was created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by the PHP Group. PHP was originally an abbreviation of \"Personal Home Page\", but it now stands for the recursive backronym \"PHP: Hypertext Preprocessor\".",
+      "sourceUrl": "https://en.wikipedia.org/wiki/PHP"
     }
   ]
 }
