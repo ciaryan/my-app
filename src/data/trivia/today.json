@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-23",
-  "generatedAt": "2026-10-23T05:16:37.082Z",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T04:59:25.119Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,74 +11,79 @@
   },
   "questions": [
     {
-      "id": "2026-10-23-event-54-q13",
-      "category": "History",
+      "id": "2026-10-24-selected-14-q11",
+      "category": "Literature",
       "story": "On this day",
-      "question": "On this day in 1707, the very first Parliament of Great Britain convened following the unification of England and which other kingdom?",
-      "options": ["Ireland", "Scotland", "Hanover", "Wales"],
+      "question": "On this day in 1885, the Russian cargo ship Dmitry ran aground at Whitby, later inspiring an iconic arrival scene in which Gothic horror novel?",
+      "options": [
+        "The Beetle",
+        "Dracula",
+        "Frankenstein",
+        "The Picture of Dorian Gray"
+      ],
       "answerIndex": 1,
-      "explanation": "The Parliament of Great Britain was established in 1707 when the Acts of Union merged the kingdoms of England and Scotland.",
-      "context": "On this day in 1707: The First Parliament of the Kingdom of Great Britain convenes.\nFirst Parliament of Great Britain (Parliament of the Kingdom of Great Britain from 1707 to 1708): The first Parliament of the Kingdom of Great Britain was established in 1707 after the merger of the Kingdom of England and the Kingdom of Scotland.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/First_Parliament_of_Great_Britain"
+      "explanation": "The wreck of the Dmitry in Whitby harbour provided inspiration for Count Dracula's dramatic arrival on English shores in Bram Stoker's classic work.",
+      "context": "On this day in 1885: The Russian ship Dmitry ran aground in Whitby, an incident that inspired the arrival of Count Dracula to England in Bram Stoker's 1897 novel (cover pictured).\nRussian ship Dmitry (Cargo ship wrecked at England in 1885): Dmitry was a Russian cargo ship that was wrecked at Whitby, England, in 1885. The vessel had been travelling from Antwerp, Belgium, to Newcastle upon Tyne, England, when she sought safe harbour in Whitby during a gale on 24 October.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Russian_ship_Dmitry"
     },
     {
-      "id": "2026-10-23-popular-3-q2",
+      "id": "2026-10-24-popular-12-q2",
       "category": "Film",
       "story": "Most read",
-      "question": "In the 2026 DC Studios psychological thriller Clayface, which actor portrays the title role of Matt Hagen?",
+      "question": "Which stop-motion studio produced the 2026 dark fantasy animated film Wildwood?",
       "options": [
-        "Eddie Marsan",
-        "Tom Rhys Harries",
-        "David Dencik",
-        "Max Minghella"
+        "Studio Ghibli",
+        "Illumination",
+        "Aardman Animations",
+        "Laika"
       ],
-      "answerIndex": 1,
-      "explanation": "Tom Rhys Harries stars as Matt Hagen, also known as Clayface, in the 2026 film directed by James Watkins.",
-      "context": "Clayface (film) (2026 DC Studios film): Clayface is a 2026 American body horror psychological thriller film based on the eponymous character from DC Comics. Directed by James Watkins from a screenplay by Mike Flanagan and Hossein Amini, it is the third film in the DC Universe (DCU). Tom Rhys Harries stars as Matt Hagen / Clayface, alongside Naomi Ackie, David Dencik, Max Minghella, and Eddie Marsan.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Clayface_(film)"
+      "answerIndex": 3,
+      "explanation": "Wildwood is an American stop-motion fantasy film produced by Laika and directed by Travis Knight.",
+      "context": "Wildwood (film) (2026 American film): Wildwood is a 2026 American stop-motion adult animated epic dark fantasy film directed by Travis Knight and written by Chris Butler, based on the 2011 novel by Colin Meloy and Carson Ellis. Produced by Laika, the film stars Carey Mulligan, Peyton Elizabeth Lee, Jacob Tremblay, Richard E. Grant, Awkwafina, Amandla Stenberg, Tom Waits, Charlie Day, Blythe Danner, Arthur Knight, Angela Bassett, and Mahershala Ali.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wildwood_(film)"
     },
     {
-      "id": "2026-10-23-popular-4-q1",
-      "category": "Music",
+      "id": "2026-10-24-popular-16-q4",
+      "category": "TV",
       "story": "Most read",
-      "question": "Which rock music superstar was model and actress Jerry Hall in a long-term partnership with, having four children together?",
-      "options": ["David Bowie", "Mick Jagger", "Bryan Ferry", "Rod Stewart"],
-      "answerIndex": 1,
-      "explanation": "Jerry Hall had a long-term relationship with Rolling Stones frontman Mick Jagger before her later marriage to Rupert Murdoch.",
-      "context": "Jerry Hall (American model and actress (born 1956)): Jerry Faye Hall is an American model and actress. She began modeling in the 1970s and became one of the most sought-after models in the world. She transitioned into acting, appearing in the 1989 film Batman. Hall was the long-term partner of Rolling Stones frontman Mick Jagger, with whom she has four children. She was the fourth wife of Rupert Murdoch until they divorced in 2022.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Jerry_Hall"
-    },
-    {
-      "id": "2026-10-23-popular-33-q7",
-      "category": "Literature",
-      "story": "Most read",
-      "question": "Filmmaker Mike Flanagan developed a 2026 supernatural horror television series for Amazon Prime Video based on which author's debut 1974 novel?",
+      "question": "Who hosts the second series of the BBC One reality game show The Celebrity Traitors?",
       "options": [
-        "Stephen King",
-        "Dean Koontz",
-        "Clive Barker",
-        "Peter Straub"
+        "Claudia Winkleman",
+        "Davina McCall",
+        "Tess Daly",
+        "Cat Deeley"
       ],
       "answerIndex": 0,
-      "explanation": "Flanagan adapted Stephen King's 1974 debut novel Carrie into a television series for Amazon Prime Video.",
-      "context": "Carrie (TV series) (2026 television series by Mike Flanagan): Carrie is an American supernatural horror television series developed by Mike Flanagan, and produced by Amazon MGM Studios for Amazon Prime Video. The first series adaptation of the eponymous franchise, it is based on the 1974 novel by Stephen King, and is the fourth screen adaptation of the novel.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Carrie_(TV_series)"
+      "explanation": "Claudia Winkleman serves as the presenter for the ten-episode celebrity edition of the programme.",
+      "context": "The Celebrity Traitors series 2 (2026 series of The Celebrity Traitors): The second series of The Celebrity Traitors began airing on BBC One on 1 October 2026, with Claudia Winkleman presenting the ten-episode series. The companion show The Celebrity Traitors: Uncloaked has also returned, hosted by Ed Gamble. In the series, 21 celebrities compete to win up to £100,000 for their chosen charities.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Celebrity_Traitors_series_2"
     },
     {
-      "id": "2026-10-23-popular-10-q4",
+      "id": "2026-10-24-popular-3-q8",
       "category": "Science",
       "story": "Most read",
-      "question": "Originally standing for 'Personal Home Page', what does the popular web scripting language PHP now recursively stand for?",
+      "question": "What primary method did Elizabeth Holmes claim would revolutionise blood testing when promoting her company Theranos?",
       "options": [
-        "PHP: Program Handler Protocol",
-        "PHP: Hypertext Preprocessor",
-        "PHP: Public Hosting Platform",
-        "PHP: Parsed Hypertext Package"
+        "Analysing saliva samples instead of venous draws",
+        "Detecting pathogens via continuous skin patches",
+        "Testing very small volumes such as from a fingerprick",
+        "Using optical scanning without breaking the skin"
       ],
-      "answerIndex": 1,
-      "explanation": "The scripting language created by Rasmus Lerdorf evolved from standing for 'Personal Home Page' into the recursive backronym 'PHP: Hypertext Preprocessor'.",
-      "context": "PHP (Scripting language created in 1994): PHP is a general-purpose scripting language geared toward web development. It was created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by the PHP Group. PHP was originally an abbreviation of \"Personal Home Page\", but it now stands for the recursive backronym \"PHP: Hypertext Preprocessor\".",
-      "sourceUrl": "https://en.wikipedia.org/wiki/PHP"
+      "answerIndex": 2,
+      "explanation": "Theranos claimed to have created innovative technology requiring merely tiny amounts of blood taken from a simple fingerprick.",
+      "context": "Elizabeth Holmes (American businesswoman and convicted felon (born 1984)): Elizabeth Anne Holmes is an American businesswoman convicted of fraud in connection with her health technology company Theranos. Holmes founded Theranos in 2003, and its valuation soared in the early 2010s after it claimed to have revolutionized blood testing by developing methods that needed only very small volumes of blood, such as from a fingerprick.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+    },
+    {
+      "id": "2026-10-24-popular-5-q9",
+      "category": "Geography",
+      "story": "Most read",
+      "question": "In which American state did Ilhan Omar serve as a state representative from 2017 to 2019 before entering the U.S. Congress?",
+      "options": ["Minnesota", "Wisconsin", "Illinois", "Michigan"],
+      "answerIndex": 0,
+      "explanation": "Ilhan Omar represented a section of Minneapolis in the Minnesota House of Representatives prior to her election to Congress.",
+      "context": "Ilhan Omar (American politician (born 1982)): Ilhan Abdullahi Omar is an American politician serving as the U.S. representative for Minnesota's 5th congressional district since 2019. The district includes all of Minneapolis and some of its first-ring suburbs. From 2017 to 2019, Omar served in the Minnesota House of Representatives, representing part of Minneapolis. She is a member of the Democratic Party.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ilhan_Omar"
     }
   ]
 }
