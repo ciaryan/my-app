@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-24T04:59:25.119Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T07:49:14.691Z",
+  "model": "gemini-3.8-flash, gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,79 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-10-24-selected-14-q11",
-      "category": "Literature",
+      "id": "2026-10-25-selected-13-q11",
+      "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1885, the Russian cargo ship Dmitry ran aground at Whitby, later inspiring an iconic arrival scene in which Gothic horror novel?",
-      "options": [
-        "The Beetle",
-        "Dracula",
-        "Frankenstein",
-        "The Picture of Dorian Gray"
-      ],
+      "question": "On this day in 1760, who became King of Great Britain and Ireland following the death of his grandfather?",
+      "options": ["George II", "George III", "William IV", "George IV"],
       "answerIndex": 1,
-      "explanation": "The wreck of the Dmitry in Whitby harbour provided inspiration for Count Dracula's dramatic arrival on English shores in Bram Stoker's classic work.",
-      "context": "On this day in 1885: The Russian ship Dmitry ran aground in Whitby, an incident that inspired the arrival of Count Dracula to England in Bram Stoker's 1897 novel (cover pictured).\nRussian ship Dmitry (Cargo ship wrecked at England in 1885): Dmitry was a Russian cargo ship that was wrecked at Whitby, England, in 1885. The vessel had been travelling from Antwerp, Belgium, to Newcastle upon Tyne, England, when she sought safe harbour in Whitby during a gale on 24 October.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Russian_ship_Dmitry"
+      "explanation": "George III acceded to the British throne on 25 October 1760, succeeding his grandfather King George II.",
+      "context": "On this day in 1760: George III became King of Great Britain and Ireland, succeeding his grandfather George II.\nGeorge III (King of Great Britain and Ireland from 1760 to 1820): George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. He was concurrently duke and prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/George_III"
     },
     {
-      "id": "2026-10-24-popular-12-q2",
+      "id": "2026-10-25-popular-22-q10",
       "category": "Film",
       "story": "Most read",
-      "question": "Which stop-motion studio produced the 2026 dark fantasy animated film Wildwood?",
+      "question": "Which actor provided the voice for Clark Kent and his superhero alter ego in the 1990s animated series Superman: The Animated Series?",
       "options": [
-        "Studio Ghibli",
-        "Illumination",
-        "Aardman Animations",
-        "Laika"
-      ],
-      "answerIndex": 3,
-      "explanation": "Wildwood is an American stop-motion fantasy film produced by Laika and directed by Travis Knight.",
-      "context": "Wildwood (film) (2026 American film): Wildwood is a 2026 American stop-motion adult animated epic dark fantasy film directed by Travis Knight and written by Chris Butler, based on the 2011 novel by Colin Meloy and Carson Ellis. Produced by Laika, the film stars Carey Mulligan, Peyton Elizabeth Lee, Jacob Tremblay, Richard E. Grant, Awkwafina, Amandla Stenberg, Tom Waits, Charlie Day, Blythe Danner, Arthur Knight, Angela Bassett, and Mahershala Ali.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Wildwood_(film)"
-    },
-    {
-      "id": "2026-10-24-popular-16-q4",
-      "category": "TV",
-      "story": "Most read",
-      "question": "Who hosts the second series of the BBC One reality game show The Celebrity Traitors?",
-      "options": [
-        "Claudia Winkleman",
-        "Davina McCall",
-        "Tess Daly",
-        "Cat Deeley"
+        "Tim Daly",
+        "Kevin Conroy",
+        "George Newbern",
+        "Michael Rosenbaum"
       ],
       "answerIndex": 0,
-      "explanation": "Claudia Winkleman serves as the presenter for the ten-episode celebrity edition of the programme.",
-      "context": "The Celebrity Traitors series 2 (2026 series of The Celebrity Traitors): The second series of The Celebrity Traitors began airing on BBC One on 1 October 2026, with Claudia Winkleman presenting the ten-episode series. The companion show The Celebrity Traitors: Uncloaked has also returned, hosted by Ed Gamble. In the series, 21 celebrities compete to win up to £100,000 for their chosen charities.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/The_Celebrity_Traitors_series_2"
+      "explanation": "Tim Daly voiced Clark Kent and Superman across several projects, including Superman: The Animated Series.",
+      "context": "Tim Daly (American actor (born 1956)): James Timothy Daly is an American actor, producer and director, best known for his roles as Joe Hackett on the NBC sitcom Wings and his recurring role as drug-addicted screenwriter J.T. Dolan on The Sopranos. He starred as Pete Wilder on the ABC medical drama Private Practice from 2007 to 2012. He is also known for his voice role as Clark Kent/Superman in Superman: The Animated Series and several animated Superman movies.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tim_Daly"
     },
     {
-      "id": "2026-10-24-popular-3-q8",
+      "id": "2026-10-25-popular-20-q3",
+      "category": "Music",
+      "story": "Most read",
+      "question": "British singer Amy Winehouse was particularly renowned for which type of vocal range?",
+      "options": ["Mezzo-soprano", "Soprano", "Tenor", "Contralto"],
+      "answerIndex": 3,
+      "explanation": "Amy Winehouse was famous for her deep, expressive contralto vocals across genres like soul, jazz, and rhythm and blues.",
+      "context": "Amy Winehouse (British singer-songwriter (1983–2011)): Amy Jade Winehouse was a British singer and songwriter. She is known for her distinctive contralto vocals, expressive and autobiographical songwriting, and eclectic blend of genres such as soul, rhythm and blues, and jazz. Her music, along with her fashion and highly publicised personal life, made her an influential figure in popular culture.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Amy_Winehouse"
+    },
+    {
+      "id": "2026-10-25-popular-31-q5",
       "category": "Science",
       "story": "Most read",
-      "question": "What primary method did Elizabeth Holmes claim would revolutionise blood testing when promoting her company Theranos?",
-      "options": [
-        "Analysing saliva samples instead of venous draws",
-        "Detecting pathogens via continuous skin patches",
-        "Testing very small volumes such as from a fingerprick",
-        "Using optical scanning without breaking the skin"
-      ],
+      "question": "What mathematical object with only one surface and one boundary edge can be created by giving a strip of paper a half-twist before joining its ends?",
+      "options": ["Klein bottle", "Hypercube", "Möbius strip", "Torus"],
       "answerIndex": 2,
-      "explanation": "Theranos claimed to have created innovative technology requiring merely tiny amounts of blood taken from a simple fingerprick.",
-      "context": "Elizabeth Holmes (American businesswoman and convicted felon (born 1984)): Elizabeth Anne Holmes is an American businesswoman convicted of fraud in connection with her health technology company Theranos. Holmes founded Theranos in 2003, and its valuation soared in the early 2010s after it claimed to have revolutionized blood testing by developing methods that needed only very small volumes of blood, such as from a fingerprick.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+      "explanation": "A Möbius strip is a famous non-orientable surface with a single continuous edge, formed by connecting the ends of a strip with a half-twist.",
+      "context": "Möbius strip (Non-orientable surface with one edge): In mathematics, a Möbius strip, Möbius band, or Möbius loop is a surface that can be formed by attaching the ends of a strip of paper together with a half-twist. As a mathematical object, it was discovered by Johann Benedict Listing and August Ferdinand Möbius in 1858, but it had already appeared in Roman mosaics from the third century CE. The Möbius strip is a non-orientable surface, meaning that within it one cannot consistently distinguish clockwise from counterclockwise turns.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/M%C3%B6bius_strip"
     },
     {
-      "id": "2026-10-24-popular-5-q9",
-      "category": "Geography",
+      "id": "2026-10-25-popular-10-q1",
+      "category": "TV",
       "story": "Most read",
-      "question": "In which American state did Ilhan Omar serve as a state representative from 2017 to 2019 before entering the U.S. Congress?",
-      "options": ["Minnesota", "Wisconsin", "Illinois", "Michigan"],
-      "answerIndex": 0,
-      "explanation": "Ilhan Omar represented a section of Minneapolis in the Minnesota House of Representatives prior to her election to Congress.",
-      "context": "Ilhan Omar (American politician (born 1982)): Ilhan Abdullahi Omar is an American politician serving as the U.S. representative for Minnesota's 5th congressional district since 2019. The district includes all of Minneapolis and some of its first-ring suburbs. From 2017 to 2019, Omar served in the Minnesota House of Representatives, representing part of Minneapolis. She is a member of the Democratic Party.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ilhan_Omar"
+      "question": "Which television drama series starred Téa Leoni as United States Secretary of State Elizabeth McCord from 2014 to 2019?",
+      "options": [
+        "The Good Wife",
+        "The West Wing",
+        "Homeland",
+        "Madam Secretary"
+      ],
+      "answerIndex": 3,
+      "explanation": "Téa Leoni portrayed former CIA analyst and US Secretary of State Elizabeth McCord in the political drama series Madam Secretary.",
+      "context": "Téa Leoni (American actress (born 1966)): Téa Leoni is an American actress. Early in her career, she starred on the television sitcoms Flying Blind (1992–1993) and The Naked Truth (1995–1998). Her breakthrough role was in the 1995 film Bad Boys, which led to leading parts in Deep Impact (1998), The Family Man (2000), Jurassic Park III (2001), Spanglish (2004), and Fun with Dick and Jane (2005). From 2014 to 2019, Leoni starred as Secretary of State Elizabeth McCord on the CBS drama series Madam Secretary.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/T%C3%A9a_Leoni"
     }
   ]
 }
