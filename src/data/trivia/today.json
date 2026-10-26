@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T07:49:14.691Z",
-  "model": "gemini-3.8-flash, gemini-3.6-flash",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T05:20:17.102Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,69 +11,79 @@
   },
   "questions": [
     {
-      "id": "2026-10-25-selected-13-q11",
+      "id": "2026-10-26-event-47-q11",
       "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1760, who became King of Great Britain and Ireland following the death of his grandfather?",
-      "options": ["George II", "George III", "William IV", "George IV"],
-      "answerIndex": 1,
-      "explanation": "George III acceded to the British throne on 25 October 1760, succeeding his grandfather King George II.",
-      "context": "On this day in 1760: George III became King of Great Britain and Ireland, succeeding his grandfather George II.\nGeorge III (King of Great Britain and Ireland from 1760 to 1820): George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. He was concurrently duke and prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/George_III"
+      "question": "On this day in 1377, Tvrtko I was crowned as the first king of which realm?",
+      "options": ["Bosnia", "Serbia", "Croatia", "Bulgaria"],
+      "answerIndex": 0,
+      "explanation": "Stephen Tvrtko I of the Kotromanić dynasty, having previously ruled as ban, was crowned the inaugural monarch of Bosnia on 26 October 1377.",
+      "context": "On this day in 1377: Tvrtko I is crowned the first king of Bosnia.\nTvrtko I of Bosnia (First king of Bosnia from 1377 to 1391): Stephen Tvrtko I was the first king of Bosnia. A member of the House of Kotromanić, he succeeded his uncle Stephen II as the ban of Bosnia in 1353. As he was a minor at the time, Tvrtko's father, Vladislav, briefly ruled as regent, followed by Tvrtko's mother, Jelena.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tvrtko_I_of_Bosnia"
     },
     {
-      "id": "2026-10-25-popular-22-q10",
+      "id": "2026-10-26-popular-22-q8",
       "category": "Film",
       "story": "Most read",
-      "question": "Which actor provided the voice for Clark Kent and his superhero alter ego in the 1990s animated series Superman: The Animated Series?",
+      "question": "In the pilot episode of Star Trek: The Original Series, which actress became the first to portray an Orion on screen as the character Vina?",
       "options": [
-        "Tim Daly",
-        "Kevin Conroy",
-        "George Newbern",
-        "Michael Rosenbaum"
+        "Nichelle Nichols",
+        "Susan Oliver",
+        "Majel Barrett",
+        "Grace Lee Whitney"
       ],
-      "answerIndex": 0,
-      "explanation": "Tim Daly voiced Clark Kent and Superman across several projects, including Superman: The Animated Series.",
-      "context": "Tim Daly (American actor (born 1956)): James Timothy Daly is an American actor, producer and director, best known for his roles as Joe Hackett on the NBC sitcom Wings and his recurring role as drug-addicted screenwriter J.T. Dolan on The Sopranos. He starred as Pete Wilder on the ABC medical drama Private Practice from 2007 to 2012. He is also known for his voice role as Clark Kent/Superman in Superman: The Animated Series and several animated Superman movies.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Tim_Daly"
+      "answerIndex": 1,
+      "explanation": "Susan Oliver played Vina, the green-skinned alien appearing in the pilot episode 'The Cage', though Majel Barrett had earlier completed makeup screen tests.",
+      "context": "Orion (Star Trek) (Fictional alien race): The Orions are a fictional extraterrestrial humanoid species in the American science fiction franchise Star Trek, making their first appearance in the initial pilot for Star Trek: The Original Series, \"The Cage\". Susan Oliver portrayed the first Orion seen on screen, when her human character Vina was transformed into one, although it was Majel Barrett who underwent the original makeup test. The footage was subsequently used in the two-part episode \"The Menagerie\".",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Orion_(Star_Trek)"
     },
     {
-      "id": "2026-10-25-popular-20-q3",
+      "id": "2026-10-26-popular-21-q7",
       "category": "Music",
       "story": "Most read",
-      "question": "British singer Amy Winehouse was particularly renowned for which type of vocal range?",
-      "options": ["Mezzo-soprano", "Soprano", "Tenor", "Contralto"],
-      "answerIndex": 3,
-      "explanation": "Amy Winehouse was famous for her deep, expressive contralto vocals across genres like soul, jazz, and rhythm and blues.",
-      "context": "Amy Winehouse (British singer-songwriter (1983–2011)): Amy Jade Winehouse was a British singer and songwriter. She is known for her distinctive contralto vocals, expressive and autobiographical songwriting, and eclectic blend of genres such as soul, rhythm and blues, and jazz. Her music, along with her fashion and highly publicised personal life, made her an influential figure in popular culture.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Amy_Winehouse"
-    },
-    {
-      "id": "2026-10-25-popular-31-q5",
-      "category": "Science",
-      "story": "Most read",
-      "question": "What mathematical object with only one surface and one boundary edge can be created by giving a strip of paper a half-twist before joining its ends?",
-      "options": ["Klein bottle", "Hypercube", "Möbius strip", "Torus"],
-      "answerIndex": 2,
-      "explanation": "A Möbius strip is a famous non-orientable surface with a single continuous edge, formed by connecting the ends of a strip with a half-twist.",
-      "context": "Möbius strip (Non-orientable surface with one edge): In mathematics, a Möbius strip, Möbius band, or Möbius loop is a surface that can be formed by attaching the ends of a strip of paper together with a half-twist. As a mathematical object, it was discovered by Johann Benedict Listing and August Ferdinand Möbius in 1858, but it had already appeared in Roman mosaics from the third century CE. The Möbius strip is a non-orientable surface, meaning that within it one cannot consistently distinguish clockwise from counterclockwise turns.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/M%C3%B6bius_strip"
-    },
-    {
-      "id": "2026-10-25-popular-10-q1",
-      "category": "TV",
-      "story": "Most read",
-      "question": "Which television drama series starred Téa Leoni as United States Secretary of State Elizabeth McCord from 2014 to 2019?",
+      "question": "Before securing a record deal and launching his debut EP Broken Memories, singer Jamie Miller placed third on which UK talent contest in 2017?",
       "options": [
-        "The Good Wife",
-        "The West Wing",
-        "Homeland",
-        "Madam Secretary"
+        "The X Factor",
+        "Britain's Got Talent",
+        "The Voice UK",
+        "Pop Idol"
       ],
-      "answerIndex": 3,
-      "explanation": "Téa Leoni portrayed former CIA analyst and US Secretary of State Elizabeth McCord in the political drama series Madam Secretary.",
-      "context": "Téa Leoni (American actress (born 1966)): Téa Leoni is an American actress. Early in her career, she starred on the television sitcoms Flying Blind (1992–1993) and The Naked Truth (1995–1998). Her breakthrough role was in the 1995 film Bad Boys, which led to leading parts in Deep Impact (1998), The Family Man (2000), Jurassic Park III (2001), Spanglish (2004), and Fun with Dick and Jane (2005). From 2014 to 2019, Leoni starred as Secretary of State Elizabeth McCord on the CBS drama series Madam Secretary.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/T%C3%A9a_Leoni"
+      "answerIndex": 2,
+      "explanation": "Welsh vocalist Jamie Miller reached the final of The Voice UK in 2017 before releasing his debut musical project in 2022.",
+      "context": "Jamie Miller (singer) (Welsh singer-songwriter (born 1997)): Jamie Miller is a Welsh singer-songwriter from Cardiff, currently based in Los Angeles. He first gained recognition as a finalist on The Voice UK in 2017, where he finished in third place. Known for his blend of pop and R&B influences, Miller signed with Atlantic Records in 2020 and released his debut EP, Broken Memories, in April 2022. His music, often praised for its emotional depth and powerful vocal delivery, has earned him a growing international fanbase.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jamie_Miller_(singer)"
+    },
+    {
+      "id": "2026-10-26-popular-14-q4",
+      "category": "Art",
+      "story": "Most read",
+      "question": "South African supermodel Candice Swanepoel is particularly celebrated for her long-standing work with which major fashion label?",
+      "options": [
+        "Victoria's Secret",
+        "Calvin Klein",
+        "Chanel",
+        "Abercrombie & Fitch"
+      ],
+      "answerIndex": 0,
+      "explanation": "Candice Swanepoel rose to worldwide prominence as an official Victoria's Secret Angel, a role she assumed in 2010.",
+      "context": "Candice Swanepoel (South African model (born 1988)): Candice Susan Swanepoel is a South African model. She is best known for her work with Victoria's Secret. She became a Victoria's Secret Angel in 2010. In 2016, she was listed 8th on the Forbes top-earning models list.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Candice_Swanepoel"
+    },
+    {
+      "id": "2026-10-26-popular-20-q6",
+      "category": "Sport",
+      "story": "Most read",
+      "question": "Alexander Volkanovski made sporting history as the first fighter born in Australia to claim a championship title in which organisation?",
+      "options": [
+        "Professional Fighters League",
+        "Ultimate Fighting Championship",
+        "ONE Championship",
+        "Bellator MMA"
+      ],
+      "answerIndex": 1,
+      "explanation": "Volkanovski became the inaugural Australian-born athlete to capture a title in the Ultimate Fighting Championship (UFC), where he reigned in the featherweight division.",
+      "context": "Alexander Volkanovski (Australian mixed martial artist (born 1988)): Alexander Volkanovski is an Australian professional mixed martial artist. He currently competes in the Featherweight division of the Ultimate Fighting Championship (UFC), where he is the current and two-time UFC Featherweight Champion. Volkanovski is the first Australian-born fighter to win a UFC title. He is also a former Australian Fighting Championship (AFC) Featherweight champion. Prior to his UFC debut, Volkanovski competed as a professional boxer in 2015.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Alexander_Volkanovski"
     }
   ]
 }
