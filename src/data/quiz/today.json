@@ -1,96 +1,110 @@
 {
   "version": 1,
-  "date": "2026-10-23",
-  "newsDate": "2026-10-22",
-  "generatedAt": "2026-10-23T04:54:19.041Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-10-26",
+  "newsDate": "2026-10-25",
+  "generatedAt": "2026-10-26T07:54:23.991Z",
+  "model": "gemini-3.6-flash, gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
-    "revisionIds": [1381539854],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+    "revisionIds": [1382043816],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-22-17-q10",
+      "id": "2026-10-25-13-q8",
       "category": "Sports",
-      "story": "",
-      "question": "Which country's marathon runner, Ruti Aga, received a six-year suspension from the Athletics Integrity Unit for doping and fraud offences?",
-      "options": ["Uganda", "Kenya", "Eritrea", "Ethiopia"],
-      "answerIndex": 3,
-      "explanation": "Ethiopian athlete Ruti Aga received a lengthy ban after returning a positive drug test and providing fake paperwork to investigators.",
-      "context": "The Athletics Integrity Unit bans Ethiopian marathon runner Ruti Aga for six years after she tested positive for methylprednisolone and submitted false information and a forged prescription during an investigation.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
-      "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261022-marathon-star-aga-banned-six-years-for-doping-and-misleading-investigation"
-      }
-    },
-    {
-      "id": "2026-10-22-5-q2",
-      "category": "Arts and culture",
-      "story": "",
-      "question": "Which international judicial institution was awarded the 2026 Sakharov Prize by the European Parliament?",
+      "story": "2026 NASCAR Cup Series > 2026 YellaWood 500",
+      "question": "American driver Kyle Larson recently secured his first victory at the famous Talladega Superspeedway in which motorsport series?",
       "options": [
-        "International Court of Justice",
-        "International Criminal Court",
-        "Permanent Court of Arbitration",
-        "European Court of Human Rights"
+        "IMSA SportsCar Championship",
+        "Formula One",
+        "IndyCar Series",
+        "NASCAR Cup Series"
       ],
-      "answerIndex": 1,
-      "explanation": "The European Parliament recognised the International Criminal Court and its personnel with the Sakharov Prize for their commitment to global justice.",
-      "context": "The European Parliament awards its 2026 Sakharov Prize to the International Criminal Court and its officials for their work in global justice and upholding international law.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
-      "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/international-criminal-court-wins-eus-2026-sakharov-prize-2026-10-22/"
-      }
-    },
-    {
-      "id": "2026-10-22-14-q7",
-      "category": "Science and technology",
-      "story": "",
-      "question": "The Onkalo repository, the first licensed deep geological disposal site for spent nuclear fuel, is located in which European country?",
-      "options": ["Finland", "Norway", "Sweden", "Switzerland"],
-      "answerIndex": 0,
-      "explanation": "The Finnish government approved an operating licence for Posiva's Onkalo repository in Eurajoki.",
-      "context": "The Finnish Government grants Posiva an operating license for the Onkalo spent nuclear fuel repository in Eurajoki, making it the world's first licensed deep geological disposal facility for spent nuclear fuel.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
-      "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261022-finland-grants-licence-for-world-s-first-nuclear-waste-repository"
-      }
-    },
-    {
-      "id": "2026-10-22-9-q3",
-      "category": "Health and environment",
-      "story": "",
-      "question": "Health authorities in which European nation identified the first human case of the livestock-associated Shamonda virus?",
-      "options": ["Spain", "Germany", "Italy", "France"],
       "answerIndex": 3,
-      "explanation": "The first human detection of the Shamonda virus was recorded in France in a patient who had passed away from an unrelated ailment.",
-      "context": "France reports the first human case of the livestock Shamonda virus in a patient who died after being hospitalized with an unrelated condition.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
+      "explanation": "Driving for Hendrick Motorsports, Kyle Larson achieved his inaugural NASCAR Cup Series win at the Talladega circuit by taking the YellaWood 500.",
+      "context": "2026 NASCAR Cup Series > 2026 YellaWood 500: In auto racing, American driver Kyle Larson of Hendrick Motorsports wins the YellaWood 500 at the Talladega Superspeedway in Alabama, winning his first NASCAR Cup Series race at the circuit.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_YellaWood_500",
       "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/france-reports-first-human-shamonda-virus-case-2026-10-22/"
+        "publisher": "ESPN",
+        "url": "https://www.espn.com/racing/nascar/story/_/id/50281784/kyle-larson-extends-chase-points-lead-first-nascar-win-talladega-last-lap-scramble"
       }
     },
     {
-      "id": "2026-10-22-11-q5",
-      "category": "International relations",
-      "story": "2026 United Nations Secretary-General selection",
-      "question": "Diplomat Lana Nusseibeh launched a bid to become Secretary-General of the United Nations on behalf of which country?",
-      "options": ["United Arab Emirates", "Qatar", "Jordan", "Saudi Arabia"],
+      "id": "2026-10-25-7-q3",
+      "category": "Politics and elections",
+      "story": "2026 Brazilian general election",
+      "question": "Which Brazilian political leader secured a fourth non-consecutive term following a closely fought presidential run-off election?",
+      "options": [
+        "Luiz Inácio Lula da Silva",
+        "Flávio Bolsonaro",
+        "Dilma Rousseff",
+        "Jair Bolsonaro"
+      ],
       "answerIndex": 0,
-      "explanation": "Lana Nusseibeh, representing the UAE, formally entered the selection process for the UN Secretary-General position.",
-      "context": "2026 United Nations Secretary-General selection: Emirati diplomat Lana Nusseibeh announces her candidacy for Secretary-General of the United Nations.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_United_Nations_Secretary-General_selection",
+      "explanation": "Incumbent president Luiz Inácio Lula da Silva won the second round of voting with 52 percent of the vote, making history by coming from second place in the first round to win.",
+      "context": "2026 Brazilian general election: Lula wins re-election 52 to 48 percent, defeating Bolsonaro for a fourth non-consecutive term and becoming the first Brazilian presidential candidate to have placed second in the first round but win the second round.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/senior-uae-diplomat-lana-nusseibeh-enters-race-un-chief-2026-10-21/"
+        "url": "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/"
+      }
+    },
+    {
+      "id": "2026-10-25-1-q12",
+      "category": "Armed conflicts and attacks",
+      "story": "Middle Eastern crisis > Houthi–Saudi conflict, Yemeni civil war > 2026 Houthi attacks on Saudi airports",
+      "question": "King Khalid International Airport was forced to temporarily suspend and then resume limited flights due to regional conflict in which country?",
+      "options": ["Saudi Arabia", "Yemen", "Oman", "United Arab Emirates"],
+      "answerIndex": 0,
+      "explanation": "The major airport in Riyadh Province re-opened on a limited basis following two weeks of disruption caused by incoming missile and drone attacks.",
+      "context": "Middle Eastern crisis > Houthi–Saudi conflict, Yemeni civil war > 2026 Houthi attacks on Saudi airports: Saudi-led coalition air defences intercept a Houthi ballistic missile and two drones targeting Riyadh Province as King Khalid International Airport resumes limited operations after a two-week closure caused by earlier Houthi attacks.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Houthi_attacks_on_Saudi_airports",
+      "readMore": {
+        "publisher": "AFP via ABS-CBN News",
+        "url": "https://www.abs-cbn.com/news/world/2026/10/25/explosions-heard-in-saudi-capital-as-airport-due-to-reopen-1753"
+      }
+    },
+    {
+      "id": "2026-10-25-5-q2",
+      "category": "Health and environment",
+      "story": "2026 Ebola epidemic",
+      "question": "Health authorities in Nigeria have launched enhanced contact tracing efforts after detecting a case of which disease in the capital city?",
+      "options": ["Lassa fever", "Yellow fever", "Cholera", "Ebola"],
+      "answerIndex": 3,
+      "explanation": "Nigerian officials confirmed a case of the Bundibugyo Ebola strain in Abuja, prompting immediate tracking of dozens of potential contacts.",
+      "context": "2026 Ebola epidemic: The Nigerian health ministry expands contact tracing after confirming an imported Bundibugyo Ebola case in Abuja, identifying at least 44 contacts while investigating additional people who may have been exposed and strengthening infection-control measures.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Ebola_epidemic",
+      "readMore": {
+        "publisher": "AFP via RFI",
+        "url": "https://www.rfi.fr/en/international-news/20261025-nigeria-widens-hunt-for-possible-ebola-cases"
+      }
+    },
+    {
+      "id": "2026-10-25-11-q6",
+      "category": "Politics and elections",
+      "story": "2027 French presidential election",
+      "question": "Which French political figure has officially launched a campaign for the upcoming 2027 presidential election?",
+      "options": [
+        "Gabriel Attal",
+        "Éric Zemmour",
+        "Marine Le Pen",
+        "Jordan Bardella"
+      ],
+      "answerIndex": 2,
+      "explanation": "National Rally figurehead Marine Le Pen has publicly confirmed her candidacy for the next French presidential contest.",
+      "context": "2027 French presidential election: Marine Le Pen of the National Rally announces her presidential campaign.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+      "topicUrl": "https://en.wikipedia.org/wiki/2027_French_presidential_election",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/frances-le-pen-launches-presidential-bid-protests-rattle-nation-2026-10-25/"
       }
     }
   ]
