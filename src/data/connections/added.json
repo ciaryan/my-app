@@ -638,5 +638,645 @@
     "words": ["Potato", "Needle", "Hurricane", "Peacock"],
     "overlapTags": ["food", "sewing", "weather", "birds"],
     "addedOn": "2026-10-24"
+  },
+  {
+    "id": "planets",
+    "category": "Planets",
+    "difficulty": 1,
+    "words": ["Mercury", "Saturn", "Neptune", "Jupiter"],
+    "overlapTags": ["gods", "freddie"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "citrus-fruits",
+    "category": "Citrus fruits",
+    "difficulty": 1,
+    "words": ["Lemon", "Lime", "Orange", "Grapefruit"],
+    "overlapTags": ["colours", "dud"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "board-games",
+    "category": "Board games",
+    "difficulty": 1,
+    "words": ["Monopoly", "Scrabble", "Cluedo", "Risk"],
+    "overlapTags": ["business", "fight"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "farm-animals",
+    "category": "Farm animals",
+    "difficulty": 1,
+    "words": ["Goat", "Sheep", "Hen", "Donkey"],
+    "overlapTags": ["party", "insults"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "kitchen-utensils",
+    "category": "Kitchen utensils",
+    "difficulty": 1,
+    "words": ["Whisk", "Ladle", "Spatula", "Colander"],
+    "overlapTags": ["actions"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "gemstones",
+    "category": "Gemstones",
+    "difficulty": 1,
+    "words": ["Ruby", "Emerald", "Sapphire", "Diamond"],
+    "overlapTags": ["names", "anniversaries", "cards"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "garden-flowers",
+    "category": "Garden flowers",
+    "difficulty": 1,
+    "words": ["Daisy", "Rose", "Poppy", "Daffodil"],
+    "overlapTags": ["names", "remembrance", "wales"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "west-end-musicals",
+    "category": "West End musicals",
+    "difficulty": 1,
+    "words": ["Cats", "Grease", "Wicked", "Oliver"],
+    "overlapTags": ["animals", "slang", "names"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "drinks-at-the-bar",
+    "category": "Drinks at the bar",
+    "difficulty": 1,
+    "words": ["Shandy", "Stout", "Lager", "Bitter"],
+    "overlapTags": ["adjectives", "tastes"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "football-positions",
+    "category": "Football positions",
+    "difficulty": 1,
+    "words": ["Goalkeeper", "Striker", "Winger", "Defender"],
+    "overlapTags": ["work", "complainer"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "metric-and-imperial-units",
+    "category": "Metric and imperial units",
+    "difficulty": 1,
+    "words": ["Metre", "Litre", "Gram", "Mile"],
+    "overlapTags": ["poetry", "social media"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "vegetables",
+    "category": "Vegetables",
+    "difficulty": 1,
+    "words": ["Parsnip", "Cabbage", "Turnip", "Leek"],
+    "overlapTags": ["wales", "insults"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "desserts",
+    "category": "Desserts",
+    "difficulty": 1,
+    "words": ["Trifle", "Crumble", "Cheesecake", "Pavlova"],
+    "overlapTags": ["actions", "ballet"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "british-wildlife",
+    "category": "British wildlife",
+    "difficulty": 1,
+    "words": ["Badger", "Fox", "Hedgehog", "Otter"],
+    "overlapTags": ["actions", "tv"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "oceans",
+    "category": "Oceans",
+    "difficulty": 1,
+    "words": ["Atlantic", "Pacific", "Indian", "Arctic"],
+    "overlapTags": ["food", "adjectives"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "the-simpsons-family",
+    "category": "The Simpsons family",
+    "difficulty": 1,
+    "words": ["Homer", "Marge", "Bart", "Lisa"],
+    "overlapTags": ["poets", "names"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "european-capitals",
+    "category": "European capitals",
+    "difficulty": 1,
+    "words": ["Paris", "Rome", "Madrid", "Berlin"],
+    "overlapTags": ["football", "names"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "things-in-a-pencil-case",
+    "category": "Things in a pencil case",
+    "difficulty": 1,
+    "words": ["Ruler", "Rubber", "Sharpener", "Compass"],
+    "overlapTags": ["royalty", "navigation"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "irish-cities",
+    "category": "Irish cities",
+    "difficulty": 1,
+    "words": ["Limerick", "Waterford", "Kilkenny", "Derry"],
+    "overlapTags": ["poetry", "crystal", "counties"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "coffee-orders",
+    "category": "Coffee orders",
+    "difficulty": 1,
+    "words": ["Latte", "Mocha", "Espresso", "Cappuccino"],
+    "overlapTags": ["colours", "monks"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "doctor-who-villains",
+    "category": "Doctor Who villains",
+    "difficulty": 2,
+    "words": ["Daleks", "Cybermen", "Weeping Angels", "Sontarans"],
+    "overlapTags": ["sci-fi"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "only-fools-and-horses-characters",
+    "category": "Only Fools and Horses characters",
+    "difficulty": 2,
+    "words": ["Del Boy", "Rodney", "Trigger", "Boycie"],
+    "overlapTags": ["guns", "names"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "chess-pieces",
+    "category": "Chess pieces",
+    "difficulty": 2,
+    "words": ["Bishop", "Rook", "Pawn", "Queen"],
+    "overlapTags": ["church", "birds", "royalty", "band"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "soap-opera-pubs",
+    "category": "Soap opera pubs",
+    "difficulty": 2,
+    "words": ["Queen Vic", "Rovers Return", "Woolpack", "McCoys"],
+    "overlapTags": ["crisps", "sheep"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "stadiums",
+    "category": "Stadiums",
+    "difficulty": 2,
+    "words": ["Anfield", "Old Trafford", "Croke Park", "Murrayfield"],
+    "overlapTags": ["places"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "irish-bands",
+    "category": "Irish bands",
+    "difficulty": 2,
+    "words": ["U2", "Westlife", "Boyzone", "Cranberries"],
+    "overlapTags": ["fruit", "planes"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "ballroom-dances",
+    "category": "Ballroom dances",
+    "difficulty": 2,
+    "words": ["Waltz", "Tango", "Foxtrot", "Rumba"],
+    "overlapTags": ["nato", "strictly"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "painters",
+    "category": "Painters",
+    "difficulty": 2,
+    "words": ["Monet", "Picasso", "Turner", "Constable"],
+    "overlapTags": ["police", "money"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "breads",
+    "category": "Breads",
+    "difficulty": 2,
+    "words": ["Sourdough", "Ciabatta", "Focaccia", "Soda Bread"],
+    "overlapTags": ["irish", "italian"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "nato-phonetic-alphabet",
+    "category": "NATO phonetic alphabet",
+    "difficulty": 2,
+    "words": ["Alpha", "Bravo", "Charlie", "Echo"],
+    "overlapTags": ["greek", "names", "applause"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "mr-men-without-the-mr",
+    "category": "Mr Men (without the 'Mr')",
+    "difficulty": 2,
+    "words": ["Tickle", "Bump", "Greedy", "Happy"],
+    "overlapTags": ["dwarfs", "adjectives"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "in-a-first-aid-kit",
+    "category": "In a first aid kit",
+    "difficulty": 2,
+    "words": ["Plaster", "Bandage", "Scissors", "Tweezers"],
+    "overlapTags": ["building", "hairdressing"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "friends-characters",
+    "category": "Friends characters",
+    "difficulty": 2,
+    "words": ["Ross", "Rachel", "Monica", "Chandler"],
+    "overlapTags": ["names", "candles"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "bake-off-presenters-first-names",
+    "category": "Bake Off presenters (first names)",
+    "difficulty": 2,
+    "words": ["Mel", "Sue", "Noel", "Sandi"],
+    "overlapTags": ["christmas", "law"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "irish-tea-brands",
+    "category": "Irish tea brands",
+    "difficulty": 2,
+    "words": ["Barry's", "Lyons", "Bewley's", "Robert Roberts"],
+    "overlapTags": ["names", "corner house"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "chocolate-bars",
+    "category": "Chocolate bars",
+    "difficulty": 2,
+    "words": ["Twix", "Wispa", "Crunchie", "Boost"],
+    "overlapTags": ["actions"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "types-of-bean",
+    "category": "Types of bean",
+    "difficulty": 2,
+    "words": ["Kidney", "Butter", "Broad", "Runner"],
+    "overlapTags": ["organs", "adjectives", "athletes"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "seven-dwarfs",
+    "category": "Seven Dwarfs",
+    "difficulty": 2,
+    "words": ["Grumpy", "Sleepy", "Dopey", "Bashful"],
+    "overlapTags": ["mr men", "adjectives"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "tennis-terms",
+    "category": "Tennis terms",
+    "difficulty": 2,
+    "words": ["Love", "Deuce", "Ace", "Let"],
+    "overlapTags": ["cards", "romance"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "spice-girls-nicknames",
+    "category": "Spice Girls nicknames",
+    "difficulty": 2,
+    "words": ["Scary", "Sporty", "Baby", "Posh"],
+    "overlapTags": ["adjectives"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "all-ireland-trophies",
+    "category": "All-Ireland trophies",
+    "difficulty": 3,
+    "words": ["Sam Maguire", "Liam MacCarthy", "O'Duffy Cup", "Tailteann Cup"],
+    "overlapTags": ["gaa", "names"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "famous-horse-races",
+    "category": "Famous horse races",
+    "difficulty": 3,
+    "words": ["Grand National", "Gold Cup", "Oaks", "St Leger"],
+    "overlapTags": ["trees", "metals"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "gin-brands",
+    "category": "Gin brands",
+    "difficulty": 3,
+    "words": ["Gordon's", "Tanqueray", "Bombay", "Hendrick's"],
+    "overlapTags": ["cities", "names"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "irish-eurovision-winners",
+    "category": "Irish Eurovision winners",
+    "difficulty": 3,
+    "words": ["Dana", "Johnny Logan", "Linda Martin", "Niamh Kavanagh"],
+    "overlapTags": ["names"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "slang-for-money",
+    "category": "Slang for money",
+    "difficulty": 3,
+    "words": ["Quid", "Dosh", "Wonga", "Readies"],
+    "overlapTags": ["slang"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "imperial-measures",
+    "category": "Imperial measures",
+    "difficulty": 3,
+    "words": ["Fathom", "Acre", "Pint", "Ounce"],
+    "overlapTags": ["understand", "drinks", "cats"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "types-of-cloud",
+    "category": "Types of cloud",
+    "difficulty": 3,
+    "words": ["Cumulus", "Stratus", "Cirrus", "Nimbus"],
+    "overlapTags": ["latin", "harry potter"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "bones-in-the-body",
+    "category": "Bones in the body",
+    "difficulty": 3,
+    "words": ["Femur", "Tibia", "Radius", "Ulna"],
+    "overlapTags": ["maths"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "greek-letters",
+    "category": "Greek letters",
+    "difficulty": 3,
+    "words": ["Beta", "Gamma", "Delta", "Omega"],
+    "overlapTags": ["nato", "watches", "rivers"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "ways-to-cook-an-egg",
+    "category": "Ways to cook an egg",
+    "difficulty": 3,
+    "words": ["Poached", "Scrambled", "Boiled", "Devilled"],
+    "overlapTags": ["stolen", "jets"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "fonts",
+    "category": "Fonts",
+    "difficulty": 3,
+    "words": ["Arial", "Helvetica", "Calibri", "Garamond"],
+    "overlapTags": ["computers"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "currencies",
+    "category": "Currencies",
+    "difficulty": 3,
+    "words": ["Euro", "Rand", "Yen", "Peso"],
+    "overlapTags": ["desire", "names"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "irish-racecourses",
+    "category": "Irish racecourses",
+    "difficulty": 3,
+    "words": ["Punchestown", "Leopardstown", "Fairyhouse", "Curragh"],
+    "overlapTags": ["animals", "places"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "the-wombles",
+    "category": "The Wombles",
+    "difficulty": 3,
+    "words": ["Orinoco", "Tobermory", "Wellington", "Bungo"],
+    "overlapTags": ["rivers", "boots", "towns"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "shades-of-blue",
+    "category": "Shades of blue",
+    "difficulty": 3,
+    "words": ["Navy", "Teal", "Cobalt", "Azure"],
+    "overlapTags": ["military", "ducks", "metals"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "darts-terms",
+    "category": "Darts terms",
+    "difficulty": 3,
+    "words": ["Oche", "Bullseye", "Treble", "Checkout"],
+    "overlapTags": ["shopping", "music"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "taoisigh-surnames",
+    "category": "Taoisigh (surnames)",
+    "difficulty": 3,
+    "words": ["Ahern", "Varadkar", "Cowen", "Lemass"],
+    "overlapTags": ["politics"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "european-rivers",
+    "category": "European rivers",
+    "difficulty": 3,
+    "words": ["Danube", "Rhine", "Seine", "Volga"],
+    "overlapTags": ["waltz", "fishing net"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "a-small-measure-of-a-drink",
+    "category": "A small measure of a drink",
+    "difficulty": 3,
+    "words": ["Tot", "Dram", "Nip", "Drop"],
+    "overlapTags": ["children", "bite", "fall"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "numbers-in-irish",
+    "category": "Numbers in Irish",
+    "difficulty": 3,
+    "words": ["Aon", "Dó", "Trí", "Ceathair"],
+    "overlapTags": ["gaelic"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "anagrams-of-fruits",
+    "category": "Anagrams of fruits",
+    "difficulty": 4,
+    "words": ["Pager", "Cheap", "Among", "Reap"],
+    "overlapTags": ["anagrams"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "words-hiding-a-capital-city",
+    "category": "Words hiding a capital city",
+    "difficulty": 4,
+    "words": ["Aerodrome", "Climax", "Origami", "Hibernate"],
+    "overlapTags": ["hidden"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "sound-like-numbers",
+    "category": "Sound like numbers",
+    "difficulty": 4,
+    "words": ["Won", "Too", "For", "Ate"],
+    "overlapTags": ["homophones"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "add-one-letter-to-make-a-country",
+    "category": "Add one letter to make a country",
+    "difficulty": 4,
+    "words": ["Chin", "Cub", "Man", "Pain"],
+    "overlapTags": ["body", "scouts"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "fish",
+    "category": "___fish",
+    "difficulty": 4,
+    "words": ["Sword", "Gold", "Jelly", "Monk"],
+    "overlapTags": ["metals", "church"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "words-containing-all-five-vowels",
+    "category": "Words containing all five vowels",
+    "difficulty": 4,
+    "words": ["Sequoia", "Education", "Dialogue", "Favourite"],
+    "overlapTags": ["trees", "school"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "words-hiding-a-tree",
+    "category": "Words hiding a tree",
+    "difficulty": 4,
+    "words": ["Soak", "First", "Spine", "Splash"],
+    "overlapTags": ["hidden"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "cold",
+    "category": "Cold ___",
+    "difficulty": 4,
+    "words": ["Feet", "Shoulder", "Call", "Comfort"],
+    "overlapTags": ["body", "phone"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "words-hiding-a-car-brand",
+    "category": "Words hiding a car brand",
+    "difficulty": 4,
+    "words": ["Feminine", "Audience", "Afford", "Unseated"],
+    "overlapTags": ["hidden"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "bag",
+    "category": "___ bag",
+    "difficulty": 4,
+    "words": ["Hand", "Sleeping", "Tote", "Duffel"],
+    "overlapTags": ["body", "horses"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "anagrams-of-animals",
+    "category": "Anagrams of animals",
+    "difficulty": 4,
+    "words": ["Shore", "Flow", "Loin", "Tab"],
+    "overlapTags": ["anagrams", "coast"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "grand",
+    "category": "Grand ___",
+    "difficulty": 4,
+    "words": ["Slam", "Canyon", "Prix", "Stand"],
+    "overlapTags": ["tennis", "f1"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "famous-seans",
+    "category": "Famous Seans",
+    "difficulty": 4,
+    "words": ["Penn", "Connery", "Bean", "Paul"],
+    "overlapTags": ["names", "pens"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "english-places-ending-in-ham",
+    "category": "English places ending in -ham",
+    "difficulty": 4,
+    "words": ["Birming", "Notting", "Ful", "Totten"],
+    "overlapTags": ["football"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "things-with-teeth",
+    "category": "Things with teeth",
+    "difficulty": 4,
+    "words": ["Comb", "Saw", "Zip", "Gear"],
+    "overlapTags": ["tools", "bike"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "spell-another-word-backwards",
+    "category": "Spell another word backwards",
+    "difficulty": 4,
+    "words": ["Stressed", "Drawer", "Parts", "Lived"],
+    "overlapTags": ["reversals", "desserts"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "things-you-can-pull",
+    "category": "Things you can pull",
+    "difficulty": 4,
+    "words": ["Rank", "Strings", "Sickie", "Fast One"],
+    "overlapTags": ["slang", "music"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "words-hiding-a-metal",
+    "category": "Words hiding a metal",
+    "difficulty": 4,
+    "words": ["Environment", "Pleading", "Destiny", "Marigold"],
+    "overlapTags": ["hidden", "flowers"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "beatles-songs",
+    "category": "Beatles songs",
+    "difficulty": 4,
+    "words": ["Help", "Yesterday", "Something", "Girl"],
+    "overlapTags": ["everyday words"],
+    "addedOn": "2026-10-27"
+  },
+  {
+    "id": "sound-like-seafood",
+    "category": "Sound like seafood",
+    "difficulty": 4,
+    "words": ["Soul", "Place", "Row", "Muscle"],
+    "overlapTags": ["homophones", "body"],
+    "addedOn": "2026-10-27"
   }
 ]
