@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-10-26",
-  "generatedAt": "2026-10-26T05:20:17.102Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T05:34:02.925Z",
+  "model": "gemini-3.6-flash, gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,79 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-10-26-event-47-q11",
+      "id": "2026-10-27-event-26-q11",
       "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1377, Tvrtko I was crowned as the first king of which realm?",
-      "options": ["Bosnia", "Serbia", "Croatia", "Bulgaria"],
-      "answerIndex": 0,
-      "explanation": "Stephen Tvrtko I of the Kotromanić dynasty, having previously ruled as ban, was crowned the inaugural monarch of Bosnia on 26 October 1377.",
-      "context": "On this day in 1377: Tvrtko I is crowned the first king of Bosnia.\nTvrtko I of Bosnia (First king of Bosnia from 1377 to 1391): Stephen Tvrtko I was the first king of Bosnia. A member of the House of Kotromanić, he succeeded his uncle Stephen II as the ban of Bosnia in 1353. As he was a minor at the time, Tvrtko's father, Vladislav, briefly ruled as regent, followed by Tvrtko's mother, Jelena.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Tvrtko_I_of_Bosnia"
+      "question": "On this day in 1936, Mrs Wallis Simpson obtained a divorce decree, setting in motion a crisis that led to the abdication of which monarch?",
+      "options": ["George V", "Edward VII", "Edward VIII", "George VI"],
+      "answerIndex": 2,
+      "explanation": "Mrs Simpson's divorce enabled her proposed marriage to King Edward VIII, precipitating a constitutional crisis and his resignation from the throne.",
+      "context": "On this day in 1936: Abdication Crisis:  Mrs. Wallis Simpson obtains her divorce, which would eventually allow her to marry King Edward VIII of the United Kingdom, thus forcing his abdication from the throne.\nAbdication of Edward VIII (1936 constitutional crisis in Britain): In early December 1936, a constitutional crisis in the British Empire arose when King Edward VIII proposed to marry Wallis Simpson, an American socialite who was divorced from her first husband and was in the process of divorcing her second.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Abdication_of_Edward_VIII"
     },
     {
-      "id": "2026-10-26-popular-22-q8",
+      "id": "2026-10-27-popular-5-q1",
       "category": "Film",
       "story": "Most read",
-      "question": "In the pilot episode of Star Trek: The Original Series, which actress became the first to portray an Orion on screen as the character Vina?",
-      "options": [
-        "Nichelle Nichols",
-        "Susan Oliver",
-        "Majel Barrett",
-        "Grace Lee Whitney"
-      ],
+      "question": "Which 2026 Indian Tamil-language action comedy film was written and directed by Nelson Dilipkumar as a follow-up to his 2023 hit?",
+      "options": ["Leo 2", "Jailer 2", "Master 2", "Beast 2"],
       "answerIndex": 1,
-      "explanation": "Susan Oliver played Vina, the green-skinned alien appearing in the pilot episode 'The Cage', though Majel Barrett had earlier completed makeup screen tests.",
-      "context": "Orion (Star Trek) (Fictional alien race): The Orions are a fictional extraterrestrial humanoid species in the American science fiction franchise Star Trek, making their first appearance in the initial pilot for Star Trek: The Original Series, \"The Cage\". Susan Oliver portrayed the first Orion seen on screen, when her human character Vina was transformed into one, although it was Majel Barrett who underwent the original makeup test. The footage was subsequently used in the two-part episode \"The Menagerie\".",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Orion_(Star_Trek)"
+      "explanation": "Jailer 2 is the 2026 sequel to the 2023 action movie Jailer, helmed by Nelson Dilipkumar.",
+      "context": "Jailer 2 (2026 Indian film by Nelson Dilipkumar): Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar. It was produced by Kalanithi Maran through Sun Pictures. A sequel to Jailer (2023), the film stars Rajinikanth, Ramya Krishnan, Yogi Babu, Mirnaa and Rithvik reprising their roles from the predecessor, with S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and Vidya Balan joining the cast.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jailer_2"
     },
     {
-      "id": "2026-10-26-popular-21-q7",
-      "category": "Music",
-      "story": "Most read",
-      "question": "Before securing a record deal and launching his debut EP Broken Memories, singer Jamie Miller placed third on which UK talent contest in 2017?",
-      "options": [
-        "The X Factor",
-        "Britain's Got Talent",
-        "The Voice UK",
-        "Pop Idol"
-      ],
-      "answerIndex": 2,
-      "explanation": "Welsh vocalist Jamie Miller reached the final of The Voice UK in 2017 before releasing his debut musical project in 2022.",
-      "context": "Jamie Miller (singer) (Welsh singer-songwriter (born 1997)): Jamie Miller is a Welsh singer-songwriter from Cardiff, currently based in Los Angeles. He first gained recognition as a finalist on The Voice UK in 2017, where he finished in third place. Known for his blend of pop and R&B influences, Miller signed with Atlantic Records in 2020 and released his debut EP, Broken Memories, in April 2022. His music, often praised for its emotional depth and powerful vocal delivery, has earned him a growing international fanbase.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Jamie_Miller_(singer)"
-    },
-    {
-      "id": "2026-10-26-popular-14-q4",
-      "category": "Art",
-      "story": "Most read",
-      "question": "South African supermodel Candice Swanepoel is particularly celebrated for her long-standing work with which major fashion label?",
-      "options": [
-        "Victoria's Secret",
-        "Calvin Klein",
-        "Chanel",
-        "Abercrombie & Fitch"
-      ],
-      "answerIndex": 0,
-      "explanation": "Candice Swanepoel rose to worldwide prominence as an official Victoria's Secret Angel, a role she assumed in 2010.",
-      "context": "Candice Swanepoel (South African model (born 1988)): Candice Susan Swanepoel is a South African model. She is best known for her work with Victoria's Secret. She became a Victoria's Secret Angel in 2010. In 2016, she was listed 8th on the Forbes top-earning models list.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Candice_Swanepoel"
-    },
-    {
-      "id": "2026-10-26-popular-20-q6",
+      "id": "2026-10-27-popular-33-q7",
       "category": "Sport",
       "story": "Most read",
-      "question": "Alexander Volkanovski made sporting history as the first fighter born in Australia to claim a championship title in which organisation?",
+      "question": "Former English midfielder Michael Carrick served as head coach for which Premier League football team?",
       "options": [
-        "Professional Fighters League",
-        "Ultimate Fighting Championship",
-        "ONE Championship",
-        "Bellator MMA"
+        "West Ham United",
+        "Middlesbrough",
+        "Manchester United",
+        "Tottenham Hotspur"
       ],
-      "answerIndex": 1,
-      "explanation": "Volkanovski became the inaugural Australian-born athlete to capture a title in the Ultimate Fighting Championship (UFC), where he reigned in the featherweight division.",
-      "context": "Alexander Volkanovski (Australian mixed martial artist (born 1988)): Alexander Volkanovski is an Australian professional mixed martial artist. He currently competes in the Featherweight division of the Ultimate Fighting Championship (UFC), where he is the current and two-time UFC Featherweight Champion. Volkanovski is the first Australian-born fighter to win a UFC title. He is also a former Australian Fighting Championship (AFC) Featherweight champion. Prior to his UFC debut, Volkanovski competed as a professional boxer in 2015.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Alexander_Volkanovski"
+      "answerIndex": 2,
+      "explanation": "Following a 12-year playing career at Old Trafford, Michael Carrick became head coach of Manchester United.",
+      "context": "Michael Carrick (English footballer and manager (born 1981)): Michael Carrick is an English professional football coach and former player who is the head coach of Premier League club Manchester United. He is best known for his 12-year playing career with Manchester United, which he also captained in his final season there. Carrick was a midfielder who primarily played in a deep-lying role, but he was also used as an emergency centre-back under Alex Ferguson, David Moyes, Louis van Gaal and José Mourinho.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Michael_Carrick"
+    },
+    {
+      "id": "2026-10-27-popular-11-q5",
+      "category": "Art",
+      "story": "Most read",
+      "question": "American landscape photographer Ansel Adams co-founded Group f/64, an association promoting which aesthetic approach to photography?",
+      "options": [
+        "Abstract expressionism",
+        "Pictorialism",
+        "Surrealist montage",
+        "Pure photography"
+      ],
+      "answerIndex": 3,
+      "explanation": "Group f/64 championed pure photography, which favoured crisp focus and utilizing a photograph's complete tonal scale.",
+      "context": "Ansel Adams (American photographer and environmentalist (1902–1984)): Ansel Easton Adams was an American landscape photographer and environmentalist known for his black-and-white images of the American West. He helped found Group f/64, an association of photographers advocating \"pure\" photography which favored sharp focus and the use of the full tonal range of a photograph.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ansel_Adams"
+    },
+    {
+      "id": "2026-10-27-popular-27-q8",
+      "category": "Geography",
+      "story": "Most read",
+      "question": "The Nazi-era chalet known as the Eagle's Nest (Kehlsteinhaus) stands above Obersalzberg near which town in southeastern Germany?",
+      "options": [
+        "Garmisch-Partenkirchen",
+        "Nuremberg",
+        "Dachau",
+        "Berchtesgaden"
+      ],
+      "answerIndex": 3,
+      "explanation": "Constructed atop the Kehlstein mountain, the Kehlsteinhaus is situated near Berchtesgaden.",
+      "context": "Kehlsteinhaus (Nazi-era chalet in Obersalzberg, Germany): The Kehlsteinhaus, commonly known in English as the Eagle's Nest, is a Nazi-era chalet situated atop the Kehlstein, a subpeak of the Hoher Göll above Obersalzberg, near Berchtesgaden in southeastern Germany. Completed in 1938, it was commissioned by Martin Bormann on behalf of the Nazi Party for Adolf Hitler, and was intended to host diplomatic functions. Despite its enormous construction cost, Hitler made only 14 brief visits to the Kehlsteinhaus, preferring his nearby Berghof residence.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kehlsteinhaus"
     }
   ]
 }
