@@ -1,103 +1,99 @@
 {
   "version": 1,
-  "date": "2026-10-27",
-  "newsDate": "2026-10-26",
-  "generatedAt": "2026-10-27T09:55:09.663Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-10-28",
+  "newsDate": "2026-10-27",
+  "generatedAt": "2026-10-28T05:50:39.789Z",
+  "model": "gemini-3.5-flash, gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
-    "revisionIds": [1382213258],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
+    "revisionIds": [1382345286, 1382275912],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-26-15-q2",
-      "category": "Sports",
-      "story": "2026 Ballon d'Or",
-      "question": "Which Spanish footballer equalled the record by winning her third women's Ballon d'Or in 2026?",
-      "options": [
-        "Aitana Bonmatí",
-        "Jenni Hermoso",
-        "Salma Paralluelo",
-        "Alexia Putellas"
-      ],
-      "answerIndex": 3,
-      "explanation": "Alexia Putellas matched the all-time record by securing the women's Ballon d'Or accolade for a third time.",
-      "context": "2026 Ballon d'Or: In association football, English player Harry Kane wins the men's Ballon d'Or for the first time, while Spanish player Alexia Putellas receives the women's award for a record-tying third time.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
-      "readMore": {
-        "publisher": "CNN",
-        "url": "https://edition.cnn.com/2026/10/26/sport/ballon-dor-winners-harry-kane-alexia-putellas"
-      }
-    },
-    {
-      "id": "2026-10-26-9-q3",
+      "id": "2026-10-27-6-q2",
       "category": "Arts and culture",
-      "story": "",
-      "question": "Which slang term was selected by Dictionary.com as its Word of the Year for 2026 after surging in popularity on social media?",
-      "options": ["rizz", "delulu", "skibidi", "maxxing"],
+      "story": "Eurovision Song Contest 2027 > Netherlands in the Eurovision Song Contest 2027",
+      "question": "Which country's public broadcaster announced its withdrawal from the 2027 Eurovision Song Contest?",
+      "options": ["Belgium", "Norway", "Germany", "The Netherlands"],
       "answerIndex": 3,
-      "explanation": "Dictionary.com chose 'maxxing' as its top word of 2026 due to its widespread online adoption.",
-      "context": "Dictionary.com says maxxing has been named its word of the year for 2026 following a surge in its use across social media.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
+      "explanation": "Netherlands Public Broadcasting pulled the country out of the 2027 event following concerns surrounding Israel's inclusion.",
+      "context": "Eurovision Song Contest 2027 > Netherlands in the Eurovision Song Contest 2027: Netherlands Public Broadcasting (NPO) withdraws the Netherlands from the 2027 Eurovision Song Contest over concerns about Israel's participation, after AVROTROS withdrew in August and NPO failed to find another broadcaster.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
+      "topicUrl": "https://en.wikipedia.org/wiki/Netherlands_in_the_Eurovision_Song_Contest_2027",
       "readMore": {
-        "publisher": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cmy4xwp22xyqo"
+        "publisher": "AP",
+        "url": "https://apnews.com/article/netherlands-eurovision-song-festival-dutch-27ee0f300f9cd0ca4a4844b51865bd95"
       }
     },
     {
-      "id": "2026-10-26-11-q4",
+      "id": "2026-10-27-10-q3",
+      "category": "Health and environment",
+      "story": "2025 in climate change",
+      "question": "According to the World Meteorological Organization, global levels of which greenhouse gas averaged a record 426.8 parts per million in 2025?",
+      "options": ["Carbon dioxide", "Methane", "Nitrous oxide", "Ozone"],
+      "answerIndex": 0,
+      "explanation": "The WMO confirmed that atmospheric carbon dioxide reached unprecedented global concentrations during 2025.",
+      "context": "2025 in climate change: The World Meteorological Organization reports that global concentrations of carbon dioxide, methane, and nitrous oxide reached record highs in 2025, with carbon dioxide averaging 426.8 parts per million.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
+      "topicUrl": "https://en.wikipedia.org/wiki/2025_in_climate_change",
+      "readMore": {
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261027-greenhouse-gas-levels-hit-new-record-highs-in-2025-un"
+      }
+    },
+    {
+      "id": "2026-10-27-14-q5",
       "category": "Law and crime",
       "story": "",
-      "question": "Which incumbent head of state won the runoff vote in Brazil's 2026 presidential election?",
+      "question": "Which Brazilian politician flew to the United States despite being ordered to turn over his passports to authorities?",
       "options": [
-        "Fernando Haddad",
-        "Michel Temer",
-        "Jair Bolsonaro",
-        "Luiz Inácio Lula da Silva"
+        "Flávio Bolsonaro",
+        "Sergio Moro",
+        "Luiz Inácio Lula da Silva",
+        "Jair Bolsonaro"
       ],
-      "answerIndex": 3,
-      "explanation": "Incumbent Brazilian leader Luiz Inácio Lula da Silva was victorious in the 2026 presidential runoff election.",
-      "context": "The Federal Police of Brazil orders Brazilian Federal Senator Flávio Bolsonaro to surrender his Brazilian passport after Supreme Federal Court justice Alexandre de Moraes barred him from leaving Brazil, one day after Bolsonaro lost the runoff of the 2026 Brazilian general election to incumbent President of Brazil Luiz Inácio Lula da Silva.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
-      "readMore": {
-        "publisher": "Firstpost",
-        "url": "https://www.firstpost.com/world/defeated-flavio-bolsonaro-hands-over-passports-calls-travel-ban-attempt-to-intimidate-14055559.html"
-      }
-    },
-    {
-      "id": "2026-10-26-10-q7",
-      "category": "Disasters and accidents",
-      "story": "2026–27 European windstorm season",
-      "question": "What was the name of the storm that caused significant power cuts across northern England, Scotland, and Northern Ireland?",
-      "options": ["Storm Boelo", "Storm Bert", "Storm Ashley", "Storm Conall"],
       "answerIndex": 0,
-      "explanation": "Storm Boelo brought severe winds that cut power to approximately 90,000 households across the UK.",
-      "context": "2026–27 European windstorm season: Two people are killed and around 90,000 more are left without electricity after the impact of Storm Boelo in Scotland, parts of Northern Ireland, and northern England.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_European_windstorm_season",
+      "explanation": "Flávio Bolsonaro departed for America shortly after his defeat in the presidential runoff, leading the government to revoke his travel documents.",
+      "context": "Brazilian senator Flávio Bolsonaro leaves Brazil for the United States, despite orders to surrender his passports to the Federal Police, two days after his defeat in the presidential election runoffs to incumbent president Luiz Inácio Lula da Silva. The government subsequently cancels his passports.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
       "readMore": {
-        "publisher": "AA",
-        "url": "https://www.aa.com.tr/en/europe/2-killed-as-storm-boelo-batters-uk-leaves-90-000-without-electricity/4100972"
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/americas/flavio-bolsonaro-leaves-brazil-us-after-election-defeat-source-media-say-2026-10-27/"
       }
     },
     {
-      "id": "2026-10-26-14-q10",
+      "id": "2026-10-27-16-q7",
       "category": "Politics and elections",
-      "story": "2026 European unrest > 2026 Spanish housing protests",
-      "question": "In which European country did protests and riots break out during a political gathering hosted by commentator Vito Quiles?",
-      "options": ["France", "Spain", "Italy", "Portugal"],
-      "answerIndex": 1,
-      "explanation": "Demonstrations and unrest occurred in the Spanish city of Bilbao during an event run by Vito Quiles.",
-      "context": "2026 European unrest > 2026 Spanish housing protests: Protests and riots are held in Bilbao, Spain, after and during a political event hosted by far-right commentator Vito Quiles. At least nine people are arrested.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Spanish_housing_protests",
+      "story": "2026 Israeli legislative election",
+      "question": "Voters in Israel recently went to the polls to elect how many members of the Knesset?",
+      "options": ["60", "100", "150", "120"],
+      "answerIndex": 3,
+      "explanation": "The Israeli legislative election determined all 120 seats in the country's national parliament.",
+      "context": "2026 Israeli legislative election: Israelis vote to elect the 120 members of the Knesset.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
       "readMore": {
-        "publisher": "El Constitucional",
-        "url": "https://www.elconstitucional.es/en/communities/basque-country/riots-in-bilbao-after-the-failed-call-of-ultra-agitator-vito-quiles-at-least-nine-arrested-and-cars-burned_9424_102.html"
+        "publisher": "BBC News",
+        "url": "https://www.bbc.com/news/articles/crlykey9jywqo"
+      }
+    },
+    {
+      "id": "2026-10-27-4-q8",
+      "category": "Armed conflicts and attacks",
+      "story": "United States strikes on alleged drug traffickers during Operation Southern Spear",
+      "question": "Which country launched an airstrike targeting a suspected drug smuggling vessel in the Caribbean Sea?",
+      "options": ["Mexico", "Colombia", "United States", "Venezuela"],
+      "answerIndex": 2,
+      "explanation": "American forces conducted the strike on the boat as part of Operation Southern Spear.",
+      "context": "United States strikes on alleged drug traffickers during Operation Southern Spear: The United States launches an airstrike against an alleged drug boat in the Caribbean Sea, killing five people.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
+      "topicUrl": "https://en.wikipedia.org/wiki/United_States_strikes_on_alleged_drug_traffickers_during_Operation_Southern_Spear",
+      "readMore": {
+        "publisher": "AP",
+        "url": "https://apnews.com/article/boat-strikes-alleged-drug-boat-latin-america-cartels-trump-ef5e229630e00f370e0d1772edc34dd9"
       }
     }
   ]
