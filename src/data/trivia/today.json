@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-10-27",
-  "generatedAt": "2026-10-27T05:34:02.925Z",
-  "model": "gemini-3.6-flash, gemini-3.8-flash",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T06:16:00.755Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,74 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-10-27-event-26-q11",
+      "id": "2026-10-28-event-52-q12",
       "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1936, Mrs Wallis Simpson obtained a divorce decree, setting in motion a crisis that led to the abdication of which monarch?",
-      "options": ["George V", "Edward VII", "Edward VIII", "George VI"],
-      "answerIndex": 2,
-      "explanation": "Mrs Simpson's divorce enabled her proposed marriage to King Edward VIII, precipitating a constitutional crisis and his resignation from the throne.",
-      "context": "On this day in 1936: Abdication Crisis:  Mrs. Wallis Simpson obtains her divorce, which would eventually allow her to marry King Edward VIII of the United Kingdom, thus forcing his abdication from the throne.\nAbdication of Edward VIII (1936 constitutional crisis in Britain): In early December 1936, a constitutional crisis in the British Empire arose when King Edward VIII proposed to marry Wallis Simpson, an American socialite who was divorced from her first husband and was in the process of divorcing her second.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Abdication_of_Edward_VIII"
+      "question": "On this day in 1449, which founder of the House of Oldenburg was crowned King of Denmark?",
+      "options": [
+        "Christian I",
+        "Eric of Pomerania",
+        "Christopher of Bavaria",
+        "Frederick I"
+      ],
+      "answerIndex": 0,
+      "explanation": "Christian I was crowned monarch of Denmark on 28 October 1449 and went on to rule Norway and Sweden under the Kalmar Union.",
+      "context": "On this day in 1449: Christian I is crowned king of Denmark.\nChristian I of Denmark (Scandinavian monarch under the Kalmar Union (1426–1481)): Christian I was a German noble and Scandinavian monarch under the Kalmar Union. He was king of Denmark (1448–1481), Norway (1450–1481) and Sweden (1457–1464). From 1460 to 1481, he was also duke of Schleswig and count of Holstein. He was the first king of the House of Oldenburg.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Christian_I_of_Denmark"
     },
     {
-      "id": "2026-10-27-popular-5-q1",
-      "category": "Film",
+      "id": "2026-10-28-popular-8-q3",
+      "category": "Music",
       "story": "Most read",
-      "question": "Which 2026 Indian Tamil-language action comedy film was written and directed by Nelson Dilipkumar as a follow-up to his 2023 hit?",
-      "options": ["Leo 2", "Jailer 2", "Master 2", "Beast 2"],
-      "answerIndex": 1,
-      "explanation": "Jailer 2 is the 2026 sequel to the 2023 action movie Jailer, helmed by Nelson Dilipkumar.",
-      "context": "Jailer 2 (2026 Indian film by Nelson Dilipkumar): Jailer 2 is a 2026 Indian Tamil-language action comedy film written and directed by Nelson Dilipkumar. It was produced by Kalanithi Maran through Sun Pictures. A sequel to Jailer (2023), the film stars Rajinikanth, Ramya Krishnan, Yogi Babu, Mirnaa and Rithvik reprising their roles from the predecessor, with S. J. Suryah, Mithun Chakraborty, Suraj Venjaramoodu and Vidya Balan joining the cast.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Jailer_2"
+      "question": "Often hailed as the 'Queen of Rap', which Trinidadian performer released the hits 'Super Bass' and 'Starships' under her famous stage name?",
+      "options": ["Nicki Minaj", "Cardi B", "Doja Cat", "Megan Thee Stallion"],
+      "answerIndex": 0,
+      "explanation": "Born Onika Tanya Maraj-Petty in Trinidad, Nicki Minaj is widely referred to as the Queen of Rap.",
+      "context": "Nicki Minaj (Trinidadian rapper and singer-songwriter (born 1982)): Onika Tanya Maraj-Petty, known professionally as Nicki Minaj, is a Trinidadian rapper, singer, and songwriter. Regarded as the \"Queen of Rap\" and one of the most influential rappers of all time, she is noted for her dynamic rap flow, witty lyrics, musical versatility, and alter egos, and is credited as a driving force in the mainstream resurgence of female rap since the 2010s.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nicki_Minaj"
     },
     {
-      "id": "2026-10-27-popular-33-q7",
+      "id": "2026-10-28-popular-2-q1",
       "category": "Sport",
       "story": "Most read",
-      "question": "Former English midfielder Michael Carrick served as head coach for which Premier League football team?",
+      "question": "Which Bundesliga club did English striker and national team captain Harry Kane sign for?",
       "options": [
-        "West Ham United",
-        "Middlesbrough",
-        "Manchester United",
-        "Tottenham Hotspur"
+        "Borussia Dortmund",
+        "Bayer Leverkusen",
+        "Bayern Munich",
+        "RB Leipzig"
       ],
       "answerIndex": 2,
-      "explanation": "Following a 12-year playing career at Old Trafford, Michael Carrick became head coach of Manchester United.",
-      "context": "Michael Carrick (English footballer and manager (born 1981)): Michael Carrick is an English professional football coach and former player who is the head coach of Premier League club Manchester United. He is best known for his 12-year playing career with Manchester United, which he also captained in his final season there. Carrick was a midfielder who primarily played in a deep-lying role, but he was also used as an emergency centre-back under Alex Ferguson, David Moyes, Louis van Gaal and José Mourinho.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Michael_Carrick"
+      "explanation": "Harry Kane captains England and plays as a forward for German club Bayern Munich.",
+      "context": "Harry Kane (English footballer (born 1993)): Harry Edward Kane is an English professional footballer who plays as a striker for Bundesliga club Bayern Munich and captains the England national team. Known for his clinical finishing, passing, vision and tactical versatility, he is widely regarded as one of the best players in the world.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Harry_Kane"
     },
     {
-      "id": "2026-10-27-popular-11-q5",
-      "category": "Art",
+      "id": "2026-10-28-popular-23-q5",
+      "category": "TV",
       "story": "Most read",
-      "question": "American landscape photographer Ansel Adams co-founded Group f/64, an association promoting which aesthetic approach to photography?",
-      "options": [
-        "Abstract expressionism",
-        "Pictorialism",
-        "Surrealist montage",
-        "Pure photography"
-      ],
-      "answerIndex": 3,
-      "explanation": "Group f/64 championed pure photography, which favoured crisp focus and utilizing a photograph's complete tonal scale.",
-      "context": "Ansel Adams (American photographer and environmentalist (1902–1984)): Ansel Easton Adams was an American landscape photographer and environmentalist known for his black-and-white images of the American West. He helped found Group f/64, an association of photographers advocating \"pure\" photography which favored sharp focus and the use of the full tonal range of a photograph.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ansel_Adams"
+      "question": "For his portrayal of which character on the NBC sitcom Friends did Matthew Perry achieve worldwide fame?",
+      "options": ["Ross Geller", "Chandler Bing", "Joey Tribbiani", "Gunther"],
+      "answerIndex": 1,
+      "explanation": "Matthew Perry played the sarcastic Chandler Bing across all ten seasons of Friends from 1994 until 2004.",
+      "context": "Matthew Perry (American and Canadian actor (1969–2023)): Matthew Langford Perry was an American and Canadian actor. Known primarily for his work in comedy, he gained international fame for starring as Chandler Bing on the NBC television sitcom Friends (1994–2004), receiving his first Primetime Emmy Award nomination in 2002 for the role. Perry also appeared on Ally McBeal (2002), The West Wing (2003) and The Ron Clark Story (2006) receiving Primetime Emmy Award nominations for his performances in the latter two.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Matthew_Perry"
     },
     {
-      "id": "2026-10-27-popular-27-q8",
-      "category": "Geography",
+      "id": "2026-10-28-popular-13-q4",
+      "category": "History",
       "story": "Most read",
-      "question": "The Nazi-era chalet known as the Eagle's Nest (Kehlsteinhaus) stands above Obersalzberg near which town in southeastern Germany?",
+      "question": "Before beginning his second stint as President of Brazil in 2023, Luiz Inácio Lula da Silva previously led the country across which period?",
       "options": [
-        "Garmisch-Partenkirchen",
-        "Nuremberg",
-        "Dachau",
-        "Berchtesgaden"
+        "2003 to 2011",
+        "1995 to 2002",
+        "2011 to 2016",
+        "1999 to 2007"
       ],
-      "answerIndex": 3,
-      "explanation": "Constructed atop the Kehlstein mountain, the Kehlsteinhaus is situated near Berchtesgaden.",
-      "context": "Kehlsteinhaus (Nazi-era chalet in Obersalzberg, Germany): The Kehlsteinhaus, commonly known in English as the Eagle's Nest, is a Nazi-era chalet situated atop the Kehlstein, a subpeak of the Hoher Göll above Obersalzberg, near Berchtesgaden in southeastern Germany. Completed in 1938, it was commissioned by Martin Bormann on behalf of the Nazi Party for Adolf Hitler, and was intended to host diplomatic functions. Despite its enormous construction cost, Hitler made only 14 brief visits to the Kehlsteinhaus, preferring his nearby Berghof residence.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Kehlsteinhaus"
+      "answerIndex": 0,
+      "explanation": "Lula da Silva originally served as Brazil's 35th president between 2003 and 2011 before returning to office in 2023.",
+      "context": "Luiz Inácio Lula da Silva (President of Brazil (2003–2011; since 2023)): Luiz Inácio Lula da Silva, known mononymously as Lula, is a Brazilian politician, trade unionist, and former metalworker who has served as the 39th president of Brazil since 2023. A member of the Workers' Party, he served as the 35th president from 2003 to 2011.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva"
     }
   ]
 }
