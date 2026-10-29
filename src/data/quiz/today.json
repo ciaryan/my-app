@@ -1,99 +1,108 @@
 {
   "version": 1,
-  "date": "2026-10-28",
-  "newsDate": "2026-10-27",
-  "generatedAt": "2026-10-28T05:50:39.789Z",
-  "model": "gemini-3.5-flash, gemini-3.8-flash",
+  "date": "2026-10-29",
+  "newsDate": "2026-10-28",
+  "generatedAt": "2026-10-29T08:38:48.886Z",
+  "model": "gemini-3.8-flash, gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
-    "revisionIds": [1382345286, 1382275912],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+    "revisionIds": [1382556680],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-27-6-q2",
-      "category": "Arts and culture",
-      "story": "Eurovision Song Contest 2027 > Netherlands in the Eurovision Song Contest 2027",
-      "question": "Which country's public broadcaster announced its withdrawal from the 2027 Eurovision Song Contest?",
-      "options": ["Belgium", "Norway", "Germany", "The Netherlands"],
-      "answerIndex": 3,
-      "explanation": "Netherlands Public Broadcasting pulled the country out of the 2027 event following concerns surrounding Israel's inclusion.",
-      "context": "Eurovision Song Contest 2027 > Netherlands in the Eurovision Song Contest 2027: Netherlands Public Broadcasting (NPO) withdraws the Netherlands from the 2027 Eurovision Song Contest over concerns about Israel's participation, after AVROTROS withdrew in August and NPO failed to find another broadcaster.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
-      "topicUrl": "https://en.wikipedia.org/wiki/Netherlands_in_the_Eurovision_Song_Contest_2027",
-      "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/netherlands-eurovision-song-festival-dutch-27ee0f300f9cd0ca4a4844b51865bd95"
-      }
-    },
-    {
-      "id": "2026-10-27-10-q3",
-      "category": "Health and environment",
-      "story": "2025 in climate change",
-      "question": "According to the World Meteorological Organization, global levels of which greenhouse gas averaged a record 426.8 parts per million in 2025?",
-      "options": ["Carbon dioxide", "Methane", "Nitrous oxide", "Ozone"],
-      "answerIndex": 0,
-      "explanation": "The WMO confirmed that atmospheric carbon dioxide reached unprecedented global concentrations during 2025.",
-      "context": "2025 in climate change: The World Meteorological Organization reports that global concentrations of carbon dioxide, methane, and nitrous oxide reached record highs in 2025, with carbon dioxide averaging 426.8 parts per million.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
-      "topicUrl": "https://en.wikipedia.org/wiki/2025_in_climate_change",
-      "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261027-greenhouse-gas-levels-hit-new-record-highs-in-2025-un"
-      }
-    },
-    {
-      "id": "2026-10-27-14-q5",
-      "category": "Law and crime",
-      "story": "",
-      "question": "Which Brazilian politician flew to the United States despite being ordered to turn over his passports to authorities?",
+      "id": "2026-10-28-15-q11",
+      "category": "Sports",
+      "story": "2026 World Series",
+      "question": "Which Major League Baseball team beat the Tampa Bay Rays to capture their first World Series title in franchise history?",
       "options": [
-        "Flávio Bolsonaro",
-        "Sergio Moro",
-        "Luiz Inácio Lula da Silva",
-        "Jair Bolsonaro"
+        "Milwaukee Brewers",
+        "San Diego Padres",
+        "Texas Rangers",
+        "Colorado Rockies"
       ],
       "answerIndex": 0,
-      "explanation": "Flávio Bolsonaro departed for America shortly after his defeat in the presidential runoff, leading the government to revoke his travel documents.",
-      "context": "Brazilian senator Flávio Bolsonaro leaves Brazil for the United States, despite orders to surrender his passports to the Federal Police, two days after his defeat in the presidential election runoffs to incumbent president Luiz Inácio Lula da Silva. The government subsequently cancels his passports.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
+      "explanation": "The Milwaukee Brewers won the World Series in five games against the Tampa Bay Rays, earning their maiden title.",
+      "context": "2026 World Series: In baseball, the Milwaukee Brewers defeat the Tampa Bay Rays in five games to win their first World Series championship in franchise history.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_World_Series",
       "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/americas/flavio-bolsonaro-leaves-brazil-us-after-election-defeat-source-media-say-2026-10-27/"
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/sports/mlb/milwaukee-brewers-tampa-bay-rays-world-series-game-5-result-rcna605974"
       }
     },
     {
-      "id": "2026-10-27-16-q7",
-      "category": "Politics and elections",
-      "story": "2026 Israeli legislative election",
-      "question": "Voters in Israel recently went to the polls to elect how many members of the Knesset?",
-      "options": ["60", "100", "150", "120"],
-      "answerIndex": 3,
-      "explanation": "The Israeli legislative election determined all 120 seats in the country's national parliament.",
-      "context": "2026 Israeli legislative election: Israelis vote to elect the 120 members of the Knesset.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+      "id": "2026-10-28-10-q6",
+      "category": "Law and crime",
+      "story": "",
+      "question": "Which British political activist was convicted in court of harassing two journalists and putting them in fear of violence?",
+      "options": [
+        "Laurence Fox",
+        "Nigel Farage",
+        "Tommy Robinson",
+        "Paul Golding"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tommy Robinson was found guilty of harassment that caused two reporters to fear violent harm.",
+      "context": "British far-right activist Tommy Robinson is convicted of harassing two journalists and causing them to fear violence.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
       "readMore": {
         "publisher": "BBC News",
-        "url": "https://www.bbc.com/news/articles/crlykey9jywqo"
+        "url": "https://www.bbc.com/news/articles/cq2d6z36pp53o"
       }
     },
     {
-      "id": "2026-10-27-4-q8",
-      "category": "Armed conflicts and attacks",
-      "story": "United States strikes on alleged drug traffickers during Operation Southern Spear",
-      "question": "Which country launched an airstrike targeting a suspected drug smuggling vessel in the Caribbean Sea?",
-      "options": ["Mexico", "Colombia", "United States", "Venezuela"],
-      "answerIndex": 2,
-      "explanation": "American forces conducted the strike on the boat as part of Operation Southern Spear.",
-      "context": "United States strikes on alleged drug traffickers during Operation Southern Spear: The United States launches an airstrike against an alleged drug boat in the Caribbean Sea, killing five people.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
-      "topicUrl": "https://en.wikipedia.org/wiki/United_States_strikes_on_alleged_drug_traffickers_during_Operation_Southern_Spear",
+      "id": "2026-10-28-11-q7",
+      "category": "Politics and elections",
+      "story": "2026 Israeli legislative election",
+      "question": "Which political party, led by prime minister Benjamin Netanyahu, lost its plurality of parliamentary seats in recent national elections?",
+      "options": ["Yesh Atid", "Likud", "Blue and White", "Labor"],
+      "answerIndex": 1,
+      "explanation": "Benjamin Netanyahu's coalition and his Likud party lost their plurality in the Knesset, leaving a hung parliament.",
+      "context": "2026 Israeli legislative election: Incumbent prime minister Benjamin Netanyahu and his Likud party-led governing coalition loses a plurality of seats in the Knesset, though no alliance wins a majority, leaving government formation unclear.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
       "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/boat-strikes-alleged-drug-boat-latin-america-cartels-trump-ef5e229630e00f370e0d1772edc34dd9"
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/israel-election-exit-polls-stalemate/"
+      }
+    },
+    {
+      "id": "2026-10-28-4-q2",
+      "category": "Business and economy",
+      "story": "",
+      "question": "Which company set a new record for the largest initial public offering in Indian history after generating 3.2 billion US dollars?",
+      "options": [
+        "Adani Enterprises",
+        "Tata Motors",
+        "Infosys",
+        "Jio Platforms"
+      ],
+      "answerIndex": 3,
+      "explanation": "Jio Platforms set a national record by raising 3.2 billion dollars in its Mumbai stock market debut.",
+      "context": "Jio Platforms raises US$3.2 billion in India's largest-ever initial public offering (IPO), attracting about $77 billion in bids and becoming the country's most-subscribed IPO before its stock-market debut in Mumbai.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+      "readMore": {
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261028-billionaire-ambani-s-jio-to-debut-after-record-india-ipo"
+      }
+    },
+    {
+      "id": "2026-10-28-7-q3",
+      "category": "International relations",
+      "story": "Rwanda–United States relations, Democratic Republic of the Congo–Rwanda conflict",
+      "question": "The United States introduced sanctions against the defence ministry of which country over allegations of supporting M23 rebel fighters?",
+      "options": ["Uganda", "Angola", "Rwanda", "Burundi"],
+      "answerIndex": 2,
+      "explanation": "The US targeted the Rwandan defence ministry with sanctions over accusations of backing rebels in the neighbouring DR Congo.",
+      "context": "Rwanda–United States relations, Democratic Republic of the Congo–Rwanda conflict: The United States imposes sanctions on the Rwandan ministry of defence over its role in the conflict in eastern Democratic Republic of the Congo, alleging that Rwanda is backing the M23 rebels to fight against Congolese forces.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+      "topicUrl": "https://en.wikipedia.org/wiki/Rwanda%E2%80%93United_States_relations",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/africa/us-imposes-sanctions-rwandas-ministry-defense-2026-10-28/"
       }
     }
   ]
