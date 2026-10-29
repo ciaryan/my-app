@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-28",
-  "generatedAt": "2026-10-28T06:16:00.755Z",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T06:25:00.406Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,74 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-10-28-event-52-q12",
-      "category": "Royalty",
+      "id": "2026-10-29-selected-6-q12",
+      "category": "Science",
       "story": "On this day",
-      "question": "On this day in 1449, which founder of the House of Oldenburg was crowned King of Denmark?",
-      "options": [
-        "Christian I",
-        "Eric of Pomerania",
-        "Christopher of Bavaria",
-        "Frederick I"
-      ],
-      "answerIndex": 0,
-      "explanation": "Christian I was crowned monarch of Denmark on 28 October 1449 and went on to rule Norway and Sweden under the Kalmar Union.",
-      "context": "On this day in 1449: Christian I is crowned king of Denmark.\nChristian I of Denmark (Scandinavian monarch under the Kalmar Union (1426–1481)): Christian I was a German noble and Scandinavian monarch under the Kalmar Union. He was king of Denmark (1448–1481), Norway (1450–1481) and Sweden (1457–1464). From 1460 to 1481, he was also duke of Schleswig and count of Holstein. He was the first king of the House of Oldenburg.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Christian_I_of_Denmark"
-    },
-    {
-      "id": "2026-10-28-popular-8-q3",
-      "category": "Music",
-      "story": "Most read",
-      "question": "Often hailed as the 'Queen of Rap', which Trinidadian performer released the hits 'Super Bass' and 'Starships' under her famous stage name?",
-      "options": ["Nicki Minaj", "Cardi B", "Doja Cat", "Megan Thee Stallion"],
-      "answerIndex": 0,
-      "explanation": "Born Onika Tanya Maraj-Petty in Trinidad, Nicki Minaj is widely referred to as the Queen of Rap.",
-      "context": "Nicki Minaj (Trinidadian rapper and singer-songwriter (born 1982)): Onika Tanya Maraj-Petty, known professionally as Nicki Minaj, is a Trinidadian rapper, singer, and songwriter. Regarded as the \"Queen of Rap\" and one of the most influential rappers of all time, she is noted for her dynamic rap flow, witty lyrics, musical versatility, and alter egos, and is credited as a driving force in the mainstream resurgence of female rap since the 2010s.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Nicki_Minaj"
-    },
-    {
-      "id": "2026-10-28-popular-2-q1",
-      "category": "Sport",
-      "story": "Most read",
-      "question": "Which Bundesliga club did English striker and national team captain Harry Kane sign for?",
-      "options": [
-        "Borussia Dortmund",
-        "Bayer Leverkusen",
-        "Bayern Munich",
-        "RB Leipzig"
-      ],
+      "question": "On this day in 1991, which robotic space probe became the first to make a flyby of an asteroid when it encountered Gaspra?",
+      "options": ["Cassini", "Voyager 2", "Galileo", "New Horizons"],
       "answerIndex": 2,
-      "explanation": "Harry Kane captains England and plays as a forward for German club Bayern Munich.",
-      "context": "Harry Kane (English footballer (born 1993)): Harry Edward Kane is an English professional footballer who plays as a striker for Bundesliga club Bayern Munich and captains the England national team. Known for his clinical finishing, passing, vision and tactical versatility, he is widely regarded as one of the best players in the world.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Harry_Kane"
+      "explanation": "NASA's Galileo probe made history on its journey to Jupiter by conducting the first close flyby of an asteroid, Gaspra.",
+      "context": "On this day in 1991: Galileo became the first spacecraft to visit an asteroid when it made a flyby of Gaspra.\nGalileo (spacecraft) (First NASA mission to orbit Jupiter (1989–2003)): Galileo was an American robotic space probe that studied the planet Jupiter and its moons, as well as the asteroids Gaspra and Ida. Named after the Italian astronomer Galileo Galilei, it consisted of an orbiter and an entry probe.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)"
     },
     {
-      "id": "2026-10-28-popular-23-q5",
+      "id": "2026-10-29-popular-31-q6",
+      "category": "Film",
+      "story": "Most read",
+      "question": "Actor Noah Wyle, renowned for his role as Dr. John Carter on ER, began starring as Dr. Michael 'Robby' Robinavitch in 2025 in which medical drama?",
+      "options": ["New Amsterdam", "Code Black", "The Resident", "The Pitt"],
+      "answerIndex": 3,
+      "explanation": "Noah Wyle took on the role of Dr. Robby Robinavitch in the HBO Max drama series The Pitt starting in 2025.",
+      "context": "Noah Wyle (American actor (born 1971)): Noah Strausser Speer Wyle is an American actor, television director, producer and writer. He is best known for portraying Dr. John Carter in the NBC medical drama ER (1994–2005) and Dr. Michael \"Robby\" Robinavitch in the HBO Max medical drama The Pitt (2025–present). These performances earned him six Actor Awards, a Golden Globe Award and four Primetime Emmy Awards. He was named as People's Sexiest Man Alive in 2026.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Noah_Wyle"
+    },
+    {
+      "id": "2026-10-29-popular-29-q4",
       "category": "TV",
       "story": "Most read",
-      "question": "For his portrayal of which character on the NBC sitcom Friends did Matthew Perry achieve worldwide fame?",
-      "options": ["Ross Geller", "Chandler Bing", "Joey Tribbiani", "Gunther"],
+      "question": "Which English sketch comedy series did David Walliams create and star in with Matt Lucas between 2003 and 2006?",
+      "options": [
+        "Come Fly with Me",
+        "Little Britain",
+        "The League of Gentlemen",
+        "The Fast Show"
+      ],
       "answerIndex": 1,
-      "explanation": "Matthew Perry played the sarcastic Chandler Bing across all ten seasons of Friends from 1994 until 2004.",
-      "context": "Matthew Perry (American and Canadian actor (1969–2023)): Matthew Langford Perry was an American and Canadian actor. Known primarily for his work in comedy, he gained international fame for starring as Chandler Bing on the NBC television sitcom Friends (1994–2004), receiving his first Primetime Emmy Award nomination in 2002 for the role. Perry also appeared on Ally McBeal (2002), The West Wing (2003) and The Ron Clark Story (2006) receiving Primetime Emmy Award nominations for his performances in the latter two.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Matthew_Perry"
+      "explanation": "David Walliams rose to fame alongside Matt Lucas on the acclaimed BBC sketch show Little Britain from 2003 to 2006.",
+      "context": "David Walliams (English comedian, writer and actor (born 1971)): David Edward Williams, known professionally as David Walliams, is an English actor, comedian, writer, and television personality. He rose to prominence for his work with Matt Lucas on the BBC sketch comedy series Little Britain (2003–2006) and Come Fly with Me (2010–2011). From 2012 to 2022, Walliams was a judge on the television talent competition Britain's Got Talent. He is also a writer of children's books, having sold more than 50 million copies worldwide.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/David_Walliams"
     },
     {
-      "id": "2026-10-28-popular-13-q4",
-      "category": "History",
+      "id": "2026-10-29-popular-33-q7",
+      "category": "Art",
       "story": "Most read",
-      "question": "Before beginning his second stint as President of Brazil in 2023, Luiz Inácio Lula da Silva previously led the country across which period?",
+      "question": "Nicknamed 'the Queen of Latin', who has served as the head judge on BBC One's Strictly Come Dancing since 2017?",
       "options": [
-        "2003 to 2011",
-        "1995 to 2002",
-        "2011 to 2016",
-        "1999 to 2007"
+        "Motsi Mabuse",
+        "Darcey Bussell",
+        "Shirley Ballas",
+        "Arlene Phillips"
       ],
+      "answerIndex": 2,
+      "explanation": "Former International Latin champion Shirley Ballas took over the role of head judge on Strictly Come Dancing in 2017.",
+      "context": "Shirley Ballas (English ballroom dancer (born 1960)): Shirley Annette Ballas is an English dancer and television personality. She specialises in the International Latin division, where she won several championship titles which earned her the nickname \"the Queen of Latin\". Since 2017, Ballas has served as head judge on the BBC One dancing competition show Strictly Come Dancing.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shirley_Ballas"
+    },
+    {
+      "id": "2026-10-29-popular-20-q5",
+      "category": "Sport",
+      "story": "Most read",
+      "question": "In English football, which tier of the league system does Fleetwood Town F.C. compete in as part of EFL League Two?",
+      "options": ["Fourth", "Second", "Fifth", "Third"],
       "answerIndex": 0,
-      "explanation": "Lula da Silva originally served as Brazil's 35th president between 2003 and 2011 before returning to office in 2023.",
-      "context": "Luiz Inácio Lula da Silva (President of Brazil (2003–2011; since 2023)): Luiz Inácio Lula da Silva, known mononymously as Lula, is a Brazilian politician, trade unionist, and former metalworker who has served as the 39th president of Brazil since 2023. A member of the Workers' Party, he served as the 35th president from 2003 to 2011.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva"
+      "explanation": "Fleetwood Town play in EFL League Two, which constitutes the fourth level of English football.",
+      "context": "Fleetwood Town F.C. (Association football club in Fleetwood, England): Fleetwood Town Football Club is a professional association football club based in Fleetwood, Lancashire, England. The team competes in EFL League Two, the fourth level of the English football league system.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fleetwood_Town_F.C."
     }
   ]
 }
