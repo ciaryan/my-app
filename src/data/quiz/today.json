@@ -1,31 +1,31 @@
 {
   "version": 1,
-  "date": "2026-10-29",
-  "newsDate": "2026-10-28",
-  "generatedAt": "2026-10-29T08:38:48.886Z",
-  "model": "gemini-3.8-flash, gemini-3.6-flash",
+  "date": "2026-10-30",
+  "newsDate": "2026-10-29",
+  "generatedAt": "2026-10-30T05:53:56.761Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
-    "revisionIds": [1382556680],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
+    "revisionIds": [1382769446, 1382757196],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-28-15-q11",
+      "id": "2026-10-28-16-q1",
       "category": "Sports",
       "story": "2026 World Series",
-      "question": "Which Major League Baseball team beat the Tampa Bay Rays to capture their first World Series title in franchise history?",
+      "question": "Which Major League Baseball team clinched their very first World Series title by defeating the Tampa Bay Rays?",
       "options": [
+        "Colorado Rockies",
+        "Seattle Mariners",
         "Milwaukee Brewers",
-        "San Diego Padres",
-        "Texas Rangers",
-        "Colorado Rockies"
+        "San Diego Padres"
       ],
-      "answerIndex": 0,
-      "explanation": "The Milwaukee Brewers won the World Series in five games against the Tampa Bay Rays, earning their maiden title.",
-      "context": "2026 World Series: In baseball, the Milwaukee Brewers defeat the Tampa Bay Rays in five games to win their first World Series championship in franchise history.",
+      "answerIndex": 2,
+      "explanation": "The Milwaukee Brewers won the World Series in five games against the Tampa Bay Rays, marking the first championship in their franchise history.",
+      "context": "2026 World Series: In Major League Baseball, the Milwaukee Brewers defeat the Tampa Bay Rays in five games to win their first World Series championship in franchise history.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
       "topicUrl": "https://en.wikipedia.org/wiki/2026_World_Series",
       "readMore": {
@@ -34,75 +34,69 @@
       }
     },
     {
-      "id": "2026-10-28-10-q6",
-      "category": "Law and crime",
-      "story": "",
-      "question": "Which British political activist was convicted in court of harassing two journalists and putting them in fear of violence?",
-      "options": [
-        "Laurence Fox",
-        "Nigel Farage",
-        "Tommy Robinson",
-        "Paul Golding"
-      ],
-      "answerIndex": 2,
-      "explanation": "Tommy Robinson was found guilty of harassment that caused two reporters to fear violent harm.",
-      "context": "British far-right activist Tommy Robinson is convicted of harassing two journalists and causing them to fear violence.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
-      "readMore": {
-        "publisher": "BBC News",
-        "url": "https://www.bbc.com/news/articles/cq2d6z36pp53o"
-      }
-    },
-    {
-      "id": "2026-10-28-11-q7",
-      "category": "Politics and elections",
-      "story": "2026 Israeli legislative election",
-      "question": "Which political party, led by prime minister Benjamin Netanyahu, lost its plurality of parliamentary seats in recent national elections?",
-      "options": ["Yesh Atid", "Likud", "Blue and White", "Labor"],
-      "answerIndex": 1,
-      "explanation": "Benjamin Netanyahu's coalition and his Likud party lost their plurality in the Knesset, leaving a hung parliament.",
-      "context": "2026 Israeli legislative election: Incumbent prime minister Benjamin Netanyahu and his Likud party-led governing coalition loses a plurality of seats in the Knesset, though no alliance wins a majority, leaving government formation unclear.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
-      "readMore": {
-        "publisher": "CBS News",
-        "url": "https://www.cbsnews.com/news/israel-election-exit-polls-stalemate/"
-      }
-    },
-    {
-      "id": "2026-10-28-4-q2",
+      "id": "2026-10-29-6-q3",
       "category": "Business and economy",
       "story": "",
-      "question": "Which company set a new record for the largest initial public offering in Indian history after generating 3.2 billion US dollars?",
-      "options": [
-        "Adani Enterprises",
-        "Tata Motors",
-        "Infosys",
-        "Jio Platforms"
-      ],
-      "answerIndex": 3,
-      "explanation": "Jio Platforms set a national record by raising 3.2 billion dollars in its Mumbai stock market debut.",
-      "context": "Jio Platforms raises US$3.2 billion in India's largest-ever initial public offering (IPO), attracting about $77 billion in bids and becoming the country's most-subscribed IPO before its stock-market debut in Mumbai.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+      "question": "Food delivery giant DoorDash announced plans to acquire which grocery delivery platform in a 17-billion-dollar deal?",
+      "options": ["Deliveroo", "Instacart", "Just Eat", "Postmates"],
+      "answerIndex": 1,
+      "explanation": "DoorDash revealed an agreement to buy grocery delivery specialist Instacart, aiming to complete the transaction in late 2027.",
+      "context": "American food delivery company DoorDash announces an intent to close on an acquisition of grocery delivery company Instacart for $17 billion in late 2027.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
       "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261028-billionaire-ambani-s-jio-to-debut-after-record-india-ipo"
+        "publisher": "AP",
+        "url": "https://apnews.com/article/doordash-instacart-delivery-d6f30f5d18c288eeba6babcb49260e06"
       }
     },
     {
-      "id": "2026-10-28-7-q3",
-      "category": "International relations",
-      "story": "Rwanda–United States relations, Democratic Republic of the Congo–Rwanda conflict",
-      "question": "The United States introduced sanctions against the defence ministry of which country over allegations of supporting M23 rebel fighters?",
-      "options": ["Uganda", "Angola", "Rwanda", "Burundi"],
-      "answerIndex": 2,
-      "explanation": "The US targeted the Rwandan defence ministry with sanctions over accusations of backing rebels in the neighbouring DR Congo.",
-      "context": "Rwanda–United States relations, Democratic Republic of the Congo–Rwanda conflict: The United States imposes sanctions on the Rwandan ministry of defence over its role in the conflict in eastern Democratic Republic of the Congo, alleging that Rwanda is backing the M23 rebels to fight against Congolese forces.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
-      "topicUrl": "https://en.wikipedia.org/wiki/Rwanda%E2%80%93United_States_relations",
+      "id": "2026-10-29-10-q7",
+      "category": "Politics and elections",
+      "story": "2026 Swedish government formation",
+      "question": "In which European country did the parliamentary speaker propose Elisabeth Thand Ringqvist to lead a broad coalition government?",
+      "options": ["Finland", "Sweden", "Norway", "Denmark"],
+      "answerIndex": 1,
+      "explanation": "Swedish parliamentary speaker Andreas Norlén put forward Center Party leader Elisabeth Thand Ringqvist to head a multi-party coalition.",
+      "context": "2026 Swedish government formation: Andreas Norlén, speaker of the Swedish parliament, announces a second vote to elect the next prime minister. He proposes a coalition led by the Center Party's leader, Elisabeth Thand Ringqvist, alongside the Social Democrats, Greens, Christian Democrats, and the Moderates.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Swedish_government_formation",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/africa/us-imposes-sanctions-rwandas-ministry-defense-2026-10-28/"
+        "url": "https://www.reuters.com/world/swedish-parliament-vote-centre-party-leader-prime-minister-despite-gridlock-2026-10-29/"
+      }
+    },
+    {
+      "id": "2026-10-29-8-q10",
+      "category": "Disasters and accidents",
+      "story": "",
+      "question": "In which country did a famous rock formation known as a hoodoo collapse at Göreme's Open Air Museum following days of heavy rain?",
+      "options": ["Greece", "Jordan", "Turkey", "Cyprus"],
+      "answerIndex": 2,
+      "explanation": "A hoodoo collapsed at the Open Air Museum in the Nevşehir District of Turkey after persistent downpours.",
+      "context": "Three people are killed and five more injured during the collapse of a hoodoo at Göreme's Open Air Museum in the Nevşehir District, Turkey. It is suspected to be caused by heavy rainfall over the preceding days.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
+      "readMore": {
+        "publisher": "AP",
+        "url": "https://apnews.com/article/turkey-cappadocia-rock-formation-collapse-climbers-tourism-701991bfabd99898df47e8eba0fbd9fd"
+      }
+    },
+    {
+      "id": "2026-10-29-5-q4",
+      "category": "Business and economy",
+      "story": "",
+      "question": "Which central bank's president announced her resignation ahead of schedule, citing an inability to stay neutral regarding current events?",
+      "options": [
+        "Bank of England",
+        "European Central Bank",
+        "Bank of Japan",
+        "Federal Reserve"
+      ],
+      "answerIndex": 1,
+      "explanation": "Christine Lagarde announced she will leave her post as head of the European Central Bank in February 2027, eight months before the end of her term.",
+      "context": "Christine Lagarde, the president of the European Central Bank, resigns, saying she could not remain neutral on current events. She will step down from office in February 2027, eight months before her term officially ends.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/finance/ecb-hold-rates-investors-focus-french-bonds-lagardes-future-2026-10-28/"
       }
     }
   ]
