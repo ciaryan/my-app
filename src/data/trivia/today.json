@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-10-29",
-  "generatedAt": "2026-10-29T06:25:00.406Z",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T06:23:18.761Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,69 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-10-29-selected-6-q12",
-      "category": "Science",
+      "id": "2026-10-30-birth-19-q13",
+      "category": "Music",
       "story": "On this day",
-      "question": "On this day in 1991, which robotic space probe became the first to make a flyby of an asteroid when it encountered Gaspra?",
-      "options": ["Cassini", "Voyager 2", "Galileo", "New Horizons"],
-      "answerIndex": 2,
-      "explanation": "NASA's Galileo probe made history on its journey to Jupiter by conducting the first close flyby of an asteroid, Gaspra.",
-      "context": "On this day in 1991: Galileo became the first spacecraft to visit an asteroid when it made a flyby of Gaspra.\nGalileo (spacecraft) (First NASA mission to orbit Jupiter (1989–2003)): Galileo was an American robotic space probe that studied the planet Jupiter and its moons, as well as the asteroids Gaspra and Ida. Named after the Italian astronomer Galileo Galilei, it consisted of an orbiter and an entry probe.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)"
+      "question": "Born on this day in 1989, singer Vanessa White originally gained widespread fame as a member of which British girl group?",
+      "options": ["Sugababes", "The Saturdays", "Girls Aloud", "Little Mix"],
+      "answerIndex": 1,
+      "explanation": "Vanessa White rose to stardom beginning in 2008 as one of the members of the British pop band The Saturdays.",
+      "context": "On this day in 1989: Vanessa White, English singer, former member of The Saturdays\nVanessa White (English singer (born 1989)): Vanessa Karen White is an English singer who rose to fame in 2008 as a singer in the girl group The Saturdays. White began her career as a theatre actress at an early age, appearing in several West End productions.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vanessa_White"
     },
     {
-      "id": "2026-10-29-popular-31-q6",
+      "id": "2026-10-30-popular-11-q2",
+      "category": "Royalty",
+      "story": "Most read",
+      "question": "In which year was Sir Ian McKellen knighted by Queen Elizabeth II?",
+      "options": ["1991", "1986", "1998", "2002"],
+      "answerIndex": 0,
+      "explanation": "Sir Ian McKellen received his knighthood from Queen Elizabeth II in 1991.",
+      "context": "Ian McKellen (English actor (born 1939)): Sir Ian Murray McKellen is an English actor. Widely considered one of Britain's greatest actors, he is noted for his versatile roles on stage and screen, in genres ranging from Shakespearean dramas and modern theatre to popular fantasy and science fiction. He is regarded as a British cultural icon and was knighted by Queen Elizabeth II in 1991.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ian_McKellen"
+    },
+    {
+      "id": "2026-10-30-popular-2-q1",
       "category": "Film",
       "story": "Most read",
-      "question": "Actor Noah Wyle, renowned for his role as Dr. John Carter on ER, began starring as Dr. Michael 'Robby' Robinavitch in 2025 in which medical drama?",
-      "options": ["New Amsterdam", "Code Black", "The Resident", "The Pitt"],
-      "answerIndex": 3,
-      "explanation": "Noah Wyle took on the role of Dr. Robby Robinavitch in the HBO Max drama series The Pitt starting in 2025.",
-      "context": "Noah Wyle (American actor (born 1971)): Noah Strausser Speer Wyle is an American actor, television director, producer and writer. He is best known for portraying Dr. John Carter in the NBC medical drama ER (1994–2005) and Dr. Michael \"Robby\" Robinavitch in the HBO Max medical drama The Pitt (2025–present). These performances earned him six Actor Awards, a Golden Globe Award and four Primetime Emmy Awards. He was named as People's Sexiest Man Alive in 2026.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Noah_Wyle"
-    },
-    {
-      "id": "2026-10-29-popular-29-q4",
-      "category": "TV",
-      "story": "Most read",
-      "question": "Which English sketch comedy series did David Walliams create and star in with Matt Lucas between 2003 and 2006?",
+      "question": "Which English actor, famous for playing Captain Jean-Luc Picard, was married to American singer-songwriter Sunny Ozell?",
       "options": [
-        "Come Fly with Me",
-        "Little Britain",
-        "The League of Gentlemen",
-        "The Fast Show"
-      ],
-      "answerIndex": 1,
-      "explanation": "David Walliams rose to fame alongside Matt Lucas on the acclaimed BBC sketch show Little Britain from 2003 to 2006.",
-      "context": "David Walliams (English comedian, writer and actor (born 1971)): David Edward Williams, known professionally as David Walliams, is an English actor, comedian, writer, and television personality. He rose to prominence for his work with Matt Lucas on the BBC sketch comedy series Little Britain (2003–2006) and Come Fly with Me (2010–2011). From 2012 to 2022, Walliams was a judge on the television talent competition Britain's Got Talent. He is also a writer of children's books, having sold more than 50 million copies worldwide.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/David_Walliams"
-    },
-    {
-      "id": "2026-10-29-popular-33-q7",
-      "category": "Art",
-      "story": "Most read",
-      "question": "Nicknamed 'the Queen of Latin', who has served as the head judge on BBC One's Strictly Come Dancing since 2017?",
-      "options": [
-        "Motsi Mabuse",
-        "Darcey Bussell",
-        "Shirley Ballas",
-        "Arlene Phillips"
+        "Sir Ian McKellen",
+        "Sir Derek Jacobi",
+        "Sir Patrick Stewart",
+        "Sir Michael Gambon"
       ],
       "answerIndex": 2,
-      "explanation": "Former International Latin champion Shirley Ballas took over the role of head judge on Strictly Come Dancing in 2017.",
-      "context": "Shirley Ballas (English ballroom dancer (born 1960)): Shirley Annette Ballas is an English dancer and television personality. She specialises in the International Latin division, where she won several championship titles which earned her the nickname \"the Queen of Latin\". Since 2017, Ballas has served as head judge on the BBC One dancing competition show Strictly Come Dancing.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Shirley_Ballas"
+      "explanation": "Sunny Ozell, Lady Stewart was married to stage and screen actor Sir Patrick Stewart until he passed away in 2026.",
+      "context": "Sunny Ozell (American singer-songwriter (born 1978)): Sunny Ozell, Lady Stewart is an American singer and songwriter who resides in Los Angeles, California. She was married to the English actor Sir Patrick Stewart until his death in 2026.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sunny_Ozell"
     },
     {
-      "id": "2026-10-29-popular-20-q5",
-      "category": "Sport",
+      "id": "2026-10-30-popular-33-q7",
+      "category": "Science",
       "story": "Most read",
-      "question": "In English football, which tier of the league system does Fleetwood Town F.C. compete in as part of EFL League Two?",
-      "options": ["Fourth", "Second", "Fifth", "Third"],
-      "answerIndex": 0,
-      "explanation": "Fleetwood Town play in EFL League Two, which constitutes the fourth level of English football.",
-      "context": "Fleetwood Town F.C. (Association football club in Fleetwood, England): Fleetwood Town Football Club is a professional association football club based in Fleetwood, Lancashire, England. The team competes in EFL League Two, the fourth level of the English football league system.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Fleetwood_Town_F.C."
+      "question": "What is required from a user in order to register an account on Meta's messaging platform WhatsApp?",
+      "options": [
+        "A credit or debit card",
+        "A government photo ID",
+        "A cellular mobile phone number",
+        "A verified postal address"
+      ],
+      "answerIndex": 2,
+      "explanation": "To register and use WhatsApp Messenger, users must provide a cellular mobile phone number.",
+      "context": "WhatsApp (Messaging and VoIP service owned by Meta): WhatsApp Messenger, commonly known simply as WhatsApp, is an American social media, instant messaging (IM), and Voice over IP (VoIP) service accessible via desktop and mobile app. Owned by Meta Platforms, the service allows users to send text messages, voice messages, and video messages, make voice and video calls, and share images, documents, user locations, and other content. The service requires a cellular mobile telephone number to register. WhatsApp was launched in May 2009.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/WhatsApp"
+    },
+    {
+      "id": "2026-10-30-popular-30-q10",
+      "category": "History",
+      "story": "Most read",
+      "question": "Benjamin Netanyahu first became Prime Minister of Israel in which decade?",
+      "options": ["1980s", "2010s", "1990s", "2000s"],
+      "answerIndex": 2,
+      "explanation": "Benjamin Netanyahu began his first term as prime minister of Israel in 1996.",
+      "context": "Benjamin Netanyahu (Prime Minister of Israel (1996–1999; 2009–2021; 2022–present)): Benjamin \"Bibi\" Netanyahu is an Israeli politician and diplomat who has served as prime minister of Israel since 2022. Having previously held office from 1996 to 1999 and from 2009 to 2021, Netanyahu is Israel's longest-serving prime minister.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu"
     }
   ]
 }
