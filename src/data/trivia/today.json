@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-10-30",
-  "generatedAt": "2026-10-30T06:23:18.761Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T08:50:36.285Z",
+  "model": "gemini-3.8-flash, gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,69 +11,79 @@
   },
   "questions": [
     {
-      "id": "2026-10-30-birth-19-q13",
-      "category": "Music",
-      "story": "On this day",
-      "question": "Born on this day in 1989, singer Vanessa White originally gained widespread fame as a member of which British girl group?",
-      "options": ["Sugababes", "The Saturdays", "Girls Aloud", "Little Mix"],
-      "answerIndex": 1,
-      "explanation": "Vanessa White rose to stardom beginning in 2008 as one of the members of the British pop band The Saturdays.",
-      "context": "On this day in 1989: Vanessa White, English singer, former member of The Saturdays\nVanessa White (English singer (born 1989)): Vanessa Karen White is an English singer who rose to fame in 2008 as a singer in the girl group The Saturdays. White began her career as a theatre actress at an early age, appearing in several West End productions.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Vanessa_White"
-    },
-    {
-      "id": "2026-10-30-popular-11-q2",
+      "id": "2026-10-31-selected-15-q11",
       "category": "Royalty",
-      "story": "Most read",
-      "question": "In which year was Sir Ian McKellen knighted by Queen Elizabeth II?",
-      "options": ["1991", "1986", "1998", "2002"],
+      "story": "On this day",
+      "question": "On this day in 475, which youth was installed on the imperial throne by his father Orestes as the final Western Roman Emperor?",
+      "options": [
+        "Romulus Augustulus",
+        "Flavius Honorius",
+        "Valentinian III",
+        "Julius Nepos"
+      ],
       "answerIndex": 0,
-      "explanation": "Sir Ian McKellen received his knighthood from Queen Elizabeth II in 1991.",
-      "context": "Ian McKellen (English actor (born 1939)): Sir Ian Murray McKellen is an English actor. Widely considered one of Britain's greatest actors, he is noted for his versatile roles on stage and screen, in genres ranging from Shakespearean dramas and modern theatre to popular fantasy and science fiction. He is regarded as a British cultural icon and was knighted by Queen Elizabeth II in 1991.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ian_McKellen"
+      "explanation": "On 31 October 475, Romulus Augustulus assumed the Western Roman throne, serving as the empire's last Western ruler before his deposition the next year.",
+      "context": "On this day in 475: Romulus Augustulus took the throne as the last emperor of the Western Roman Empire.\nRomulus Augustulus (Western Roman emperor from 475 to 476): Romulus Augustus, nicknamed Augustulus, was Roman emperor of the West from 31 October 475 until 4 September 476. Romulus was placed on the imperial throne while still a minor by his father Orestes, the magister militum, for whom he served as little more than a figurehead.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Romulus_Augustulus"
     },
     {
-      "id": "2026-10-30-popular-2-q1",
+      "id": "2026-10-31-popular-26-q4",
       "category": "Film",
       "story": "Most read",
-      "question": "Which English actor, famous for playing Captain Jean-Luc Picard, was married to American singer-songwriter Sunny Ozell?",
+      "question": "Who composed the songs, book and lyrics for the stage musical on which the 1975 film The Rocky Horror Picture Show is based?",
       "options": [
-        "Sir Ian McKellen",
-        "Sir Derek Jacobi",
-        "Sir Patrick Stewart",
-        "Sir Michael Gambon"
+        "Richard O'Brien",
+        "Lou Adler",
+        "Jim Sharman",
+        "Michael White"
       ],
-      "answerIndex": 2,
-      "explanation": "Sunny Ozell, Lady Stewart was married to stage and screen actor Sir Patrick Stewart until he passed away in 2026.",
-      "context": "Sunny Ozell (American singer-songwriter (born 1978)): Sunny Ozell, Lady Stewart is an American singer and songwriter who resides in Los Angeles, California. She was married to the English actor Sir Patrick Stewart until his death in 2026.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Sunny_Ozell"
+      "answerIndex": 0,
+      "explanation": "Richard O'Brien wrote the music, book and lyrics for the original stage musical, co-wrote the screenplay, and played Riff Raff in the film adaptation.",
+      "context": "The Rocky Horror Picture Show (1975 musical comedy horror film by Jim Sharman): The Rocky Horror Picture Show is a 1975 musical comedy horror film produced by Lou Adler and Michael White, directed by Jim Sharman, and distributed by 20th Century Fox. The film is based on the 1973 musical stage production The Rocky Horror Show, with music, book and lyrics by Richard O'Brien.\nThe screenplay was written by Sharman and O'Brien, with O'Brien also playing the supporting role Riff Raff.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Rocky_Horror_Picture_Show"
     },
     {
-      "id": "2026-10-30-popular-33-q7",
-      "category": "Science",
+      "id": "2026-10-31-popular-28-q5",
+      "category": "Music",
       "story": "Most read",
-      "question": "What is required from a user in order to register an account on Meta's messaging platform WhatsApp?",
+      "question": "With which musical girl group did Leigh-Anne Pinnock win the eighth series of The X Factor?",
       "options": [
-        "A credit or debit card",
-        "A government photo ID",
-        "A cellular mobile phone number",
-        "A verified postal address"
+        "Girls Aloud",
+        "Fifth Harmony",
+        "The Saturdays",
+        "Little Mix"
       ],
-      "answerIndex": 2,
-      "explanation": "To register and use WhatsApp Messenger, users must provide a cellular mobile phone number.",
-      "context": "WhatsApp (Messaging and VoIP service owned by Meta): WhatsApp Messenger, commonly known simply as WhatsApp, is an American social media, instant messaging (IM), and Voice over IP (VoIP) service accessible via desktop and mobile app. Owned by Meta Platforms, the service allows users to send text messages, voice messages, and video messages, make voice and video calls, and share images, documents, user locations, and other content. The service requires a cellular mobile telephone number to register. WhatsApp was launched in May 2009.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/WhatsApp"
+      "answerIndex": 3,
+      "explanation": "Leigh-Anne Pinnock rose to fame as a member of Little Mix, which formed and triumphed on The X Factor before scoring numerous number-one hits.",
+      "context": "Leigh-Anne Pinnock (English singer (born 1991)): Leigh-Anne Pinnock is an English singer and actress. She rose to prominence as a member of the girl group Little Mix, which was formed on and won the eighth series of The X Factor. As part of the group, she won three Brit Awards and achieved 19 top-ten singles and five number-one entries on the UK Singles Chart before the group went on hiatus in 2022.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Leigh-Anne_Pinnock"
     },
     {
-      "id": "2026-10-30-popular-30-q10",
-      "category": "History",
+      "id": "2026-10-31-popular-6-q2",
+      "category": "TV",
       "story": "Most read",
-      "question": "Benjamin Netanyahu first became Prime Minister of Israel in which decade?",
-      "options": ["1980s", "2010s", "1990s", "2000s"],
-      "answerIndex": 2,
-      "explanation": "Benjamin Netanyahu began his first term as prime minister of Israel in 1996.",
-      "context": "Benjamin Netanyahu (Prime Minister of Israel (1996–1999; 2009–2021; 2022–present)): Benjamin \"Bibi\" Netanyahu is an Israeli politician and diplomat who has served as prime minister of Israel since 2022. Having previously held office from 1996 to 1999 and from 2009 to 2021, Netanyahu is Israel's longest-serving prime minister.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu"
+      "question": "Which reality dating competition has been hosted by British broadcaster Maya Jama since 2023?",
+      "options": ["The Circle", "Glow Up", "Too Hot to Handle", "Love Island"],
+      "answerIndex": 3,
+      "explanation": "Maya Jama took over presenting duties on Love Island in 2023, having previously presented programmes like Glow Up.",
+      "context": "Maya Jama (British television and radio presenter (born 1994)): Maya Indea Jama is a British broadcaster and media personality. She began her career as a presenter for MTV, 4Music and BBC Radio 1. She has presented television shows, including The Circle (2017), Glow Up: Britain's Next Make-Up Star (2021–2022), and Love Island (2023–present). Since 2025, Jama has appeared as a panellist on the ITV musical competition The Masked Singer. In 2026, she was a contestant on the second series of the BBC reality show The Celebrity Traitors.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Maya_Jama"
+    },
+    {
+      "id": "2026-10-31-popular-29-q6",
+      "category": "Literature",
+      "story": "Most read",
+      "question": "Which of these stand-up comedy specials was performed by comedian James Acaster?",
+      "options": [
+        "Cold Lasagne Hate Myself 1999",
+        "Live at the Apollo",
+        "Humanity",
+        "Complicated"
+      ],
+      "answerIndex": 0,
+      "explanation": "James Acaster is well known for his celebrated comedy shows, including the stand-up special Cold Lasagne Hate Myself 1999.",
+      "context": "James Acaster (English comedian (born 1985)): James William Acaster is an English comedian, presenter, podcaster, actor and musician. As well as the stand-up specials Repertoire and Cold Lasagne Hate Myself 1999, he is known for co-hosting the food podcast Off Menu and the panel show Hypothetical. Acaster makes use of fictional characters within his stand-up comedy, which is characterised by frequent callback jokes, offbeat observational comedy and overarching stories.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/James_Acaster"
     }
   ]
 }
