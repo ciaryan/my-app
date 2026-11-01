@@ -1,98 +1,94 @@
 {
   "version": 1,
-  "date": "2026-10-31",
-  "newsDate": "2026-10-30",
-  "generatedAt": "2026-10-31T05:51:27.144Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-11-01",
+  "newsDate": "2026-10-31",
+  "generatedAt": "2026-11-01T06:18:30.649Z",
+  "model": "gemini-3.8-flash, gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
-    "revisionIds": [1382954466],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31",
+    "revisionIds": [1383142622, 1383059466],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-30-14-q10",
+      "id": "2026-10-31-7-q1",
       "category": "Sports",
+      "story": "2026 Summer Youth Olympics",
+      "question": "Which country made sporting history by hosting the first ever International Olympic Committee event staged on the African continent?",
+      "options": ["Senegal", "Kenya", "South Africa", "Morocco"],
+      "answerIndex": 0,
+      "explanation": "Senegal welcomed the 2026 Summer Youth Olympics in Dakar, representing the first IOC gathering held in Africa.",
+      "context": "2026 Summer Youth Olympics: The 2026 Summer Youth Olympics opens in Dakar, Senegal, marking the first IOC event in Africa.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Summer_Youth_Olympics",
+      "readMore": {
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261031-senegal-kicks-off-youth-games-africa-s-first-ever-olympics"
+      }
+    },
+    {
+      "id": "2026-10-30-8-q4",
+      "category": "Law and crime",
       "story": "",
-      "question": "The Court of Arbitration for Sport overturned a ban by which sport's international governing body, allowing Russian teams back into global competition?",
-      "options": ["Curling", "Ice hockey", "Volleyball", "Handball"],
-      "answerIndex": 1,
-      "explanation": "CAS ruled that international ice hockey tournaments must readmit Russian teams, reversing prior federation rulings.",
-      "context": "In ice hockey, the Court of Arbitration for Sports rules that Russian teams must be allowed to take part in all international tournaments, overturning previous International Ice Hockey Federation decisions.",
+      "question": "Which major cryptocurrency exchange revealed that it had suffered an unprecedented theft of 6.3 billion US dollars in assets?",
+      "options": ["Coinbase", "Bitfinex", "Binance", "Kraken"],
+      "answerIndex": 2,
+      "explanation": "Binance verified the record-breaking cyber theft of assets valued at over six billion dollars.",
+      "context": "Cryptocurrency exchange Binance confirms that assets worth US$6.3 billion were stolen, making it the largest cryptocurrency theft in history.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
+      "readMore": {
+        "publisher": "Bloomberg News",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-29/binance-founder-says-possible-hack-of-exchange-bitcoin-falls"
+      }
+    },
+    {
+      "id": "2026-10-31-5-q5",
+      "category": "Politics and elections",
+      "story": "2026 European unrest",
+      "question": "In which European country did young demonstrators take to the streets across 34 cities to rally against living costs and proposed military conscription?",
+      "options": ["France", "Spain", "Germany", "Italy"],
+      "answerIndex": 2,
+      "explanation": "German youth organised demonstrations throughout dozens of cities over economic concerns and military enlistment.",
+      "context": "2026 European unrest: Youth-led protests are held across 34 cities in Germany. The protests are against the rising cost of living, education sector issues, and opposition to military conscription.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_European_unrest",
       "readMore": {
         "publisher": "DW",
-        "url": "https://www.dw.com/en/iihf-ordered-to-allow-russia-back-into-world-championships/a-79805650"
+        "url": "https://www.dw.com/en/massive-gen-z-protests-set-to-sweep-cities-across-germany/live-79814694"
       }
     },
     {
-      "id": "2026-10-30-7-q3",
-      "category": "Law and crime",
-      "story": "Leongatha mushroom murders",
-      "question": "In which country did an appeals court eliminate parole eligibility for Erin Patterson, who was convicted of murdering family members with death cap mushrooms?",
-      "options": ["South Africa", "Canada", "New Zealand", "Australia"],
-      "answerIndex": 3,
-      "explanation": "Victoria's Court of Appeal in Australia removed Patterson's 33-year eligibility for parole, effectively locking in life imprisonment without release.",
-      "context": "Leongatha mushroom murders: The Court of Appeal of Victoria, Australia, rejects Erin Patterson's appeal against her murder convictions and removes her 33-year parole eligibility, effectively imposing life imprisonment without parole for killing three relatives with death cap mushrooms in 2023.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
-      "topicUrl": "https://en.wikipedia.org/wiki/Leongatha_mushroom_murders",
-      "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/australian-mushroom-killer-loses-appeal-has-sentence-extended"
-      }
-    },
-    {
-      "id": "2026-10-30-3-q1",
+      "id": "2026-10-30-1-q12",
       "category": "Armed conflicts and attacks",
-      "story": "Russo-Ukrainian war > Peace negotiations in the Russo-Ukrainian war, Blockade of Oleshky, United States and the Russo-Ukrainian war",
-      "question": "Which prominent figure claimed credit for brokering a local ceasefire that enabled civilian evacuations from the Ukrainian city of Oleshky?",
-      "options": [
-        "Ursula von der Leyen",
-        "Melania Trump",
-        "Jill Biden",
-        "Brigitte Macron"
-      ],
-      "answerIndex": 1,
-      "explanation": "US first lady Melania Trump stated that she helped broker the local agreement enabling humanitarian evacuations in Oleshky.",
-      "context": "Russo-Ukrainian war > Peace negotiations in the Russo-Ukrainian war, Blockade of Oleshky, United States and the Russo-Ukrainian war: Civilian evacuations commence in Oleshky, Ukraine, as a humanitarian convoy arrives in the Russian-held and besieged city, as part of a local ceasefire that U.S. first lady Melania Trump says she brokered.",
+      "story": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis",
+      "question": "Which Middle Eastern nation carried out a rescue operation saving 25 crew members from a burning tanker in the Strait of Hormuz?",
+      "options": ["Oman", "Qatar", "Kuwait", "Bahrain"],
+      "answerIndex": 0,
+      "explanation": "Omani authorities came to the aid of mariners aboard an oil carrier that caught fire along the waterway.",
+      "context": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis: Oman rescues 25 crew members from a burning Panamanian-flagged oil tanker in the Strait of Hormuz. The Iranian military confirms it was a result of attempting to pass through an unauthorised route.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
-      "topicUrl": "https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
       "readMore": {
-        "publisher": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky"
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz"
       }
     },
     {
-      "id": "2026-10-30-12-q8",
-      "category": "Politics and elections",
-      "story": "2026 European unrest, Cost of living crisis > 2026 Italian unrest",
-      "question": "A nationwide general strike and widespread protests against living costs and the government took place across which European country?",
-      "options": ["Greece", "Italy", "France", "Spain"],
-      "answerIndex": 1,
-      "explanation": "Demonstrations and strikes swept Italian cities in response to the cost of living and Giorgia Meloni's administration.",
-      "context": "2026 European unrest, Cost of living crisis > 2026 Italian unrest: A general strike and multiple protests are held across Italy against the rising cost of living and prime minister Giorgia Meloni's government, with clashes breaking out in multiple cities.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Italian_unrest",
+      "id": "2026-10-31-1-q8",
+      "category": "International relations",
+      "story": "Polish constitutional crisis, China–Poland relations, Poland–Romania relations > Polish Constitutional Tribunal crisis > Suspension of Bogdan Święczkowski",
+      "question": "Ambassadors from which country resigned from their diplomatic postings in Romania and China to oppose the suspension of a domestic chief judge?",
+      "options": ["Czech Republic", "Slovakia", "Poland", "Hungary"],
+      "answerIndex": 2,
+      "explanation": "Polish envoys serving in Bucharest and Beijing stepped down over the tribunal controversy back home.",
+      "context": "Polish constitutional crisis, China–Poland relations, Poland–Romania relations > Polish Constitutional Tribunal crisis > Suspension of Bogdan Święczkowski: Poland's ambassador to Romania, Paweł Soloch, and ambassador to China, Jakub Kumoch, resign from their positions in protest of the suspension of Polish Constitutional Tribunal president Bogdan Święczkowski.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31",
+      "topicUrl": "https://en.wikipedia.org/wiki/Suspension_of_Bogdan_%C5%9Awi%C4%99czkowski",
       "readMore": {
-        "publisher": "CNN",
-        "url": "https://edition.cnn.com/2026/10/30/europe/italy-protests-anti-government-meloni-intl"
-      }
-    },
-    {
-      "id": "2026-10-30-4-q2",
-      "category": "Business and economy",
-      "story": "",
-      "question": "Which long-running independent Russian newspaper announced that state pressure would force it to close down operations in November?",
-      "options": ["Kommersant", "Novaya Gazeta", "Meduza", "The Moscow Times"],
-      "answerIndex": 1,
-      "explanation": "Novaya Gazeta revealed it would cease publishing on 9 November, pointing to ongoing official pressure.",
-      "context": "Russian independent newspaper Novaya Gazeta announces plans to cease operations on 9 November, citing pressure from Russian authorities.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
-      "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/business/media-telecom/russian-investigative-newspaper-novaya-gazeta-says-it-is-shutting-down-after-2026-10-30/"
+        "publisher": "Wiadomości in Polish",
+        "url": "https://wiadomosci.wp.pl/prezydent-karol-nawrocki-przyjechal-do-trybunalu-konstytucyjnego-relacja-na-zywo-7345695014824384l"
       }
     }
   ]
