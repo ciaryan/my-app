@@ -629,6 +629,36 @@
       "date": "2026-10-31",
       "question": "Which of these stand-up comedy specials was performed by comedian James Acaster?",
       "answer": "Cold Lasagne Hate Myself 1999"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Philip_II_of_France",
+      "date": "2026-11-01",
+      "question": "On this day in 1179, which monarch was crowned King of France, later becoming the first ruler to adopt that official styling instead of 'King of the Franks'?",
+      "answer": "Philip II"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Verity_(film)",
+      "date": "2026-11-01",
+      "question": "Who stars alongside Anne Hathaway and Dakota Johnson in the 2026 psychological thriller film Verity, directed by Michael Showalter?",
+      "answer": "Josh Hartnett"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Samhain",
+      "date": "2026-11-01",
+      "question": "Which ancient Celtic celebration, observed around 1 November, marked the end of the harvest and the start of winter?",
+      "answer": "Samhain"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Canelo_%C3%81lvarez",
+      "date": "2026-11-01",
+      "question": "Which Mexican boxer captured the World Boxing Council super-middleweight belt in October 2026, adding to his titles across four divisions?",
+      "answer": "Canelo Álvarez"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+      "date": "2026-11-01",
+      "question": "Which American businesswoman established the diagnostic start-up Theranos in 2003, promoting blood testing with minimal sample sizes?",
+      "answer": "Elizabeth Holmes"
     }
   ]
 }
