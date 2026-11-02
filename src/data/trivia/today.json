@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-01",
-  "generatedAt": "2026-11-01T06:52:33.043Z",
-  "model": "gemini-3.8-flash, gemini-3.5-flash",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T12:54:19.961Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,74 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-11-01-event-81-q13",
+      "id": "2026-11-02-birth-186-q11",
       "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1179, which monarch was crowned King of France, later becoming the first ruler to adopt that official styling instead of 'King of the Franks'?",
-      "options": ["Philip II", "Louis VII", "Louis IX", "Henry I"],
-      "answerIndex": 0,
-      "explanation": "Philip II, known as Philip Augustus, was crowned in 1179 and from 1190 chose the royal title 'King of France'.",
-      "context": "On this day in 1179: Philip II is crowned King of France.\nPhilip II of France (King of France from 1180 to 1223): Philip II, also known as Philip Augustus, was King of France from 1180 to 1223. His predecessors had been known as kings of the Franks, but from 1190 onward, Philip became the first French monarch to style himself \"King of France\".",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Philip_II_of_France"
+      "question": "Born on this day in 1470, which English monarch reigned briefly in 1483 before being deposed by his uncle Richard III without ever having a coronation?",
+      "options": ["Edward IV", "Henry VI", "Richard II", "Edward V"],
+      "answerIndex": 3,
+      "explanation": "Edward V succeeded his father in April 1483 but was removed from power by the Duke of Gloucester two months later.",
+      "context": "On this day in 1470: Edward V, King of England (died 1483)\nEdward V (King of England in 1483): Edward V was King of England from 9 April to 25 June 1483. He succeeded his father, Edward IV, upon the latter's death. Edward V was never crowned, and his brief reign was dominated by the influence of his uncle and Lord Protector, the Duke of Gloucester, who deposed him to reign as King Richard III.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Edward_V"
     },
     {
-      "id": "2026-11-01-popular-33-q3",
+      "id": "2026-11-02-popular-34-q2",
       "category": "Film",
       "story": "Most read",
-      "question": "Who stars alongside Anne Hathaway and Dakota Johnson in the 2026 psychological thriller film Verity, directed by Michael Showalter?",
+      "question": "In the 2026 romantic fantasy comedy-drama film 'Wicker', which actress stars opposite Alexander Skarsgård?",
       "options": [
-        "Bradley Cooper",
-        "Ryan Gosling",
-        "Josh Hartnett",
-        "Jake Gyllenhaal"
+        "Emma Stone",
+        "Olivia Colman",
+        "Rachel Weisz",
+        "Carey Mulligan"
       ],
-      "answerIndex": 2,
-      "explanation": "Michael Showalter's adaptation of the Colleen Hoover novel features Josh Hartnett in a leading role with Anne Hathaway and Dakota Johnson.",
-      "context": "Verity (film) (2026 film by Michael Showalter): Verity is a 2026 American erotic psychological thriller film directed by Michael Showalter, written by Nick Antosca, and based on Colleen Hoover's 2018 novel. The film stars Anne Hathaway, Dakota Johnson, and Josh Hartnett.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Verity_(film)"
-    },
-    {
-      "id": "2026-11-01-popular-28-q2",
-      "category": "History",
-      "story": "Most read",
-      "question": "Which ancient Celtic celebration, observed around 1 November, marked the end of the harvest and the start of winter?",
-      "options": ["Lughnasadh", "Samhain", "Imbolc", "Beltane"],
       "answerIndex": 1,
-      "explanation": "Samhain is a Gaelic festival celebrating the transition into the darker half of the year and marking the start of winter.",
-      "context": "Samhain (Gaelic festival marking the start of winter): Samhain or Sauin is a Gaelic festival on 1 November marking the end of the harvest season in autumn and beginning of winter or the \"darker half\" of the year. It is also the Irish and Scottish Gaelic name for November. Celebrations began on the evening of 31 October, since the Celtic day began and ended at sunset. The festival originated in Ireland and it was widely observed throughout Ireland, Scotland, and the Isle of Man. Its Brittonic Celtic equivalent is called Calan Gaeaf in Wales.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Samhain"
+      "explanation": "Olivia Colman heads the cast of Wicker, an adaptation of Ursula Wills's story 'The Wicker Husband'.",
+      "context": "Wicker (film) (2026 film by Alex Huston Fischer and Eleanor Wilson): Wicker is a 2026 romantic fantasy comedy-drama film written and directed by Alex Huston Fischer and Eleanor Wilson, based on the short story \"The Wicker Husband\" by Ursula Wills. The film stars Olivia Colman, Alexander Skarsgård, Elizabeth Debicki, Marli Siu, Nabhaan Rizwan, Richard E. Grant, and Peter Dinklage.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wicker_(film)"
     },
     {
-      "id": "2026-11-01-popular-26-q6",
-      "category": "Sport",
-      "story": "Most read",
-      "question": "Which Mexican boxer captured the World Boxing Council super-middleweight belt in October 2026, adding to his titles across four divisions?",
-      "options": [
-        "Canelo Álvarez",
-        "David Benavidez",
-        "Gilberto Ramírez",
-        "Julio César Chávez Jr."
-      ],
-      "answerIndex": 0,
-      "explanation": "Santos Saúl 'Canelo' Álvarez has held world championships in four weight divisions, including claiming the WBC super-middleweight belt in October 2026.",
-      "context": "Canelo Álvarez (Mexican boxer (born 1990)): Santos Saúl \"Canelo\" Álvarez Barragán is a Mexican professional boxer. He has held multiple world championships in four weight classes, from light middleweight to light heavyweight, including unified titles in three of those weight classes. He has held the World Boxing Council (WBC) super middleweight title since October 2026.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Canelo_%C3%81lvarez"
-    },
-    {
-      "id": "2026-11-01-popular-3-q11",
+      "id": "2026-11-02-popular-39-q5",
       "category": "Science",
       "story": "Most read",
-      "question": "Which American businesswoman established the diagnostic start-up Theranos in 2003, promoting blood testing with minimal sample sizes?",
+      "question": "Which jawless fish is known for having a toothed, funnel-like sucking mouth?",
+      "options": ["Hagfish", "Lamprey", "Coelacanth", "Lancetfish"],
+      "answerIndex": 1,
+      "explanation": "Adult lampreys belong to the order Petromyzontiformes and feature a distinctive toothed sucking mouth.",
+      "context": "Lamprey (Class of jawless fish): Lampreys are a group of jawless fish composing the order Petromyzontiformes, sole order in the class Petromyzontida. The adult lamprey is characterized by a toothed, funnel-like, sucking mouth. The common name \"lamprey\" is probably derived from Latin lampetra, which may mean \"stone licker\", though the etymology is uncertain. \"Lamprey\" is sometimes seen for the plural form.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lamprey"
+    },
+    {
+      "id": "2026-11-02-popular-33-q9",
+      "category": "Literature",
+      "story": "Most read",
+      "question": "The American crime drama television series 'Nocturne' is adapted from 'The Sandman', a novel written under what pseudonym by Alexander and Alexandra Ahndoril?",
       "options": [
-        "Sheryl Sandberg",
-        "Martha Stewart",
-        "Meg Whitman",
-        "Elizabeth Holmes"
+        "Nicci French",
+        "Jo Nesbø",
+        "Robert Galbraith",
+        "Lars Kepler"
       ],
       "answerIndex": 3,
-      "explanation": "Elizabeth Holmes founded Theranos in 2003, gaining notoriety before being convicted of fraud.",
-      "context": "Elizabeth Holmes (American businesswoman (born 1984)): Elizabeth Anne Holmes is an American businesswoman convicted of fraud in connection with her health technology company Theranos. Holmes founded Theranos in 2003, and its valuation soared in the early 2010s after it claimed to have revolutionized blood testing by developing methods that needed only very small volumes of blood, such as from a fingerprick.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+      "explanation": "The married writing duo Alexander and Alexandra Coelho Ahndoril use the pen name Lars Kepler.",
+      "context": "Nocturne (TV series) (2026 American crime drama series): Nocturne is an American crime drama television series created by Rowan Joffé and developed by John Hlavin. The series is based on the Joona Linna novel The Sandman by the husband-and-wife team Alexander Ahndoril and Alexandra Coelho Ahndoril, who use the pen name Lars Kepler.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nocturne_(TV_series)"
+    },
+    {
+      "id": "2026-11-02-popular-32-q4",
+      "category": "TV",
+      "story": "Most read",
+      "question": "Which English actor made his television debut playing a young version of Ned Stark in 'Game of Thrones' in 2016?",
+      "options": [
+        "Isaac Hempstead Wright",
+        "Thomas Brodie-Sangster",
+        "Kit Harington",
+        "Sebastian Croft"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sebastian Croft debuted on TV portraying the young Ned Stark in Game of Thrones before appearing in Heartstopper.",
+      "context": "Sebastian Croft (English actor (born 2001)): Sebastian Theodore Kemble \"Bash\" Croft is an English actor and musician. He began his career as a child actor on stage before making his television debut as Young Ned Stark in Game of Thrones (2016). He earned a BAFTA Children's Award nomination for his role in Horrible Histories: The Movie – Rotten Romans (2019). He has since starred in the Netflix series Heartstopper (2022–2024) and took part in the second series of The Celebrity Traitors.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sebastian_Croft"
     }
   ]
 }
