@@ -1,94 +1,109 @@
 {
   "version": 1,
-  "date": "2026-11-01",
-  "newsDate": "2026-10-31",
-  "generatedAt": "2026-11-01T06:18:30.649Z",
-  "model": "gemini-3.8-flash, gemini-3.6-flash",
+  "date": "2026-11-02",
+  "newsDate": "2026-11-01",
+  "generatedAt": "2026-11-02T09:34:20.150Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31",
-    "revisionIds": [1383142622, 1383059466],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
+    "revisionIds": [1383340494],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-10-31-7-q1",
+      "id": "2026-11-01-12-q9",
       "category": "Sports",
-      "story": "2026 Summer Youth Olympics",
-      "question": "Which country made sporting history by hosting the first ever International Olympic Committee event staged on the African continent?",
-      "options": ["Senegal", "Kenya", "South Africa", "Morocco"],
-      "answerIndex": 0,
-      "explanation": "Senegal welcomed the 2026 Summer Youth Olympics in Dakar, representing the first IOC gathering held in Africa.",
-      "context": "2026 Summer Youth Olympics: The 2026 Summer Youth Olympics opens in Dakar, Senegal, marking the first IOC event in Africa.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Summer_Youth_Olympics",
+      "story": "2026 Formula One World Championship",
+      "question": "Who became the youngest Formula One Drivers' Champion in history at the age of 20?",
+      "options": [
+        "Oscar Piastri",
+        "Lando Norris",
+        "Liam Lawson",
+        "Kimi Antonelli"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mercedes driver Kimi Antonelli secured the F1 world title after finishing third in Mexico, setting a new record for the youngest champion.",
+      "context": "2026 Formula One World Championship: In open-wheel racing, Italian driver Kimi Antonelli, driving for Mercedes, wins the Formula One World Drivers' Championship after finishing third at the Mexico City Grand Prix, becoming the youngest Drivers' Champion at the age of 20 years, 68 days.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
       "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261031-senegal-kicks-off-youth-games-africa-s-first-ever-olympics"
+        "publisher": "ESPN",
+        "url": "https://www.espn.com/f1/story/_/id/50250037/kimi-antonelli-youngest-f1-world-champion-2026-mexico-city-grand-prix"
       }
     },
     {
-      "id": "2026-10-30-8-q4",
+      "id": "2026-11-01-6-q3",
       "category": "Law and crime",
-      "story": "",
-      "question": "Which major cryptocurrency exchange revealed that it had suffered an unprecedented theft of 6.3 billion US dollars in assets?",
-      "options": ["Coinbase", "Bitfinex", "Binance", "Kraken"],
-      "answerIndex": 2,
-      "explanation": "Binance verified the record-breaking cyber theft of assets valued at over six billion dollars.",
-      "context": "Cryptocurrency exchange Binance confirms that assets worth US$6.3 billion were stolen, making it the largest cryptocurrency theft in history.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
+      "story": "2026 European unrest > 2026 Portuguese housing protests",
+      "question": "Protest camps in Lisbon and Porto were recently dismantled by police following demonstrations focused on which issue?",
+      "options": ["Tax increases", "Fuel prices", "Pension reform", "Housing"],
+      "answerIndex": 3,
+      "explanation": "Portuguese riot police broke up housing protest camps after demonstrations led to clashes and several arrests.",
+      "context": "2026 European unrest > 2026 Portuguese housing protests: Portuguese riot police dismantle protest camps in Lisbon's Rossio Square and Porto, arresting 13 people for refusing orders to disperse. Thirteen officers are injured, while activists say more than 30 protesters are also injured.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Portuguese_housing_protests",
       "readMore": {
-        "publisher": "Bloomberg News",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-29/binance-founder-says-possible-hack-of-exchange-bitcoin-falls"
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/portuguese-police-clash-housing-protesters-arrest-13"
       }
     },
     {
-      "id": "2026-10-31-5-q5",
-      "category": "Politics and elections",
-      "story": "2026 European unrest",
-      "question": "In which European country did young demonstrators take to the streets across 34 cities to rally against living costs and proposed military conscription?",
-      "options": ["France", "Spain", "Germany", "Italy"],
-      "answerIndex": 2,
-      "explanation": "German youth organised demonstrations throughout dozens of cities over economic concerns and military enlistment.",
-      "context": "2026 European unrest: Youth-led protests are held across 34 cities in Germany. The protests are against the rising cost of living, education sector issues, and opposition to military conscription.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_European_unrest",
+      "id": "2026-11-01-2-q1",
+      "category": "Disasters and accidents",
+      "story": "2026–2027 El Niño event",
+      "question": "Which nation declared a national state of emergency in preparation for the upcoming peak of the super El Niño climate event?",
+      "options": ["Colombia", "Bolivia", "Ecuador", "Peru"],
+      "answerIndex": 1,
+      "explanation": "President Rodrigo Paz declared a state of emergency in Bolivia to help mobilize resources before El Niño peaks towards the end of the year.",
+      "context": "2026–2027 El Niño event: Bolivian president Rodrigo Paz declares a national state of emergency to mobilize resources before the super El Niño event peaks in November or December.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026%E2%80%932027_El_Ni%C3%B1o_event",
       "readMore": {
         "publisher": "DW",
-        "url": "https://www.dw.com/en/massive-gen-z-protests-set-to-sweep-cities-across-germany/live-79814694"
+        "url": "https://www.dw.com/en/bolivia-declares-emergency-as-el-nino-intensifies-threatens-severe-weather/a-79820253"
       }
     },
     {
-      "id": "2026-10-30-1-q12",
-      "category": "Armed conflicts and attacks",
-      "story": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis",
-      "question": "Which Middle Eastern nation carried out a rescue operation saving 25 crew members from a burning tanker in the Strait of Hormuz?",
-      "options": ["Oman", "Qatar", "Kuwait", "Bahrain"],
+      "id": "2026-11-01-9-q6",
+      "category": "Politics and elections",
+      "story": "2026 anti-CEC protests",
+      "question": "Demonstrations took place in New Delhi calling for the resignation of which major public official?",
+      "options": [
+        "Chief election commissioner",
+        "Governor of the central bank",
+        "Finance minister",
+        "Chief justice"
+      ],
       "answerIndex": 0,
-      "explanation": "Omani authorities came to the aid of mariners aboard an oil carrier that caught fire along the waterway.",
-      "context": "Middle Eastern crisis > 2026 Iran war > 2026 Strait of Hormuz crisis: Oman rescues 25 crew members from a burning Panamanian-flagged oil tanker in the Strait of Hormuz. The Iranian military confirms it was a result of attempting to pass through an unauthorised route.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+      "explanation": "Protesters demanded the stepping down of Chief Election Commissioner Gyanesh Kumar over disputed alterations to voter registries.",
+      "context": "2026 anti-CEC protests: Thousands of people protest in New Delhi, India, to call for chief election commissioner Gyanesh Kumar to resign due to changes to voter lists that allegedly disproportionately affect opposition parties.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_anti-CEC_protests",
+      "readMore": {
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261101-tens-of-thousands-protest-in-india-s-capital-against-voter-roll-revision"
+      }
+    },
+    {
+      "id": "2026-11-01-8-q5",
+      "category": "Law and crime",
+      "story": "",
+      "question": "Authorities in Bangladesh created a official wage board following demonstrations by workers in which major sector?",
+      "options": [
+        "Garment manufacturing",
+        "Agriculture",
+        "Shipbreaking",
+        "Tea production"
+      ],
+      "answerIndex": 0,
+      "explanation": "The government established a wage review body after garment industry employees in Dhaka clashed with police over pay and living costs.",
+      "context": "Garment workers clash with police in Dhaka, Bangladesh, over low pay and the rising cost of living. In response, the government forms a wage board.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
       "readMore": {
         "publisher": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz"
-      }
-    },
-    {
-      "id": "2026-10-31-1-q8",
-      "category": "International relations",
-      "story": "Polish constitutional crisis, China–Poland relations, Poland–Romania relations > Polish Constitutional Tribunal crisis > Suspension of Bogdan Święczkowski",
-      "question": "Ambassadors from which country resigned from their diplomatic postings in Romania and China to oppose the suspension of a domestic chief judge?",
-      "options": ["Czech Republic", "Slovakia", "Poland", "Hungary"],
-      "answerIndex": 2,
-      "explanation": "Polish envoys serving in Bucharest and Beijing stepped down over the tribunal controversy back home.",
-      "context": "Polish constitutional crisis, China–Poland relations, Poland–Romania relations > Polish Constitutional Tribunal crisis > Suspension of Bogdan Święczkowski: Poland's ambassador to Romania, Paweł Soloch, and ambassador to China, Jakub Kumoch, resign from their positions in protest of the suspension of Polish Constitutional Tribunal president Bogdan Święczkowski.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31",
-      "topicUrl": "https://en.wikipedia.org/wiki/Suspension_of_Bogdan_%C5%9Awi%C4%99czkowski",
-      "readMore": {
-        "publisher": "Wiadomości in Polish",
-        "url": "https://wiadomosci.wp.pl/prezydent-karol-nawrocki-przyjechal-do-trybunalu-konstytucyjnego-relacja-na-zywo-7345695014824384l"
+        "url": "https://www.aljazeera.com/amp/video/newsfeed/2026/11/1/bangladesh-workers-clash-with-police-in-protests-over-low-pay"
       }
     }
   ]
