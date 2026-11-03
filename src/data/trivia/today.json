@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-02",
-  "generatedAt": "2026-11-02T12:54:19.961Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T07:23:13.647Z",
+  "model": "gemini-3.5-flash, gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,74 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-11-02-birth-186-q11",
-      "category": "Royalty",
+      "id": "2026-11-03-birth-88-q13",
+      "category": "Music",
       "story": "On this day",
-      "question": "Born on this day in 1470, which English monarch reigned briefly in 1483 before being deposed by his uncle Richard III without ever having a coronation?",
-      "options": ["Edward IV", "Henry VI", "Richard II", "Edward V"],
-      "answerIndex": 3,
-      "explanation": "Edward V succeeded his father in April 1483 but was removed from power by the Duke of Gloucester two months later.",
-      "context": "On this day in 1470: Edward V, King of England (died 1483)\nEdward V (King of England in 1483): Edward V was King of England from 9 April to 25 June 1483. He succeeded his father, Edward IV, upon the latter's death. Edward V was never crowned, and his brief reign was dominated by the influence of his uncle and Lord Protector, the Duke of Gloucester, who deposed him to reign as King Richard III.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Edward_V"
+      "question": "Born on this day in 1967, Steven Wilson is the founder, guitarist, and lead singer of which progressive rock band?",
+      "options": ["Dream Theater", "Porcupine Tree", "Opeth", "Marillion"],
+      "answerIndex": 1,
+      "explanation": "English musician Steven Wilson created the progressive rock group Porcupine Tree, serving as its primary songwriter, singer, and guitarist.",
+      "context": "On this day in 1967: Steven Wilson, English singer-songwriter, guitarist, and producer\nSteven Wilson (English musician (born 1967)): Steven John Wilson is an English musician, composer and multi-instrumentalist. He is the founder, guitarist, lead vocalist, and songwriter of the progressive rock band Porcupine Tree, as well as being a member of several other bands, including Blackfield, Storm Corrosion and No-Man.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Steven_Wilson"
     },
     {
-      "id": "2026-11-02-popular-34-q2",
+      "id": "2026-11-03-popular-20-q10",
       "category": "Film",
       "story": "Most read",
-      "question": "In the 2026 romantic fantasy comedy-drama film 'Wicker', which actress stars opposite Alexander Skarsgård?",
-      "options": [
-        "Emma Stone",
-        "Olivia Colman",
-        "Rachel Weisz",
-        "Carey Mulligan"
-      ],
-      "answerIndex": 1,
-      "explanation": "Olivia Colman heads the cast of Wicker, an adaptation of Ursula Wills's story 'The Wicker Husband'.",
-      "context": "Wicker (film) (2026 film by Alex Huston Fischer and Eleanor Wilson): Wicker is a 2026 romantic fantasy comedy-drama film written and directed by Alex Huston Fischer and Eleanor Wilson, based on the short story \"The Wicker Husband\" by Ursula Wills. The film stars Olivia Colman, Alexander Skarsgård, Elizabeth Debicki, Marli Siu, Nabhaan Rizwan, Richard E. Grant, and Peter Dinklage.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Wicker_(film)"
+      "question": "Inde Navarrette achieved widespread recognition and awards for starring in which 2025 supernatural horror film?",
+      "options": ["Superman & Lois", "13 Reasons Why", "Obsession", "Rogue"],
+      "answerIndex": 2,
+      "explanation": "Inde Navarrette gained global fame and a Critics' Choice Award for her lead role in the 2025 supernatural horror movie Obsession.",
+      "context": "Inde Navarrette (American actress (born 2001)): Danielle Fabiola \"Inde\" Navarrette is an American actress. She began acting in short films as a teenager before landing roles in the drama series 13 Reasons Why (2020) and the superhero series Superman & Lois (2021–2024). Navarrette achieved global stardom for headlining the supernatural horror film Obsession (2025), winning several accolades, including a Critics' Choice Award. She will also portray Rogue in the untitled X-Men film (2028) set in the Marvel Cinematic Universe.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Inde_Navarrette"
     },
     {
-      "id": "2026-11-02-popular-39-q5",
+      "id": "2026-11-03-popular-24-q7",
+      "category": "History",
+      "story": "Most read",
+      "question": "On which traditional dates in November is the Mexican holiday Day of the Dead primarily celebrated?",
+      "options": [
+        "November 5 and 6",
+        "November 1 and 2",
+        "November 24 and 25",
+        "November 11 and 12"
+      ],
+      "answerIndex": 1,
+      "explanation": "Day of the Dead is traditionally observed on 1 and 2 November as families gather to honour and remember deceased relatives.",
+      "context": "Day of the Dead (Mexican multi-day holiday): The Day of the Dead is a holiday traditionally celebrated on November 1 and 2, though other days, such as October 31 or November 6, may be included depending on the locality. The multi-day holiday involves family and friends gathering to pay respects and remember friends and family members who have died. The celebrations can take a humorous tone, as celebrants remember amusing events and anecdotes about the departed.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Day_of_the_Dead"
+    },
+    {
+      "id": "2026-11-03-popular-18-q4",
       "category": "Science",
       "story": "Most read",
-      "question": "Which jawless fish is known for having a toothed, funnel-like sucking mouth?",
-      "options": ["Hagfish", "Lamprey", "Coelacanth", "Lancetfish"],
-      "answerIndex": 1,
-      "explanation": "Adult lampreys belong to the order Petromyzontiformes and feature a distinctive toothed sucking mouth.",
-      "context": "Lamprey (Class of jawless fish): Lampreys are a group of jawless fish composing the order Petromyzontiformes, sole order in the class Petromyzontida. The adult lamprey is characterized by a toothed, funnel-like, sucking mouth. The common name \"lamprey\" is probably derived from Latin lampetra, which may mean \"stone licker\", though the etymology is uncertain. \"Lamprey\" is sometimes seen for the plural form.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Lamprey"
+      "question": "What substance has historically been spread across the ocean surface by mariners to reduce wave strength and assist in maritime rescues?",
+      "options": [
+        "Whale tallow",
+        "Liquid paraffin",
+        "Storm oil",
+        "Crude bitumen"
+      ],
+      "answerIndex": 2,
+      "explanation": "Storm oil acts as a surfactant on ocean water, flattening heavy waves to make navigation safer and aid sea rescues.",
+      "context": "Storm oil (Oil spread from ships to calm waves): Storm oil is described as nearly water-insoluble oil acting as a surfactant, and has been used since ancient times to smooth ocean waves. It has been historically employed to facilitate sea rescues and improve navigational safety, involving pouring the oil onto the ocean surface to reduce wave intensity.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Storm_oil"
     },
     {
-      "id": "2026-11-02-popular-33-q9",
-      "category": "Literature",
+      "id": "2026-11-03-popular-3-q1",
+      "category": "Sport",
       "story": "Most read",
-      "question": "The American crime drama television series 'Nocturne' is adapted from 'The Sandman', a novel written under what pseudonym by Alexander and Alexandra Ahndoril?",
+      "question": "Which Mercedes driver became the youngest-ever Formula One World Drivers' Champion after winning the title in 2026?",
       "options": [
-        "Nicci French",
-        "Jo Nesbø",
-        "Robert Galbraith",
-        "Lars Kepler"
+        "Kimi Antonelli",
+        "George Russell",
+        "Lando Norris",
+        "Charles Leclerc"
       ],
-      "answerIndex": 3,
-      "explanation": "The married writing duo Alexander and Alexandra Coelho Ahndoril use the pen name Lars Kepler.",
-      "context": "Nocturne (TV series) (2026 American crime drama series): Nocturne is an American crime drama television series created by Rowan Joffé and developed by John Hlavin. The series is based on the Joona Linna novel The Sandman by the husband-and-wife team Alexander Ahndoril and Alexandra Coelho Ahndoril, who use the pen name Lars Kepler.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Nocturne_(TV_series)"
-    },
-    {
-      "id": "2026-11-02-popular-32-q4",
-      "category": "TV",
-      "story": "Most read",
-      "question": "Which English actor made his television debut playing a young version of Ned Stark in 'Game of Thrones' in 2016?",
-      "options": [
-        "Isaac Hempstead Wright",
-        "Thomas Brodie-Sangster",
-        "Kit Harington",
-        "Sebastian Croft"
-      ],
-      "answerIndex": 3,
-      "explanation": "Sebastian Croft debuted on TV portraying the young Ned Stark in Game of Thrones before appearing in Heartstopper.",
-      "context": "Sebastian Croft (English actor (born 2001)): Sebastian Theodore Kemble \"Bash\" Croft is an English actor and musician. He began his career as a child actor on stage before making his television debut as Young Ned Stark in Game of Thrones (2016). He earned a BAFTA Children's Award nomination for his role in Horrible Histories: The Movie – Rotten Romans (2019). He has since starred in the Netflix series Heartstopper (2022–2024) and took part in the second series of The Celebrity Traitors.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Sebastian_Croft"
+      "answerIndex": 0,
+      "explanation": "Italian driver Kimi Antonelli secured the 2026 Formula One World Drivers' Championship while driving for Mercedes, making him the youngest driver in history to win the title.",
+      "context": "Kimi Antonelli (Italian racing driver (born 2006)): Andrea Kimi Antonelli is an Italian racing driver who competes in Formula One for Mercedes. Antonelli won the Formula One World Drivers' Championship in 2026 with Mercedes, becoming the youngest-ever World Drivers' Champion; he has won nine Grands Prix since his debut in 2025.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kimi_Antonelli"
     }
   ]
 }
