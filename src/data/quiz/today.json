@@ -1,31 +1,31 @@
 {
   "version": 1,
-  "date": "2026-11-02",
-  "newsDate": "2026-11-01",
-  "generatedAt": "2026-11-02T09:34:20.150Z",
+  "date": "2026-11-03",
+  "newsDate": "2026-11-02",
+  "generatedAt": "2026-11-03T06:58:16.054Z",
   "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
-    "revisionIds": [1383340494],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
+    "revisionIds": [1383533384, 1383522045],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-01-12-q9",
+      "id": "2026-11-01-12-q6",
       "category": "Sports",
       "story": "2026 Formula One World Championship",
-      "question": "Who became the youngest Formula One Drivers' Champion in history at the age of 20?",
+      "question": "Who made history as the youngest driver ever to win the Formula One World Drivers' Championship at just 20 years old?",
       "options": [
-        "Oscar Piastri",
+        "Kimi Antonelli",
         "Lando Norris",
-        "Liam Lawson",
-        "Kimi Antonelli"
+        "Oliver Bearman",
+        "Oscar Piastri"
       ],
-      "answerIndex": 3,
-      "explanation": "Mercedes driver Kimi Antonelli secured the F1 world title after finishing third in Mexico, setting a new record for the youngest champion.",
-      "context": "2026 Formula One World Championship: In open-wheel racing, Italian driver Kimi Antonelli, driving for Mercedes, wins the Formula One World Drivers' Championship after finishing third at the Mexico City Grand Prix, becoming the youngest Drivers' Champion at the age of 20 years, 68 days.",
+      "answerIndex": 0,
+      "explanation": "Italian driver Kimi Antonelli secured the F1 title for Mercedes after finishing on the podium in Mexico.",
+      "context": "2026 Formula One World Championship: In open-wheel racing, Italian driver Kimi Antonelli, driving for Mercedes, wins the Formula One World Drivers' Championship after finishing third at the Mexico City Grand Prix, becoming the youngest Drivers' Champion at the age of 20 years and 68 days.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
       "topicUrl": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
       "readMore": {
@@ -34,76 +34,75 @@
       }
     },
     {
-      "id": "2026-11-01-6-q3",
-      "category": "Law and crime",
-      "story": "2026 European unrest > 2026 Portuguese housing protests",
-      "question": "Protest camps in Lisbon and Porto were recently dismantled by police following demonstrations focused on which issue?",
-      "options": ["Tax increases", "Fuel prices", "Pension reform", "Housing"],
-      "answerIndex": 3,
-      "explanation": "Portuguese riot police broke up housing protest camps after demonstrations led to clashes and several arrests.",
-      "context": "2026 European unrest > 2026 Portuguese housing protests: Portuguese riot police dismantle protest camps in Lisbon's Rossio Square and Porto, arresting 13 people for refusing orders to disperse. Thirteen officers are injured, while activists say more than 30 protesters are also injured.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Portuguese_housing_protests",
-      "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/portuguese-police-clash-housing-protesters-arrest-13"
-      }
-    },
-    {
-      "id": "2026-11-01-2-q1",
-      "category": "Disasters and accidents",
-      "story": "2026–2027 El Niño event",
-      "question": "Which nation declared a national state of emergency in preparation for the upcoming peak of the super El Niño climate event?",
-      "options": ["Colombia", "Bolivia", "Ecuador", "Peru"],
-      "answerIndex": 1,
-      "explanation": "President Rodrigo Paz declared a state of emergency in Bolivia to help mobilize resources before El Niño peaks towards the end of the year.",
-      "context": "2026–2027 El Niño event: Bolivian president Rodrigo Paz declares a national state of emergency to mobilize resources before the super El Niño event peaks in November or December.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026%E2%80%932027_El_Ni%C3%B1o_event",
-      "readMore": {
-        "publisher": "DW",
-        "url": "https://www.dw.com/en/bolivia-declares-emergency-as-el-nino-intensifies-threatens-severe-weather/a-79820253"
-      }
-    },
-    {
-      "id": "2026-11-01-9-q6",
-      "category": "Politics and elections",
-      "story": "2026 anti-CEC protests",
-      "question": "Demonstrations took place in New Delhi calling for the resignation of which major public official?",
-      "options": [
-        "Chief election commissioner",
-        "Governor of the central bank",
-        "Finance minister",
-        "Chief justice"
-      ],
-      "answerIndex": 0,
-      "explanation": "Protesters demanded the stepping down of Chief Election Commissioner Gyanesh Kumar over disputed alterations to voter registries.",
-      "context": "2026 anti-CEC protests: Thousands of people protest in New Delhi, India, to call for chief election commissioner Gyanesh Kumar to resign due to changes to voter lists that allegedly disproportionately affect opposition parties.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_anti-CEC_protests",
+      "id": "2026-11-02-10-q2",
+      "category": "Health and environment",
+      "story": "",
+      "question": "A newly approved low-cost generic injection taken just twice a year is set to help prevent which health condition in over 100 developing nations?",
+      "options": ["Malaria", "Hepatitis C", "HIV", "Tuberculosis"],
+      "answerIndex": 2,
+      "explanation": "Regulators approved a generic version of lenacapavir, a biannual injection designed to prevent HIV infection at an affordable annual price.",
+      "context": "The United States Food and Drug Administration approves the first generic version of lenacapavir, a twice-yearly HIV prevention injection expected to cost about US$40 annually in 120 low- and middle-income countries.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
       "readMore": {
         "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261101-tens-of-thousands-protest-in-india-s-capital-against-voter-roll-revision"
+        "url": "https://www.france24.com/en/live-news/20261102-us-approves-cheap-generic-of-breakthrough-hiv-shot-for-poorer-countries"
       }
     },
     {
-      "id": "2026-11-01-8-q5",
+      "id": "2026-11-02-11-q3",
       "category": "Law and crime",
-      "story": "",
-      "question": "Authorities in Bangladesh created a official wage board following demonstrations by workers in which major sector?",
+      "story": "2026 French supermarket refrigerator hack",
+      "question": "Supermarkets across several European nations recently experienced cyberattacks that compromised which specific type of equipment?",
       "options": [
-        "Garment manufacturing",
-        "Agriculture",
-        "Shipbreaking",
-        "Tea production"
+        "Automated delivery vans",
+        "Freezers and refrigerators",
+        "Barcode scanners",
+        "Self-service checkouts"
       ],
-      "answerIndex": 0,
-      "explanation": "The government established a wage review body after garment industry employees in Dhaka clashed with police over pay and living costs.",
-      "context": "Garment workers clash with police in Dhaka, Bangladesh, over low pay and the rising cost of living. In response, the government forms a wage board.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
+      "answerIndex": 1,
+      "explanation": "Hackers targeted cooling systems in supermarkets, causing temperatures to rise and food to spoil.",
+      "context": "2026 French supermarket refrigerator hack: A second wave of cyberattacks target freezers and refrigerators in supermarkets in multiple European countries, causing them to overheat and spoil.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_French_supermarket_refrigerator_hack",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/retail-consumer/temperature-soars-swedish-grocery-store-freezers-one-store-blames-hackers-2026-11-02/"
+      }
+    },
+    {
+      "id": "2026-11-02-12-q4",
+      "category": "Politics and elections",
+      "story": "",
+      "question": "Human rights organizations expressed concern after Spain deported a group of migrants from its North African enclave of Ceuta to which neighbouring country?",
+      "options": ["Algeria", "Mauritania", "Morocco", "Tunisia"],
+      "answerIndex": 2,
+      "explanation": "Spain transferred sixteen migrants back to Morocco, prompting criticism over the recipient country's human rights record.",
+      "context": "The Spanish interior ministry reportedly deports 16 migrants, including those from Bangladesh, Cameroon, Nigeria, Senegal, and Yemen, from Ceuta to Morocco following the migrant crisis in July. Amnesty International raises concerns with the move given Morocco's human rights violations.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
+      "readMore": {
+        "publisher": "The New Arab",
+        "url": "https://www.newarab.com/news/spain-deports-ceuta-african-asian-asylum-seekers-morocco"
+      }
+    },
+    {
+      "id": "2026-11-02-5-q11",
+      "category": "Armed conflicts and attacks",
+      "story": "Middle Eastern crisis > 2026 Iran war",
+      "question": "Which body of water saw military escalation when US strikes targeted locations following missile attacks on American aircraft?",
+      "options": [
+        "Bab-el-Mandeb",
+        "Bering Strait",
+        "Strait of Malacca",
+        "Strait of Hormuz"
+      ],
+      "answerIndex": 3,
+      "explanation": "American forces conducted air strikes in response to surface-to-air missile fire directed at their planes near the Strait of Hormuz.",
+      "context": "Middle Eastern crisis > 2026 Iran war: The United States military carries out airstrikes on Iranian targets across the Strait of Hormuz after Iranian surface-to-air missiles attack American aircraft in the Strait, as explosions are reportedly heard on Qeshm Island and the city of Bandar Lengeh.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Iran_war",
       "readMore": {
         "publisher": "Al Jazeera",
-        "url": "https://www.aljazeera.com/amp/video/newsfeed/2026/11/1/bangladesh-workers-clash-with-police-in-protests-over-low-pay"
+        "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz"
       }
     }
   ]
