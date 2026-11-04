@@ -1,108 +1,108 @@
 {
   "version": 1,
-  "date": "2026-11-03",
-  "newsDate": "2026-11-02",
-  "generatedAt": "2026-11-03T06:58:16.054Z",
-  "model": "gemini-3.6-flash",
+  "date": "2026-11-04",
+  "newsDate": "2026-11-03",
+  "generatedAt": "2026-11-04T09:18:52.858Z",
+  "model": "gemini-3.5-flash, gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
-    "revisionIds": [1383533384, 1383522045],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
+    "revisionIds": [1383710822],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-01-12-q6",
+      "id": "2026-11-03-12-q6",
       "category": "Sports",
-      "story": "2026 Formula One World Championship",
-      "question": "Who made history as the youngest driver ever to win the Formula One World Drivers' Championship at just 20 years old?",
-      "options": [
-        "Kimi Antonelli",
-        "Lando Norris",
-        "Oliver Bearman",
-        "Oscar Piastri"
-      ],
-      "answerIndex": 0,
-      "explanation": "Italian driver Kimi Antonelli secured the F1 title for Mercedes after finishing on the podium in Mexico.",
-      "context": "2026 Formula One World Championship: In open-wheel racing, Italian driver Kimi Antonelli, driving for Mercedes, wins the Formula One World Drivers' Championship after finishing third at the Mexico City Grand Prix, becoming the youngest Drivers' Champion at the age of 20 years and 68 days.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
+      "story": "2026 Melbourne Cup",
+      "question": "Which racehorse, trained by Ciaron Maher, won the 2026 Melbourne Cup at Flemington Racecourse?",
+      "options": ["Zahrann", "Incentivise", "Juja Kibo", "Point Of Law"],
+      "answerIndex": 3,
+      "explanation": "Trainer Ciaron Maher achieved a remarkable clean sweep of the top three places in the Melbourne Cup, led by winner Point Of Law.",
+      "context": "2026 Melbourne Cup: In thoroughbred racing, Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia. Zahrann and Juja Kibo, also trained by Maher, finish second and third respectively.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Melbourne_Cup",
       "readMore": {
-        "publisher": "ESPN",
-        "url": "https://www.espn.com/f1/story/_/id/50250037/kimi-antonelli-youngest-f1-world-champion-2026-mexico-city-grand-prix"
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/king-charless-former-horse-point-law-wins-melbourne-cup"
       }
     },
     {
-      "id": "2026-11-02-10-q2",
-      "category": "Health and environment",
-      "story": "",
-      "question": "A newly approved low-cost generic injection taken just twice a year is set to help prevent which health condition in over 100 developing nations?",
-      "options": ["Malaria", "Hepatitis C", "HIV", "Tuberculosis"],
-      "answerIndex": 2,
-      "explanation": "Regulators approved a generic version of lenacapavir, a biannual injection designed to prevent HIV infection at an affordable annual price.",
-      "context": "The United States Food and Drug Administration approves the first generic version of lenacapavir, a twice-yearly HIV prevention injection expected to cost about US$40 annually in 120 low- and middle-income countries.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
-      "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261102-us-approves-cheap-generic-of-breakthrough-hiv-shot-for-poorer-countries"
-      }
-    },
-    {
-      "id": "2026-11-02-11-q3",
+      "id": "2026-11-03-6-q3",
       "category": "Law and crime",
-      "story": "2026 French supermarket refrigerator hack",
-      "question": "Supermarkets across several European nations recently experienced cyberattacks that compromised which specific type of equipment?",
-      "options": [
-        "Automated delivery vans",
-        "Freezers and refrigerators",
-        "Barcode scanners",
-        "Self-service checkouts"
-      ],
-      "answerIndex": 1,
-      "explanation": "Hackers targeted cooling systems in supermarkets, causing temperatures to rise and food to spoil.",
-      "context": "2026 French supermarket refrigerator hack: A second wave of cyberattacks target freezers and refrigerators in supermarkets in multiple European countries, causing them to overheat and spoil.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_French_supermarket_refrigerator_hack",
-      "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/business/retail-consumer/temperature-soars-swedish-grocery-store-freezers-one-store-blames-hackers-2026-11-02/"
-      }
-    },
-    {
-      "id": "2026-11-02-12-q4",
-      "category": "Politics and elections",
       "story": "",
-      "question": "Human rights organizations expressed concern after Spain deported a group of migrants from its North African enclave of Ceuta to which neighbouring country?",
-      "options": ["Algeria", "Mauritania", "Morocco", "Tunisia"],
-      "answerIndex": 2,
-      "explanation": "Spain transferred sixteen migrants back to Morocco, prompting criticism over the recipient country's human rights record.",
-      "context": "The Spanish interior ministry reportedly deports 16 migrants, including those from Bangladesh, Cameroon, Nigeria, Senegal, and Yemen, from Ceuta to Morocco following the migrant crisis in July. Amnesty International raises concerns with the move given Morocco's human rights violations.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
-      "readMore": {
-        "publisher": "The New Arab",
-        "url": "https://www.newarab.com/news/spain-deports-ceuta-african-asian-asylum-seekers-morocco"
-      }
-    },
-    {
-      "id": "2026-11-02-5-q11",
-      "category": "Armed conflicts and attacks",
-      "story": "Middle Eastern crisis > 2026 Iran war",
-      "question": "Which body of water saw military escalation when US strikes targeted locations following missile attacks on American aircraft?",
+      "question": "Police in Indonesia made three arrests following allegations that who had their phone wiretapped?",
       "options": [
-        "Bab-el-Mandeb",
-        "Bering Strait",
-        "Strait of Malacca",
-        "Strait of Hormuz"
+        "Anies Baswedan",
+        "Joko Widodo",
+        "Megawati Sukarnoputri",
+        "Prabowo Subianto"
       ],
       "answerIndex": 3,
-      "explanation": "American forces conducted air strikes in response to surface-to-air missile fire directed at their planes near the Strait of Hormuz.",
-      "context": "Middle Eastern crisis > 2026 Iran war: The United States military carries out airstrikes on Iranian targets across the Strait of Hormuz after Iranian surface-to-air missiles attack American aircraft in the Strait, as explosions are reportedly heard on Qeshm Island and the city of Bandar Lengeh.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Iran_war",
+      "explanation": "Three individuals were detained after reportedly tapping the official telephone of President Prabowo Subianto.",
+      "context": "Three people are arrested for allegedly wiretapping Indonesian president Prabowo Subianto's phone.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
       "readMore": {
-        "publisher": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz"
+        "publisher": "AFP via South China Morning Post",
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373180/indonesian-police-arrest-3-tapping-prabowos-phone"
+      }
+    },
+    {
+      "id": "2026-11-03-10-q5",
+      "category": "Politics and elections",
+      "story": "2026 United States elections",
+      "question": "Which political party was projected by news networks to take control of both houses of the US Congress following the midterm elections?",
+      "options": [
+        "Green Party",
+        "Democratic Party",
+        "Libertarian Party",
+        "Republican Party"
+      ],
+      "answerIndex": 1,
+      "explanation": "American major media outlets projected that the Democrats secured enough seats to lead both the Senate and the House of Representatives.",
+      "context": "2026 United States elections: U.S. news organizations project that the Democratic Party will control the House of Representatives and the Senate in the upcoming 120th Congress, ending the Republican Party's majority in both chambers.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/us/democrats-projected-win-majority-control-us-house-us-media-project-2026-11-04/"
+      }
+    },
+    {
+      "id": "2026-11-03-4-q2",
+      "category": "Business and economy",
+      "story": "2026 Iran war fuel crisis",
+      "question": "The Reserve Bank of Australia raised its benchmark interest rate to 4.85%, reaching its highest level since which year?",
+      "options": ["2015", "2008", "2020", "2012"],
+      "answerIndex": 1,
+      "explanation": "Australia's central bank increased its official rate to 4.85% to combat ongoing inflation, setting a rate not seen since 2008.",
+      "context": "2026 Iran war fuel crisis: The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs associated with the Iran war.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis",
+      "readMore": {
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261103-australian-central-bank-lifts-key-interest-rate-to-18-year-high"
+      }
+    },
+    {
+      "id": "2026-11-03-3-q1",
+      "category": "Art and culture",
+      "story": "",
+      "question": "Which Spanish author was recently selected to receive the prestigious Cervantes Prize?",
+      "options": [
+        "Almudena Grandes",
+        "Rosa Montero",
+        "Javier Marías",
+        "Cristina Fernández Cubas"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cristina Fernández Cubas has been honored with the Cervantes Prize, Spanish-language literature's top distinction.",
+      "context": "Spanish author Cristina Fernández Cubas is awarded the Cervantes Prize.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
+      "readMore": {
+        "publisher": "Cadena SER",
+        "url": "https://cadenaser.com/nacional/2026/11/03/cristina-fernandez-cubas-premio-cervantes-2026-cadena-ser/"
       }
     }
   ]
