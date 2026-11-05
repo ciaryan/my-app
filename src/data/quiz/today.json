@@ -1,108 +1,107 @@
 {
   "version": 1,
-  "date": "2026-11-04",
-  "newsDate": "2026-11-03",
-  "generatedAt": "2026-11-04T09:18:52.858Z",
-  "model": "gemini-3.5-flash, gemini-3.6-flash",
+  "date": "2026-11-05",
+  "newsDate": "2026-11-04",
+  "generatedAt": "2026-11-05T06:59:16.855Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
-    "revisionIds": [1383710822],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+    "revisionIds": [1383865123, 1383850063],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-03-12-q6",
+      "id": "2026-11-03-18-q9",
       "category": "Sports",
-      "story": "2026 Melbourne Cup",
-      "question": "Which racehorse, trained by Ciaron Maher, won the 2026 Melbourne Cup at Flemington Racecourse?",
-      "options": ["Zahrann", "Incentivise", "Juja Kibo", "Point Of Law"],
-      "answerIndex": 3,
-      "explanation": "Trainer Ciaron Maher achieved a remarkable clean sweep of the top three places in the Melbourne Cup, led by winner Point Of Law.",
-      "context": "2026 Melbourne Cup: In thoroughbred racing, Point Of Law, trained by Ciaron Maher, wins the 2026 Melbourne Cup at Flemington Racecourse in Victoria, Australia. Zahrann and Juja Kibo, also trained by Maher, finish second and third respectively.",
+      "story": "2027 AFC Asian Cup, Houthi–Saudi conflict",
+      "question": "The Asian Football Confederation postponed the 2027 AFC Asian Cup by a full year due to regional security concerns in which host country?",
+      "options": ["United Arab Emirates", "Qatar", "Saudi Arabia", "Kuwait"],
+      "answerIndex": 2,
+      "explanation": "The tournament originally set for January 2027 in Saudi Arabia was pushed back to 2028 because of travel disruptions and security threats.",
+      "context": "2027 AFC Asian Cup, Houthi–Saudi conflict: In association football, the Asian Football Confederation postpones the 2027 Asian Cup in Saudi Arabia from January 2027 to January 2028, citing security concerns and travel disruptions following Houthi attacks on the country.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Melbourne_Cup",
-      "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/king-charless-former-horse-point-law-wins-melbourne-cup"
-      }
-    },
-    {
-      "id": "2026-11-03-6-q3",
-      "category": "Law and crime",
-      "story": "",
-      "question": "Police in Indonesia made three arrests following allegations that who had their phone wiretapped?",
-      "options": [
-        "Anies Baswedan",
-        "Joko Widodo",
-        "Megawati Sukarnoputri",
-        "Prabowo Subianto"
-      ],
-      "answerIndex": 3,
-      "explanation": "Three individuals were detained after reportedly tapping the official telephone of President Prabowo Subianto.",
-      "context": "Three people are arrested for allegedly wiretapping Indonesian president Prabowo Subianto's phone.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
-      "readMore": {
-        "publisher": "AFP via South China Morning Post",
-        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373180/indonesian-police-arrest-3-tapping-prabowos-phone"
-      }
-    },
-    {
-      "id": "2026-11-03-10-q5",
-      "category": "Politics and elections",
-      "story": "2026 United States elections",
-      "question": "Which political party was projected by news networks to take control of both houses of the US Congress following the midterm elections?",
-      "options": [
-        "Green Party",
-        "Democratic Party",
-        "Libertarian Party",
-        "Republican Party"
-      ],
-      "answerIndex": 1,
-      "explanation": "American major media outlets projected that the Democrats secured enough seats to lead both the Senate and the House of Representatives.",
-      "context": "2026 United States elections: U.S. news organizations project that the Democratic Party will control the House of Representatives and the Senate in the upcoming 120th Congress, ending the Republican Party's majority in both chambers.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_United_States_elections",
-      "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/us/democrats-projected-win-majority-control-us-house-us-media-project-2026-11-04/"
-      }
-    },
-    {
-      "id": "2026-11-03-4-q2",
-      "category": "Business and economy",
-      "story": "2026 Iran war fuel crisis",
-      "question": "The Reserve Bank of Australia raised its benchmark interest rate to 4.85%, reaching its highest level since which year?",
-      "options": ["2015", "2008", "2020", "2012"],
-      "answerIndex": 1,
-      "explanation": "Australia's central bank increased its official rate to 4.85% to combat ongoing inflation, setting a rate not seen since 2008.",
-      "context": "2026 Iran war fuel crisis: The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs associated with the Iran war.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis",
+      "topicUrl": "https://en.wikipedia.org/wiki/2027_AFC_Asian_Cup",
       "readMore": {
         "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261103-australian-central-bank-lifts-key-interest-rate-to-18-year-high"
+        "url": "https://www.france24.com/en/live-news/20261103-asian-cup-latest-event-in-saudi-arabia-to-be-postponed-over-safety"
       }
     },
     {
-      "id": "2026-11-03-3-q1",
-      "category": "Art and culture",
+      "id": "2026-11-04-5-q3",
+      "category": "Politics and elections",
       "story": "",
-      "question": "Which Spanish author was recently selected to receive the prestigious Cervantes Prize?",
+      "question": "A newly launched online database in Hungary has made public thousands of records connected to which former institution?",
       "options": [
-        "Almudena Grandes",
-        "Rosa Montero",
-        "Javier Marías",
-        "Cristina Fernández Cubas"
+        "19th-century customs and excise officers",
+        "Cold War nuclear research labs",
+        "The Royal Austro-Hungarian Army",
+        "Communist-era secret police"
       ],
       "answerIndex": 3,
-      "explanation": "Cristina Fernández Cubas has been honored with the Cervantes Prize, Spanish-language literature's top distinction.",
-      "context": "Spanish author Cristina Fernández Cubas is awarded the Cervantes Prize.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
+      "explanation": "Prime Minister Péter Magyar opened access to a database listing roughly 60,000 names linked to Hungary's former state security services.",
+      "context": "Hungary makes Communist-era secret police records publicly accessible through a database containing approximately 60,000 names linked to former state security services. Prime Minister Péter Magyar announces that additional documents will become available in February 2027.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
       "readMore": {
-        "publisher": "Cadena SER",
-        "url": "https://cadenaser.com/nacional/2026/11/03/cristina-fernandez-cubas-premio-cervantes-2026-cadena-ser/"
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/hungary-opens-communist-era-informer-files-belated-reckoning-with-cold-war-past-2026-11-04/"
+      }
+    },
+    {
+      "id": "2026-11-04-1-q1",
+      "category": "Business and economy",
+      "story": "",
+      "question": "Protests by garment workers in Bangladesh recently prompted the country's wage board to take which action?",
+      "options": [
+        "Increase the minimum wage",
+        "Ban international trade unions",
+        "Reduce the standard working week",
+        "Introduce mandatory paid overtime"
+      ],
+      "answerIndex": 0,
+      "explanation": "Following five days of demonstrations and clashes with local authorities, the Bangladeshi garment industry wage board agreed to boost minimum pay rates.",
+      "context": "The Bangladeshi garment industry wage board agrees to increase minimum wages following five days of worker protests and clashes with police. Workers demand ৳30,000 (US$240) monthly, up from ৳12,500 (US$100), while the board has not specified the increase.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+      "readMore": {
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/bangladesh-increase-garment-sector-pay-after-protests"
+      }
+    },
+    {
+      "id": "2026-11-04-3-q2",
+      "category": "Health and environment",
+      "story": "2026 Southeast Asian haze",
+      "question": "Singapore's parliament updated its haze pollution laws to dramatically increase maximum financial penalties to S$20 million following smoke pollution caused by wildfires in which nation?",
+      "options": ["Vietnam", "Indonesia", "Malaysia", "Thailand"],
+      "answerIndex": 1,
+      "explanation": "Singapore boosted legal penalties and enforcement powers in response to widespread transboundary air pollution originating from Indonesian forest fires.",
+      "context": "2026 Southeast Asian haze: The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials without defendants present, and increasing maximum fines tenfold to S$20 million (US$15 million) following widespread air pollution from Indonesian wildfires.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Southeast_Asian_haze",
+      "readMore": {
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/singapore-toughens-haze-law-arrest-powers-bigger-fines"
+      }
+    },
+    {
+      "id": "2026-11-04-6-q4",
+      "category": "Science and technology",
+      "story": "",
+      "question": "Which space telescope recently completed a 22-year mission observing gamma-ray bursts when it re-entered Earth's atmosphere over Sumatra?",
+      "options": [
+        "Chandra X-ray Observatory",
+        "Hubble Space Telescope",
+        "James Webb Space Telescope",
+        "Neil Gehrels Swift Observatory"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Neil Gehrels Swift Observatory burned up over Sumatra, concluding over two decades of space exploration.",
+      "context": "The Neil Gehrels Swift Observatory, a space telescope for studying gamma-ray bursts, re-enters Earth's atmosphere over Sumatra, ending its mission of nearly 22 years.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+      "readMore": {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/"
       }
     }
   ]
