@@ -1,107 +1,99 @@
 {
   "version": 1,
-  "date": "2026-11-05",
-  "newsDate": "2026-11-04",
-  "generatedAt": "2026-11-05T06:59:16.855Z",
+  "date": "2026-11-06",
+  "newsDate": "2026-11-05",
+  "generatedAt": "2026-11-06T06:54:39.771Z",
   "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
-    "revisionIds": [1383865123, 1383850063],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+    "revisionIds": [1384024786],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-03-18-q9",
+      "id": "2026-11-05-15-q10",
       "category": "Sports",
-      "story": "2027 AFC Asian Cup, Houthi–Saudi conflict",
-      "question": "The Asian Football Confederation postponed the 2027 AFC Asian Cup by a full year due to regional security concerns in which host country?",
-      "options": ["United Arab Emirates", "Qatar", "Saudi Arabia", "Kuwait"],
+      "story": "",
+      "question": "Which professional golf tour closed down and began liquidating its assets after five seasons when its primary backing was withdrawn?",
+      "options": ["Asian Tour", "DP World Tour", "LIV Golf", "PGA Tour"],
       "answerIndex": 2,
-      "explanation": "The tournament originally set for January 2027 in Saudi Arabia was pushed back to 2028 because of travel disruptions and security threats.",
-      "context": "2027 AFC Asian Cup, Houthi–Saudi conflict: In association football, the Asian Football Confederation postpones the 2027 Asian Cup in Saudi Arabia from January 2027 to January 2028, citing security concerns and travel disruptions following Houthi attacks on the country.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
-      "topicUrl": "https://en.wikipedia.org/wiki/2027_AFC_Asian_Cup",
+      "explanation": "LIV Golf folded after five years following bankruptcy filings and the loss of funding from Saudi Arabia's Public Investment Fund.",
+      "context": "In golf, professional tour LIV Golf ceases operations after five seasons and liquidates its assets, following bankruptcy proceedings and the withdrawal of financial support from Saudi Arabia's Public Investment Fund and prospective investor BC Partners Credit.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
       "readMore": {
         "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261103-asian-cup-latest-event-in-saudi-arabia-to-be-postponed-over-safety"
+        "url": "https://www.france24.com/en/live-news/20261105-liv-golf-league-to-shut-down-after-five-years"
       }
     },
     {
-      "id": "2026-11-04-5-q3",
-      "category": "Politics and elections",
-      "story": "",
-      "question": "A newly launched online database in Hungary has made public thousands of records connected to which former institution?",
-      "options": [
-        "19th-century customs and excise officers",
-        "Cold War nuclear research labs",
-        "The Royal Austro-Hungarian Army",
-        "Communist-era secret police"
-      ],
+      "id": "2026-11-05-5-q1",
+      "category": "Law and crime",
+      "story": "Cannabis in Nepal",
+      "question": "The supreme court of which Asian nation has instructed its government to establish regulations for growing cannabis for medical, scientific, and industrial use?",
+      "options": ["Thailand", "India", "Sri Lanka", "Nepal"],
       "answerIndex": 3,
-      "explanation": "Prime Minister Péter Magyar opened access to a database listing roughly 60,000 names linked to Hungary's former state security services.",
-      "context": "Hungary makes Communist-era secret police records publicly accessible through a database containing approximately 60,000 names linked to former state security services. Prime Minister Péter Magyar announces that additional documents will become available in February 2027.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+      "explanation": "Nepal's highest court instructed the government to create rules allowing cannabis cultivation across several sectors, including medical and industrial uses.",
+      "context": "Cannabis in Nepal: The Nepali supreme court directs the government to regulate cannabis cultivation for medicinal, scientific, agricultural, horticultural, and industrial purposes.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+      "topicUrl": "https://en.wikipedia.org/wiki/Cannabis_in_Nepal",
       "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/hungary-opens-communist-era-informer-files-belated-reckoning-with-cold-war-past-2026-11-04/"
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261105-nepal-court-gives-green-light-to-controlled-cannabis-cultivation"
       }
     },
     {
-      "id": "2026-11-04-1-q1",
-      "category": "Business and economy",
-      "story": "",
-      "question": "Protests by garment workers in Bangladesh recently prompted the country's wage board to take which action?",
+      "id": "2026-11-05-11-q7",
+      "category": "Politics and elections",
+      "story": "2026 Paraguay banking crisis",
+      "question": "Which South American leader announced his resignation following the collapse of a major bank, shortly before parliament voted to start impeachment proceedings?",
       "options": [
-        "Increase the minimum wage",
-        "Ban international trade unions",
-        "Reduce the standard working week",
-        "Introduce mandatory paid overtime"
+        "Santiago Peña",
+        "Luis Lacalle Pou",
+        "Javier Milei",
+        "Gabriel Boric"
       ],
       "answerIndex": 0,
-      "explanation": "Following five days of demonstrations and clashes with local authorities, the Bangladeshi garment industry wage board agreed to boost minimum pay rates.",
-      "context": "The Bangladeshi garment industry wage board agrees to increase minimum wages following five days of worker protests and clashes with police. Workers demand ৳30,000 (US$240) monthly, up from ৳12,500 (US$100), while the board has not specified the increase.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+      "explanation": "Paraguayan President Santiago Peña stood down in the wake of the ueno bank collapse prior to a vote on his impeachment.",
+      "context": "2026 Paraguay banking crisis: Paraguayan president Santiago Peña announces his resignation after the collapse of ueno bank, and the Chamber of Deputies unanimously votes to begin an impeachment trial against him.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
       "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/bangladesh-increase-garment-sector-pay-after-protests"
+        "publisher": "AP",
+        "url": "https://apnews.com/article/ueno-bank-collapse-paraguay-banking-crisis-santiago-pena-impeachment-eccea1c9a64808b5cd7e6e1d5542084f"
       }
     },
     {
-      "id": "2026-11-04-3-q2",
-      "category": "Health and environment",
-      "story": "2026 Southeast Asian haze",
-      "question": "Singapore's parliament updated its haze pollution laws to dramatically increase maximum financial penalties to S$20 million following smoke pollution caused by wildfires in which nation?",
-      "options": ["Vietnam", "Indonesia", "Malaysia", "Thailand"],
-      "answerIndex": 1,
-      "explanation": "Singapore boosted legal penalties and enforcement powers in response to widespread transboundary air pollution originating from Indonesian forest fires.",
-      "context": "2026 Southeast Asian haze: The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials without defendants present, and increasing maximum fines tenfold to S$20 million (US$15 million) following widespread air pollution from Indonesian wildfires.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Southeast_Asian_haze",
+      "id": "2026-11-05-12-q8",
+      "category": "Politics and elections",
+      "story": "2027 Nigerian general election",
+      "question": "The nomination of former vice president Atiku Abubakar for the 2027 presidential race was declared invalid by a high court in which country?",
+      "options": ["Nigeria", "Ghana", "South Africa", "Kenya"],
+      "answerIndex": 0,
+      "explanation": "A Nigerian court ruled against Atiku Abubakar's candidature due to procedural issues with his political party's leadership structure.",
+      "context": "2027 Nigerian general election: The Federal High Court of Nigeria invalidates former vice president Atiku Abubakar's nomination as the African Democratic Congress candidate for the 2027 presidential election, ruling that the party's leadership was improperly constituted.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+      "topicUrl": "https://en.wikipedia.org/wiki/2027_Nigerian_general_election",
       "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/singapore-toughens-haze-law-arrest-powers-bigger-fines"
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/africa/nigerian-court-voids-candidacy-opposition-adcs-atiku-2027-election-2026-11-05/"
       }
     },
     {
-      "id": "2026-11-04-6-q4",
-      "category": "Science and technology",
-      "story": "",
-      "question": "Which space telescope recently completed a 22-year mission observing gamma-ray bursts when it re-entered Earth's atmosphere over Sumatra?",
-      "options": [
-        "Chandra X-ray Observatory",
-        "Hubble Space Telescope",
-        "James Webb Space Telescope",
-        "Neil Gehrels Swift Observatory"
-      ],
-      "answerIndex": 3,
-      "explanation": "The Neil Gehrels Swift Observatory burned up over Sumatra, concluding over two decades of space exploration.",
-      "context": "The Neil Gehrels Swift Observatory, a space telescope for studying gamma-ray bursts, re-enters Earth's atmosphere over Sumatra, ending its mission of nearly 22 years.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+      "id": "2026-11-05-6-q2",
+      "category": "Law and crime",
+      "story": "Economy of Mexico",
+      "question": "Which country recently passed the Digital Economy Act, giving the government power to mandate digital payments as the sole legal tender in selected industries?",
+      "options": ["Mexico", "Brazil", "Colombia", "Argentina"],
+      "answerIndex": 0,
+      "explanation": "Mexico passed new legislation allowing specific commercial sectors to be designated for exclusively digital and electronic payment methods.",
+      "context": "Economy of Mexico: The Mexican government approves the Digital Economy Act for Digital and Electronic Payments, which allows it to designate sectors in which digital payments are the only accepted means of payment.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+      "topicUrl": "https://en.wikipedia.org/wiki/Economy_of_Mexico",
       "readMore": {
-        "publisher": "NASA",
-        "url": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/"
+        "publisher": "N+",
+        "url": "https://www.nmas.com.mx/economia/aplica-a-partir-de-hoy-jueves-5-noviembre-2026-ley-economia-digital-reducir-uso-efectivo/"
       }
     }
   ]
