@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T07:23:13.647Z",
-  "model": "gemini-3.5-flash, gemini-3.6-flash",
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T07:20:35.305Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,74 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-11-03-birth-88-q13",
+      "id": "2026-11-06-birth-65-q3",
       "category": "Music",
       "story": "On this day",
-      "question": "Born on this day in 1967, Steven Wilson is the founder, guitarist, and lead singer of which progressive rock band?",
-      "options": ["Dream Theater", "Porcupine Tree", "Opeth", "Marillion"],
+      "question": "Born on this day in 1948, which musician was a founding member, co-lead singer, and frontman of the rock band Eagles?",
+      "options": ["Don Henley", "Glenn Frey", "Timothy B. Schmit", "Joe Walsh"],
       "answerIndex": 1,
-      "explanation": "English musician Steven Wilson created the progressive rock group Porcupine Tree, serving as its primary songwriter, singer, and guitarist.",
-      "context": "On this day in 1967: Steven Wilson, English singer-songwriter, guitarist, and producer\nSteven Wilson (English musician (born 1967)): Steven John Wilson is an English musician, composer and multi-instrumentalist. He is the founder, guitarist, lead vocalist, and songwriter of the progressive rock band Porcupine Tree, as well as being a member of several other bands, including Blackfield, Storm Corrosion and No-Man.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Steven_Wilson"
+      "explanation": "Glenn Frey co-founded the Eagles and shared lead vocal duties while co-writing much of the group's music.",
+      "context": "On this day in 1948: Glenn Frey, American singer-songwriter, guitarist, and actor (died 2016)\nGlenn Frey (American rock musician and songwriter (1948–2016)): Glenn Lewis Frey was an American musician and songwriter. He was a founding member of the rock band Eagles, for whom he was the co-lead singer and frontman, roles he came to share with fellow member Don Henley, with whom he wrote most of Eagles' material.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Glenn_Frey"
     },
     {
-      "id": "2026-11-03-popular-20-q10",
-      "category": "Film",
+      "id": "2026-11-06-popular-26-q13",
+      "category": "Art",
       "story": "Most read",
-      "question": "Inde Navarrette achieved widespread recognition and awards for starring in which 2025 supernatural horror film?",
-      "options": ["Superman & Lois", "13 Reasons Why", "Obsession", "Rogue"],
-      "answerIndex": 2,
-      "explanation": "Inde Navarrette gained global fame and a Critics' Choice Award for her lead role in the 2025 supernatural horror movie Obsession.",
-      "context": "Inde Navarrette (American actress (born 2001)): Danielle Fabiola \"Inde\" Navarrette is an American actress. She began acting in short films as a teenager before landing roles in the drama series 13 Reasons Why (2020) and the superhero series Superman & Lois (2021–2024). Navarrette achieved global stardom for headlining the supernatural horror film Obsession (2025), winning several accolades, including a Critics' Choice Award. She will also portray Rogue in the untitled X-Men film (2028) set in the Marvel Cinematic Universe.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Inde_Navarrette"
-    },
-    {
-      "id": "2026-11-03-popular-24-q7",
-      "category": "History",
-      "story": "Most read",
-      "question": "On which traditional dates in November is the Mexican holiday Day of the Dead primarily celebrated?",
+      "question": "Which two political parties have dominated American national politics since the 1850s?",
       "options": [
-        "November 5 and 6",
-        "November 1 and 2",
-        "November 24 and 25",
-        "November 11 and 12"
+        "Federalists and Anti-Federalists",
+        "Libertarians and Greens",
+        "Republicans and Democrats",
+        "Whigs and Democrats"
       ],
-      "answerIndex": 1,
-      "explanation": "Day of the Dead is traditionally observed on 1 and 2 November as families gather to honour and remember deceased relatives.",
-      "context": "Day of the Dead (Mexican multi-day holiday): The Day of the Dead is a holiday traditionally celebrated on November 1 and 2, though other days, such as October 31 or November 6, may be included depending on the locality. The multi-day holiday involves family and friends gathering to pay respects and remember friends and family members who have died. The celebrations can take a humorous tone, as celebrants remember amusing events and anecdotes about the departed.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Day_of_the_Dead"
+      "answerIndex": 2,
+      "explanation": "The Republican Party was founded in 1854, and together with the Democratic Party, it has shaped the American political landscape ever since.",
+      "context": "Republican Party (United States) (Political party): The Republican Party, also known as the Grand Old Party (GOP), is a right-wing populist and neo-nationalist political party in the United States, sitting on the right-wing to far-right of the political spectrum. Founded in 1854, it emerged as the main rival of the Democratic Party in the 1850s, and the two parties have dominated American politics since then.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Republican_Party_(United_States)"
     },
     {
-      "id": "2026-11-03-popular-18-q4",
+      "id": "2026-11-06-popular-14-q5",
       "category": "Science",
       "story": "Most read",
-      "question": "What substance has historically been spread across the ocean surface by mariners to reduce wave strength and assist in maritime rescues?",
-      "options": [
-        "Whale tallow",
-        "Liquid paraffin",
-        "Storm oil",
-        "Crude bitumen"
-      ],
-      "answerIndex": 2,
-      "explanation": "Storm oil acts as a surfactant on ocean water, flattening heavy waves to make navigation safer and aid sea rescues.",
-      "context": "Storm oil (Oil spread from ships to calm waves): Storm oil is described as nearly water-insoluble oil acting as a surfactant, and has been used since ancient times to smooth ocean waves. It has been historically employed to facilitate sea rescues and improve navigational safety, involving pouring the oil onto the ocean surface to reduce wave intensity.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Storm_oil"
+      "question": "Which internet top-level domain, created by Daniel Negari, was made available to the general public in June 2014?",
+      "options": [".app", ".xyz", ".tech", ".io"],
+      "answerIndex": 1,
+      "explanation": "The domain name .xyz was introduced under ICANN's generic top-level domain program and launched publicly on 2 June 2014.",
+      "context": ".xyz (Internet top-level domain): .xyz is a top-level domain name introduced through ICANN's new generic top-level domain (gTLD) Program. Its name consists of the last three letters of the Latin-script alphabet. XYZ.com and CentralNic are the registries for the domain, which was created by entrepreneur Daniel Negari. It became available to the general public on June 2, 2014, thereafter becoming widely used by tech startups, creators, and Web3 projects.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/.xyz"
     },
     {
-      "id": "2026-11-03-popular-3-q1",
-      "category": "Sport",
+      "id": "2026-11-06-popular-12-q8",
+      "category": "History",
       "story": "Most read",
-      "question": "Which Mercedes driver became the youngest-ever Formula One World Drivers' Champion after winning the title in 2026?",
+      "question": "Which political party, established in 1828, is recognised as the world's oldest active political party?",
       "options": [
-        "Kimi Antonelli",
-        "George Russell",
-        "Lando Norris",
-        "Charles Leclerc"
+        "Liberal Party",
+        "Conservative Party",
+        "Democratic Party",
+        "Republican Party"
       ],
-      "answerIndex": 0,
-      "explanation": "Italian driver Kimi Antonelli secured the 2026 Formula One World Drivers' Championship while driving for Mercedes, making him the youngest driver in history to win the title.",
-      "context": "Kimi Antonelli (Italian racing driver (born 2006)): Andrea Kimi Antonelli is an Italian racing driver who competes in Formula One for Mercedes. Antonelli won the Formula One World Drivers' Championship in 2026 with Mercedes, becoming the youngest-ever World Drivers' Champion; he has won nine Grands Prix since his debut in 2025.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Kimi_Antonelli"
+      "answerIndex": 2,
+      "explanation": "Founded in 1828, the United States Democratic Party holds the title of the world's oldest political party still in operation.",
+      "context": "Democratic Party (United States) (Political party): The Democratic Party is a liberal political party in the United States, sitting on the center to center-left of the political spectrum. Founded in 1828, it is the world's oldest active political party. Its main rival is the Republican Party, and since the 1850s, both have dominated American politics.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Democratic_Party_(United_States)"
+    },
+    {
+      "id": "2026-11-06-popular-5-q12",
+      "category": "Geography",
+      "story": "Most read",
+      "question": "Which American politician was elected in 2021 as the youngest incumbent member of the United States Senate?",
+      "options": ["Dan Osborn", "James Talarico", "Jon Ossoff", "Scott Colom"],
+      "answerIndex": 2,
+      "explanation": "Jon Ossoff assumed office as a U.S. senator from Georgia in 2021, holding the distinction of being the youngest serving senator.",
+      "context": "Jon Ossoff (American politician (born 1987)): Thomas Jonathan Ossoff is an American politician who has served as the senior United States senator from Georgia since 2021. He is the youngest incumbent U.S. senator, and a member of the Democratic Party.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jon_Ossoff"
     }
   ]
 }
