@@ -1,99 +1,100 @@
 {
   "version": 1,
-  "date": "2026-11-06",
-  "newsDate": "2026-11-05",
-  "generatedAt": "2026-11-06T06:54:39.771Z",
-  "model": "gemini-3.6-flash",
+  "date": "2026-11-07",
+  "newsDate": "2026-11-06",
+  "generatedAt": "2026-11-07T06:06:22.847Z",
+  "model": "gemini-3.8-flash, gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
-    "revisionIds": [1384024786],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
+    "revisionIds": [1384216198, 1384137445],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-05-15-q10",
-      "category": "Sports",
-      "story": "",
-      "question": "Which professional golf tour closed down and began liquidating its assets after five seasons when its primary backing was withdrawn?",
-      "options": ["Asian Tour", "DP World Tour", "LIV Golf", "PGA Tour"],
+      "id": "2026-11-06-1-q1",
+      "category": "Disasters and accidents",
+      "story": "2026 Indonesia wildfires, Australia–Indonesia relations",
+      "question": "Which country sent aircraft and personnel across the Timor Sea to assist Indonesia in tackling raging wildfires?",
+      "options": ["Singapore", "Japan", "Australia", "New Zealand"],
       "answerIndex": 2,
-      "explanation": "LIV Golf folded after five years following bankruptcy filings and the loss of funding from Saudi Arabia's Public Investment Fund.",
-      "context": "In golf, professional tour LIV Golf ceases operations after five seasons and liquidates its assets, following bankruptcy proceedings and the withdrawal of financial support from Saudi Arabia's Public Investment Fund and prospective investor BC Partners Credit.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+      "explanation": "Australia assisted Indonesia by dispatching two planes and twenty specialists to help put out wildfires in East Kalimantan.",
+      "context": "2026 Indonesia wildfires, Australia–Indonesia relations: Australia deploys a C-130 Hercules aircraft, a Cessna Citation aircraft, and 20 personnel to help extinguish wildfires in East Kalimantan, Indonesia.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Indonesia_wildfires",
       "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261105-liv-golf-league-to-shut-down-after-five-years"
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/australia-sends-military-aircraft-help-fight-indonesia-fires"
       }
     },
     {
-      "id": "2026-11-05-5-q1",
+      "id": "2026-11-06-5-q4",
       "category": "Law and crime",
-      "story": "Cannabis in Nepal",
-      "question": "The supreme court of which Asian nation has instructed its government to establish regulations for growing cannabis for medical, scientific, and industrial use?",
-      "options": ["Thailand", "India", "Sri Lanka", "Nepal"],
-      "answerIndex": 3,
-      "explanation": "Nepal's highest court instructed the government to create rules allowing cannabis cultivation across several sectors, including medical and industrial uses.",
-      "context": "Cannabis in Nepal: The Nepali supreme court directs the government to regulate cannabis cultivation for medicinal, scientific, agricultural, horticultural, and industrial purposes.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
-      "topicUrl": "https://en.wikipedia.org/wiki/Cannabis_in_Nepal",
+      "story": "1MDB scandal",
+      "question": "The political party UMNO stepped in to pay a substantial legal fine on behalf of which imprisoned former prime minister?",
+      "options": [
+        "Mahathir Mohamad",
+        "Muhyiddin Yassin",
+        "Najib Razak",
+        "Ismail Sabri Yaakob"
+      ],
+      "answerIndex": 2,
+      "explanation": "Malaysia's UMNO party paid a 50 million ringgit penalty for Najib Razak as part of his royal pardon terms.",
+      "context": "1MDB scandal: Malaysia's UMNO party pays a RM50-million (US$12 million) fine for imprisoned former prime minister Najib Razak, fulfilling a condition of his royal pardon. The Attorney-General's Chambers subsequently seeks to delay his transfer to house arrest.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
+      "topicUrl": "https://en.wikipedia.org/wiki/1MDB_scandal",
       "readMore": {
         "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261105-nepal-court-gives-green-light-to-controlled-cannabis-cultivation"
+        "url": "https://www.france24.com/en/live-news/20261106-jailed-malaysian-ex-pm-najib-pays-fine-meeting-condition-for-house-arrest"
       }
     },
     {
-      "id": "2026-11-05-11-q7",
+      "id": "2026-11-06-3-q2",
+      "category": "Health and environment",
+      "story": "Measles resurgence in the United States",
+      "question": "According to the Centers for Disease Control and Prevention, the United States saw its highest annual cases of which illness since 1991?",
+      "options": ["Chickenpox", "Rubella", "Measles", "Mumps"],
+      "answerIndex": 2,
+      "explanation": "Health officials recorded over 5,100 measles cases across the country, marking the highest total in over three decades.",
+      "context": "Measles resurgence in the United States: The United States Centers for Disease Control and Prevention reports 5,182 measles cases in 2026, the country's highest annual total since 1991. State health agencies report at least eight measles-related deaths.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
+      "topicUrl": "https://en.wikipedia.org/wiki/Measles_resurgence_in_the_United_States",
+      "readMore": {
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261106-us-reports-highest-number-of-measles-cases-in-35-years"
+      }
+    },
+    {
+      "id": "2026-11-06-12-q10",
       "category": "Politics and elections",
       "story": "2026 Paraguay banking crisis",
-      "question": "Which South American leader announced his resignation following the collapse of a major bank, shortly before parliament voted to start impeachment proceedings?",
-      "options": [
-        "Santiago Peña",
-        "Luis Lacalle Pou",
-        "Javier Milei",
-        "Gabriel Boric"
-      ],
+      "question": "The senate of which South American country unanimously voted to impeach and remove its president, Santiago Peña?",
+      "options": ["Paraguay", "Chile", "Uruguay", "Bolivia"],
       "answerIndex": 0,
-      "explanation": "Paraguayan President Santiago Peña stood down in the wake of the ueno bank collapse prior to a vote on his impeachment.",
-      "context": "2026 Paraguay banking crisis: Paraguayan president Santiago Peña announces his resignation after the collapse of ueno bank, and the Chamber of Deputies unanimously votes to begin an impeachment trial against him.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+      "explanation": "Paraguayan senators voted out Santiago Peña following conflict-of-interest allegations regarding a major commercial bank.",
+      "context": "2026 Paraguay banking crisis: The Paraguayan Senate unanimously removes Santiago Peña as country's president over alleged conflicts of interest involving Ueno Bank, whose accounts the central bank froze. Congress postpones consideration of Peña's resignation to allow impeachment proceedings.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
       "topicUrl": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
       "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/ueno-bank-collapse-paraguay-banking-crisis-santiago-pena-impeachment-eccea1c9a64808b5cd7e6e1d5542084f"
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/paraguay-senate-begins-president-impeachment-trial"
       }
     },
     {
-      "id": "2026-11-05-12-q8",
-      "category": "Politics and elections",
-      "story": "2027 Nigerian general election",
-      "question": "The nomination of former vice president Atiku Abubakar for the 2027 presidential race was declared invalid by a high court in which country?",
-      "options": ["Nigeria", "Ghana", "South Africa", "Kenya"],
-      "answerIndex": 0,
-      "explanation": "A Nigerian court ruled against Atiku Abubakar's candidature due to procedural issues with his political party's leadership structure.",
-      "context": "2027 Nigerian general election: The Federal High Court of Nigeria invalidates former vice president Atiku Abubakar's nomination as the African Democratic Congress candidate for the 2027 presidential election, ruling that the party's leadership was improperly constituted.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
-      "topicUrl": "https://en.wikipedia.org/wiki/2027_Nigerian_general_election",
+      "id": "2026-11-06-6-q5",
+      "category": "Law and crime",
+      "story": "Shakahola Forest incident",
+      "question": "In which country was cult leader Paul Mackenzie handed a 200-year prison sentence?",
+      "options": ["Uganda", "Kenya", "Ghana", "Nigeria"],
+      "answerIndex": 1,
+      "explanation": "Kenyan courts sentenced Mackenzie to two centuries behind bars following the Shakahola Forest tragedy.",
+      "context": "Shakahola Forest incident: Kenyan cult leader Paul Mackenzie is sentenced to 200 years in prison for the mass murder of children.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
+      "topicUrl": "https://en.wikipedia.org/wiki/Shakahola_Forest_incident",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/africa/nigerian-court-voids-candidacy-opposition-adcs-atiku-2027-election-2026-11-05/"
-      }
-    },
-    {
-      "id": "2026-11-05-6-q2",
-      "category": "Law and crime",
-      "story": "Economy of Mexico",
-      "question": "Which country recently passed the Digital Economy Act, giving the government power to mandate digital payments as the sole legal tender in selected industries?",
-      "options": ["Mexico", "Brazil", "Colombia", "Argentina"],
-      "answerIndex": 0,
-      "explanation": "Mexico passed new legislation allowing specific commercial sectors to be designated for exclusively digital and electronic payment methods.",
-      "context": "Economy of Mexico: The Mexican government approves the Digital Economy Act for Digital and Electronic Payments, which allows it to designate sectors in which digital payments are the only accepted means of payment.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
-      "topicUrl": "https://en.wikipedia.org/wiki/Economy_of_Mexico",
-      "readMore": {
-        "publisher": "N+",
-        "url": "https://www.nmas.com.mx/economia/aplica-a-partir-de-hoy-jueves-5-noviembre-2026-ley-economia-digital-reducir-uso-efectivo/"
+        "url": "https://www.reuters.com/world/africa/kenyan-court-sentences-cult-leader-200-years-prison-murder-190-children-2026-11-06/"
       }
     }
   ]
