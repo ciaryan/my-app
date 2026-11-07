@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-06",
-  "generatedAt": "2026-11-06T07:20:35.305Z",
-  "model": "gemini-3.6-flash",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T06:30:40.603Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,69 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-11-06-birth-65-q3",
+      "id": "2026-11-07-birth-100-q13",
       "category": "Music",
       "story": "On this day",
-      "question": "Born on this day in 1948, which musician was a founding member, co-lead singer, and frontman of the rock band Eagles?",
-      "options": ["Don Henley", "Glenn Frey", "Timothy B. Schmit", "Joe Walsh"],
-      "answerIndex": 1,
-      "explanation": "Glenn Frey co-founded the Eagles and shared lead vocal duties while co-writing much of the group's music.",
-      "context": "On this day in 1948: Glenn Frey, American singer-songwriter, guitarist, and actor (died 2016)\nGlenn Frey (American rock musician and songwriter (1948–2016)): Glenn Lewis Frey was an American musician and songwriter. He was a founding member of the rock band Eagles, for whom he was the co-lead singer and frontman, roles he came to share with fellow member Don Henley, with whom he wrote most of Eagles' material.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Glenn_Frey"
-    },
-    {
-      "id": "2026-11-06-popular-26-q13",
-      "category": "Art",
-      "story": "Most read",
-      "question": "Which two political parties have dominated American national politics since the 1850s?",
+      "question": "Born on this day in 1967, which Scottish musician gained fame as the lead vocalist of the rock group Texas?",
       "options": [
-        "Federalists and Anti-Federalists",
-        "Libertarians and Greens",
-        "Republicans and Democrats",
-        "Whigs and Democrats"
+        "KT Tunstall",
+        "Sharleen Spiteri",
+        "Eddi Reader",
+        "Shirley Manson"
       ],
-      "answerIndex": 2,
-      "explanation": "The Republican Party was founded in 1854, and together with the Democratic Party, it has shaped the American political landscape ever since.",
-      "context": "Republican Party (United States) (Political party): The Republican Party, also known as the Grand Old Party (GOP), is a right-wing populist and neo-nationalist political party in the United States, sitting on the right-wing to far-right of the political spectrum. Founded in 1854, it emerged as the main rival of the Democratic Party in the 1850s, and the two parties have dominated American politics since then.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Republican_Party_(United_States)"
-    },
-    {
-      "id": "2026-11-06-popular-14-q5",
-      "category": "Science",
-      "story": "Most read",
-      "question": "Which internet top-level domain, created by Daniel Negari, was made available to the general public in June 2014?",
-      "options": [".app", ".xyz", ".tech", ".io"],
       "answerIndex": 1,
-      "explanation": "The domain name .xyz was introduced under ICANN's generic top-level domain program and launched publicly on 2 June 2014.",
-      "context": ".xyz (Internet top-level domain): .xyz is a top-level domain name introduced through ICANN's new generic top-level domain (gTLD) Program. Its name consists of the last three letters of the Latin-script alphabet. XYZ.com and CentralNic are the registries for the domain, which was created by entrepreneur Daniel Negari. It became available to the general public on June 2, 2014, thereafter becoming widely used by tech startups, creators, and Web3 projects.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/.xyz"
+      "explanation": "Sharleen Spiteri is the contralto lead vocalist and songwriter for the Scottish band Texas.",
+      "context": "On this day in 1967: Sharleen Spiteri, Scottish singer-songwriter and actress\nSharleen Spiteri (Scottish singer (born 1967)): Sharleen Eugene Spiteri is a Scottish singer-songwriter and guitarist who has a contralto vocal range, best known as the lead singer of the rock band Texas, who rose to prominence in 1989 with the release of their debut single \"I Don't Want a Lover\".",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sharleen_Spiteri"
     },
     {
-      "id": "2026-11-06-popular-12-q8",
+      "id": "2026-11-07-popular-13-q2",
+      "category": "Film",
+      "story": "Most read",
+      "question": "Which Japanese director was responsible for writing, directing, and creating the visual effects for the 2026 kaiju film Godzilla Minus Zero?",
+      "options": [
+        "Ishirō Honda",
+        "Takashi Yamazaki",
+        "Shinji Higuchi",
+        "Hideaki Anno"
+      ],
+      "answerIndex": 1,
+      "explanation": "Godzilla Minus Zero was written and directed by Takashi Yamazaki, who also oversaw the film's visual effects.",
+      "context": "Godzilla Minus Zero (2026 Japanese film by Takashi Yamazaki): Godzilla Minus Zero  is a 2026 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki. A sequel to Godzilla Minus One (2023), it is the 39th film in the Godzilla franchise, the 34th film thereof produced by Toho, and the sixth installment in the franchise's Reiwa era.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero"
+    },
+    {
+      "id": "2026-11-07-popular-21-q7",
       "category": "History",
       "story": "Most read",
-      "question": "Which political party, established in 1828, is recognised as the world's oldest active political party?",
-      "options": [
-        "Liberal Party",
-        "Conservative Party",
-        "Democratic Party",
-        "Republican Party"
-      ],
-      "answerIndex": 2,
-      "explanation": "Founded in 1828, the United States Democratic Party holds the title of the world's oldest political party still in operation.",
-      "context": "Democratic Party (United States) (Political party): The Democratic Party is a liberal political party in the United States, sitting on the center to center-left of the political spectrum. Founded in 1828, it is the world's oldest active political party. Its main rival is the Republican Party, and since the 1850s, both have dominated American politics.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Democratic_Party_(United_States)"
+      "question": "During his service with the Spanish military, by what first name was English conspirator Guy Fawkes also known?",
+      "options": ["Gustavo", "Guido", "Guillermo", "Geronimo"],
+      "answerIndex": 1,
+      "explanation": "Guy Fawkes used the alternate name Guido Fawkes while serving the Spanish forces.",
+      "context": "Guy Fawkes (English participant in the Gunpowder Plot (1570–1606)): Guy Fawkes, also known as Guido Fawkes while fighting for the Spanish, was a member of a group of provincial English Catholics involved in the failed Gunpowder Plot of 1605. He was born and educated in York; his father died when Fawkes was eight years old, after which his mother married a recusant Catholic.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guy_Fawkes"
     },
     {
-      "id": "2026-11-06-popular-5-q12",
-      "category": "Geography",
+      "id": "2026-11-07-popular-35-q6",
+      "category": "Sport",
       "story": "Most read",
-      "question": "Which American politician was elected in 2021 as the youngest incumbent member of the United States Senate?",
-      "options": ["Dan Osborn", "James Talarico", "Jon Ossoff", "Scott Colom"],
-      "answerIndex": 2,
-      "explanation": "Jon Ossoff assumed office as a U.S. senator from Georgia in 2021, holding the distinction of being the youngest serving senator.",
-      "context": "Jon Ossoff (American politician (born 1987)): Thomas Jonathan Ossoff is an American politician who has served as the senior United States senator from Georgia since 2021. He is the youngest incumbent U.S. senator, and a member of the Democratic Party.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Jon_Ossoff"
+      "question": "Portuguese football icon Cristiano Ronaldo serves as team captain for which club in the Saudi Pro League?",
+      "options": ["Al-Nassr", "Al-Ahli", "Al-Ittihad", "Al-Hilal"],
+      "answerIndex": 0,
+      "explanation": "Cristiano Ronaldo captains and plays as a forward for the Saudi club Al-Nassr.",
+      "context": "Cristiano Ronaldo (Portuguese footballer (born 1985)): Cristiano Ronaldo dos Santos Aveiro is a Portuguese professional footballer who plays as a forward for and captains the Saudi Pro League club Al-Nassr. He represented the Portugal national team for 23 years, which he also captained for 19 years. Nicknamed CR7, he is widely regarded as one of the greatest footballers of all time and the greatest Portuguese football player of all time.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+    },
+    {
+      "id": "2026-11-07-popular-29-q4",
+      "category": "TV",
+      "story": "Most read",
+      "question": "Which British television presenter began her broadcasting career at Sky Sports News in 1998 before later co-hosting The Great British Breakfast on GB News?",
+      "options": [
+        "Georgie Thompson",
+        "Gabby Logan",
+        "Natalie Pinkham",
+        "Kirsty Gallacher"
+      ],
+      "answerIndex": 3,
+      "explanation": "Kirsty Gallacher started working with Sky Sports News in 1998 and later co-presented The Great British Breakfast in 2021.",
+      "context": "Kirsty Gallacher (British TV presenter (born 1976)): Kirsty Jane Gallacher is a British television presenter and model. She began her career at Sky Sports News in 1998 and hosted Kirsty's Home Videos, RI:SE and Simply the Best before returning to Sky Sports News from 2011–2018. From June 2021 until December 2021, Gallacher co-presented The Great British Breakfast on the news channel GB News.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kirsty_Gallacher"
     }
   ]
 }
