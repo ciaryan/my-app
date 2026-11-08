@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-11-07",
-  "generatedAt": "2026-11-07T06:30:40.603Z",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T06:39:27.164Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,74 +11,79 @@
   },
   "questions": [
     {
-      "id": "2026-11-07-birth-100-q13",
-      "category": "Music",
+      "id": "2026-11-08-event-57-q13",
+      "category": "History",
       "story": "On this day",
-      "question": "Born on this day in 1967, which Scottish musician gained fame as the lead vocalist of the rock group Texas?",
+      "question": "On this day in 1602, which historic research library at the University of Oxford first opened its doors to readers?",
       "options": [
-        "KT Tunstall",
-        "Sharleen Spiteri",
-        "Eddi Reader",
-        "Shirley Manson"
+        "The Bodleian Library",
+        "The Radcliffe Camera",
+        "The Codrington Library",
+        "The Wren Library"
       ],
-      "answerIndex": 1,
-      "explanation": "Sharleen Spiteri is the contralto lead vocalist and songwriter for the Scottish band Texas.",
-      "context": "On this day in 1967: Sharleen Spiteri, Scottish singer-songwriter and actress\nSharleen Spiteri (Scottish singer (born 1967)): Sharleen Eugene Spiteri is a Scottish singer-songwriter and guitarist who has a contralto vocal range, best known as the lead singer of the rock band Texas, who rose to prominence in 1989 with the release of their debut single \"I Don't Want a Lover\".",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Sharleen_Spiteri"
+      "answerIndex": 0,
+      "explanation": "Established by Sir Thomas Bodley, the Bodleian Library at Oxford was officially opened to the public on this day in 1602.",
+      "context": "On this day in 1602: The Bodleian Library at the University of Oxford is opened to the public.\nBodleian Library (Research library of the University of Oxford): The Bodleian Library is the main research library of the University of Oxford. Founded in 1602 by Sir Thomas Bodley, it is one of the oldest libraries in Europe. With over 13 million printed items, it is the second-largest library in Britain after the British Library.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bodleian_Library"
     },
     {
-      "id": "2026-11-07-popular-13-q2",
+      "id": "2026-11-08-popular-2-q2",
       "category": "Film",
       "story": "Most read",
-      "question": "Which Japanese director was responsible for writing, directing, and creating the visual effects for the 2026 kaiju film Godzilla Minus Zero?",
+      "question": "In which 2007 British comedy film did Russell Brand take on his first prominent movie acting role?",
       "options": [
-        "Ishirō Honda",
-        "Takashi Yamazaki",
-        "Shinji Higuchi",
-        "Hideaki Anno"
+        "Rock of Ages",
+        "Get Him to the Greek",
+        "St Trinian's",
+        "Forgetting Sarah Marshall"
       ],
-      "answerIndex": 1,
-      "explanation": "Godzilla Minus Zero was written and directed by Takashi Yamazaki, who also oversaw the film's visual effects.",
-      "context": "Godzilla Minus Zero (2026 Japanese film by Takashi Yamazaki): Godzilla Minus Zero  is a 2026 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki. A sequel to Godzilla Minus One (2023), it is the 39th film in the Godzilla franchise, the 34th film thereof produced by Toho, and the sixth installment in the franchise's Reiwa era.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero"
+      "answerIndex": 2,
+      "explanation": "Brand landed his initial major film appearance in the 2007 UK comedy St Trinian's before starring in several Hollywood features.",
+      "context": "Russell Brand (English comedian and actor (born 1975)): Russell Edward Brand is an English comedian, actor and media personality. He rose to prominence as the host of Big Brother's Big Mouth, a spin-off of the reality television series Big Brother broadcast on E4. He had his first major film role in the British comedy St Trinian's (2007), after which he starred in the Hollywood comedies Forgetting Sarah Marshall (2008), Get Him to the Greek (2010), Arthur (2011), and Rock of Ages (2012), as well as the mystery film Death on the Nile (2022).",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Russell_Brand"
     },
     {
-      "id": "2026-11-07-popular-21-q7",
-      "category": "History",
+      "id": "2026-11-08-popular-27-q6",
+      "category": "Music",
       "story": "Most read",
-      "question": "During his service with the Spanish military, by what first name was English conspirator Guy Fawkes also known?",
-      "options": ["Gustavo", "Guido", "Guillermo", "Geronimo"],
-      "answerIndex": 1,
-      "explanation": "Guy Fawkes used the alternate name Guido Fawkes while serving the Spanish forces.",
-      "context": "Guy Fawkes (English participant in the Gunpowder Plot (1570–1606)): Guy Fawkes, also known as Guido Fawkes while fighting for the Spanish, was a member of a group of provincial English Catholics involved in the failed Gunpowder Plot of 1605. He was born and educated in York; his father died when Fawkes was eight years old, after which his mother married a recusant Catholic.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Guy_Fawkes"
+      "question": "Due to her distinct visual style and music influence, what royal moniker did Vogue and Rolling Stone bestow upon pop star Katy Perry?",
+      "options": [
+        "Duchess of Dance",
+        "Queen of Pop",
+        "Queen of Camp",
+        "Princess of Camp"
+      ],
+      "answerIndex": 2,
+      "explanation": "Katy Perry earned the title 'Queen of Camp' from major publications such as Rolling Stone and Vogue.",
+      "context": "Katy Perry (American singer (born 1984)): Katheryn Elizabeth Hudson, known professionally as Katy Perry, is an American singer, songwriter, and television personality. Known for her influence on pop music and her camp style, she has been dubbed the \"Queen of Camp\" by Vogue and Rolling Stone.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Katy_Perry"
     },
     {
-      "id": "2026-11-07-popular-35-q6",
+      "id": "2026-11-08-popular-34-q5",
       "category": "Sport",
       "story": "Most read",
-      "question": "Portuguese football icon Cristiano Ronaldo serves as team captain for which club in the Saudi Pro League?",
-      "options": ["Al-Nassr", "Al-Ahli", "Al-Ittihad", "Al-Hilal"],
-      "answerIndex": 0,
-      "explanation": "Cristiano Ronaldo captains and plays as a forward for the Saudi club Al-Nassr.",
-      "context": "Cristiano Ronaldo (Portuguese footballer (born 1985)): Cristiano Ronaldo dos Santos Aveiro is a Portuguese professional footballer who plays as a forward for and captains the Saudi Pro League club Al-Nassr. He represented the Portugal national team for 23 years, which he also captained for 19 years. Nicknamed CR7, he is widely regarded as one of the greatest footballers of all time and the greatest Portuguese football player of all time.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+      "question": "For which German football club did midfielder and forward Jobe Bellingham sign to play in the Bundesliga?",
+      "options": [
+        "Bayern Munich",
+        "Borussia Dortmund",
+        "RB Leipzig",
+        "Bayer Leverkusen"
+      ],
+      "answerIndex": 1,
+      "explanation": "Jobe Bellingham plays professionally as a midfielder or forward in Germany for Borussia Dortmund.",
+      "context": "Jobe Bellingham (English footballer (born 2005)): Jobe Samuel Patrick Bellingham is an English professional footballer who plays as a midfielder or forward for Bundesliga club Borussia Dortmund and the England national team. He has represented England at all youth levels and served as the under-21 captain from 2024 to 2026.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jobe_Bellingham"
     },
     {
-      "id": "2026-11-07-popular-29-q4",
-      "category": "TV",
+      "id": "2026-11-08-popular-20-q7",
+      "category": "Geography",
       "story": "Most read",
-      "question": "Which British television presenter began her broadcasting career at Sky Sports News in 1998 before later co-hosting The Great British Breakfast on GB News?",
-      "options": [
-        "Georgie Thompson",
-        "Gabby Logan",
-        "Natalie Pinkham",
-        "Kirsty Gallacher"
-      ],
+      "question": "On which Caribbean island did eighteen-year-old student Natalee Holloway vanish while travelling in May 2005?",
+      "options": ["Curaçao", "Barbados", "Jamaica", "Aruba"],
       "answerIndex": 3,
-      "explanation": "Kirsty Gallacher started working with Sky Sports News in 1998 and later co-presented The Great British Breakfast in 2021.",
-      "context": "Kirsty Gallacher (British TV presenter (born 1976)): Kirsty Jane Gallacher is a British television presenter and model. She began her career at Sky Sports News in 1998 and hosted Kirsty's Home Videos, RI:SE and Simply the Best before returning to Sky Sports News from 2011–2018. From June 2021 until December 2021, Gallacher co-presented The Great British Breakfast on the news channel GB News.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Kirsty_Gallacher"
+      "explanation": "Natalee Holloway went missing in May 2005 during a high-school graduation holiday in Aruba.",
+      "context": "Disappearance of Natalee Holloway (2005 disappearance of an American in Aruba): On May 30, 2005, Natalee Ann Holloway, an 18‑year‑old recent high school graduate from Mountain Brook, Alabama, disappeared while on a trip to Aruba. She was last seen outside the Oranjestad nightclub Carlos'n Charlie's, entering a car with Joran van der Sloot and brothers Deepak and Satish Kalpoe. Despite extensive searches involving Aruban authorities, FBI agents, Dutch military personnel, and volunteer teams, her remains have never been found.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Disappearance_of_Natalee_Holloway"
     }
   ]
 }
