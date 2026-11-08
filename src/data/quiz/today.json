@@ -1,100 +1,98 @@
 {
   "version": 1,
-  "date": "2026-11-07",
-  "newsDate": "2026-11-06",
-  "generatedAt": "2026-11-07T06:06:22.847Z",
-  "model": "gemini-3.8-flash, gemini-3.6-flash",
+  "date": "2026-11-08",
+  "newsDate": "2026-11-07",
+  "generatedAt": "2026-11-08T06:09:34.123Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
-    "revisionIds": [1384216198, 1384137445],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7",
+    "revisionIds": [1384426705, 1384421372],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-06-1-q1",
-      "category": "Disasters and accidents",
-      "story": "2026 Indonesia wildfires, Australia–Indonesia relations",
-      "question": "Which country sent aircraft and personnel across the Timor Sea to assist Indonesia in tackling raging wildfires?",
-      "options": ["Singapore", "Japan", "Australia", "New Zealand"],
-      "answerIndex": 2,
-      "explanation": "Australia assisted Indonesia by dispatching two planes and twenty specialists to help put out wildfires in East Kalimantan.",
-      "context": "2026 Indonesia wildfires, Australia–Indonesia relations: Australia deploys a C-130 Hercules aircraft, a Cessna Citation aircraft, and 20 personnel to help extinguish wildfires in East Kalimantan, Indonesia.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Indonesia_wildfires",
-      "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/australia-sends-military-aircraft-help-fight-indonesia-fires"
-      }
-    },
-    {
-      "id": "2026-11-06-5-q4",
-      "category": "Law and crime",
-      "story": "1MDB scandal",
-      "question": "The political party UMNO stepped in to pay a substantial legal fine on behalf of which imprisoned former prime minister?",
-      "options": [
-        "Mahathir Mohamad",
-        "Muhyiddin Yassin",
-        "Najib Razak",
-        "Ismail Sabri Yaakob"
-      ],
-      "answerIndex": 2,
-      "explanation": "Malaysia's UMNO party paid a 50 million ringgit penalty for Najib Razak as part of his royal pardon terms.",
-      "context": "1MDB scandal: Malaysia's UMNO party pays a RM50-million (US$12 million) fine for imprisoned former prime minister Najib Razak, fulfilling a condition of his royal pardon. The Attorney-General's Chambers subsequently seeks to delay his transfer to house arrest.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
-      "topicUrl": "https://en.wikipedia.org/wiki/1MDB_scandal",
-      "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261106-jailed-malaysian-ex-pm-najib-pays-fine-meeting-condition-for-house-arrest"
-      }
-    },
-    {
-      "id": "2026-11-06-3-q2",
-      "category": "Health and environment",
-      "story": "Measles resurgence in the United States",
-      "question": "According to the Centers for Disease Control and Prevention, the United States saw its highest annual cases of which illness since 1991?",
-      "options": ["Chickenpox", "Rubella", "Measles", "Mumps"],
-      "answerIndex": 2,
-      "explanation": "Health officials recorded over 5,100 measles cases across the country, marking the highest total in over three decades.",
-      "context": "Measles resurgence in the United States: The United States Centers for Disease Control and Prevention reports 5,182 measles cases in 2026, the country's highest annual total since 1991. State health agencies report at least eight measles-related deaths.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
-      "topicUrl": "https://en.wikipedia.org/wiki/Measles_resurgence_in_the_United_States",
-      "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261106-us-reports-highest-number-of-measles-cases-in-35-years"
-      }
-    },
-    {
-      "id": "2026-11-06-12-q10",
+      "id": "2026-11-07-5-q2",
       "category": "Politics and elections",
-      "story": "2026 Paraguay banking crisis",
-      "question": "The senate of which South American country unanimously voted to impeach and remove its president, Santiago Peña?",
-      "options": ["Paraguay", "Chile", "Uruguay", "Bolivia"],
+      "story": "2026 Israeli legislative election",
+      "question": "Following inconclusive legislative elections, Yashar party leader Gadi Eisenkot was chosen to try to form a coalition government in which country?",
+      "options": ["Israel", "Greece", "Cyprus", "Malta"],
       "answerIndex": 0,
-      "explanation": "Paraguayan senators voted out Santiago Peña following conflict-of-interest allegations regarding a major commercial bank.",
-      "context": "2026 Paraguay banking crisis: The Paraguayan Senate unanimously removes Santiago Peña as country's president over alleged conflicts of interest involving Ueno Bank, whose accounts the central bank froze. Congress postpones consideration of Peña's resignation to allow impeachment proceedings.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
+      "explanation": "Israeli President Isaac Herzog designated Gadi Eisenkot to attempt building a ruling coalition within 28 days.",
+      "context": "2026 Israeli legislative election: Israeli president Isaac Herzog selects Yashar party leader Gadi Eisenkot to attempt to form a coalition government following inconclusive Knesset elections. Eisenkot will have 28 days to secure sufficient support in the Knesset.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
       "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/paraguay-senate-begins-president-impeachment-trial"
+        "publisher": "ABC News Australia",
+        "url": "https://www.abc.net.au/news/2026-11-08/israel-president-prime-minister-government-picked-eisenkot/107360472"
       }
     },
     {
-      "id": "2026-11-06-6-q5",
+      "id": "2026-11-06-12-q6",
       "category": "Law and crime",
-      "story": "Shakahola Forest incident",
-      "question": "In which country was cult leader Paul Mackenzie handed a 200-year prison sentence?",
-      "options": ["Uganda", "Kenya", "Ghana", "Nigeria"],
-      "answerIndex": 1,
-      "explanation": "Kenyan courts sentenced Mackenzie to two centuries behind bars following the Shakahola Forest tragedy.",
-      "context": "Shakahola Forest incident: Kenyan cult leader Paul Mackenzie is sentenced to 200 years in prison for the mass murder of children.",
+      "story": "",
+      "question": "Immigration authorities in Colombia announced the expulsion of 80 foreign nationals hailing from which neighbouring country due to suspected criminal activity?",
+      "options": ["Peru", "Ecuador", "Venezuela", "Panama"],
+      "answerIndex": 2,
+      "explanation": "Colombian authorities expelled 80 citizens of Venezuela over alleged involvement in offences including theft, trafficking, and extortion.",
+      "context": "Colombia Migration expel 80 Venezuelan nationals suspected of criminal activity, including theft, drug trafficking, and extortion.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
-      "topicUrl": "https://en.wikipedia.org/wiki/Shakahola_Forest_incident",
       "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/africa/kenyan-court-sentences-cult-leader-200-years-prison-murder-190-children-2026-11-06/"
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261106-colombia-expels-80-allegedly-criminal-venezuelans"
+      }
+    },
+    {
+      "id": "2026-11-07-1-q12",
+      "category": "Armed conflicts and attacks",
+      "story": "Sudanese civil war > Kordofan campaign",
+      "question": "Sudan's armed forces reported recapturing the town of Iyal Bakhit and shooting down a drone belonging to which opposing group?",
+      "options": [
+        "Sudan Liberation Movement",
+        "Janjaweed",
+        "Al-Shabaab",
+        "Rapid Support Forces"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Sudanese army stated that it took control of Iyal Bakhit in West Kordofan and brought down a drone operated by the Rapid Support Forces.",
+      "context": "Sudanese civil war > Kordofan campaign: Sudan's armed forces (SAF) says that they have recaptured the West Kordofan town of Iyal Bakhit. Additionally, the SAF also says that they have downed a Rapid Support Forces drone.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7",
+      "topicUrl": "https://en.wikipedia.org/wiki/Kordofan_campaign_(2023%E2%80%93present)",
+      "readMore": {
+        "publisher": "Sudan Tribune",
+        "url": "https://sudantribune.com/article/320981"
+      }
+    },
+    {
+      "id": "2026-11-06-19-q11",
+      "category": "Politics and elections",
+      "story": "",
+      "question": "King Philippe declined to accept the resignation of Prime Minister Bart De Wever, ordering him to continue budget discussions in which country?",
+      "options": ["Monaco", "The Netherlands", "Belgium", "Luxembourg"],
+      "answerIndex": 2,
+      "explanation": "Belgium's monarch rejected the proposed departure of Bart De Wever and directed him to push forward with governmental budget talks.",
+      "context": "King Philippe of Belgium refuses Bart De Wever's resignation as the prime minister, telling him to continue with budget negotiations.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
+      "readMore": {
+        "publisher": "Euronews",
+        "url": "https://www.euronews.com/2026/11/06/belgian-king-refuses-pm-bart-de-wevers-resignation-and-asks-him-to-restart-budget-talks"
+      }
+    },
+    {
+      "id": "2026-11-06-9-q5",
+      "category": "Law and crime",
+      "story": "2026 European unrest",
+      "question": "Police in the Netherlands arrested over one hundred demonstrators who occupied the construction site of a planned data centre run by which technology company?",
+      "options": ["Google", "Amazon", "Microsoft", "Apple"],
+      "answerIndex": 2,
+      "explanation": "Dutch police detained between 100 and 200 activists during a demonstration against a Microsoft data facility being constructed in Amsterdam.",
+      "context": "2026 European unrest: Between 100 and 200 people are arrested by Dutch police after protesters break into and temporarily occupy a construction site for a Microsoft data center in Sloterdijk, Amsterdam, during an anti-data-center rally.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_European_unrest",
+      "readMore": {
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/6/protesters-break-into-microsoft-data-centre-site-in-amsterdam"
       }
     }
   ]
