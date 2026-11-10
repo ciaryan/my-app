@@ -1,98 +1,114 @@
 {
   "version": 1,
-  "date": "2026-11-08",
-  "newsDate": "2026-11-07",
-  "generatedAt": "2026-11-08T06:09:34.123Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-11-10",
+  "newsDate": "2026-11-09",
+  "generatedAt": "2026-11-10T10:05:00.511Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7",
-    "revisionIds": [1384426705, 1384421372],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+    "revisionIds": [1384823002, 1384821513],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-07-5-q2",
-      "category": "Politics and elections",
-      "story": "2026 Israeli legislative election",
-      "question": "Following inconclusive legislative elections, Yashar party leader Gadi Eisenkot was chosen to try to form a coalition government in which country?",
-      "options": ["Israel", "Greece", "Cyprus", "Malta"],
-      "answerIndex": 0,
-      "explanation": "Israeli President Isaac Herzog designated Gadi Eisenkot to attempt building a ruling coalition within 28 days.",
-      "context": "2026 Israeli legislative election: Israeli president Isaac Herzog selects Yashar party leader Gadi Eisenkot to attempt to form a coalition government following inconclusive Knesset elections. Eisenkot will have 28 days to secure sufficient support in the Knesset.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
-      "readMore": {
-        "publisher": "ABC News Australia",
-        "url": "https://www.abc.net.au/news/2026-11-08/israel-president-prime-minister-government-picked-eisenkot/107360472"
-      }
-    },
-    {
-      "id": "2026-11-06-12-q6",
-      "category": "Law and crime",
-      "story": "",
-      "question": "Immigration authorities in Colombia announced the expulsion of 80 foreign nationals hailing from which neighbouring country due to suspected criminal activity?",
-      "options": ["Peru", "Ecuador", "Venezuela", "Panama"],
-      "answerIndex": 2,
-      "explanation": "Colombian authorities expelled 80 citizens of Venezuela over alleged involvement in offences including theft, trafficking, and extortion.",
-      "context": "Colombia Migration expel 80 Venezuelan nationals suspected of criminal activity, including theft, drug trafficking, and extortion.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
-      "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261106-colombia-expels-80-allegedly-criminal-venezuelans"
-      }
-    },
-    {
-      "id": "2026-11-07-1-q12",
-      "category": "Armed conflicts and attacks",
-      "story": "Sudanese civil war > Kordofan campaign",
-      "question": "Sudan's armed forces reported recapturing the town of Iyal Bakhit and shooting down a drone belonging to which opposing group?",
+      "id": "2026-11-08-20-q9",
+      "category": "Sports",
+      "story": "2026 Major League Soccer season",
+      "question": "Who became the first player in Major League Soccer history to win the Golden Boot award in back-to-back years?",
       "options": [
-        "Sudan Liberation Movement",
-        "Janjaweed",
-        "Al-Shabaab",
-        "Rapid Support Forces"
+        "Cucho Hernández",
+        "Lionel Messi",
+        "Luis Suárez",
+        "Christian Benteke"
       ],
-      "answerIndex": 3,
-      "explanation": "The Sudanese army stated that it took control of Iyal Bakhit in West Kordofan and brought down a drone operated by the Rapid Support Forces.",
-      "context": "Sudanese civil war > Kordofan campaign: Sudan's armed forces (SAF) says that they have recaptured the West Kordofan town of Iyal Bakhit. Additionally, the SAF also says that they have downed a Rapid Support Forces drone.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7",
-      "topicUrl": "https://en.wikipedia.org/wiki/Kordofan_campaign_(2023%E2%80%93present)",
-      "readMore": {
-        "publisher": "Sudan Tribune",
-        "url": "https://sudantribune.com/article/320981"
-      }
-    },
-    {
-      "id": "2026-11-06-19-q11",
-      "category": "Politics and elections",
-      "story": "",
-      "question": "King Philippe declined to accept the resignation of Prime Minister Bart De Wever, ordering him to continue budget discussions in which country?",
-      "options": ["Monaco", "The Netherlands", "Belgium", "Luxembourg"],
-      "answerIndex": 2,
-      "explanation": "Belgium's monarch rejected the proposed departure of Bart De Wever and directed him to push forward with governmental budget talks.",
-      "context": "King Philippe of Belgium refuses Bart De Wever's resignation as the prime minister, telling him to continue with budget negotiations.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
-      "readMore": {
-        "publisher": "Euronews",
-        "url": "https://www.euronews.com/2026/11/06/belgian-king-refuses-pm-bart-de-wevers-resignation-and-asks-him-to-restart-budget-talks"
-      }
-    },
-    {
-      "id": "2026-11-06-9-q5",
-      "category": "Law and crime",
-      "story": "2026 European unrest",
-      "question": "Police in the Netherlands arrested over one hundred demonstrators who occupied the construction site of a planned data centre run by which technology company?",
-      "options": ["Google", "Amazon", "Microsoft", "Apple"],
-      "answerIndex": 2,
-      "explanation": "Dutch police detained between 100 and 200 activists during a demonstration against a Microsoft data facility being constructed in Amsterdam.",
-      "context": "2026 European unrest: Between 100 and 200 people are arrested by Dutch police after protesters break into and temporarily occupy a construction site for a Microsoft data center in Sloterdijk, Amsterdam, during an anti-data-center rally.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_European_unrest",
+      "answerIndex": 1,
+      "explanation": "Inter Miami star Lionel Messi claimed the Golden Boot again after scoring 26 goals during the 2026 MLS season.",
+      "context": "2026 Major League Soccer season: In association football, Inter Miami player Lionel Messi is awarded the 2026 Golden Boot Award after scoring 26 goals in one season, becoming the first player in league history to win the award in consecutive years.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_8",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
       "readMore": {
         "publisher": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/6/protesters-break-into-microsoft-data-centre-site-in-amsterdam"
+        "url": "https://www.aljazeera.com/sports/2026/11/8/messi-becomes-first-player-to-win-back-to-back-mls-golden-boot-awards"
+      }
+    },
+    {
+      "id": "2026-11-09-1-q12",
+      "category": "Armed conflicts and attacks",
+      "story": "2026 Iran war > United Kingdom involvement in the 2026 Iran war",
+      "question": "The United States recently moved aircraft away from RAF Mildenhall due to safety concerns originating from which nation?",
+      "options": ["Iran", "China", "Russia", "North Korea"],
+      "answerIndex": 0,
+      "explanation": "US forces evacuated aircraft from the military base in Suffolk after threats made by Iran.",
+      "context": "2026 Iran war > United Kingdom involvement in the 2026 Iran war: The Wall Street Journal reports that the United States has evacuated aircraft from the RAF Mildenhall base in the United Kingdom, citing threats from Iran.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+      "topicUrl": "https://en.wikipedia.org/wiki/United_Kingdom_involvement_in_the_2026_Iran_war",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/europe/us-aircraft-evacuated-second-uk-base-due-iran-threat-wsj-reports-2026-11-10/"
+      }
+    },
+    {
+      "id": "2026-11-09-3-q1",
+      "category": "Arts and culture",
+      "story": "2026 Booker Prize",
+      "question": "Who won the 2026 Booker Prize for the novel The End of Everything?",
+      "options": [
+        "M. John Harrison",
+        "Paul Lynch",
+        "Samantha Harvey",
+        "Damian Leabas"
+      ],
+      "answerIndex": 0,
+      "explanation": "Author M. John Harrison received the prestigious literary award for his post-apocalyptic work The End of Everything.",
+      "context": "2026 Booker Prize: M. John Harrison wins the 2026 Booker Prize for his post-apocalyptic novel The End of Everything.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Booker_Prize",
+      "readMore": {
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize"
+      }
+    },
+    {
+      "id": "2026-11-09-7-q4",
+      "category": "Business and economy",
+      "story": "",
+      "question": "Regulators in South Korea recently penalised two major tech firms for anti-competitive behaviour in which sector?",
+      "options": [
+        "E-book publishing",
+        "Food delivery",
+        "Ride hailing",
+        "Online travel booking"
+      ],
+      "answerIndex": 1,
+      "explanation": "The South Korean Fair Trade Commission fined platforms Woowa Brothers and Coupang for unfair practices regarding restaurant pricing terms.",
+      "context": "The South Korean Fair Trade Commission issues fines of ₩331.1 billion (US$247 million) for Woowa Brothers and ₩300.8 billion ($222 million) for Coupang, finding that their food-delivery platforms restricted competition by requiring restaurants to match rival platforms' terms.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+      "readMore": {
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261109-south-korea-s-coupang-woowa-brothers-hit-with-huge-antitrust-fines"
+      }
+    },
+    {
+      "id": "2026-11-09-9-q5",
+      "category": "International relations",
+      "story": "Cyprus problem",
+      "question": "Leaders from Cyprus and Northern Cyprus recently agreed to take what step to promote peace?",
+      "options": [
+        "Open two new border crossings",
+        "Hold a unified referendum",
+        "Adopt a single currency",
+        "Establish a joint police force"
+      ],
+      "answerIndex": 0,
+      "explanation": "The two leaders agreed to create two new crossing points across the United Nations Buffer Zone.",
+      "context": "Cyprus problem: Cypriot president Nikos Christodoulides and Northern Cypriot president Tufan Erhürman agree to establish two additional crossings across the United Nations Buffer Zone in Cyprus and hold further peace negotiations.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+      "topicUrl": "https://en.wikipedia.org/wiki/Cyprus_problem",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/cyprus-leaders-agree-open-new-border-crossings-future-talks-2026-11-09/"
       }
     }
   ]
