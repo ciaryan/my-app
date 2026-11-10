@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-08",
-  "generatedAt": "2026-11-08T06:39:27.164Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T10:27:40.434Z",
+  "model": "gemini-3.5-flash, gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,79 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-11-08-event-57-q13",
-      "category": "History",
+      "id": "2026-11-10-birth-69-q13",
+      "category": "Music",
       "story": "On this day",
-      "question": "On this day in 1602, which historic research library at the University of Oxford first opened its doors to readers?",
+      "question": "Born on this day in 1983, which Texas-born American country music artist released her debut self-titled album independently in 2001?",
       "options": [
-        "The Bodleian Library",
-        "The Radcliffe Camera",
-        "The Codrington Library",
-        "The Wren Library"
+        "Carrie Underwood",
+        "Maren Morris",
+        "Miranda Lambert",
+        "Kacey Musgraves"
       ],
-      "answerIndex": 0,
-      "explanation": "Established by Sir Thomas Bodley, the Bodleian Library at Oxford was officially opened to the public on this day in 1602.",
-      "context": "On this day in 1602: The Bodleian Library at the University of Oxford is opened to the public.\nBodleian Library (Research library of the University of Oxford): The Bodleian Library is the main research library of the University of Oxford. Founded in 1602 by Sir Thomas Bodley, it is one of the oldest libraries in Europe. With over 13 million printed items, it is the second-largest library in Britain after the British Library.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Bodleian_Library"
+      "answerIndex": 2,
+      "explanation": "Born in Longview, Texas, country singer-songwriter Miranda Lambert launched her recording career with a self-released album in 2001.",
+      "context": "On this day in 1983: Miranda Lambert, American singer-songwriter and guitarist\nMiranda Lambert (American country singer (born 1983)): Miranda Leigh Lambert McLoughlin (née Lambert; formerly Shelton; born November 10, 1983) is an American country music singer–songwriter. Born in Longview, Texas, she started out in early 2001 when she released her self-titled debut album independently.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Miranda_Lambert"
     },
     {
-      "id": "2026-11-08-popular-2-q2",
+      "id": "2026-11-10-popular-34-q2",
       "category": "Film",
       "story": "Most read",
-      "question": "In which 2007 British comedy film did Russell Brand take on his first prominent movie acting role?",
+      "question": "Which Japanese filmmaker directed, wrote, and created the visual effects for the 2023 monster film Godzilla Minus One?",
       "options": [
-        "Rock of Ages",
-        "Get Him to the Greek",
-        "St Trinian's",
-        "Forgetting Sarah Marshall"
+        "Hideaki Anno",
+        "Ishirō Honda",
+        "Shinji Higuchi",
+        "Takashi Yamazaki"
       ],
-      "answerIndex": 2,
-      "explanation": "Brand landed his initial major film appearance in the 2007 UK comedy St Trinian's before starring in several Hollywood features.",
-      "context": "Russell Brand (English comedian and actor (born 1975)): Russell Edward Brand is an English comedian, actor and media personality. He rose to prominence as the host of Big Brother's Big Mouth, a spin-off of the reality television series Big Brother broadcast on E4. He had his first major film role in the British comedy St Trinian's (2007), after which he starred in the Hollywood comedies Forgetting Sarah Marshall (2008), Get Him to the Greek (2010), Arthur (2011), and Rock of Ages (2012), as well as the mystery film Death on the Nile (2022).",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Russell_Brand"
+      "answerIndex": 3,
+      "explanation": "Takashi Yamazaki spearheaded the 2023 release, taking charge of its writing, direction, and visual effects.",
+      "context": "Godzilla Minus One (2023 film by Takashi Yamazaki): Godzilla Minus One  is a 2023 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki. It is the 37th film in the Godzilla franchise, the 33rd film thereof produced by Toho, and the fifth installment in the Reiwa era. Set in postwar Japan, the film stars Ryunosuke Kamiki as a former kamikaze pilot suffering from post-traumatic stress disorder after encountering the giant monster Godzilla.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Godzilla_Minus_One"
     },
     {
-      "id": "2026-11-08-popular-27-q6",
-      "category": "Music",
+      "id": "2026-11-10-popular-5-q3",
+      "category": "Science",
       "story": "Most read",
-      "question": "Due to her distinct visual style and music influence, what royal moniker did Vogue and Rolling Stone bestow upon pop star Katy Perry?",
-      "options": [
-        "Duchess of Dance",
-        "Queen of Pop",
-        "Queen of Camp",
-        "Princess of Camp"
-      ],
-      "answerIndex": 2,
-      "explanation": "Katy Perry earned the title 'Queen of Camp' from major publications such as Rolling Stone and Vogue.",
-      "context": "Katy Perry (American singer (born 1984)): Katheryn Elizabeth Hudson, known professionally as Katy Perry, is an American singer, songwriter, and television personality. Known for her influence on pop music and her camp style, she has been dubbed the \"Queen of Camp\" by Vogue and Rolling Stone.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Katy_Perry"
+      "question": "Which technology firm, based in Santa Clara, California, is famous for developing graphics processing units and AI hardware?",
+      "options": ["Qualcomm", "Intel", "AMD", "Nvidia"],
+      "answerIndex": 3,
+      "explanation": "Headquartered in Santa Clara, Nvidia is a major technology company known for designing GPUs and artificial intelligence systems.",
+      "context": "Nvidia (American multinational technology company): Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for data science, high-performance computing, artificial intelligence (AI) hardware, and mobile and automotive applications.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nvidia"
     },
     {
-      "id": "2026-11-08-popular-34-q5",
+      "id": "2026-11-10-popular-22-q5",
+      "category": "TV",
+      "story": "Most read",
+      "question": "Keira Knightley stars alongside Ben Whishaw and Sarah Lancashire in which British spy action thriller series produced for Netflix?",
+      "options": ["The Diplomat", "Slow Horses", "Black Doves", "Treason"],
+      "answerIndex": 2,
+      "explanation": "Created by Joe Barton, Black Doves features Keira Knightley in a high-stakes story centred around a secret organisation of spies for hire.",
+      "context": "Black Doves (British spy action television series (2024–present)): Black Doves is a British spy action thriller television series created by Joe Barton. The series, starring Keira Knightley, Ben Whishaw, and Sarah Lancashire, is developed by Sister and Barton's production company Noisy Bear for Netflix. The series is about a spies-for-hire organisation that obtains secrets for the highest bidder. Ahead of its premiere on 5 December 2024, it was renewed for a second series which was released in full on 5 November 2026.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Black_Doves"
+    },
+    {
+      "id": "2026-11-10-popular-29-q7",
       "category": "Sport",
       "story": "Most read",
-      "question": "For which German football club did midfielder and forward Jobe Bellingham sign to play in the Bundesliga?",
-      "options": [
-        "Bayern Munich",
-        "Borussia Dortmund",
-        "RB Leipzig",
-        "Bayer Leverkusen"
-      ],
-      "answerIndex": 1,
-      "explanation": "Jobe Bellingham plays professionally as a midfielder or forward in Germany for Borussia Dortmund.",
-      "context": "Jobe Bellingham (English footballer (born 2005)): Jobe Samuel Patrick Bellingham is an English professional footballer who plays as a midfielder or forward for Bundesliga club Borussia Dortmund and the England national team. He has represented England at all youth levels and served as the under-21 captain from 2024 to 2026.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Jobe_Bellingham"
-    },
-    {
-      "id": "2026-11-08-popular-20-q7",
-      "category": "Geography",
-      "story": "Most read",
-      "question": "On which Caribbean island did eighteen-year-old student Natalee Holloway vanish while travelling in May 2005?",
-      "options": ["Curaçao", "Barbados", "Jamaica", "Aruba"],
-      "answerIndex": 3,
-      "explanation": "Natalee Holloway went missing in May 2005 during a high-school graduation holiday in Aruba.",
-      "context": "Disappearance of Natalee Holloway (2005 disappearance of an American in Aruba): On May 30, 2005, Natalee Ann Holloway, an 18‑year‑old recent high school graduate from Mountain Brook, Alabama, disappeared while on a trip to Aruba. She was last seen outside the Oranjestad nightclub Carlos'n Charlie's, entering a car with Joran van der Sloot and brothers Deepak and Satish Kalpoe. Despite extensive searches involving Aruban authorities, FBI agents, Dutch military personnel, and volunteer teams, her remains have never been found.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Disappearance_of_Natalee_Holloway"
+      "question": "Before being drafted by the Chicago Bears, quarterback Caleb Williams won the 2022 Heisman Trophy while playing college football for which university?",
+      "options": ["Oklahoma", "Alabama", "USC", "Ohio State"],
+      "answerIndex": 2,
+      "explanation": "Williams earned the 2022 Heisman Trophy as a player for the USC Trojans before moving on to the NFL.",
+      "context": "Caleb Williams (American football player (born 2001)): Caleb Williams is an American professional football quarterback for the Chicago Bears of the National Football League (NFL). Following one season of college football with the Oklahoma Sooners, he played for the USC Trojans, winning the Heisman Trophy in 2022 and setting single season school records in passing yards and touchdowns.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Caleb_Williams"
     }
   ]
 }
