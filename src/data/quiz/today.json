@@ -1,114 +1,97 @@
 {
   "version": 1,
-  "date": "2026-11-10",
-  "newsDate": "2026-11-09",
-  "generatedAt": "2026-11-10T10:05:00.511Z",
-  "model": "gemini-3.6-flash",
+  "date": "2026-11-11",
+  "newsDate": "2026-11-10",
+  "generatedAt": "2026-11-11T06:28:15.996Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
-    "revisionIds": [1384823002, 1384821513],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+    "revisionIds": [1384985425, 1384981038],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-08-20-q9",
+      "id": "2026-11-09-13-q8",
       "category": "Sports",
-      "story": "2026 Major League Soccer season",
-      "question": "Who became the first player in Major League Soccer history to win the Golden Boot award in back-to-back years?",
-      "options": [
-        "Cucho Hernández",
-        "Lionel Messi",
-        "Luis Suárez",
-        "Christian Benteke"
-      ],
-      "answerIndex": 1,
-      "explanation": "Inter Miami star Lionel Messi claimed the Golden Boot again after scoring 26 goals during the 2026 MLS season.",
-      "context": "2026 Major League Soccer season: In association football, Inter Miami player Lionel Messi is awarded the 2026 Golden Boot Award after scoring 26 goals in one season, becoming the first player in league history to win the award in consecutive years.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_8",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Major_League_Soccer_season",
-      "readMore": {
-        "publisher": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/11/8/messi-becomes-first-player-to-win-back-to-back-mls-golden-boot-awards"
-      }
-    },
-    {
-      "id": "2026-11-09-1-q12",
-      "category": "Armed conflicts and attacks",
-      "story": "2026 Iran war > United Kingdom involvement in the 2026 Iran war",
-      "question": "The United States recently moved aircraft away from RAF Mildenhall due to safety concerns originating from which nation?",
-      "options": ["Iran", "China", "Russia", "North Korea"],
-      "answerIndex": 0,
-      "explanation": "US forces evacuated aircraft from the military base in Suffolk after threats made by Iran.",
-      "context": "2026 Iran war > United Kingdom involvement in the 2026 Iran war: The Wall Street Journal reports that the United States has evacuated aircraft from the RAF Mildenhall base in the United Kingdom, citing threats from Iran.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
-      "topicUrl": "https://en.wikipedia.org/wiki/United_Kingdom_involvement_in_the_2026_Iran_war",
-      "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/europe/us-aircraft-evacuated-second-uk-base-due-iran-threat-wsj-reports-2026-11-10/"
-      }
-    },
-    {
-      "id": "2026-11-09-3-q1",
-      "category": "Arts and culture",
-      "story": "2026 Booker Prize",
-      "question": "Who won the 2026 Booker Prize for the novel The End of Everything?",
-      "options": [
-        "M. John Harrison",
-        "Paul Lynch",
-        "Samantha Harvey",
-        "Damian Leabas"
-      ],
-      "answerIndex": 0,
-      "explanation": "Author M. John Harrison received the prestigious literary award for his post-apocalyptic work The End of Everything.",
-      "context": "2026 Booker Prize: M. John Harrison wins the 2026 Booker Prize for his post-apocalyptic novel The End of Everything.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Booker_Prize",
-      "readMore": {
-        "publisher": "The Guardian",
-        "url": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize"
-      }
-    },
-    {
-      "id": "2026-11-09-7-q4",
-      "category": "Business and economy",
       "story": "",
-      "question": "Regulators in South Korea recently penalised two major tech firms for anti-competitive behaviour in which sector?",
-      "options": [
-        "E-book publishing",
-        "Food delivery",
-        "Ride hailing",
-        "Online travel booking"
-      ],
+      "question": "American college football officials announced that the national championship playoff will expand to how many teams by 2027?",
+      "options": ["16", "24", "20", "32"],
       "answerIndex": 1,
-      "explanation": "The South Korean Fair Trade Commission fined platforms Woowa Brothers and Coupang for unfair practices regarding restaurant pricing terms.",
-      "context": "The South Korean Fair Trade Commission issues fines of ₩331.1 billion (US$247 million) for Woowa Brothers and ₩300.8 billion ($222 million) for Coupang, finding that their food-delivery platforms restricted competition by requiring restaurants to match rival platforms' terms.",
+      "explanation": "The College Football Playoff confirmed a format shift from 12 competing teams up to 24 beginning with the 2027 campaign.",
+      "context": "In college football, the College Football Playoff announces it will expand from 12 to 24 teams starting in the 2027 season.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
       "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261109-south-korea-s-coupang-woowa-brothers-hit-with-huge-antitrust-fines"
+        "publisher": "ESPN",
+        "url": "https://www.espn.com/college-football/story/_/id/50433738/cfp-playoff-24-team-format-faq"
       }
     },
     {
-      "id": "2026-11-09-9-q5",
-      "category": "International relations",
-      "story": "Cyprus problem",
-      "question": "Leaders from Cyprus and Northern Cyprus recently agreed to take what step to promote peace?",
-      "options": [
-        "Open two new border crossings",
-        "Hold a unified referendum",
-        "Adopt a single currency",
-        "Establish a joint police force"
-      ],
+      "id": "2026-11-10-8-q3",
+      "category": "Law and crime",
+      "story": "",
+      "question": "Which television personality and author lost a legal effort to block news outlets from naming him in relation to grooming claims?",
+      "options": ["David Walliams", "Simon Cowell", "Matt Lucas", "Jimmy Carr"],
       "answerIndex": 0,
-      "explanation": "The two leaders agreed to create two new crossing points across the United Nations Buffer Zone.",
-      "context": "Cyprus problem: Cypriot president Nikos Christodoulides and Northern Cypriot president Tufan Erhürman agree to establish two additional crossings across the United Nations Buffer Zone in Cyprus and hold further peace negotiations.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
-      "topicUrl": "https://en.wikipedia.org/wiki/Cyprus_problem",
+      "explanation": "David Walliams was unsuccessful in his court bid to stop media organisations from publishing his name in reports about grooming accusations.",
+      "context": "David Walliams loses a legal bid to prevent him being named by The Guardian and ITN as a celebrity accused of grooming by several women. Walliams denies the allegations.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+      "readMore": {
+        "publisher": "RTÉ News",
+        "url": "https://www.rte.ie/news/2026/1110/1598675-walliams-named-in-failed-injunction/"
+      }
+    },
+    {
+      "id": "2026-11-10-12-q6",
+      "category": "Politics and elections",
+      "story": "Gibran Rakabuming Raka diploma controversy",
+      "question": "Vice President Gibran Rakabuming Raka announced plans to step down from office in which country following a dispute over his high-school diploma?",
+      "options": ["The Philippines", "Indonesia", "Thailand", "Malaysia"],
+      "answerIndex": 1,
+      "explanation": "The Indonesian vice president stated his intention to resign amid lingering arguments concerning whether his secondary school certificate was genuine.",
+      "context": "Gibran Rakabuming Raka diploma controversy: Indonesian vice president Gibran Rakabuming Raka announces his intention to resign following controversies about the authenticity of his high-school diploma.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+      "topicUrl": "https://en.wikipedia.org/wiki/Gibran_Rakabuming_Raka_diploma_controversy",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/middle-east/cyprus-leaders-agree-open-new-border-crossings-future-talks-2026-11-09/"
+        "url": "https://www.reuters.com/world/asia-pacific/indonesia-vice-president-expresses-intention-resign-presidential-official-says-2026-11-10/"
+      }
+    },
+    {
+      "id": "2026-11-10-1-q1",
+      "category": "Armed conflicts and attacks",
+      "story": "Russo-Ukrainian war > Peace negotiations in the Russo-Ukrainian war, United Arab Emirates in the 2026 Iran war, United States and the Russo-Ukrainian war > 2026 United States–Ukraine–Russia meetings in Abu Dhabi",
+      "question": "Which country hosted the third round of peace discussions between delegates from Russia and Ukraine mediated by the United States?",
+      "options": ["United Arab Emirates", "Switzerland", "Qatar", "Turkey"],
+      "answerIndex": 0,
+      "explanation": "Diplomatic representatives from the warring nations gathered in Abu Dhabi for talks focused on humanitarian concerns and security arrangements.",
+      "context": "Russo-Ukrainian war > Peace negotiations in the Russo-Ukrainian war, United Arab Emirates in the 2026 Iran war, United States and the Russo-Ukrainian war > 2026 United States–Ukraine–Russia meetings in Abu Dhabi: A third round of United States-mediated talks between Ukrainian and Russian delegations begins in Abu Dhabi, United Arab Emirates, focusing on the humanitarian impact of the war, prisoners of war, and security guarantees. Earlier in the day, the American and Ukrainian teams held a separate meeting with representatives of France, Germany, Italy, the United Kingdom, the European Commission, and NATO.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_United_States%E2%80%93Ukraine%E2%80%93Russia_meetings_in_Abu_Dhabi",
+      "readMore": {
+        "publisher": "AP",
+        "url": "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18"
+      }
+    },
+    {
+      "id": "2026-11-10-6-q2",
+      "category": "Health and environment",
+      "story": "",
+      "question": "The US Food and Drug Administration instructed makers of GLP-1 weight-loss and diabetes treatments to include warnings about what potential health risk?",
+      "options": [
+        "Severe hearing loss",
+        "Permanent blindness",
+        "Kidney failure",
+        "Cardiac arrest"
+      ],
+      "answerIndex": 1,
+      "explanation": "Regulators ordered warning labels regarding an optic nerve condition known to trigger irreversible loss of vision.",
+      "context": "The United States Food and Drug Administration orders manufacturers of GLP-1 medicines such as semaglutide and tirzepatide, originally intended for the treatment of type 2 diabetes but also commonly used for weight loss, to add warnings that use of such drugs may increase the risk of developing non-arteritic anterior ischemic optic neuropathy, an optic nerve disorder that can cause permanent blindness.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+      "readMore": {
+        "publisher": "BBC News",
+        "url": "https://www.bbc.com/news/articles/crwydyde0lp3o"
       }
     }
   ]
