@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T10:27:40.434Z",
-  "model": "gemini-3.5-flash, gemini-3.6-flash",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T07:09:50.450Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,69 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-11-10-birth-69-q13",
-      "category": "Music",
+      "id": "2026-11-11-event-71-q11",
+      "category": "Royalty",
       "story": "On this day",
-      "question": "Born on this day in 1983, which Texas-born American country music artist released her debut self-titled album independently in 2001?",
+      "question": "On this day in 1100, which Scottish princess married King Henry I and was crowned Queen of England?",
       "options": [
-        "Carrie Underwood",
-        "Maren Morris",
-        "Miranda Lambert",
-        "Kacey Musgraves"
+        "Margaret of Scotland",
+        "Eleanor of Aquitaine",
+        "Joan of England",
+        "Matilda of Scotland"
       ],
-      "answerIndex": 2,
-      "explanation": "Born in Longview, Texas, country singer-songwriter Miranda Lambert launched her recording career with a self-released album in 2001.",
-      "context": "On this day in 1983: Miranda Lambert, American singer-songwriter and guitarist\nMiranda Lambert (American country singer (born 1983)): Miranda Leigh Lambert McLoughlin (née Lambert; formerly Shelton; born November 10, 1983) is an American country music singer–songwriter. Born in Longview, Texas, she started out in early 2001 when she released her self-titled debut album independently.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Miranda_Lambert"
+      "answerIndex": 3,
+      "explanation": "On 11 November 1100, Henry I of England wed Matilda of Scotland, the daughter of King Malcolm III, who was crowned Queen on the same day.",
+      "context": "On this day in 1100: Henry I of England marries Matilda of Scotland, the daughter of Malcolm III of Scotland and a direct descendant of the Saxon king Edmund Ironside; Matilda is crowned on the same day.\nHenry I of England (King of England from 1100 to 1135): Henry I, also known as Henry Beauclerc, was King of England from 1100 to his death in 1135. He was the fourth son of William the Conqueror and was educated in Latin and the liberal arts.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Henry_I_of_England"
     },
     {
-      "id": "2026-11-10-popular-34-q2",
+      "id": "2026-11-11-popular-26-q9",
       "category": "Film",
       "story": "Most read",
-      "question": "Which Japanese filmmaker directed, wrote, and created the visual effects for the 2023 monster film Godzilla Minus One?",
-      "options": [
-        "Hideaki Anno",
-        "Ishirō Honda",
-        "Shinji Higuchi",
-        "Takashi Yamazaki"
-      ],
-      "answerIndex": 3,
-      "explanation": "Takashi Yamazaki spearheaded the 2023 release, taking charge of its writing, direction, and visual effects.",
-      "context": "Godzilla Minus One (2023 film by Takashi Yamazaki): Godzilla Minus One  is a 2023 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki. It is the 37th film in the Godzilla franchise, the 33rd film thereof produced by Toho, and the fifth installment in the Reiwa era. Set in postwar Japan, the film stars Ryunosuke Kamiki as a former kamikaze pilot suffering from post-traumatic stress disorder after encountering the giant monster Godzilla.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Godzilla_Minus_One"
+      "question": "In what fictional US state, loosely modelled on Florida, does Rockstar Games set the open-world map of Grand Theft Auto VI?",
+      "options": ["Leonida", "Alderney", "North Yankton", "San Andreas"],
+      "answerIndex": 0,
+      "explanation": "Grand Theft Auto VI is set in the open-world state of Leonida, an analogue of Florida that features the return of Vice City.",
+      "context": "Grand Theft Auto VI (Upcoming video game): Grand Theft Auto VI is an upcoming action-adventure game developed and published by Rockstar Games. It is due to be the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set within the fictional US state of Leonida, based on Florida, the story follows the criminal duo of Jason Duval and Lucia Caminos. Players will be able to freely roam Leonida's open world, which features the Miami-inspired Vice City.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
     },
     {
-      "id": "2026-11-10-popular-5-q3",
-      "category": "Science",
-      "story": "Most read",
-      "question": "Which technology firm, based in Santa Clara, California, is famous for developing graphics processing units and AI hardware?",
-      "options": ["Qualcomm", "Intel", "AMD", "Nvidia"],
-      "answerIndex": 3,
-      "explanation": "Headquartered in Santa Clara, Nvidia is a major technology company known for designing GPUs and artificial intelligence systems.",
-      "context": "Nvidia (American multinational technology company): Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for data science, high-performance computing, artificial intelligence (AI) hardware, and mobile and automotive applications.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Nvidia"
-    },
-    {
-      "id": "2026-11-10-popular-22-q5",
+      "id": "2026-11-11-popular-2-q2",
       "category": "TV",
       "story": "Most read",
-      "question": "Keira Knightley stars alongside Ben Whishaw and Sarah Lancashire in which British spy action thriller series produced for Netflix?",
-      "options": ["The Diplomat", "Slow Horses", "Black Doves", "Treason"],
+      "question": "Which airport-set BBC sketch comedy series was created by and starred David Walliams alongside Matt Lucas?",
+      "options": [
+        "The Fast Show",
+        "The League of Gentlemen",
+        "Come Fly with Me",
+        "French and Saunders"
+      ],
       "answerIndex": 2,
-      "explanation": "Created by Joe Barton, Black Doves features Keira Knightley in a high-stakes story centred around a secret organisation of spies for hire.",
-      "context": "Black Doves (British spy action television series (2024–present)): Black Doves is a British spy action thriller television series created by Joe Barton. The series, starring Keira Knightley, Ben Whishaw, and Sarah Lancashire, is developed by Sister and Barton's production company Noisy Bear for Netflix. The series is about a spies-for-hire organisation that obtains secrets for the highest bidder. Ahead of its premiere on 5 December 2024, it was renewed for a second series which was released in full on 5 November 2026.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Black_Doves"
+      "explanation": "David Walliams partnered with Matt Lucas to create and appear in Come Fly with Me, which was broadcast between 2010 and 2011.",
+      "context": "David Walliams (English comedian, writer and actor (born 1971)): David Edward Williams, known professionally as David Walliams, is an English actor, comedian, writer and television personality. He rose to prominence for his work with Matt Lucas on the BBC sketch comedy series Little Britain (2003–2006) and Come Fly with Me (2010–2011). From 2012 to 2022, Walliams was a judge on the television talent competition Britain's Got Talent, for which he received multiple National Television Awards.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/David_Walliams"
     },
     {
-      "id": "2026-11-10-popular-29-q7",
-      "category": "Sport",
+      "id": "2026-11-11-popular-4-q3",
+      "category": "Geography",
       "story": "Most read",
-      "question": "Before being drafted by the Chicago Bears, quarterback Caleb Williams won the 2022 Heisman Trophy while playing college football for which university?",
-      "options": ["Oklahoma", "Alabama", "USC", "Ohio State"],
+      "question": "In which body of water did the American freighter SS Edmund Fitzgerald tragically sink during a fierce storm in 1975?",
+      "options": ["Lake Michigan", "Lake Erie", "Lake Superior", "Lake Huron"],
       "answerIndex": 2,
-      "explanation": "Williams earned the 2022 Heisman Trophy as a player for the USC Trojans before moving on to the NFL.",
-      "context": "Caleb Williams (American football player (born 2001)): Caleb Williams is an American professional football quarterback for the Chicago Bears of the National Football League (NFL). Following one season of college football with the Oklahoma Sooners, he played for the USC Trojans, winning the Heisman Trophy in 2022 and setting single season school records in passing yards and touchdowns.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Caleb_Williams"
+      "explanation": "The freighter SS Edmund Fitzgerald sank in Lake Superior in November 1975, remaining the largest vessel lost in the Great Lakes.",
+      "context": "SS Edmund Fitzgerald (Great Lakes freighter sunk in Lake Superior): SS Edmund Fitzgerald was an American Great Lakes freighter that sank in Lake Superior during a storm on November 10, 1975, with the loss of the entire crew of 29 men. When launched on June 7, 1958, she was the largest ship on North America's Great Lakes and remains the largest to have sunk there. Her wreck was located in deep water on November 14, 1975, by a U.S. Navy aircraft detecting magnetic anomalies, and soon afterwards found to be in two large pieces.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/SS_Edmund_Fitzgerald"
+    },
+    {
+      "id": "2026-11-11-popular-19-q8",
+      "category": "History",
+      "story": "Most read",
+      "question": "Before entering politics, U.S. Representative Lauren Boebert operated Shooters Grill, a themed restaurant situated in which American state?",
+      "options": ["Wyoming", "Kentucky", "Colorado", "Texas"],
+      "answerIndex": 2,
+      "explanation": "Lauren Boebert owned Shooters Grill in Rifle, Colorado, where waitstaff were famously encouraged to openly wear sidearms.",
+      "context": "Lauren Boebert (American politician (born 1986)): Lauren Opal Boebert is an American politician, businesswoman, and gun rights activist serving as the U.S. representative for Colorado's 4th congressional district beginning in 2025, having previously represented Colorado's 3rd congressional district from 2021 to 2025. From 2013 to 2022, she owned Shooters Grill, a restaurant in Rifle, Colorado, where staff members were encouraged to carry firearms openly.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lauren_Boebert"
     }
   ]
 }
