@@ -1,97 +1,109 @@
 {
   "version": 1,
-  "date": "2026-11-11",
-  "newsDate": "2026-11-10",
-  "generatedAt": "2026-11-11T06:28:15.996Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-11-12",
+  "newsDate": "2026-11-11",
+  "generatedAt": "2026-11-12T07:26:18.794Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
-    "revisionIds": [1384985425, 1384981038],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+    "revisionIds": [1385151946],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-09-13-q8",
-      "category": "Sports",
-      "story": "",
-      "question": "American college football officials announced that the national championship playoff will expand to how many teams by 2027?",
-      "options": ["16", "24", "20", "32"],
-      "answerIndex": 1,
-      "explanation": "The College Football Playoff confirmed a format shift from 12 competing teams up to 24 beginning with the 2027 campaign.",
-      "context": "In college football, the College Football Playoff announces it will expand from 12 to 24 teams starting in the 2027 season.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
-      "readMore": {
-        "publisher": "ESPN",
-        "url": "https://www.espn.com/college-football/story/_/id/50433738/cfp-playoff-24-team-format-faq"
-      }
-    },
-    {
-      "id": "2026-11-10-8-q3",
-      "category": "Law and crime",
-      "story": "",
-      "question": "Which television personality and author lost a legal effort to block news outlets from naming him in relation to grooming claims?",
-      "options": ["David Walliams", "Simon Cowell", "Matt Lucas", "Jimmy Carr"],
-      "answerIndex": 0,
-      "explanation": "David Walliams was unsuccessful in his court bid to stop media organisations from publishing his name in reports about grooming accusations.",
-      "context": "David Walliams loses a legal bid to prevent him being named by The Guardian and ITN as a celebrity accused of grooming by several women. Walliams denies the allegations.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
-      "readMore": {
-        "publisher": "RTÉ News",
-        "url": "https://www.rte.ie/news/2026/1110/1598675-walliams-named-in-failed-injunction/"
-      }
-    },
-    {
-      "id": "2026-11-10-12-q6",
-      "category": "Politics and elections",
-      "story": "Gibran Rakabuming Raka diploma controversy",
-      "question": "Vice President Gibran Rakabuming Raka announced plans to step down from office in which country following a dispute over his high-school diploma?",
-      "options": ["The Philippines", "Indonesia", "Thailand", "Malaysia"],
-      "answerIndex": 1,
-      "explanation": "The Indonesian vice president stated his intention to resign amid lingering arguments concerning whether his secondary school certificate was genuine.",
-      "context": "Gibran Rakabuming Raka diploma controversy: Indonesian vice president Gibran Rakabuming Raka announces his intention to resign following controversies about the authenticity of his high-school diploma.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
-      "topicUrl": "https://en.wikipedia.org/wiki/Gibran_Rakabuming_Raka_diploma_controversy",
-      "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/asia-pacific/indonesia-vice-president-expresses-intention-resign-presidential-official-says-2026-11-10/"
-      }
-    },
-    {
-      "id": "2026-11-10-1-q1",
-      "category": "Armed conflicts and attacks",
-      "story": "Russo-Ukrainian war > Peace negotiations in the Russo-Ukrainian war, United Arab Emirates in the 2026 Iran war, United States and the Russo-Ukrainian war > 2026 United States–Ukraine–Russia meetings in Abu Dhabi",
-      "question": "Which country hosted the third round of peace discussions between delegates from Russia and Ukraine mediated by the United States?",
-      "options": ["United Arab Emirates", "Switzerland", "Qatar", "Turkey"],
-      "answerIndex": 0,
-      "explanation": "Diplomatic representatives from the warring nations gathered in Abu Dhabi for talks focused on humanitarian concerns and security arrangements.",
-      "context": "Russo-Ukrainian war > Peace negotiations in the Russo-Ukrainian war, United Arab Emirates in the 2026 Iran war, United States and the Russo-Ukrainian war > 2026 United States–Ukraine–Russia meetings in Abu Dhabi: A third round of United States-mediated talks between Ukrainian and Russian delegations begins in Abu Dhabi, United Arab Emirates, focusing on the humanitarian impact of the war, prisoners of war, and security guarantees. Earlier in the day, the American and Ukrainian teams held a separate meeting with representatives of France, Germany, Italy, the United Kingdom, the European Commission, and NATO.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_United_States%E2%80%93Ukraine%E2%80%93Russia_meetings_in_Abu_Dhabi",
-      "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18"
-      }
-    },
-    {
-      "id": "2026-11-10-6-q2",
+      "id": "2026-11-11-10-q4",
       "category": "Health and environment",
       "story": "",
-      "question": "The US Food and Drug Administration instructed makers of GLP-1 weight-loss and diabetes treatments to include warnings about what potential health risk?",
+      "question": "The historic ocean liner SS United States was scuttled off the coast of Florida to serve what purpose?",
       "options": [
-        "Severe hearing loss",
-        "Permanent blindness",
-        "Kidney failure",
-        "Cardiac arrest"
+        "Deep-sea diving museum",
+        "Undersea naval testing site",
+        "World's largest artificial reef",
+        "Coastal breakwater barrier"
       ],
-      "answerIndex": 1,
-      "explanation": "Regulators ordered warning labels regarding an optic nerve condition known to trigger irreversible loss of vision.",
-      "context": "The United States Food and Drug Administration orders manufacturers of GLP-1 medicines such as semaglutide and tirzepatide, originally intended for the treatment of type 2 diabetes but also commonly used for weight loss, to add warnings that use of such drugs may increase the risk of developing non-arteritic anterior ischemic optic neuropathy, an optic nerve disorder that can cause permanent blindness.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+      "answerIndex": 2,
+      "explanation": "The famous ship was sunk in the Gulf of Mexico to create the world's largest man-made reef structure.",
+      "context": "The American ocean liner SS United States is sunk off the coast of Destin–Fort Walton Beach, Florida, United States, to become the world's largest artificial reef.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
       "readMore": {
-        "publisher": "BBC News",
-        "url": "https://www.bbc.com/news/articles/crwydyde0lp3o"
+        "publisher": "Pensacola News Journal",
+        "url": "https://www.pnj.com/story/news/local/escambia-county/2026/11/11/ss-united-states-sinking-nov-11-timeline-and-where-to-watch/92713208007/"
+      }
+    },
+    {
+      "id": "2026-11-11-6-q2",
+      "category": "Disasters and accidents",
+      "story": "2026–27 European windstorm season",
+      "question": "Why did Portugal shut thousands of schools and cancel a day of the Web Summit in Lisbon?",
+      "options": [
+        "A national transport strike",
+        "A widespread power failure",
+        "Approaching Storm Charles",
+        "Extreme heatwave warnings"
+      ],
+      "answerIndex": 2,
+      "explanation": "The country shuttered schools and halted non-essential public activities as Storm Charles swept towards the region.",
+      "context": "2026–27 European windstorm season: Portugal closes approximately 8,000 schools nationwide and suspends non-essential public services as Storm Charles approaches. The second day of the Web Summit in Lisbon is also cancelled.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_European_windstorm_season",
+      "readMore": {
+        "publisher": "AP",
+        "url": "https://apnews.com/article/portugal-storm-charles-wind-rain-schools-462f7dfd9a5abb0ea0a21d5163d49f37"
+      }
+    },
+    {
+      "id": "2026-11-11-12-q6",
+      "category": "International relations",
+      "story": "China–Germany relations",
+      "question": "Germany announced plans to replace Chinese-made military training equipment with European alternatives, specifically focusing on which technology?",
+      "options": [
+        "Armoured transport vehicles",
+        "Communication satellites",
+        "Drones",
+        "Radar systems"
+      ],
+      "answerIndex": 2,
+      "explanation": "German armed forces are phasing out uncrewed aerial vehicles produced in China over security concerns.",
+      "context": "China–Germany relations: Germany announces that its military will discontinue using Chinese-made drones for military training and exercises, replacing them with German or other European models to address security concerns.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+      "topicUrl": "https://en.wikipedia.org/wiki/China%E2%80%93Germany_relations",
+      "readMore": {
+        "publisher": "AP",
+        "url": "https://apnews.com/article/germany-military-chinese-drones-replaced-01cc05bde8132f468da742193fcbc489"
+      }
+    },
+    {
+      "id": "2026-11-11-20-q10",
+      "category": "Politics and elections",
+      "story": "2026 Spanish housing protests",
+      "question": "Workers across which European nation held a general strike to demand government action over an escalating housing crisis?",
+      "options": ["Spain", "Italy", "Ireland", "Portugal"],
+      "answerIndex": 0,
+      "explanation": "Millions joined nationwide industrial action throughout Spain to protest against rising housing costs and shortages.",
+      "context": "2026 Spanish housing protests: Millions of workers across Spain launch a general strike to demand government intervention over the country's housing crisis, as an escalation of the ongoing protests.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Spanish_housing_protests",
+      "readMore": {
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/11/spains-first-general-strike-in-14-years-begins"
+      }
+    },
+    {
+      "id": "2026-11-11-23-q12",
+      "category": "Science and technology",
+      "story": "Cyberwarfare by Russia",
+      "question": "Intelligence officials in Romania reported thwarting a foreign cyberattack linked to which nation's espionage tools?",
+      "options": ["Iran", "China", "North Korea", "Russia"],
+      "answerIndex": 3,
+      "explanation": "The Romanian security agency successfully intercepted a digital attack attributed to Russian-linked trojan software known as Turla.",
+      "context": "Cyberwarfare by Russia: The Romanian Intelligence Service (SRI) reports that it stopped a December 2025 cyberattack against an unidentified government institution, attributing it to the Russia-linked trojan package Turla. The SRI finds no evidence that sensitive information was stolen.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+      "topicUrl": "https://en.wikipedia.org/wiki/Cyberwarfare_by_Russia",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/technology/romanian-intelligence-agency-says-it-identified-russian-linked-cyber-attack-2026-11-11/"
       }
     }
   ]
