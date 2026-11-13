@@ -1,109 +1,99 @@
 {
   "version": 1,
-  "date": "2026-11-12",
-  "newsDate": "2026-11-11",
-  "generatedAt": "2026-11-12T07:26:18.794Z",
+  "date": "2026-11-13",
+  "newsDate": "2026-11-12",
+  "generatedAt": "2026-11-13T06:56:10.613Z",
   "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
-    "revisionIds": [1385151946],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+    "revisionIds": [1385412860],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-11-10-q4",
+      "id": "2026-11-12-13-q2",
+      "category": "Sports",
+      "story": "International sporting sanctions during the Russian invasion of Ukraine, Finland–Russia relations, Norway–Russia relations",
+      "question": "Which country recently announced visa restrictions prohibiting Russian athletes from entering the country for sports competitions?",
+      "options": ["Sweden", "Finland", "Canada", "Germany"],
+      "answerIndex": 1,
+      "explanation": "Finland implemented new visa bans preventing Russian competitors from coming to the nation for sporting events.",
+      "context": "International sporting sanctions during the Russian invasion of Ukraine, Finland–Russia relations, Norway–Russia relations: Finland announces visa restrictions preventing Russian athletes, including neutral competitors, from entering for sporting events beginning November 16. Norway also announces similar restrictions on Russian and Belarusian athletes and their support staff.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+      "topicUrl": "https://en.wikipedia.org/wiki/International_sporting_sanctions_during_the_Russian_invasion_of_Ukraine",
+      "readMore": {
+        "publisher": "AFP via RFI",
+        "url": "https://www.rfi.fr/en/international-news/20261112-finland-norway-block-visas-for-russian-athletes"
+      }
+    },
+    {
+      "id": "2026-11-12-4-q1",
+      "category": "Business and economy",
+      "story": "Jensen Huang spying scandal",
+      "question": "Which major technology company saw its chief executive step down following reports of extramarital affairs involving a suspected foreign spy?",
+      "options": ["Intel", "Nvidia", "Qualcomm", "AMD"],
+      "answerIndex": 1,
+      "explanation": "Jensen Huang resigned from Nvidia as CEO and board member amid reports concerning his personal relationships.",
+      "context": "Jensen Huang spying scandal: Jensen Huang resigns as chief executive officer (CEO) and president of Nvidia and leaves the company's board following reports of two extramarital affairs, including one involving a suspected Chinese intelligence agent. Chief financial officer Colette Kress becomes interim CEO.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+      "topicUrl": "https://en.wikipedia.org/wiki/Jensen_Huang_spying_scandal",
+      "readMore": {
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/nvidia-ceo-jensen-huang-resigns"
+      }
+    },
+    {
+      "id": "2026-11-12-9-q3",
+      "category": "Law and crime",
+      "story": "Iranian external operations",
+      "question": "Which television network's journalists were targeted in a London espionage plot that led to convictions in a British court?",
+      "options": ["BBC News", "Al Jazeera", "Iran International", "France 24"],
+      "answerIndex": 2,
+      "explanation": "Two men were convicted by a UK court for spying on journalists working for the London-based outlet Iran International.",
+      "context": "Iranian external operations: A British court convicts two Iranian men of spying on journalists from London-based broadcaster Iran International. One of them is also convicted of preparing a violent attack, while a third defendant is acquitted.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+      "topicUrl": "https://en.wikipedia.org/wiki/Iranian_external_operations",
+      "readMore": {
+        "publisher": "AFP via RFI",
+        "url": "https://www.rfi.fr/en/middle-east/20261112-iran-pair-guilty-of-spying-on-london-based-journalists-for-tehran"
+      }
+    },
+    {
+      "id": "2026-11-12-8-q12",
       "category": "Health and environment",
+      "story": "2026 Bangladesh measles outbreak",
+      "question": "Which disease has tragically caused over 1,200 child fatalities in an ongoing outbreak in Bangladesh?",
+      "options": ["Malaria", "Measles", "Cholera", "Dengue fever"],
+      "answerIndex": 1,
+      "explanation": "A severe outbreak of measles in Bangladesh has claimed the lives of more than 1,299 children.",
+      "context": "2026 Bangladesh measles outbreak: Four more children in Bangladesh are reported to have died from measles, bringing the death toll past 1,299.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Bangladesh_measles_outbreak",
+      "readMore": {
+        "publisher": "BSS",
+        "url": "https://www.bssnews.net/news/445020"
+      }
+    },
+    {
+      "id": "2026-11-12-11-q4",
+      "category": "Law and crime",
       "story": "",
-      "question": "The historic ocean liner SS United States was scuttled off the coast of Florida to serve what purpose?",
+      "question": "What was the name of the global Europol operation targeting illicit dark web marketplaces that led to hundreds of arrests?",
       "options": [
-        "Deep-sea diving museum",
-        "Undersea naval testing site",
-        "World's largest artificial reef",
-        "Coastal breakwater barrier"
+        "Operation Shield",
+        "Operation WebSweep",
+        "Operation CyberGuard",
+        "Operation TorNado"
       ],
-      "answerIndex": 2,
-      "explanation": "The famous ship was sunk in the Gulf of Mexico to create the world's largest man-made reef structure.",
-      "context": "The American ocean liner SS United States is sunk off the coast of Destin–Fort Walton Beach, Florida, United States, to become the world's largest artificial reef.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
-      "readMore": {
-        "publisher": "Pensacola News Journal",
-        "url": "https://www.pnj.com/story/news/local/escambia-county/2026/11/11/ss-united-states-sinking-nov-11-timeline-and-where-to-watch/92713208007/"
-      }
-    },
-    {
-      "id": "2026-11-11-6-q2",
-      "category": "Disasters and accidents",
-      "story": "2026–27 European windstorm season",
-      "question": "Why did Portugal shut thousands of schools and cancel a day of the Web Summit in Lisbon?",
-      "options": [
-        "A national transport strike",
-        "A widespread power failure",
-        "Approaching Storm Charles",
-        "Extreme heatwave warnings"
-      ],
-      "answerIndex": 2,
-      "explanation": "The country shuttered schools and halted non-essential public activities as Storm Charles swept towards the region.",
-      "context": "2026–27 European windstorm season: Portugal closes approximately 8,000 schools nationwide and suspends non-essential public services as Storm Charles approaches. The second day of the Web Summit in Lisbon is also cancelled.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_European_windstorm_season",
-      "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/portugal-storm-charles-wind-rain-schools-462f7dfd9a5abb0ea0a21d5163d49f37"
-      }
-    },
-    {
-      "id": "2026-11-11-12-q6",
-      "category": "International relations",
-      "story": "China–Germany relations",
-      "question": "Germany announced plans to replace Chinese-made military training equipment with European alternatives, specifically focusing on which technology?",
-      "options": [
-        "Armoured transport vehicles",
-        "Communication satellites",
-        "Drones",
-        "Radar systems"
-      ],
-      "answerIndex": 2,
-      "explanation": "German armed forces are phasing out uncrewed aerial vehicles produced in China over security concerns.",
-      "context": "China–Germany relations: Germany announces that its military will discontinue using Chinese-made drones for military training and exercises, replacing them with German or other European models to address security concerns.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
-      "topicUrl": "https://en.wikipedia.org/wiki/China%E2%80%93Germany_relations",
-      "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/germany-military-chinese-drones-replaced-01cc05bde8132f468da742193fcbc489"
-      }
-    },
-    {
-      "id": "2026-11-11-20-q10",
-      "category": "Politics and elections",
-      "story": "2026 Spanish housing protests",
-      "question": "Workers across which European nation held a general strike to demand government action over an escalating housing crisis?",
-      "options": ["Spain", "Italy", "Ireland", "Portugal"],
-      "answerIndex": 0,
-      "explanation": "Millions joined nationwide industrial action throughout Spain to protest against rising housing costs and shortages.",
-      "context": "2026 Spanish housing protests: Millions of workers across Spain launch a general strike to demand government intervention over the country's housing crisis, as an escalation of the ongoing protests.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Spanish_housing_protests",
-      "readMore": {
-        "publisher": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/11/spains-first-general-strike-in-14-years-begins"
-      }
-    },
-    {
-      "id": "2026-11-11-23-q12",
-      "category": "Science and technology",
-      "story": "Cyberwarfare by Russia",
-      "question": "Intelligence officials in Romania reported thwarting a foreign cyberattack linked to which nation's espionage tools?",
-      "options": ["Iran", "China", "North Korea", "Russia"],
       "answerIndex": 3,
-      "explanation": "The Romanian security agency successfully intercepted a digital attack attributed to Russian-linked trojan software known as Turla.",
-      "context": "Cyberwarfare by Russia: The Romanian Intelligence Service (SRI) reports that it stopped a December 2025 cyberattack against an unidentified government institution, attributing it to the Russia-linked trojan package Turla. The SRI finds no evidence that sensitive information was stolen.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
-      "topicUrl": "https://en.wikipedia.org/wiki/Cyberwarfare_by_Russia",
+      "explanation": "Operation TorNado was an international law enforcement crackdown resulting in 354 arrests and the seizure of cash and contraband.",
+      "context": "Europol announces that Operation TorNado, an international investigation into illegal dark web marketplaces, resulted in 354 arrests across 14 countries and the seizure of approximately 5.7 tonnes of drugs, 209 firearms, and €211 million (US$234 million) in assets.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
       "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/technology/romanian-intelligence-agency-says-it-identified-russian-linked-cyber-attack-2026-11-11/"
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/global-police-crackdown-dark-web-nets-350-arrests"
       }
     }
   ]
