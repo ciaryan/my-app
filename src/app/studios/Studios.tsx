@@ -125,7 +125,7 @@ export default function Studios() {
         </button>
       </div>
       <p className="mt-1 text-sm text-muted">
-        Pirate Studios, next 3 weeks.
+        Pirate Studios, next 4 weeks.
         {data &&
           ` Checked ${new Date(data.fetchedAt).toLocaleTimeString('en-GB', {
             hour: '2-digit',
@@ -229,7 +229,7 @@ export default function Studios() {
       )}
       {!data && loading && (
         <p className="mt-6 text-sm text-muted">
-          Checking about 150 searches, this takes a few seconds…
+          Checking about 200 searches, this takes a few seconds…
         </p>
       )}
 

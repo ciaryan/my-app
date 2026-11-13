@@ -3,7 +3,7 @@ import { type Availability, fetchAvailability } from '@/lib/studios/pirate';
 export const maxDuration = 60;
 
 // Per-instance cache so page loads and repeated refreshes don't each make
-// ~150 requests to Pirate's API.
+// ~200 requests to Pirate's API.
 const CACHE_MS = 15 * 60_000;
 const MIN_REFRESH_MS = 60_000;
 let cached: { at: number; data: Availability } | null = null;

@@ -16,7 +16,7 @@ export const SITES = [
 export const TIERS = ['Lite', 'Standard', 'Pro'] as const;
 export type Tier = (typeof TIERS)[number];
 
-export const DAYS_AHEAD = 21;
+export const DAYS_AHEAD = 28;
 /** London hours fetched for every day; the page narrows them. 24 = midnight. */
 export const HOURS: [number, number] = [7, 24];
 
