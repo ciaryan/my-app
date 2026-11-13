@@ -17,9 +17,8 @@ export const TIERS = ['Lite', 'Standard', 'Pro'] as const;
 export type Tier = (typeof TIERS)[number];
 
 export const DAYS_AHEAD = 21;
-/** London hours to check: weekday evenings, all day at weekends. 24 = midnight. */
-const WEEKDAY_WINDOW: [number, number] = [17, 24];
-const WEEKEND_WINDOW: [number, number] = [9, 24];
+/** London hours fetched for every day; the page narrows them. 24 = midnight. */
+export const HOURS: [number, number] = [7, 24];
 
 /** [startHour, endHour) runs of free hours, with the most rooms free at once. */
 export interface Block {
@@ -37,7 +36,6 @@ export interface SiteDay {
 export interface Day {
   date: string;
   weekend: boolean;
-  window: [number, number];
   sites: SiteDay[];
 }
 
@@ -83,12 +81,12 @@ function upcomingDates(): { date: string; weekend: boolean }[] {
 }
 
 async function search(slug: string, date: string): Promise<SearchResult[]> {
-  // Slots run from 3 hours before start_time to ~24 hours after, so a noon
-  // search covers the whole day.
+  // Slots run from 3 hours before start_time to ~24 hours after, so a 10:00
+  // search covers 07:00 to midnight.
   const params = new URLSearchParams({
     deck_slug: slug,
     duration: '1',
-    start_time: `${date}T12:00:00.000`,
+    start_time: `${date}T10:00:00.000`,
   });
   const res = await fetch(`${API}?${params}`, {
     headers: {
@@ -172,13 +170,12 @@ export async function fetchAvailability(): Promise<Availability> {
   const errors: string[] = [];
 
   const results = await pool(jobs, 4, async (job): Promise<SiteDay | null> => {
-    const window = job.weekend ? WEEKEND_WINDOW : WEEKDAY_WINDOW;
     try {
       const results = await search(job.site.slug, job.date);
       return {
         slug: job.site.slug,
         name: job.site.name,
-        tiers: summarise(results, job.date, window),
+        tiers: summarise(results, job.date, HOURS),
       };
     } catch (err) {
       // Node's "fetch failed" hides the useful part (e.g. a TLS error) in cause.
@@ -193,7 +190,6 @@ export async function fetchAvailability(): Promise<Availability> {
   const days = dates.map((d, i) => ({
     date: d.date,
     weekend: d.weekend,
-    window: d.weekend ? WEEKEND_WINDOW : WEEKDAY_WINDOW,
     sites: results
       .slice(i * SITES.length, (i + 1) * SITES.length)
       .filter((s): s is SiteDay => s !== null),

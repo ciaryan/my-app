@@ -5,6 +5,7 @@ import {
   type Availability,
   type Block,
   type Tier,
+  HOURS,
   SITES,
   TIERS,
 } from '@/lib/studios/pirate';
@@ -35,9 +36,27 @@ function dayLabel(date: string): string {
   });
 }
 
-function longEnough(blocks: Block[], minHours: number): Block[] {
-  return blocks.filter((b) => b.end - b.start >= minHours);
+/** Trims blocks to [from, to) and keeps those still at least minHours long. */
+function fitting(
+  blocks: Block[],
+  from: number,
+  to: number,
+  minHours: number,
+): Block[] {
+  return blocks
+    .map((b) => ({
+      ...b,
+      start: Math.max(b.start, from),
+      end: Math.min(b.end, to),
+    }))
+    .filter((b) => b.end - b.start >= minHours);
 }
+
+const START_HOURS = Array.from(
+  { length: HOURS[1] - HOURS[0] },
+  (_, i) => HOURS[0] + i,
+);
+const END_HOURS = START_HOURS.map((h) => h + 1);
 
 export default function Studios() {
   const [data, setData] = useState<Availability | null>(null);
@@ -46,6 +65,10 @@ export default function Studios() {
   const [tiers, setTiers] = useState<Tier[]>([...TIERS]);
   const [sites, setSites] = useState<string[]>(SITES.map((s) => s.slug));
   const [minHours, setMinHours] = useState(2);
+  const [from, setFrom] = useState(18);
+  const [to, setTo] = useState(22);
+  const [weekdays, setWeekdays] = useState(true);
+  const [weekends, setWeekends] = useState(true);
 
   async function load(refresh: boolean) {
     setLoading(true);
@@ -102,8 +125,7 @@ export default function Studios() {
         </button>
       </div>
       <p className="mt-1 text-sm text-muted">
-        Pirate Studios, next 3 weeks. Weekdays from 17:00, weekends from 09:00,
-        until midnight.
+        Pirate Studios, next 3 weeks.
         {data &&
           ` Checked ${new Date(data.fetchedAt).toLocaleTimeString('en-GB', {
             hour: '2-digit',
@@ -112,6 +134,58 @@ export default function Studios() {
       </p>
 
       <div className="mt-6 space-y-3">
+        <div className="flex flex-wrap items-center gap-2 text-xs text-muted">
+          <label className="flex items-center gap-2">
+            From
+            <select
+              value={from}
+              onChange={(e) => {
+                const h = Number(e.target.value);
+                setFrom(h);
+                if (to <= h) setTo(h + 1);
+              }}
+              className="rounded border border-border bg-background px-1 py-0.5 text-foreground"
+            >
+              {START_HOURS.map((h) => (
+                <option key={h} value={h}>
+                  {hourLabel(h)}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="flex items-center gap-2">
+            to
+            <select
+              value={to}
+              onChange={(e) => {
+                const h = Number(e.target.value);
+                setTo(h);
+                if (from >= h) setFrom(h - 1);
+              }}
+              className="rounded border border-border bg-background px-1 py-0.5 text-foreground"
+            >
+              {END_HOURS.map((h) => (
+                <option key={h} value={h}>
+                  {hourLabel(h)}
+                </option>
+              ))}
+            </select>
+          </label>
+          <span className="ml-auto flex gap-2">
+            <button
+              onClick={() => setWeekdays(!weekdays)}
+              className={chip(weekdays)}
+            >
+              Weekdays
+            </button>
+            <button
+              onClick={() => setWeekends(!weekends)}
+              className={chip(weekends)}
+            >
+              Weekends
+            </button>
+          </span>
+        </div>
         <div className="flex flex-wrap gap-2">
           {TIERS.map((t) => (
             <button
@@ -129,7 +203,7 @@ export default function Studios() {
               onChange={(e) => setMinHours(Number(e.target.value))}
               className="rounded border border-border bg-background px-1 py-0.5 text-foreground"
             >
-              {[1, 2, 3, 4, 5].map((n) => (
+              {[1, 2, 3, 4, 5, 6].map((n) => (
                 <option key={n} value={n}>
                   {n}h
                 </option>
@@ -161,65 +235,64 @@ export default function Studios() {
 
       {data && (
         <div className={`mt-6 space-y-4 ${loading ? 'opacity-50' : ''}`}>
-          {data.days.map((day) => {
-            const rows = day.sites
-              .filter((s) => sites.includes(s.slug))
-              .map((s) => ({
-                ...s,
-                found: tiers
-                  .map((t) => ({
-                    tier: t,
-                    blocks: longEnough(s.tiers[t], minHours),
-                  }))
-                  .filter((x) => x.blocks.length),
-              }))
-              .filter((s) => s.found.length);
-            return (
-              <section
-                key={day.date}
-                className="rounded-lg border border-border px-4 py-3"
-              >
-                <h2 className="flex items-baseline justify-between text-sm font-semibold">
-                  <span>{dayLabel(day.date)}</span>
-                  <span className="text-xs font-normal text-muted">
-                    {hourLabel(day.window[0])}–{hourLabel(day.window[1])}
-                  </span>
-                </h2>
-                {rows.length === 0 ? (
-                  <p className="mt-1 text-sm text-muted">Nothing free</p>
-                ) : (
-                  <ul className="mt-2 space-y-1 text-sm">
-                    {rows.map((s) => (
-                      <li key={s.slug} className="flex flex-wrap gap-x-3">
-                        <span className="w-24 shrink-0 font-medium">
-                          {s.name}
-                        </span>
-                        {s.found.map(({ tier, blocks }) => (
-                          <span key={tier} className="text-muted">
-                            <span className="text-foreground">{tier}</span>{' '}
-                            {blocks.map((b, i) => (
-                              <span key={b.start}>
-                                {i > 0 && ', '}
-                                <a
-                                  href={bookingUrl(day.date, s.slug, b)}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="underline decoration-border underline-offset-2 hover:text-foreground"
-                                >
-                                  {hourLabel(b.start)}–{hourLabel(b.end)}
-                                </a>
-                                {b.rooms > 1 && ` (${b.rooms})`}
-                              </span>
-                            ))}
+          {data.days
+            .filter((day) => (day.weekend ? weekends : weekdays))
+            .map((day) => {
+              const rows = day.sites
+                .filter((s) => sites.includes(s.slug))
+                .map((s) => ({
+                  ...s,
+                  found: tiers
+                    .map((t) => ({
+                      tier: t,
+                      blocks: fitting(s.tiers[t], from, to, minHours),
+                    }))
+                    .filter((x) => x.blocks.length),
+                }))
+                .filter((s) => s.found.length);
+              return (
+                <section
+                  key={day.date}
+                  className="rounded-lg border border-border px-4 py-3"
+                >
+                  <h2 className="text-sm font-semibold">
+                    {dayLabel(day.date)}
+                  </h2>
+                  {rows.length === 0 ? (
+                    <p className="mt-1 text-sm text-muted">Nothing free</p>
+                  ) : (
+                    <ul className="mt-2 space-y-1 text-sm">
+                      {rows.map((s) => (
+                        <li key={s.slug} className="flex flex-wrap gap-x-3">
+                          <span className="w-24 shrink-0 font-medium">
+                            {s.name}
                           </span>
-                        ))}
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </section>
-            );
-          })}
+                          {s.found.map(({ tier, blocks }) => (
+                            <span key={tier} className="text-muted">
+                              <span className="text-foreground">{tier}</span>{' '}
+                              {blocks.map((b, i) => (
+                                <span key={b.start}>
+                                  {i > 0 && ', '}
+                                  <a
+                                    href={bookingUrl(day.date, s.slug, b)}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="underline decoration-border underline-offset-2 hover:text-foreground"
+                                  >
+                                    {hourLabel(b.start)}–{hourLabel(b.end)}
+                                  </a>
+                                  {b.rooms > 1 && ` (${b.rooms})`}
+                                </span>
+                              ))}
+                            </span>
+                          ))}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </section>
+              );
+            })}
         </div>
       )}
 
