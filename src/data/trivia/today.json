@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-12",
-  "generatedAt": "2026-11-12T13:16:10.860Z",
-  "model": "gemini-3.6-flash",
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T07:20:36.436Z",
+  "model": "gemini-3.6-flash, gemini-3.5-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,74 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-11-12-event-20-q11",
+      "id": "2026-11-13-event-15-q12",
       "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1990, who was formally installed as the 125th monarch of Japan?",
-      "options": [
-        "Emperor Akihito",
-        "Crown Prince Fumihito",
-        "Emperor Hirohito",
-        "Emperor Naruhito"
-      ],
-      "answerIndex": 0,
-      "explanation": "On 12 November 1990, Crown Prince Akihito was officially enthroned as Emperor Akihito of Japan.",
-      "context": "On this day in 1990: Crown Prince Akihito is formally installed as Emperor Akihito of Japan, becoming the 125th Japanese monarch.\nCrown prince (Male heir to a throne): A crown prince or hereditary prince is the heir apparent to the throne in a royal or imperial monarchy. The female form of the title, crown princess, is held by a woman who is heir apparent or is married to the heir apparent.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Crown_prince"
+      "question": "On this day in 1989, who succeeded his father to become the reigning Prince of Liechtenstein?",
+      "options": ["Franz Joseph II", "Hans-Adam II", "Karl I", "Alois"],
+      "answerIndex": 1,
+      "explanation": "Prince Hans-Adam II assumed the throne of Liechtenstein on 13 November 1989 following the death of his father.",
+      "context": "On this day in 1989: Hans-Adam II, the present Prince of Liechtenstein, begins his reign on the death of his father.\nHans-Adam II of Liechtenstein (Prince of Liechtenstein since 1989): Hans-Adam II is the Prince of Liechtenstein, reigning since 1989. As a member of the Liechtenstein princely family, he also holds the title of Duke of Troppau and Jägerndorf and Count of Rietberg.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hans-Adam_II_of_Liechtenstein"
     },
     {
-      "id": "2026-11-12-popular-6-q2",
+      "id": "2026-11-13-popular-2-q2",
       "category": "Film",
       "story": "Most read",
-      "question": "Which Indian action comedy film directed by Jithu Madhavan features a visually impaired police officer forced to solve a cold case?",
-      "options": ["Vikram", "Kaithi", "Scene", "Jailer 2"],
+      "question": "The 2026 Indian Hindi-language film Ramayana: Part 1, directed by Nitesh Tiwari, covers the first three chapters of the ancient epic. How many years does Prince Rama spend in exile in these chapters?",
+      "options": ["10", "12", "14", "7"],
       "answerIndex": 2,
-      "explanation": "The 2026 Tamil action comedy Scene focuses on a visually impaired DSP reopening an unfinished investigation alongside a challenging team.",
-      "context": "Scene (2026 film) (Indian film by Jithu Madhavan): Scene is a 2026 Indian Tamil-language action comedy film written and directed by Jithu Madhavan. Produced by Suriya and Jyothika's 2D Entertainment and the newly established Zhagaram Studios, the film stars Suriya, Naslen and Nazriya Nazim, with Anandaraj, Lal, Rajpriyan, Suresh Mathiyalagan and Gajaraj in supporting roles. It revolves around a visually-impaired DSP being forced to reopen an unfinished case and solve it with a troublesome team.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Scene_(2026_film)"
+      "explanation": "The movie adapts the initial three chapters of Valmiki's epic, tracing Prince Rama's early life through to his 14-year period of exile.",
+      "context": "Ramayana: Part 1 (2026 Indian film by Nitesh Tiwari): Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the Hindu epic Ramayana by Valmiki. It is the first instalment of a two-part film series, with Part 1 being based on the first three kāṇḍa (chapters) of Ramayana, which chronicle the life of Prince Rama from childhood up to his adventurous 14-year exile.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1"
     },
     {
-      "id": "2026-11-12-popular-24-q9",
-      "category": "Sport",
+      "id": "2026-11-13-popular-1-q1",
+      "category": "Science",
       "story": "Most read",
-      "question": "Which nation's mens national soccer team hired Argentine manager Mauricio Pochettino as head coach?",
-      "options": ["Argentina", "England", "United States", "Mexico"],
-      "answerIndex": 2,
-      "explanation": "Former professional player Mauricio Pochettino serves as head coach of the United States men's national soccer team.",
-      "context": "Mauricio Pochettino (Argentine football manager (born 1972)): Mauricio Roberto Pochettino Trossero is an Argentine professional football manager and former footballer who is the head coach of the United States national soccer team.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Mauricio_Pochettino"
+      "question": "Which technology company, co-founded by Jensen Huang in 1993, grew to become one of the most valuable corporations in the world?",
+      "options": ["Nvidia", "Qualcomm", "AMD", "Intel"],
+      "answerIndex": 0,
+      "explanation": "Jensen Huang co-founded Nvidia in 1993 and served as its president and CEO for over three decades.",
+      "context": "Jensen Huang (Taiwanese-American businessman (born 1963)): Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and businessman. He co-founded the technology company Nvidia, one of the world's most valuable companies, and served as its president and CEO from its founding in 1993 until his resignation in November 2026. As of November 2026, Forbes estimates his net worth at over $150 billion, making him the eleventh-wealthiest person in the world.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jensen_Huang"
     },
     {
-      "id": "2026-11-12-popular-13-q5",
-      "category": "TV",
-      "story": "Most read",
-      "question": "Which English producer, screenwriter, and former journalist established the production firm Instinct Productions?",
-      "options": [
-        "Reese Witherspoon",
-        "Phoebe Waller-Bridge",
-        "Tina Brown",
-        "Jemima Goldsmith"
-      ],
-      "answerIndex": 3,
-      "explanation": "Jemima Goldsmith, formerly known as Jemima Khan, founded the TV production company Instinct Productions.",
-      "context": "Jemima Goldsmith (British journalist and producer): Jemima Marcelle Goldsmith O'Reilly, formerly known professionally as Jemima Khan, is an English TV and film producer and screenwriter. She is the founder of Instinct Productions, a television production company. Previously she was an associate editor for the British political and cultural magazine The New Statesman and European editor-at-large for the American magazine Vanity Fair.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Jemima_Goldsmith"
-    },
-    {
-      "id": "2026-11-12-popular-28-q10",
+      "id": "2026-11-13-popular-7-q4",
       "category": "History",
       "story": "Most read",
-      "question": "Which political office was Jim Jordan chosen to fill for the 120th United States Congress starting in January 2027?",
+      "question": "The Tomb of the Unknown Soldier in Arlington County, Virginia, was initially established as the burial site for an unidentified service member from which war?",
       "options": [
-        "Speaker of the House",
-        "Senate Majority Leader",
-        "House Majority Whip",
-        "Republican House Minority Leader"
+        "Korean War",
+        "World War II",
+        "American Civil War",
+        "World War I"
       ],
       "answerIndex": 3,
-      "explanation": "Representative Jim Jordan of Ohio was selected in late 2026 to lead the House Republicans as Minority Leader for the 120th Congress.",
-      "context": "Jim Jordan (American politician (born 1964)): James Daniel Jordan is an American politician who has served in the U.S. House of Representatives as the representative for Ohio's 4th congressional district since 2007. Currently in his 10th term in the House, Jordan is a member of the Republican Party. He was chosen on November 10, 2026, to serve as the Republican House Minority Leader in the 120th Congress which will convene January 3, 2027.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Jim_Jordan"
+      "explanation": "The monument was created to bury an unidentified soldier from the First World War, with remains from World War II and the Korean War added later.",
+      "context": "Tomb of the Unknown Soldier (Arlington National Cemetery) (Monument in Arlington, Virginia, U.S.): The Tomb of the Unknown Soldier at Arlington National Cemetery in Arlington County, Virginia, United States, was originally the burial site of a World War I soldier whose remains were unidentifiable. Following World War II and, subsequently, the Korean War, two more unknown soldiers were buried beneath two slabs, situated between the tomb and the Memorial Amphitheater behind it.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_of_the_Unknown_Soldier_(Arlington_National_Cemetery)"
+    },
+    {
+      "id": "2026-11-13-popular-13-q7",
+      "category": "TV",
+      "story": "Most read",
+      "question": "The 2026 Marvel Studios television miniseries VisionQuest was created by Terry Matalas as a spin-off from which earlier show?",
+      "options": [
+        "The Falcon and the Winter Soldier",
+        "Hawkeye",
+        "Loki",
+        "WandaVision"
+      ],
+      "answerIndex": 3,
+      "explanation": "VisionQuest is an 18th MCU television entry developed for Disney+ as a direct spin-off and sequel to the 2021 miniseries WandaVision.",
+      "context": "VisionQuest (2026 Marvel Studios television miniseries): VisionQuest is an American television miniseries created by Terry Matalas for the streaming service Disney+, based on Marvel Comics featuring the character Vision. A spin-off from and sequel to the miniseries WandaVision (2021), it is the 18th television series in the Marvel Cinematic Universe (MCU) from Marvel Studios and is produced under its Marvel Television label. The series shares continuity with the films of the MCU.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/VisionQuest"
     }
   ]
 }
