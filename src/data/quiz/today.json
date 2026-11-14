@@ -1,99 +1,102 @@
 {
   "version": 1,
-  "date": "2026-11-13",
-  "newsDate": "2026-11-12",
-  "generatedAt": "2026-11-13T06:56:10.613Z",
-  "model": "gemini-3.6-flash",
+  "date": "2026-11-14",
+  "newsDate": "2026-11-13",
+  "generatedAt": "2026-11-14T06:32:21.971Z",
+  "model": "gemini-3.8-flash, gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
-    "revisionIds": [1385412860],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_13",
+    "revisionIds": [1385614422, 1385604037],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-12-13-q2",
-      "category": "Sports",
-      "story": "International sporting sanctions during the Russian invasion of Ukraine, Finland–Russia relations, Norway–Russia relations",
-      "question": "Which country recently announced visa restrictions prohibiting Russian athletes from entering the country for sports competitions?",
-      "options": ["Sweden", "Finland", "Canada", "Germany"],
+      "id": "2026-11-13-2-q1",
+      "category": "Arts and culture",
+      "story": "2026 in music",
+      "question": "Which rock band featured the final recorded vocal performance of Dolly Parton on their 16th studio album, Carnaval de Luz?",
+      "options": ["R.E.M.", "U2", "Coldplay", "The Rolling Stones"],
       "answerIndex": 1,
-      "explanation": "Finland implemented new visa bans preventing Russian competitors from coming to the nation for sporting events.",
-      "context": "International sporting sanctions during the Russian invasion of Ukraine, Finland–Russia relations, Norway–Russia relations: Finland announces visa restrictions preventing Russian athletes, including neutral competitors, from entering for sporting events beginning November 16. Norway also announces similar restrictions on Russian and Belarusian athletes and their support staff.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
-      "topicUrl": "https://en.wikipedia.org/wiki/International_sporting_sanctions_during_the_Russian_invasion_of_Ukraine",
+      "explanation": "Dolly Parton's final song before her passing was a duet with Bono, which appears on U2's album Carnaval de Luz.",
+      "context": "2026 in music: The last recorded song by the late American country singer Dolly Parton, a duet with Bono, is released as part of U2's 16th album Carnaval de Luz, months after her death in August.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_13",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_in_music",
       "readMore": {
-        "publisher": "AFP via RFI",
-        "url": "https://www.rfi.fr/en/international-news/20261112-finland-norway-block-visas-for-russian-athletes"
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/11/13/entertainment/dolly-parton-u2-torn-released-intl-scli"
       }
     },
     {
-      "id": "2026-11-12-4-q1",
-      "category": "Business and economy",
-      "story": "Jensen Huang spying scandal",
-      "question": "Which major technology company saw its chief executive step down following reports of extramarital affairs involving a suspected foreign spy?",
-      "options": ["Intel", "Nvidia", "Qualcomm", "AMD"],
-      "answerIndex": 1,
-      "explanation": "Jensen Huang resigned from Nvidia as CEO and board member amid reports concerning his personal relationships.",
-      "context": "Jensen Huang spying scandal: Jensen Huang resigns as chief executive officer (CEO) and president of Nvidia and leaves the company's board following reports of two extramarital affairs, including one involving a suspected Chinese intelligence agent. Chief financial officer Colette Kress becomes interim CEO.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
-      "topicUrl": "https://en.wikipedia.org/wiki/Jensen_Huang_spying_scandal",
-      "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/nvidia-ceo-jensen-huang-resigns"
-      }
-    },
-    {
-      "id": "2026-11-12-9-q3",
-      "category": "Law and crime",
-      "story": "Iranian external operations",
-      "question": "Which television network's journalists were targeted in a London espionage plot that led to convictions in a British court?",
-      "options": ["BBC News", "Al Jazeera", "Iran International", "France 24"],
-      "answerIndex": 2,
-      "explanation": "Two men were convicted by a UK court for spying on journalists working for the London-based outlet Iran International.",
-      "context": "Iranian external operations: A British court convicts two Iranian men of spying on journalists from London-based broadcaster Iran International. One of them is also convicted of preparing a violent attack, while a third defendant is acquitted.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
-      "topicUrl": "https://en.wikipedia.org/wiki/Iranian_external_operations",
-      "readMore": {
-        "publisher": "AFP via RFI",
-        "url": "https://www.rfi.fr/en/middle-east/20261112-iran-pair-guilty-of-spying-on-london-based-journalists-for-tehran"
-      }
-    },
-    {
-      "id": "2026-11-12-8-q12",
-      "category": "Health and environment",
-      "story": "2026 Bangladesh measles outbreak",
-      "question": "Which disease has tragically caused over 1,200 child fatalities in an ongoing outbreak in Bangladesh?",
-      "options": ["Malaria", "Measles", "Cholera", "Dengue fever"],
-      "answerIndex": 1,
-      "explanation": "A severe outbreak of measles in Bangladesh has claimed the lives of more than 1,299 children.",
-      "context": "2026 Bangladesh measles outbreak: Four more children in Bangladesh are reported to have died from measles, bringing the death toll past 1,299.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Bangladesh_measles_outbreak",
-      "readMore": {
-        "publisher": "BSS",
-        "url": "https://www.bssnews.net/news/445020"
-      }
-    },
-    {
-      "id": "2026-11-12-11-q4",
+      "id": "2026-11-13-7-q2",
       "category": "Law and crime",
       "story": "",
-      "question": "What was the name of the global Europol operation targeting illicit dark web marketplaces that led to hundreds of arrests?",
+      "question": "Which British television personality and author became the subject of a Metropolitan Police criminal investigation over allegations of serious sexual offences?",
       "options": [
-        "Operation Shield",
-        "Operation WebSweep",
-        "Operation CyberGuard",
-        "Operation TorNado"
+        "Robbie Williams",
+        "David Walliams",
+        "Ant McPartlin",
+        "Piers Morgan"
       ],
+      "answerIndex": 1,
+      "explanation": "London's Metropolitan Police announced they have launched an investigation into the actor and children's author David Walliams.",
+      "context": "In the United Kingdom, Metropolitan Police announce a criminal investigation into actor David Walliams about \"alleged serious sexual offences\". The police say they are separate to those investigated by ITN and The Guardian.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_13",
+      "readMore": {
+        "publisher": "BBC News",
+        "url": "https://www.bbc.com/news/articles/cwx2emg4xe72o"
+      }
+    },
+    {
+      "id": "2026-11-12-2-q7",
+      "category": "Armed conflicts and attacks",
+      "story": "Russo-Ukrainian war > Peace negotiations in the Russo-Ukrainian war, United States and the Russo-Ukrainian war",
+      "question": "Along with Ukrainian leader Volodymyr Zelenskyy, which American diplomatic envoy announced that European representatives would be incorporated into future peace talks with Russia?",
+      "options": [
+        "Jared Kushner",
+        "Robert O'Brien",
+        "Steve Witkoff",
+        "Antony Blinken"
+      ],
+      "answerIndex": 0,
+      "explanation": "Volodymyr Zelenskyy and US envoy Jared Kushner confirmed that European delegations would take part in prospective talks alongside Russia.",
+      "context": "Russo-Ukrainian war > Peace negotiations in the Russo-Ukrainian war, United States and the Russo-Ukrainian war: Ukrainian president Volodymyr Zelenskyy and United States special envoy Jared Kushner announce that European representatives will join future peace negotiations with Russia, which Russian president Vladimir Putin agrees to while maintaining his territorial demands and rejecting foreign peacekeeping troops in Ukraine.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+      "topicUrl": "https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)",
+      "readMore": {
+        "publisher": "AFP via New Straits Times",
+        "url": "https://www.nst.com.my/amp/world/world/2026/11/1576502/us-ukraine-say-europe-join-russia-talks-putin-sticks-hardline-stance"
+      }
+    },
+    {
+      "id": "2026-11-12-4-q5",
+      "category": "Arts and culture",
+      "story": "",
+      "question": "The remains of literature Nobel laureate Miguel Ángel Asturias were repatriated to his home country of Guatemala 52 years after his death from which European nation?",
+      "options": ["Italy", "Spain", "Belgium", "France"],
       "answerIndex": 3,
-      "explanation": "Operation TorNado was an international law enforcement crackdown resulting in 354 arrests and the seizure of cash and contraband.",
-      "context": "Europol announces that Operation TorNado, an international investigation into illegal dark web marketplaces, resulted in 354 arrests across 14 countries and the seizure of approximately 5.7 tonnes of drugs, 209 firearms, and €211 million (US$234 million) in assets.",
+      "explanation": "Guatemala received the writer's remains back from France ahead of a ceremonial burial in the country's capital.",
+      "context": "Guatemala receives the remains of 1967 Nobel Prize in Literature recipient Miguel Ángel Asturias from France, 52 years after his death. President Bernardo Arévalo attends a ceremony ahead of the writer's burial in Guatemala City.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
       "readMore": {
         "publisher": "AFP",
-        "url": "https://www.afp.com/en/global-police-crackdown-dark-web-nets-350-arrests"
+        "url": "https://www.afp.com/en/remains-guatemalan-nobel-laureate-asturias-return-home-france"
+      }
+    },
+    {
+      "id": "2026-11-13-8-q3",
+      "category": "Law and crime",
+      "story": "",
+      "question": "Criminal gangs based in which Central American nation were designated as foreign terrorist organisations by the US State Department for assisting Mexican cartels?",
+      "options": ["Honduras", "Nicaragua", "Guatemala", "Costa Rica"],
+      "answerIndex": 2,
+      "explanation": "Three criminal syndicates from Guatemala were classified as foreign terrorist entities due to their links with Mexican drug networks.",
+      "context": "In the United States, the State Department designates three Guatemalan criminal groups as foreign terrorist organizations for providing material support to Mexican cartels.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_13",
+      "readMore": {
+        "publisher": "El País (in Spanish)",
+        "url": "https://elpais.com/america/2026-11-13/estados-unidos-designa-como-organizaciones-terroristas-a-tres-bandas-del-narco-en-guatemala.html"
       }
     }
   ]
