@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-13",
-  "generatedAt": "2026-11-13T07:20:36.436Z",
-  "model": "gemini-3.6-flash, gemini-3.5-flash",
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T09:54:56.957Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,69 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-11-13-event-15-q12",
+      "id": "2026-11-15-selected-9-q11",
       "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1989, who succeeded his father to become the reigning Prince of Liechtenstein?",
-      "options": ["Franz Joseph II", "Hans-Adam II", "Karl I", "Alois"],
+      "question": "On this day in 1889, which monarch was deposed in a military coup led by Deodoro da Fonseca, ending an empire and establishing a republic?",
+      "options": [
+        "Pedro I of Brazil",
+        "Pedro II of Brazil",
+        "John VI of Portugal",
+        "Maximilian I of Mexico"
+      ],
       "answerIndex": 1,
-      "explanation": "Prince Hans-Adam II assumed the throne of Liechtenstein on 13 November 1989 following the death of his father.",
-      "context": "On this day in 1989: Hans-Adam II, the present Prince of Liechtenstein, begins his reign on the death of his father.\nHans-Adam II of Liechtenstein (Prince of Liechtenstein since 1989): Hans-Adam II is the Prince of Liechtenstein, reigning since 1989. As a member of the Liechtenstein princely family, he also holds the title of Duke of Troppau and Jägerndorf and Count of Rietberg.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Hans-Adam_II_of_Liechtenstein"
+      "explanation": "Emperor Pedro II, the second and final ruler of the Empire of Brazil, was unseated by a coup that transformed the nation into a republic.",
+      "context": "On this day in 1889: Brazilian emperor Pedro II was overthrown in a coup led by Deodoro da Fonseca (pictured), while the country was proclaimed a republic.\nPedro II of Brazil (Emperor of Brazil from 1831 to 1889): Dom Pedro II, known as \"the Magnanimous\", was the second and final emperor of the Empire of Brazil. He reigned from 1831 until his deposition in the military coup of 1889, presiding over the longest and most stable reign in Brazilian history.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pedro_II_of_Brazil"
     },
     {
-      "id": "2026-11-13-popular-2-q2",
+      "id": "2026-11-15-popular-15-q2",
       "category": "Film",
       "story": "Most read",
-      "question": "The 2026 Indian Hindi-language film Ramayana: Part 1, directed by Nitesh Tiwari, covers the first three chapters of the ancient epic. How many years does Prince Rama spend in exile in these chapters?",
-      "options": ["10", "12", "14", "7"],
-      "answerIndex": 2,
-      "explanation": "The movie adapts the initial three chapters of Valmiki's epic, tracing Prince Rama's early life through to his 14-year period of exile.",
-      "context": "Ramayana: Part 1 (2026 Indian film by Nitesh Tiwari): Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the Hindu epic Ramayana by Valmiki. It is the first instalment of a two-part film series, with Part 1 being based on the first three kāṇḍa (chapters) of Ramayana, which chronicle the life of Prince Rama from childhood up to his adventurous 14-year exile.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1"
-    },
-    {
-      "id": "2026-11-13-popular-1-q1",
-      "category": "Science",
-      "story": "Most read",
-      "question": "Which technology company, co-founded by Jensen Huang in 1993, grew to become one of the most valuable corporations in the world?",
-      "options": ["Nvidia", "Qualcomm", "AMD", "Intel"],
+      "question": "Which actor plays Ebenezer Scrooge in Ti West's 2026 Gothic horror comedy film adaptation of Charles Dickens's A Christmas Carol?",
+      "options": ["Johnny Depp", "Ian McKellen", "Rupert Grint", "Sam Claflin"],
       "answerIndex": 0,
-      "explanation": "Jensen Huang co-founded Nvidia in 1993 and served as its president and CEO for over three decades.",
-      "context": "Jensen Huang (Taiwanese-American businessman (born 1963)): Jen-Hsun \"Jensen\" Huang is a Taiwanese and American electrical engineer and businessman. He co-founded the technology company Nvidia, one of the world's most valuable companies, and served as its president and CEO from its founding in 1993 until his resignation in November 2026. As of November 2026, Forbes estimates his net worth at over $150 billion, making him the eleventh-wealthiest person in the world.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Jensen_Huang"
+      "explanation": "Johnny Depp takes on the lead role of Scrooge in Ebenezer, directed by Ti West and adapted from Dickens's classic tale.",
+      "context": "Ebenezer (2026 film) (Film by Ti West): Ebenezer is a 2026 Gothic dark fantasy comedy horror film directed and co-edited by Ti West, written by Nathaniel Halpern based on the 1843 novella A Christmas Carol by Charles Dickens. The film stars Johnny Depp as Ebenezer Scrooge, alongside Rupert Grint, Andrea Riseborough, Sam Claflin, Daisy Ridley, Tramell Tillman, and Ian McKellen.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ebenezer_(2026_film)"
     },
     {
-      "id": "2026-11-13-popular-7-q4",
-      "category": "History",
+      "id": "2026-11-15-popular-8-q1",
+      "category": "Music",
       "story": "Most read",
-      "question": "The Tomb of the Unknown Soldier in Arlington County, Virginia, was initially established as the burial site for an unidentified service member from which war?",
+      "question": "Which Canadian musician helped popularise female-led pop-punk during the early 2000s and has earned ten Juno Awards?",
       "options": [
-        "Korean War",
-        "World War II",
-        "American Civil War",
-        "World War I"
+        "Carly Rae Jepsen",
+        "Avril Lavigne",
+        "Alanis Morissette",
+        "Nelly Furtado"
       ],
-      "answerIndex": 3,
-      "explanation": "The monument was created to bury an unidentified soldier from the First World War, with remains from World War II and the Korean War added later.",
-      "context": "Tomb of the Unknown Soldier (Arlington National Cemetery) (Monument in Arlington, Virginia, U.S.): The Tomb of the Unknown Soldier at Arlington National Cemetery in Arlington County, Virginia, United States, was originally the burial site of a World War I soldier whose remains were unidentifiable. Following World War II and, subsequently, the Korean War, two more unknown soldiers were buried beneath two slabs, situated between the tomb and the Memorial Amphitheater behind it.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_of_the_Unknown_Soldier_(Arlington_National_Cemetery)"
+      "answerIndex": 1,
+      "explanation": "Avril Lavigne is an acclaimed Canadian songwriter credited with expanding the mainstream appeal of punk-influenced pop in the early 2000s.",
+      "context": "Avril Lavigne (Canadian singer (born 1984)): Avril Ramona Lavigne is a Canadian singer and songwriter. She is credited with boosting the popularity of pop-punk music, in particular for female-driven, punk-influenced pop music in the early 2000s. Her accolades include 10 Juno Awards and eight Grammy Awards nominations.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Avril_Lavigne"
     },
     {
-      "id": "2026-11-13-popular-13-q7",
+      "id": "2026-11-15-popular-33-q3",
       "category": "TV",
       "story": "Most read",
-      "question": "The 2026 Marvel Studios television miniseries VisionQuest was created by Terry Matalas as a spin-off from which earlier show?",
+      "question": "Which English comedian, recognized for his surreal humour, rose to fame during the late 1990s as a founding member of The Mighty Boosh?",
       "options": [
-        "The Falcon and the Winter Soldier",
-        "Hawkeye",
-        "Loki",
-        "WandaVision"
+        "Bill Bailey",
+        "Russell Brand",
+        "Noel Fielding",
+        "Julian Barratt"
       ],
-      "answerIndex": 3,
-      "explanation": "VisionQuest is an 18th MCU television entry developed for Disney+ as a direct spin-off and sequel to the 2021 miniseries WandaVision.",
-      "context": "VisionQuest (2026 Marvel Studios television miniseries): VisionQuest is an American television miniseries created by Terry Matalas for the streaming service Disney+, based on Marvel Comics featuring the character Vision. A spin-off from and sequel to the miniseries WandaVision (2021), it is the 18th television series in the Marvel Cinematic Universe (MCU) from Marvel Studios and is produced under its Marvel Television label. The series shares continuity with the films of the MCU.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/VisionQuest"
+      "answerIndex": 2,
+      "explanation": "Noel Fielding established his comedy reputation with the surrealist troupe The Mighty Boosh before taking on numerous television hosting roles.",
+      "context": "Noel Fielding (British comedian (born 1973)): Noel Fielding is an English comedian, actor, writer, television personality and artist. Known for his dark and surreal comedic style, he gained prominence in the late 1990s as a member of the comedy troupe The Mighty Boosh.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Noel_Fielding"
+    },
+    {
+      "id": "2026-11-15-popular-16-q5",
+      "category": "Sport",
+      "story": "Most read",
+      "question": "In which position does Welsh professional rugby union player James Botham play for Cardiff and the Wales national team?",
+      "options": ["Hooker", "Flanker", "Fly-half", "Scrum-half"],
+      "answerIndex": 1,
+      "explanation": "James Botham represents both United Rugby Championship outfit Cardiff and Wales playing in the flanker position.",
+      "context": "James Botham (Welsh rugby union player (born 1998)): James Ian Botham is a Welsh professional rugby union player who plays as a flanker for United Rugby Championship club Cardiff and the Wales national team.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/James_Botham"
     }
   ]
 }
