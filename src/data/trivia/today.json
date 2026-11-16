@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-15",
-  "generatedAt": "2026-11-15T09:54:56.957Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T07:21:17.958Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,74 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-11-15-selected-9-q11",
-      "category": "Royalty",
+      "id": "2026-11-16-event-14-q13",
+      "category": "Science",
       "story": "On this day",
-      "question": "On this day in 1889, which monarch was deposed in a military coup led by Deodoro da Fonseca, ending an empire and establishing a republic?",
-      "options": [
-        "Pedro I of Brazil",
-        "Pedro II of Brazil",
-        "John VI of Portugal",
-        "Maximilian I of Mexico"
-      ],
-      "answerIndex": 1,
-      "explanation": "Emperor Pedro II, the second and final ruler of the Empire of Brazil, was unseated by a coup that transformed the nation into a republic.",
-      "context": "On this day in 1889: Brazilian emperor Pedro II was overthrown in a coup led by Deodoro da Fonseca (pictured), while the country was proclaimed a republic.\nPedro II of Brazil (Emperor of Brazil from 1831 to 1889): Dom Pedro II, known as \"the Magnanimous\", was the second and final emperor of the Empire of Brazil. He reigned from 1831 until his deposition in the military coup of 1889, presiding over the longest and most stable reign in Brazilian history.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Pedro_II_of_Brazil"
+      "question": "On this day in 1974, a famous interstellar radio signal carrying information about Earth and humanity was transmitted into space from which territory?",
+      "options": ["Guam", "Florida", "Hawaii", "Puerto Rico"],
+      "answerIndex": 3,
+      "explanation": "The Arecibo message was broadcast from the Arecibo Observatory in Puerto Rico towards the star cluster Messier 13 on 16 November 1974.",
+      "context": "On this day in 1974: The Arecibo message is broadcast from Puerto Rico.\nArecibo message (Radio message sent into space in 1974): The Arecibo message is an interstellar radio message carrying basic information about humanity and Earth that was sent to the globular cluster Messier 13 (M13) in 1974.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Arecibo_message"
     },
     {
-      "id": "2026-11-15-popular-15-q2",
+      "id": "2026-11-16-popular-24-q3",
       "category": "Film",
       "story": "Most read",
-      "question": "Which actor plays Ebenezer Scrooge in Ti West's 2026 Gothic horror comedy film adaptation of Charles Dickens's A Christmas Carol?",
-      "options": ["Johnny Depp", "Ian McKellen", "Rupert Grint", "Sam Claflin"],
-      "answerIndex": 0,
-      "explanation": "Johnny Depp takes on the lead role of Scrooge in Ebenezer, directed by Ti West and adapted from Dickens's classic tale.",
-      "context": "Ebenezer (2026 film) (Film by Ti West): Ebenezer is a 2026 Gothic dark fantasy comedy horror film directed and co-edited by Ti West, written by Nathaniel Halpern based on the 1843 novella A Christmas Carol by Charles Dickens. The film stars Johnny Depp as Ebenezer Scrooge, alongside Rupert Grint, Andrea Riseborough, Sam Claflin, Daisy Ridley, Tramell Tillman, and Ian McKellen.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ebenezer_(2026_film)"
+      "question": "In sci-fi survival film The End of Oak Street, written and directed by David Robert Mitchell, a suburban neighbourhood is transported back in time to which era?",
+      "options": [
+        "The Bronze Age",
+        "The age of dinosaurs",
+        "The Stone Age",
+        "The Ice Age"
+      ],
+      "answerIndex": 1,
+      "explanation": "The movie centres on a family whose suburban street is displaced from 1982 into prehistoric times among dinosaurs.",
+      "context": "The End of Oak Street (2026 film by David Robert Mitchell): The End of Oak Street is a 2026 American science fiction survival film written, co-produced, and directed by David Robert Mitchell and starring Anne Hathaway, Ewan McGregor, Maisy Stella, and Christian Convery with supporting roles done by Jordan Alexa Davis, P. J. Byrne and Emily Kuroda. It tells the story of a family whose suburban neighborhood has been transported from 1982 into the age of dinosaurs.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_End_of_Oak_Street"
     },
     {
-      "id": "2026-11-15-popular-8-q1",
+      "id": "2026-11-16-popular-25-q1",
       "category": "Music",
       "story": "Most read",
-      "question": "Which Canadian musician helped popularise female-led pop-punk during the early 2000s and has earned ten Juno Awards?",
+      "question": "Which English performer, who achieved three number-one solo singles in the UK between 1982 and 1990, originally came to prominence as the drummer for the rock band Genesis?",
       "options": [
-        "Carly Rae Jepsen",
-        "Avril Lavigne",
-        "Alanis Morissette",
-        "Nelly Furtado"
+        "Mike Rutherford",
+        "Phil Collins",
+        "Steve Hackett",
+        "Peter Gabriel"
       ],
       "answerIndex": 1,
-      "explanation": "Avril Lavigne is an acclaimed Canadian songwriter credited with expanding the mainstream appeal of punk-influenced pop in the early 2000s.",
-      "context": "Avril Lavigne (Canadian singer (born 1984)): Avril Ramona Lavigne is a Canadian singer and songwriter. She is credited with boosting the popularity of pop-punk music, in particular for female-driven, punk-influenced pop music in the early 2000s. Her accolades include 10 Juno Awards and eight Grammy Awards nominations.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Avril_Lavigne"
+      "explanation": "Phil Collins served as the drummer and main vocalist for Genesis before achieving huge success as a solo artist.",
+      "context": "Phil Collins (English musician (born 1951)): Philip David Charles Collins is an English singer, drummer, songwriter, record producer, and actor. He is best known as the drummer and later lead vocalist of the rock band Genesis, and for his highly successful career as a solo artist. Between 1982 and 1990, Collins achieved three UK and seven US number-one singles as a solo performer.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Phil_Collins"
     },
     {
-      "id": "2026-11-15-popular-33-q3",
+      "id": "2026-11-16-popular-18-q2",
       "category": "TV",
       "story": "Most read",
-      "question": "Which English comedian, recognized for his surreal humour, rose to fame during the late 1990s as a founding member of The Mighty Boosh?",
-      "options": [
-        "Bill Bailey",
-        "Russell Brand",
-        "Noel Fielding",
-        "Julian Barratt"
-      ],
-      "answerIndex": 2,
-      "explanation": "Noel Fielding established his comedy reputation with the surrealist troupe The Mighty Boosh before taking on numerous television hosting roles.",
-      "context": "Noel Fielding (British comedian (born 1973)): Noel Fielding is an English comedian, actor, writer, television personality and artist. Known for his dark and surreal comedic style, he gained prominence in the late 1990s as a member of the comedy troupe The Mighty Boosh.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Noel_Fielding"
+      "question": "Which fictional persona co-created by stand-up comedian John Mulaney and Bill Hader featured regularly during Mulaney's time writing for Saturday Night Live?",
+      "options": ["Matt Foley", "Brian Fellow", "David S. Pumpkins", "Stefon"],
+      "answerIndex": 3,
+      "explanation": "During his tenure as a writer on Saturday Night Live from 2008 to 2013, John Mulaney co-created the popular recurring character Stefon with Bill Hader.",
+      "context": "John Mulaney (American comedian, actor, and writer (born 1982)): John Edmund Mulaney is an American stand-up comedian, actor, writer, and producer. Born and raised in Chicago, Illinois, Mulaney first rose to prominence for his work as a writer for the NBC sketch comedy series Saturday Night Live from 2008 to 2013, where he contributed to numerous sketches and characters, including Stefon, a recurring character whom he and Bill Hader co-created.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/John_Mulaney"
     },
     {
-      "id": "2026-11-15-popular-16-q5",
+      "id": "2026-11-16-popular-8-q6",
       "category": "Sport",
       "story": "Most read",
-      "question": "In which position does Welsh professional rugby union player James Botham play for Cardiff and the Wales national team?",
-      "options": ["Hooker", "Flanker", "Fly-half", "Scrum-half"],
-      "answerIndex": 1,
-      "explanation": "James Botham represents both United Rugby Championship outfit Cardiff and Wales playing in the flanker position.",
-      "context": "James Botham (Welsh rugby union player (born 1998)): James Ian Botham is a Welsh professional rugby union player who plays as a flanker for United Rugby Championship club Cardiff and the Wales national team.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/James_Botham"
+      "question": "Who made history as the first female athlete to win both an Olympic gold medal in judo and a UFC championship title?",
+      "options": [
+        "Holly Holm",
+        "Ronda Rousey",
+        "Kayla Harrison",
+        "Miesha Tate"
+      ],
+      "answerIndex": 2,
+      "explanation": "Kayla Harrison achieved the unprecedented feat of capturing both an Olympic gold medal in judo and a championship in the UFC.",
+      "context": "Kayla Harrison (American Olympic judoka and mixed martial artist (born 1990)): Kayla Jean Harrison is an American professional mixed martial artist and former judoka. She currently competes in the women's Bantamweight division of the Ultimate Fighting Championship (UFC), where she is the current UFC Women's Bantamweight Champion. She is the first female fighter to win an Olympic gold medal and a UFC championship. She is also a former two-time Professional Fighters League lightweight champion. As of November 18, 2025, she is #2 in the UFC women's pound-for-pound rankings.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kayla_Harrison"
     }
   ]
 }
