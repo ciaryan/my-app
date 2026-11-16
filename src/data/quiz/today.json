@@ -1,99 +1,99 @@
 {
   "version": 1,
-  "date": "2026-11-15",
-  "newsDate": "2026-11-14",
-  "generatedAt": "2026-11-15T12:08:04.679Z",
-  "model": "gemini-3.6-flash, gemini-3.8-flash",
+  "date": "2026-11-16",
+  "newsDate": "2026-11-15",
+  "generatedAt": "2026-11-16T09:53:31.722Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
-    "revisionIds": [1385816866, 1385797140],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+    "revisionIds": [1385966128],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-13-10-q8",
+      "id": "2026-11-15-21-q10",
       "category": "Sports",
-      "story": "2026–27 Segunda División",
-      "question": "In Spanish football, which team's goalkeeper was given a 12-match ban following a fatal on-pitch collision?",
-      "options": ["CD Tenerife", "Girona FC", "FC Andorra", "Real Zaragoza"],
-      "answerIndex": 2,
-      "explanation": "FC Andorra goalkeeper Jesús Owono received a 12-game suspension from the Royal Spanish Football Federation following the tragic incident.",
-      "context": "2026–27 Segunda División: In association football, the Royal Spanish Football Federation suspends FC Andorra goalkeeper Jesús Owono for 12 matches following a collision with CD Tenerife forward Jesús de Miguel during a November 2 match, which resulted in de Miguel's death.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_13",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Segunda_Divisi%C3%B3n",
+      "story": "2026–27 UEFA Nations League",
+      "question": "England's men's football team ended which country's record 43-match unbeaten run with a 3–2 victory in the UEFA Nations League?",
+      "options": ["Portugal", "France", "Germany", "Spain"],
+      "answerIndex": 3,
+      "explanation": "England snapped Spain's historic 43-game unbeaten streak during a UEFA Nations League group fixture.",
+      "context": "2026–27 UEFA Nations League: In association football, England defeats Spain 3–2 in the group stage of UEFA Nations League A to end Spain's 43-match unbeaten streak, the longest by a national team.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League",
       "readMore": {
-        "publisher": "Al Jazeera",
-        "url": "https://www.aljazeera.com/sports/2026/11/14/jesus-de-miguel-death-goalkeeper-owono-12-match-ban-collision-tenerife-andorra"
+        "publisher": "AP",
+        "url": "https://apnews.com/article/nations-league-england-spain-kane-france-7e32be3d9b49ad4d7f6ed0b59ca7410c"
       }
     },
     {
-      "id": "2026-11-14-3-q1",
-      "category": "Arts and culture",
-      "story": "Eurovision Song Contest Asia",
-      "question": "Which country won the inaugural Eurovision Song Contest Asia hosted in Bangkok?",
-      "options": ["Australia", "The Philippines", "Japan", "South Korea"],
-      "answerIndex": 1,
-      "explanation": "Carmelle secured victory for the Philippines performing the entry Sobra-Sobra.",
-      "context": "Eurovision Song Contest Asia: The Philippines, with the song \"Sobra-Sobra\" by Carmelle, wins the inaugural Eurovision Song Contest Asia held in Bangkok, Thailand.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
-      "topicUrl": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_Asia",
-      "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/philippines-wins-eurovisions-first-asia-contest"
-      }
-    },
-    {
-      "id": "2026-11-14-11-q5",
-      "category": "Politics and elections",
-      "story": "2026 European unrest > 2026 French civil unrest",
-      "question": "More than 100,000 people took to the streets in nationwide civil unrest organised by students and unions in which European country?",
-      "options": ["Belgium", "France", "Germany", "Spain"],
-      "answerIndex": 1,
-      "explanation": "Demonstrations across France saw over 100,000 protesters take part alongside yellow vest activists.",
-      "context": "2026 European unrest > 2026 French civil unrest: Student protesters, unions, and the yellow vests hold another nationwide protest in France, with over 100,000 participants.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_French_civil_unrest",
-      "readMore": {
-        "publisher": "France 24",
-        "url": "https://www.france24.com/en/france/20261114-live-france-mobilises-in-fifth-wave-of-student-protests"
-      }
-    },
-    {
-      "id": "2026-11-14-9-q9",
-      "category": "Law and crime",
-      "story": "Crime in Bangladesh",
-      "question": "Border guards in Bangladesh intercepted a smuggling attempt near the Indian border, seizing a haul of which illegal item?",
+      "id": "2026-11-15-16-q6",
+      "category": "Science and technology",
+      "story": "",
+      "question": "Which non-profit fanfiction website began restoring its service after being knocked offline for more than two weeks by a cyberattack?",
       "options": [
-        "Illegal firearms",
-        "Explosives and detonators",
-        "Counterfeit currency",
-        "Unlicensed medications"
+        "LiveJournal",
+        "Archive of Our Own",
+        "Wattpad",
+        "FanFiction.Net"
       ],
       "answerIndex": 1,
-      "explanation": "Border Guard Bangladesh seized 48 explosive gel sticks alongside detonators and fuses during an operation in Sylhet District.",
-      "context": "Crime in Bangladesh: Border Guard Bangladesh seize 48 high-power explosive gel sticks, 100 detonators, and 11 fuses during an operation along the Bangladesh–India border in Kanaighat Upazila, Sylhet District, Bangladesh.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
-      "topicUrl": "https://en.wikipedia.org/wiki/Crime_in_Bangladesh",
+      "explanation": "Archive of Our Own slowly resumed functionality seventeen days after experiencing a major online attack.",
+      "context": "Non-profit fanfiction repository website Archive of Our Own is restored to limited functionality 17 days after being targeted in a cyberattack.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
       "readMore": {
-        "publisher": "BSS",
-        "url": "https://www.bssnews.net/district/445828"
+        "publisher": "AP",
+        "url": "https://apnews.com/article/ao3-fandom-archive-transformative-9e752c2cf91409434fcde7188140d066"
       }
     },
     {
-      "id": "2026-11-14-8-q12",
-      "category": "Health and environment",
-      "story": "",
-      "question": "Health officials in Bangladesh reported a rising death toll from an outbreak of which mosquito-borne virus?",
-      "options": ["Yellow fever", "Zika virus", "Malaria", "Dengue fever"],
-      "answerIndex": 3,
-      "explanation": "Eight additional deaths in Bangladesh brought the country's annual dengue fatality total to nearly 500.",
-      "context": "Eight more people in Bangladesh are reported to have died from dengue fever, bringing this year's outbreak's death toll to 491.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+      "id": "2026-11-15-5-q1",
+      "category": "Business and economy",
+      "story": "2026 Bangladesh garment workers protests",
+      "question": "Which major clothing-exporting nation closed dozens of factories following widespread protests by garment workers over the minimum wage?",
+      "options": ["Bangladesh", "Vietnam", "Sri Lanka", "Cambodia"],
+      "answerIndex": 0,
+      "explanation": "Bangladesh shuttered numerous clothing factories in key industrial areas following worker demonstrations regarding basic pay.",
+      "context": "2026 Bangladesh garment workers protests: Amid minimum wage protests by garment workers, 13 garment factories in Gazipur are shut indefinitely under the Bangladesh Labour Act, 2006 and over 50 remain closed in Savar and Ashulia, while 48 platoons of the Border Guard, Ansar, and Special Response Battalion deploy across industrial zones in Dhaka, Gazipur, and Narayanganj.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
       "readMore": {
-        "publisher": "BSS",
-        "url": "https://www.bssnews.net/others/445684"
+        "publisher": "The Business Standard",
+        "url": "https://www.tbsnews.net/economy/rmg/13-factories-shut-indefinitely-gazipur-amid-labour-unrest-holiday-declared-five-1602791"
+      }
+    },
+    {
+      "id": "2026-11-15-11-q3",
+      "category": "International relations",
+      "story": "Estonia–Russia relations, Russian sabotage operations in Europe",
+      "question": "Which country decided to close all three of its border crossings with Russia after an attempted arson attack on a defence manufacturer?",
+      "options": ["Finland", "Latvia", "Estonia", "Lithuania"],
+      "answerIndex": 2,
+      "explanation": "Estonian authorities announced the border closures following an attempted attack on drone maker Threod Systems blamed on Russian intelligence.",
+      "context": "Estonia–Russia relations, Russian sabotage operations in Europe: Estonia announces the closure of its three border crossings with Russia starting December 1 after eight suspects were detained over an attempted arson attack on drone manufacturer Threod Systems, which Estonian intelligence attributes to Russia's GRU.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+      "topicUrl": "https://en.wikipedia.org/wiki/Estonia%E2%80%93Russia_relations",
+      "readMore": {
+        "publisher": "CNN",
+        "url": "https://edition.cnn.com/2026/11/15/europe/estonia-close-russian-border-attack-intl"
+      }
+    },
+    {
+      "id": "2026-11-15-15-q5",
+      "category": "Politics and elections",
+      "story": "2026 Gagauz general election",
+      "question": "Voters in Gagauzia took to the polls to elect a governor and members of their local assembly in which European country?",
+      "options": ["Romania", "Bulgaria", "Ukraine", "Moldova"],
+      "answerIndex": 3,
+      "explanation": "The elections took place in the autonomous region of Gagauzia located within Moldova, heading to a second round for the governorship.",
+      "context": "2026 Gagauz general election: Gagauzians in Moldova vote to elect a governor and 35 members of the People's Assembly. MP Alexandr Stoianoglo and Fiodor Gagauz [ru] advance to the second round after no candidate received a majority of the vote.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Gagauz_general_election",
+      "readMore": {
+        "publisher": "Radio Moldova",
+        "url": "https://radiomoldova.md/p/89743/gagauzia-voters-to-elect-governor-and-regional-assembly"
       }
     }
   ]
