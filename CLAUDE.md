@@ -27,6 +27,7 @@ Personal portfolio site for Ciarán Ryan (ciaryan.com). Next.js 16 App Router wi
 - `/play/connections` — daily Connections puzzle game (`src/app/play/connections/page.tsx`, `'use client'`)
 - `/play/news-quiz` — daily news quiz (`src/app/play/news-quiz/`, see below)
 - `/play/trivia` — daily "On this day" pub quiz (`src/app/play/trivia/`, see below)
+- `/studios` — personal, unlinked, noindex Pirate Studios rehearsal room checker (see below)
 
 Both quizzes render the shared client component `src/app/play/_components/DailyQuiz.tsx`, configured by props (title, storage key, epoch, share path).
 
@@ -41,6 +42,14 @@ Both quizzes render the shared client component `src/app/play/_components/DailyQ
 - Adding groups: `npm run -s connections:prompt -- 10 | pbcopy` builds a prompt that lists every existing group (paste it into Gemini). Save the JSON reply and run `npm run connections:add -- <file> [--dry-run]`, which drops duplicates (same id or category, or 2+ shared words) and sets `addedOn` to tomorrow so today's puzzle never changes. `npm run connections:validate` checks all groups and reports when each difficulty first repeats a group. **Planned:** Replace deterministic selection with an LLM agent (Gemini via Google AI Studio) that composes daily puzzles from the master list with more nuanced cross-category overlap reasoning. Reuse `src/lib/ai/gemini.ts`. Only older Pro models are on the free tier, so expect to use Flash.
 
 **Security headers:** X-Frame-Options, HSTS, etc. configured in `next.config.ts` `headers()`.
+
+**Studios page:** shows free Lite/Standard/Pro rehearsal rooms at seven London Pirate Studios sites for the next 4 weeks (`DAYS_AHEAD`).
+
+- `src/lib/studios/pirate.ts` calls Pirate's unofficial public API, `api.pirate.com/v1/search?deck_slug=…&duration=1&start_time=<date>T10:00:00.000`. It needs no auth, but it returns 400 without an `accept-language` header. One search returns every room at a site, each with hourly slots from 3h before `start_time` to about 24h after, so a single call covers 07:00 to midnight (`HOURS`). Site slugs come from `api.pirate.com/sites`.
+- `src/app/studios/data/route.ts` makes about 200 requests per run, 4 at a time, and keeps a 15-minute per-instance cache. `?refresh` bypasses the cache, but not within 60s of the last fetch. Runs with 10 or more errors aren't cached.
+- `Studios.tsx` (client) filters by time range, minimum hours, weekdays/weekends, tier and site without refetching. Each block links to `book.pirate.com/?date=&time=&duration=&site=`.
+- Keep request volume low; it's unofficial use.
+- On a work machine with HTTPS inspection, Node fetch fails locally with `UNABLE_TO_GET_ISSUER_CERT_LOCALLY`. Run `NODE_OPTIONS=--use-system-ca npm run dev`. Vercel is unaffected.
 
 ## News quiz
 
