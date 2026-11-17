@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-16",
-  "generatedAt": "2026-11-16T07:21:17.958Z",
-  "model": "gemini-3.6-flash",
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T08:25:13.709Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,74 +11,84 @@
   },
   "questions": [
     {
-      "id": "2026-11-16-event-14-q13",
-      "category": "Science",
+      "id": "2026-11-17-selected-13-q11",
+      "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1974, a famous interstellar radio signal carrying information about Earth and humanity was transmitted into space from which territory?",
-      "options": ["Guam", "Florida", "Hawaii", "Puerto Rico"],
-      "answerIndex": 3,
-      "explanation": "The Arecibo message was broadcast from the Arecibo Observatory in Puerto Rico towards the star cluster Messier 13 on 16 November 1974.",
-      "context": "On this day in 1974: The Arecibo message is broadcast from Puerto Rico.\nArecibo message (Radio message sent into space in 1974): The Arecibo message is an interstellar radio message carrying basic information about humanity and Earth that was sent to the globular cluster Messier 13 (M13) in 1974.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Arecibo_message"
+      "question": "On this day in 1558, which Tudor royal acceded to the thrones of England and Ireland following the death of Mary I?",
+      "options": [
+        "Elizabeth I",
+        "Margaret Tudor",
+        "Lady Jane Grey",
+        "Mary, Queen of Scots"
+      ],
+      "answerIndex": 0,
+      "explanation": "Elizabeth I inherited the English and Irish crowns on 17 November 1558, launching a celebrated 44-year reign that defined the Elizabethan era.",
+      "context": "On this day in 1558: Elizabeth I (pictured) became Queen of England and of Ireland, marking the beginning of the Elizabethan era.\nElizabeth I (Queen of England and Ireland from 1558 to 1603): Elizabeth I was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last and longest reigning monarch of the House of Tudor. Her eventful reign, and its effect on history and culture, gave name to the Elizabethan era.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_I"
     },
     {
-      "id": "2026-11-16-popular-24-q3",
+      "id": "2026-11-17-popular-10-q2",
       "category": "Film",
       "story": "Most read",
-      "question": "In sci-fi survival film The End of Oak Street, written and directed by David Robert Mitchell, a suburban neighbourhood is transported back in time to which era?",
+      "question": "Which English actor concluded his five-film run as secret agent James Bond with the 2021 release 'No Time to Die'?",
       "options": [
-        "The Bronze Age",
-        "The age of dinosaurs",
-        "The Stone Age",
-        "The Ice Age"
+        "Pierce Brosnan",
+        "Daniel Craig",
+        "Roger Moore",
+        "Timothy Dalton"
       ],
       "answerIndex": 1,
-      "explanation": "The movie centres on a family whose suburban street is displaced from 1982 into prehistoric times among dinosaurs.",
-      "context": "The End of Oak Street (2026 film by David Robert Mitchell): The End of Oak Street is a 2026 American science fiction survival film written, co-produced, and directed by David Robert Mitchell and starring Anne Hathaway, Ewan McGregor, Maisy Stella, and Christian Convery with supporting roles done by Jordan Alexa Davis, P. J. Byrne and Emily Kuroda. It tells the story of a family whose suburban neighborhood has been transported from 1982 into the age of dinosaurs.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/The_End_of_Oak_Street"
+      "explanation": "Daniel Craig portrayed the iconic British spy in five films between 2006 and 2021, beginning with Casino Royale.",
+      "context": "Daniel Craig (English actor (born 1968)): Daniel Wroughton Craig is an English actor. He gained international fame by playing the fictional secret agent James Bond in the films Casino Royale (2006), Quantum of Solace (2008), Skyfall (2012), Spectre (2015) and No Time to Die (2021).",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Daniel_Craig"
     },
     {
-      "id": "2026-11-16-popular-25-q1",
+      "id": "2026-11-17-popular-26-q3",
       "category": "Music",
       "story": "Most read",
-      "question": "Which English performer, who achieved three number-one solo singles in the UK between 1982 and 1990, originally came to prominence as the drummer for the rock band Genesis?",
+      "question": "Which English indie rock band is fronted by Ricky Wilson, who also served as a winning coach on 'The Voice UK'?",
       "options": [
-        "Mike Rutherford",
-        "Phil Collins",
-        "Steve Hackett",
-        "Peter Gabriel"
+        "Kaiser Chiefs",
+        "Kasabian",
+        "The Fratellis",
+        "Franz Ferdinand"
       ],
-      "answerIndex": 1,
-      "explanation": "Phil Collins served as the drummer and main vocalist for Genesis before achieving huge success as a solo artist.",
-      "context": "Phil Collins (English musician (born 1951)): Philip David Charles Collins is an English singer, drummer, songwriter, record producer, and actor. He is best known as the drummer and later lead vocalist of the rock band Genesis, and for his highly successful career as a solo artist. Between 1982 and 1990, Collins achieved three UK and seven US number-one singles as a solo performer.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Phil_Collins"
+      "answerIndex": 0,
+      "explanation": "Ricky Wilson leads the Leeds-formed five-piece rock band Kaiser Chiefs and achieved back-to-back coaching victories on The Voice UK.",
+      "context": "Ricky Wilson (singer) (English musician, painter and media personality (born 1978)): Charles Richard Wilson is an English musician and the frontman of five-piece rock band Kaiser Chiefs. In September 2013, Wilson was confirmed as a coach on The Voice UK. He was the winning coach for both the fourth and fifth series of the show, being the first coach to win two years consecutively. Wilson left the show after three series, following the show's move to ITV.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ricky_Wilson_(singer)"
     },
     {
-      "id": "2026-11-16-popular-18-q2",
-      "category": "TV",
+      "id": "2026-11-17-popular-5-q1",
+      "category": "Art",
       "story": "Most read",
-      "question": "Which fictional persona co-created by stand-up comedian John Mulaney and Bill Hader featured regularly during Mulaney's time writing for Saturday Night Live?",
-      "options": ["Matt Foley", "Brian Fellow", "David S. Pumpkins", "Stefon"],
-      "answerIndex": 3,
-      "explanation": "During his tenure as a writer on Saturday Night Live from 2008 to 2013, John Mulaney co-created the popular recurring character Stefon with Bill Hader.",
-      "context": "John Mulaney (American comedian, actor, and writer (born 1982)): John Edmund Mulaney is an American stand-up comedian, actor, writer, and producer. Born and raised in Chicago, Illinois, Mulaney first rose to prominence for his work as a writer for the NBC sketch comedy series Saturday Night Live from 2008 to 2013, where he contributed to numerous sketches and characters, including Stefon, a recurring character whom he and Bill Hader co-created.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/John_Mulaney"
-    },
-    {
-      "id": "2026-11-16-popular-8-q6",
-      "category": "Sport",
-      "story": "Most read",
-      "question": "Who made history as the first female athlete to win both an Olympic gold medal in judo and a UFC championship title?",
+      "question": "Which Spanish master created the haunting work 'Saturn Devouring His Son' directly upon the walls of his residence?",
       "options": [
-        "Holly Holm",
-        "Ronda Rousey",
-        "Kayla Harrison",
-        "Miesha Tate"
+        "Salvador Dalí",
+        "Diego Velázquez",
+        "Francisco Goya",
+        "El Greco"
       ],
       "answerIndex": 2,
-      "explanation": "Kayla Harrison achieved the unprecedented feat of capturing both an Olympic gold medal in judo and a championship in the UFC.",
-      "context": "Kayla Harrison (American Olympic judoka and mixed martial artist (born 1990)): Kayla Jean Harrison is an American professional mixed martial artist and former judoka. She currently competes in the women's Bantamweight division of the Ultimate Fighting Championship (UFC), where she is the current UFC Women's Bantamweight Champion. She is the first female fighter to win an Olympic gold medal and a UFC championship. She is also a former two-time Professional Fighters League lightweight champion. As of November 18, 2025, she is #2 in the UFC women's pound-for-pound rankings.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Kayla_Harrison"
+      "explanation": "Painted between roughly 1820 and 1823 as one of Francisco Goya's famous Black Paintings, the artwork was later transferred to canvas and hung in Madrid's Museo del Prado.",
+      "context": "Saturn Devouring His Son (Painting by Francisco Goya (c. 1820–1823)): Saturn Devouring His Son is a painting by Spanish artist Francisco Goya. The work is one of the 14 so-called Black Paintings that Goya painted directly on the walls of his house some time between 1820 and 1823. It was transferred to canvas after Goya's death and is now in the Museo del Prado in Madrid.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son"
+    },
+    {
+      "id": "2026-11-17-popular-18-q8",
+      "category": "Sport",
+      "story": "Most read",
+      "question": "Under which continental body does the Palestine national football team compete in international tournaments?",
+      "options": [
+        "Confederation of African Football",
+        "Oceania Football Confederation",
+        "Asian Football Confederation",
+        "Union of European Football Associations"
+      ],
+      "answerIndex": 2,
+      "explanation": "Under the worldwide umbrella of FIFA, Palestine competes at the regional continental level within the Asian Football Confederation (AFC).",
+      "context": "Palestine national football team (Men's association football team): The Palestine national football team, governed by the Palestinian Football Association, represents Palestine in men's international football. The team is under the global jurisdiction of FIFA and is governed continentally by the Asian Football Confederation (AFC).",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Palestine_national_football_team"
     }
   ]
 }
