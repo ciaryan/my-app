@@ -1,103 +1,94 @@
 {
   "version": 1,
-  "date": "2026-11-17",
-  "newsDate": "2026-11-16",
-  "generatedAt": "2026-11-17T07:58:50.232Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-11-18",
+  "newsDate": "2026-11-17",
+  "generatedAt": "2026-11-18T10:21:11.257Z",
+  "model": "gemini-3.8-flash, gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_16",
-    "revisionIds": [1386183875, 1386111400],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+    "revisionIds": [1386386802, 1386363800],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-15-22-q1",
-      "category": "Sports",
-      "story": "2026 European Tour",
-      "question": "Which golfer matched Colin Montgomerie's all-time record by securing his eighth Harry Vardon Trophy?",
-      "options": [
-        "Matt Fitzpatrick",
-        "Rory McIlroy",
-        "Jon Rahm",
-        "Tommy Fleetwood"
-      ],
+      "id": "2026-11-17-15-q6",
+      "category": "Law and crime",
+      "story": "",
+      "question": "Security services in North Macedonia arrested five citizens over an alleged assassination conspiracy that was planned to take place in which neighbouring country?",
+      "options": ["Serbia", "Albania", "Bulgaria", "Greece"],
+      "answerIndex": 3,
+      "explanation": "Macedonian authorities arrested five suspects reportedly involved in an Iranian-linked plot targeting an Israeli businessman residing in Greece.",
+      "context": "The North Macedonian Agency for National Security arrests five Macedonian nationals allegedly linked to an assassination plot in Greece, allegedly involving Iranian recruiters, including Naji Sharifi-Zindashti, who is wanted by the U.S. Federal Bureau of Investigation. A sixth person remains at large. Greek public television reports that the target was a Israeli business executive based in Athens.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+      "readMore": {
+        "publisher": "AP",
+        "url": "https://apnews.com/article/north-macedonia-iran-greece-arrests-449228844460fe264a7a0da5f50b3fd1"
+      }
+    },
+    {
+      "id": "2026-11-17-11-q3",
+      "category": "Health and environment",
+      "story": "Measles resurgence in the Americas",
+      "question": "The Pan American Health Organization revoked the measles elimination status of which nation alongside Bolivia and Mexico?",
+      "options": ["Canada", "United States", "Argentina", "Brazil"],
       "answerIndex": 1,
-      "explanation": "A second-place finish in the DP World Tour Championship earned Rory McIlroy his eighth Race to Dubai victory, equalling the European Tour record.",
-      "context": "2026 European Tour: In golf, Rory McIlroy equals Colin Montgomerie's record for the most Harry Vardon Trophies after winning his eighth Race to Dubai title, which McIlroy claimed after finishing second at the DP World Tour Championship.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_European_Tour",
+      "explanation": "Due to ongoing transmission lasting over a year and thousands of cases, the US lost its measles elimination status alongside Bolivia and Mexico.",
+      "context": "Measles resurgence in the Americas: The Pan American Health Organization revokes the measles elimination statuses of Bolivia, Mexico, and the United States. For the U.S., the organization cited continuous domestic transmission for over 12 months amid more than 5,700 reported infections and multiple deaths in 2026.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+      "topicUrl": "https://en.wikipedia.org/wiki/Measles_resurgence_in_the_Americas",
       "readMore": {
         "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261115-mcilroy-wins-record-equalling-eighth-race-to-dubai-title"
+        "url": "https://www.france24.com/en/live-news/20261117-us-loses-measles-free-status-as-cases-deaths-mount"
       }
     },
     {
-      "id": "2026-11-16-14-q8",
-      "category": "Politics and elections",
-      "story": "2026 Gambian presidential election",
-      "question": "The electoral commission of which West African nation confirmed that President Adama Barrow is eligible to contest a third term?",
-      "options": ["Ghana", "The Gambia", "Sierra Leone", "Senegal"],
-      "answerIndex": 1,
-      "explanation": "The Gambian election authorities approved Adama Barrow's candidacy because the country's legal framework does not restrict the number of terms a leader can serve.",
-      "context": "2026 Gambian presidential election: The Gambian election commission approves President Adama Barrow's candidacy for a third term in the December 5 presidential election as the country's constitution does not limit presidential terms.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_16",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Gambian_presidential_election",
-      "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/africa/gambia-clears-barrow-run-third-presidential-term-approves-eight-other-candidates-2026-11-16/"
-      }
-    },
-    {
-      "id": "2026-11-16-6-q5",
+      "id": "2026-11-17-7-q1",
       "category": "Business and economy",
-      "story": "",
-      "question": "Regulators in the European Union and the United States gave the green light for Italian bank UniCredit to acquire which German lender?",
-      "options": ["Deutsche Bank", "KfW", "DZ Bank", "Commerzbank"],
+      "story": "2026 Bangladesh garment workers protests",
+      "question": "Which country saw widespread protests by garment workers demanding that the monthly minimum wage be more than doubled?",
+      "options": ["Vietnam", "Cambodia", "Pakistan", "Bangladesh"],
       "answerIndex": 3,
-      "explanation": "UniCredit obtained unconditional antitrust approval to proceed with its 45-billion-euro takeover of Germany's Commerzbank.",
-      "context": "The European Commission (EC) and the United States Federal Reserve approve Italian bank UniCredit's proposed €45 billion (US$49 billion) acquisition of Germany's Commerzbank, following the European Central Bank's approval in October. The EC grants unconditional antitrust clearance.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_16",
-      "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/business/finance/unicredit-wins-eu-approval-commerzbank-acquisition-2026-11-16/"
-      }
-    },
-    {
-      "id": "2026-11-16-9-q6",
-      "category": "International relations",
-      "story": "",
-      "question": "Former prime minister Gilbert Houngbo was re-elected as director-general of which United Nations agency?",
-      "options": [
-        "International Labour Organization",
-        "World Food Programme",
-        "United Nations Development Programme",
-        "World Health Organization"
-      ],
-      "answerIndex": 0,
-      "explanation": "Gilbert Houngbo, who previously served as prime minister of Togo, secured another term leading the International Labour Organization.",
-      "context": "Former Togolese prime minister Gilbert Houngbo is re-elected director-general of the International Labour Organization.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_16",
+      "explanation": "Garment workers across major industrial areas in Bangladesh held large demonstrations demanding an increase in their minimum monthly pay from 12,500 to 30,000 taka.",
+      "context": "2026 Bangladesh garment workers protests: Bangladeshi police and 42 platoons of the Border Guard Bangladesh deploy tear gas, stun grenades, batons, and surveillance drones during clashes with thousands of garment workers across Dhaka, Savar, Ashulia, Gazipur, and Narayanganj demanding a monthly minimum wage increase from ৳12,500 (US$100) to ৳30,000 ($240). Protesters block the N3, N4, and N5 highways and force the closure of at least 37 factories after a Minimum Wage Board meeting is postponed to November 23.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
       "readMore": {
         "publisher": "AFP",
-        "url": "https://www.afp.com/en/former-togo-pm-re-elected-un-labour-agency-chief"
+        "url": "https://www.afp.com/en/bangladesh-garment-workers-police-clash-fresh-wage-protest"
       }
     },
     {
-      "id": "2026-11-16-10-q7",
-      "category": "Law and crime",
-      "story": "2026 Paraguay banking crisis",
-      "question": "Santiago Peña, the impeached former president of which country, was ordered to be moved to a military prison pending trial?",
-      "options": ["Bolivia", "Paraguay", "Ecuador", "Uruguay"],
+      "id": "2026-11-17-12-q4",
+      "category": "International relations",
+      "story": "France–Malaysia relations",
+      "question": "France secured a strategic partnership with which Southeast Asian nation, gaining access to unprocessed rare-earth mineral exports?",
+      "options": ["Indonesia", "Malaysia", "Thailand", "Vietnam"],
       "answerIndex": 1,
-      "explanation": "Following the collapse of Ueno Bank, a Paraguayan judge ordered the transfer of former president Santiago Peña to the Viñas Cué military detention facility.",
-      "context": "2026 Paraguay banking crisis: A Paraguayan judge orders impeached former president Santiago Peña transferred to the Viñas Cué military prison pending trial on charges of criminal association, breach of trust, and misuse of public office linked to Ueno Bank's collapse.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_16",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
+      "explanation": "During Emmanuel Macron's visit, France and Malaysia signed cooperation pacts covering defence, energy, and the supply of unprocessed rare-earth minerals.",
+      "context": "France–Malaysia relations: France and Malaysia establish a strategic partnership, signing agreements on defence, energy, and technology cooperation during French president Emmanuel Macron's state visit. Malaysia also agrees to permit limited exports of unprocessed rare-earth minerals to France in exchange for assistance with mineral processing.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+      "topicUrl": "https://en.wikipedia.org/wiki/France%E2%80%93Malaysia_relations",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/americas/paraguay-judge-orders-ex-president-pea-transferred-military-prison-2026-11-16/"
+        "url": "https://www.reuters.com/business/aerospace-defense/france-malaysia-eye-defence-rare-earths-cooperation-during-macron-visit-kuala-2026-11-17/"
+      }
+    },
+    {
+      "id": "2026-11-17-17-q8",
+      "category": "Politics and elections",
+      "story": "Corruption in Mongolia",
+      "question": "Ukhnaagiin Khürelsükh announced his resignation as president of which country following allegations linked to a railway project?",
+      "options": ["Kazakhstan", "Mongolia", "Uzbekistan", "Kyrgyzstan"],
+      "answerIndex": 1,
+      "explanation": "Mongolian president Ukhnaagiin Khürelsükh tendered his resignation following accusations concerning an embezzlement scandal dating back to his time as premier.",
+      "context": "Corruption in Mongolia: Mongolian president Ukhnaagiin Khürelsükh announces his resignation from office, three days after former Ulaanbaatar mayor Khishgeegiin Nyambaatar accused him of past embezzlement from a railway project during his tenure as prime minister. The State Great Khural must accept the resignation for it to become effective.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+      "topicUrl": "https://en.wikipedia.org/wiki/Corruption_in_Mongolia",
+      "readMore": {
+        "publisher": "AP",
+        "url": "https://apnews.com/article/mongolia-president-corruption-allegations-9542b2bf7536db6ae65b371aac07bbf4"
       }
     }
   ]
