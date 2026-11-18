@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-17",
-  "generatedAt": "2026-11-17T08:25:13.709Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T08:00:01.305Z",
+  "model": "gemini-3.8-flash, gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,84 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-11-17-selected-13-q11",
-      "category": "Royalty",
+      "id": "2026-11-18-birth-95-q12",
+      "category": "Music",
       "story": "On this day",
-      "question": "On this day in 1558, which Tudor royal acceded to the thrones of England and Ireland following the death of Mary I?",
+      "question": "Born on this day in 1960, which English pop singer achieved major international success in 1981 with her debut hit single 'Kids in America'?",
       "options": [
-        "Elizabeth I",
-        "Margaret Tudor",
-        "Lady Jane Grey",
-        "Mary, Queen of Scots"
-      ],
-      "answerIndex": 0,
-      "explanation": "Elizabeth I inherited the English and Irish crowns on 17 November 1558, launching a celebrated 44-year reign that defined the Elizabethan era.",
-      "context": "On this day in 1558: Elizabeth I (pictured) became Queen of England and of Ireland, marking the beginning of the Elizabethan era.\nElizabeth I (Queen of England and Ireland from 1558 to 1603): Elizabeth I was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last and longest reigning monarch of the House of Tudor. Her eventful reign, and its effect on history and culture, gave name to the Elizabethan era.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_I"
-    },
-    {
-      "id": "2026-11-17-popular-10-q2",
-      "category": "Film",
-      "story": "Most read",
-      "question": "Which English actor concluded his five-film run as secret agent James Bond with the 2021 release 'No Time to Die'?",
-      "options": [
-        "Pierce Brosnan",
-        "Daniel Craig",
-        "Roger Moore",
-        "Timothy Dalton"
+        "Toyah Willcox",
+        "Kim Wilde",
+        "Sheena Easton",
+        "Hazel O'Connor"
       ],
       "answerIndex": 1,
-      "explanation": "Daniel Craig portrayed the iconic British spy in five films between 2006 and 2021, beginning with Casino Royale.",
-      "context": "Daniel Craig (English actor (born 1968)): Daniel Wroughton Craig is an English actor. He gained international fame by playing the fictional secret agent James Bond in the films Casino Royale (2006), Quantum of Solace (2008), Skyfall (2012), Spectre (2015) and No Time to Die (2021).",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Daniel_Craig"
+      "explanation": "Kim Wilde rose to fame in 1981 when her debut single 'Kids in America' reached number two on the UK charts.",
+      "context": "On this day in 1960: Kim Wilde, English singer-songwriter\nKim Wilde (English pop singer (born 1960)): Kim Wilde is an English pop singer. She first gained success in 1981 with her debut single \"Kids in America\", which peaked at no. 2 in the UK. In 1983, she received the Brit Award for Best British Female solo artist. In 1986, she had a UK no.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kim_Wilde"
     },
     {
-      "id": "2026-11-17-popular-26-q3",
-      "category": "Music",
+      "id": "2026-11-18-popular-25-q1",
+      "category": "Film",
       "story": "Most read",
-      "question": "Which English indie rock band is fronted by Ricky Wilson, who also served as a winning coach on 'The Voice UK'?",
+      "question": "Which of these actors was the very first to portray Ian Fleming's secret agent James Bond on the big screen, debuting in 1962's Dr. No?",
       "options": [
-        "Kaiser Chiefs",
-        "Kasabian",
-        "The Fratellis",
-        "Franz Ferdinand"
+        "Timothy Dalton",
+        "Roger Moore",
+        "Pierce Brosnan",
+        "Sean Connery"
       ],
-      "answerIndex": 0,
-      "explanation": "Ricky Wilson leads the Leeds-formed five-piece rock band Kaiser Chiefs and achieved back-to-back coaching victories on The Voice UK.",
-      "context": "Ricky Wilson (singer) (English musician, painter and media personality (born 1978)): Charles Richard Wilson is an English musician and the frontman of five-piece rock band Kaiser Chiefs. In September 2013, Wilson was confirmed as a coach on The Voice UK. He was the winning coach for both the fourth and fifth series of the show, being the first coach to win two years consecutively. Wilson left the show after three series, following the show's move to ITV.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ricky_Wilson_(singer)"
+      "answerIndex": 3,
+      "explanation": "Sean Connery originated the cinematic role of James Bond in the 1962 film Dr. No, going on to feature in seven Bond films overall.",
+      "context": "Sean Connery (Scottish actor and producer (1930–2020)): Sir Thomas Sean Connery was a Scottish actor and film producer. Connery was the first actor to portray the fictional British secret agent James Bond in motion pictures, starring in seven Bond films between 1962 and 1983. He originated the role in Dr. No (1962) and continued starring as Bond in the Eon Productions films From Russia with Love (1963), Goldfinger (1964), Thunderball (1965), You Only Live Twice (1967) and Diamonds Are Forever (1971).",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sean_Connery"
     },
     {
-      "id": "2026-11-17-popular-5-q1",
+      "id": "2026-11-18-popular-17-q7",
+      "category": "Geography",
+      "story": "Most read",
+      "question": "British television host and former wheelchair basketball competitor Ade Adepitan was born in which country?",
+      "options": ["Ghana", "Kenya", "Nigeria", "Jamaica"],
+      "answerIndex": 2,
+      "explanation": "Ade Adepitan is a Nigerian-born British broadcaster and athlete known for presenting documentaries and sports coverage.",
+      "context": "Ade Adepitan (British television presenter and sportsman (born 1973)): Adedoyin Olayiwola \"Ade\" Adepitan, PLY is a Nigerian-born British television presenter and wheelchair basketball player. As a presenter, he has hosted a range of travel documentaries and sports programmes for BBC television. Adepitan is a disability advocate and one of the first physically disabled television presenters in the UK, with a career of over twenty years.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ade_Adepitan"
+    },
+    {
+      "id": "2026-11-18-popular-3-q2",
       "category": "Art",
       "story": "Most read",
-      "question": "Which Spanish master created the haunting work 'Saturn Devouring His Son' directly upon the walls of his residence?",
+      "question": "Which English actress and model started her career in fashion at age 16 before working with brands such as Tommy Hilfiger, Hugo Boss, and Burberry?",
       "options": [
-        "Salvador Dalí",
-        "Diego Velázquez",
-        "Francisco Goya",
-        "El Greco"
+        "Lily Cole",
+        "Rosie Huntington-Whiteley",
+        "Cara Delevingne",
+        "Suki Waterhouse"
       ],
-      "answerIndex": 2,
-      "explanation": "Painted between roughly 1820 and 1823 as one of Francisco Goya's famous Black Paintings, the artwork was later transferred to canvas and hung in Madrid's Museo del Prado.",
-      "context": "Saturn Devouring His Son (Painting by Francisco Goya (c. 1820–1823)): Saturn Devouring His Son is a painting by Spanish artist Francisco Goya. The work is one of the 14 so-called Black Paintings that Goya painted directly on the walls of his house some time between 1820 and 1823. It was transferred to canvas after Goya's death and is now in the Museo del Prado in Madrid.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son"
+      "answerIndex": 3,
+      "explanation": "Alice Suki Waterhouse launched her career in the modelling industry as a 16-year-old and modelled for labels including Burberry and Hugo Boss.",
+      "context": "Suki Waterhouse (English actress, singer, and model (born 1992)): Alice Suki Waterhouse is an English actress, singer, and model. Waterhouse began a career in modelling at the age of 16, and she went on to model for several major fashion labels such as Burberry, Tommy Hilfiger, Hugo Boss, Laura Mercier, and Ferragamo.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Suki_Waterhouse"
     },
     {
-      "id": "2026-11-17-popular-18-q8",
-      "category": "Sport",
+      "id": "2026-11-18-popular-14-q9",
+      "category": "Literature",
       "story": "Most read",
-      "question": "Under which continental body does the Palestine national football team compete in international tournaments?",
-      "options": [
-        "Confederation of African Football",
-        "Oceania Football Confederation",
-        "Asian Football Confederation",
-        "Union of European Football Associations"
-      ],
-      "answerIndex": 2,
-      "explanation": "Under the worldwide umbrella of FIFA, Palestine competes at the regional continental level within the Asian Football Confederation (AFC).",
-      "context": "Palestine national football team (Men's association football team): The Palestine national football team, governed by the Palestinian Football Association, represents Palestine in men's international football. The team is under the global jurisdiction of FIFA and is governed continentally by the Asian Football Confederation (AFC).",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Palestine_national_football_team"
+      "question": "First introduced in 1553 in novels by Ian Fleming, how many continuation authors had penned authorised James Bond novels or novelisations following Fleming's death?",
+      "options": ["Five", "Nine", "Twelve", "Seven"],
+      "answerIndex": 1,
+      "explanation": "After Ian Fleming died in 1964, nine different authors took on writing official James Bond novels and adaptations.",
+      "context": "James Bond (Media franchise about a British spy): The James Bond franchise focuses on the character of James Bond, a fictional British Secret Service agent created in 1953 by writer Ian Fleming, who featured him in twelve novels and two short-story collections. Since Fleming's death in 1964, nine other authors have written authorised Bond novels or novelisations: Kingsley Amis, Christopher Wood, John Gardner, Raymond Benson, Sebastian Faulks, Jeffery Deaver, William Boyd, Anthony Horowitz and Charlie Higson.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/James_Bond"
     }
   ]
 }
