@@ -1,94 +1,97 @@
 {
   "version": 1,
-  "date": "2026-11-18",
-  "newsDate": "2026-11-17",
-  "generatedAt": "2026-11-18T10:21:11.257Z",
-  "model": "gemini-3.8-flash, gemini-3.6-flash",
+  "date": "2026-11-19",
+  "newsDate": "2026-11-18",
+  "generatedAt": "2026-11-19T13:02:58.955Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
-    "revisionIds": [1386386802, 1386363800],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+    "revisionIds": [1386594842],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-17-15-q6",
-      "category": "Law and crime",
-      "story": "",
-      "question": "Security services in North Macedonia arrested five citizens over an alleged assassination conspiracy that was planned to take place in which neighbouring country?",
-      "options": ["Serbia", "Albania", "Bulgaria", "Greece"],
+      "id": "2026-11-18-14-q4",
+      "category": "Sports",
+      "story": "Bangladeshi cricket team in South Africa in 2026–27",
+      "question": "Which country's cricket team saw their wicketkeeper Litton Das break the world record for most dismissals in a single Test match innings?",
+      "options": ["Pakistan", "West Indies", "Sri Lanka", "Bangladesh"],
       "answerIndex": 3,
-      "explanation": "Macedonian authorities arrested five suspects reportedly involved in an Iranian-linked plot targeting an Israeli businessman residing in Greece.",
-      "context": "The North Macedonian Agency for National Security arrests five Macedonian nationals allegedly linked to an assassination plot in Greece, allegedly involving Iranian recruiters, including Naji Sharifi-Zindashti, who is wanted by the U.S. Federal Bureau of Investigation. A sixth person remains at large. Greek public television reports that the target was a Israeli business executive based in Athens.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
-      "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/north-macedonia-iran-greece-arrests-449228844460fe264a7a0da5f50b3fd1"
-      }
-    },
-    {
-      "id": "2026-11-17-11-q3",
-      "category": "Health and environment",
-      "story": "Measles resurgence in the Americas",
-      "question": "The Pan American Health Organization revoked the measles elimination status of which nation alongside Bolivia and Mexico?",
-      "options": ["Canada", "United States", "Argentina", "Brazil"],
-      "answerIndex": 1,
-      "explanation": "Due to ongoing transmission lasting over a year and thousands of cases, the US lost its measles elimination status alongside Bolivia and Mexico.",
-      "context": "Measles resurgence in the Americas: The Pan American Health Organization revokes the measles elimination statuses of Bolivia, Mexico, and the United States. For the U.S., the organization cited continuous domestic transmission for over 12 months amid more than 5,700 reported infections and multiple deaths in 2026.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
-      "topicUrl": "https://en.wikipedia.org/wiki/Measles_resurgence_in_the_Americas",
+      "explanation": "Bangladeshi keeper Litton Das claimed eight dismissals in an innings against South Africa in Johannesburg to secure the world record.",
+      "context": "Bangladeshi cricket team in South Africa in 2026–27: In Test cricket, Bangladeshi wicketkeeper Litton Das sets a world record for the most dismissals in a single Test innings, recording six catches and two stumpings against South Africa in Johannesburg.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+      "topicUrl": "https://en.wikipedia.org/wiki/Bangladeshi_cricket_team_in_South_Africa_in_2026%E2%80%9327",
       "readMore": {
         "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261117-us-loses-measles-free-status-as-cases-deaths-mount"
+        "url": "https://www.france24.com/en/live-news/20261118-das-breaks-record-but-south-africa-take-command"
       }
     },
     {
-      "id": "2026-11-17-7-q1",
-      "category": "Business and economy",
-      "story": "2026 Bangladesh garment workers protests",
-      "question": "Which country saw widespread protests by garment workers demanding that the monthly minimum wage be more than doubled?",
-      "options": ["Vietnam", "Cambodia", "Pakistan", "Bangladesh"],
-      "answerIndex": 3,
-      "explanation": "Garment workers across major industrial areas in Bangladesh held large demonstrations demanding an increase in their minimum monthly pay from 12,500 to 30,000 taka.",
-      "context": "2026 Bangladesh garment workers protests: Bangladeshi police and 42 platoons of the Border Guard Bangladesh deploy tear gas, stun grenades, batons, and surveillance drones during clashes with thousands of garment workers across Dhaka, Savar, Ashulia, Gazipur, and Narayanganj demanding a monthly minimum wage increase from ৳12,500 (US$100) to ৳30,000 ($240). Protesters block the N3, N4, and N5 highways and force the closure of at least 37 factories after a Minimum Wage Board meeting is postponed to November 23.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
-      "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/bangladesh-garment-workers-police-clash-fresh-wage-protest"
-      }
-    },
-    {
-      "id": "2026-11-17-12-q4",
-      "category": "International relations",
-      "story": "France–Malaysia relations",
-      "question": "France secured a strategic partnership with which Southeast Asian nation, gaining access to unprocessed rare-earth mineral exports?",
-      "options": ["Indonesia", "Malaysia", "Thailand", "Vietnam"],
+      "id": "2026-11-18-12-q2",
+      "category": "Science and technology",
+      "story": "",
+      "question": "Which historic spacecraft became the very first man-made object to reach a distance of one light-day away from Earth?",
+      "options": ["Voyager 2", "Voyager 1", "New Horizons", "Pioneer 10"],
       "answerIndex": 1,
-      "explanation": "During Emmanuel Macron's visit, France and Malaysia signed cooperation pacts covering defence, energy, and the supply of unprocessed rare-earth minerals.",
-      "context": "France–Malaysia relations: France and Malaysia establish a strategic partnership, signing agreements on defence, energy, and technology cooperation during French president Emmanuel Macron's state visit. Malaysia also agrees to permit limited exports of unprocessed rare-earth minerals to France in exchange for assistance with mineral processing.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
-      "topicUrl": "https://en.wikipedia.org/wiki/France%E2%80%93Malaysia_relations",
+      "explanation": "Launched back in 1977, NASA's Voyager 1 probe has made history by travelling one light-day away from our planet.",
+      "context": "NASA's space probe Voyager 1 reaches the distance of one light-day from Earth, being the first man-made object to reach that distance, after it launched in 1977.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
       "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/business/aerospace-defense/france-malaysia-eye-defence-rare-earths-cooperation-during-macron-visit-kuala-2026-11-17/"
+        "publisher": "CNN",
+        "url": "https://edition.cnn.com/2026/11/18/science/voyager-1-light-day"
       }
     },
     {
-      "id": "2026-11-17-17-q8",
-      "category": "Politics and elections",
-      "story": "Corruption in Mongolia",
-      "question": "Ukhnaagiin Khürelsükh announced his resignation as president of which country following allegations linked to a railway project?",
-      "options": ["Kazakhstan", "Mongolia", "Uzbekistan", "Kyrgyzstan"],
-      "answerIndex": 1,
-      "explanation": "Mongolian president Ukhnaagiin Khürelsükh tendered his resignation following accusations concerning an embezzlement scandal dating back to his time as premier.",
-      "context": "Corruption in Mongolia: Mongolian president Ukhnaagiin Khürelsükh announces his resignation from office, three days after former Ulaanbaatar mayor Khishgeegiin Nyambaatar accused him of past embezzlement from a railway project during his tenure as prime minister. The State Great Khural must accept the resignation for it to become effective.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
-      "topicUrl": "https://en.wikipedia.org/wiki/Corruption_in_Mongolia",
+      "id": "2026-11-18-1-q5",
+      "category": "Armed conflicts and attacks",
+      "story": "Russo-Ukrainian War > Crimea attacks > 2026 Crimean Bridge explosions",
+      "question": "Traffic was completely halted on the Crimean Bridge after it was targeted for the third time in four days by forces from which country?",
+      "options": ["Ukraine", "Poland", "Georgia", "Romania"],
+      "answerIndex": 0,
+      "explanation": "Ukrainian strikes on the Crimean Bridge led Russian officials to shut down all transport across the structure.",
+      "context": "Russo-Ukrainian War > Crimea attacks > 2026 Crimean Bridge explosions: The Crimean Bridge is struck by Ukrainian forces for the third time in four days, prompting Russian authorities to close the bridge to all traffic.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Crimean_Bridge_explosions",
       "readMore": {
         "publisher": "AP",
-        "url": "https://apnews.com/article/mongolia-president-corruption-allegations-9542b2bf7536db6ae65b371aac07bbf4"
+        "url": "https://apnews.com/article/russia-ukraine-war-bridge-crimea-drones-missiles-df4b867cf8f70e88843d8fefea5d643c"
+      }
+    },
+    {
+      "id": "2026-11-18-8-q1",
+      "category": "Arts and culture",
+      "story": "",
+      "question": "Which artist set a new auction record after their 1890 painting Blossoming Chestnut Trees sold for over $190 million at Sotheby's?",
+      "options": [
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Paul Cézanne",
+        "Claude Monet"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vincent van Gogh's masterpiece set a fresh record for the artist when it fetched $190.4 million at an auction in New York City.",
+      "context": "Vincent van Gogh's 1890 painting Blossoming Chestnut Trees sells for US$190.4 million at Sotheby's in New York City, United States, setting a new auction record for Van Gogh and surpassing the $117.2 million paid for Orchard with Cypresses (1888) in 2022.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+      "readMore": {
+        "publisher": "AFP via NDTV",
+        "url": "https://www.ndtv.com/world-news/vincent-van-goghs-1890-painting-sells-for-190-4-million-12346802"
+      }
+    },
+    {
+      "id": "2026-11-18-11-q8",
+      "category": "Law and crime",
+      "story": "",
+      "question": "The former ancestral home of Nobel Peace Prize laureate Muhammad Yunus was set on fire in which nation?",
+      "options": ["Myanmar", "Bangladesh", "Nepal", "Sri Lanka"],
+      "answerIndex": 1,
+      "explanation": "Arsonists targeted the ancestral property belonging to former chief adviser Muhammad Yunus in Bangladesh.",
+      "context": "Arsonists set fire to the ancestral home of former chief adviser Muhammad Yunus in Panchlaish, Chattogram, Bangladesh.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+      "readMore": {
+        "publisher": "The Daily Star",
+        "url": "https://www.thedailystar.net/news/crime-justice/news/muhammad-yunuss-ancestral-home-set-fire-chattogram-4327776"
       }
     }
   ]
