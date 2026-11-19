@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-18",
-  "generatedAt": "2026-11-18T08:00:01.305Z",
-  "model": "gemini-3.8-flash, gemini-3.6-flash",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T07:56:42.343Z",
+  "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,74 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-11-18-birth-95-q12",
-      "category": "Music",
+      "id": "2026-11-19-event-37-q11",
+      "category": "Royalty",
       "story": "On this day",
-      "question": "Born on this day in 1960, which English pop singer achieved major international success in 1981 with her debut hit single 'Kids in America'?",
-      "options": [
-        "Toyah Willcox",
-        "Kim Wilde",
-        "Sheena Easton",
-        "Hazel O'Connor"
-      ],
-      "answerIndex": 1,
-      "explanation": "Kim Wilde rose to fame in 1981 when her debut single 'Kids in America' reached number two on the UK charts.",
-      "context": "On this day in 1960: Kim Wilde, English singer-songwriter\nKim Wilde (English pop singer (born 1960)): Kim Wilde is an English pop singer. She first gained success in 1981 with her debut single \"Kids in America\", which peaked at no. 2 in the UK. In 1983, she received the Brit Award for Best British Female solo artist. In 1986, she had a UK no.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Kim_Wilde"
+      "question": "On this day in 1942, Mutesa II was crowned as the 35th monarch of which historic African kingdom?",
+      "options": ["Ankole", "Toro", "Buganda", "Bunyoro"],
+      "answerIndex": 2,
+      "explanation": "Mutesa II became the 35th Kabaka of the Kingdom of Buganda on 19 November 1942.",
+      "context": "On this day in 1942: Mutesa II is crowned the 35th and last Kabaka (king) of Buganda, prior to the restoration of the kingdom in 1993.\nMutesa II of Buganda (Monarch of the Kingdom of Buganda from 1939 to 1969): Edward Frederick William David Walugembe Mutebi Luwangula Mutesa II was a Ugandan royal and statesman who served as the first president of Uganda from 1962 to 1966, when he was overthrown by Milton Obote.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mutesa_II_of_Buganda"
     },
     {
-      "id": "2026-11-18-popular-25-q1",
+      "id": "2026-11-19-popular-30-q6",
       "category": "Film",
       "story": "Most read",
-      "question": "Which of these actors was the very first to portray Ian Fleming's secret agent James Bond on the big screen, debuting in 1962's Dr. No?",
-      "options": [
-        "Timothy Dalton",
-        "Roger Moore",
-        "Pierce Brosnan",
-        "Sean Connery"
-      ],
+      "question": "Which character did Robert Downey Jr. sign on to portray as the lead antagonist in Marvel's Avengers: Doomsday?",
+      "options": ["Galactus", "Magneto", "Kang the Conqueror", "Doctor Doom"],
       "answerIndex": 3,
-      "explanation": "Sean Connery originated the cinematic role of James Bond in the 1962 film Dr. No, going on to feature in seven Bond films overall.",
-      "context": "Sean Connery (Scottish actor and producer (1930–2020)): Sir Thomas Sean Connery was a Scottish actor and film producer. Connery was the first actor to portray the fictional British secret agent James Bond in motion pictures, starring in seven Bond films between 1962 and 1983. He originated the role in Dr. No (1962) and continued starring as Bond in the Eon Productions films From Russia with Love (1963), Goldfinger (1964), Thunderball (1965), You Only Live Twice (1967) and Diamonds Are Forever (1971).",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Sean_Connery"
+      "explanation": "Avengers: Doomsday features Robert Downey Jr. leading the ensemble cast in the role of Doctor Doom.",
+      "context": "Avengers: Doomsday (Upcoming Marvel Studios film): Avengers: Doomsday is an upcoming American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is intended to be the sequel to Avengers: Endgame (2019) and the 39th film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo, and written by Stephen McFeely and Michael Waldron, the film features an ensemble cast led by Robert Downey Jr. as Doctor Doom.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Avengers%3A_Doomsday"
     },
     {
-      "id": "2026-11-18-popular-17-q7",
-      "category": "Geography",
+      "id": "2026-11-19-popular-20-q4",
+      "category": "Music",
       "story": "Most read",
-      "question": "British television host and former wheelchair basketball competitor Ade Adepitan was born in which country?",
-      "options": ["Ghana", "Kenya", "Nigeria", "Jamaica"],
-      "answerIndex": 2,
-      "explanation": "Ade Adepitan is a Nigerian-born British broadcaster and athlete known for presenting documentaries and sports coverage.",
-      "context": "Ade Adepitan (British television presenter and sportsman (born 1973)): Adedoyin Olayiwola \"Ade\" Adepitan, PLY is a Nigerian-born British television presenter and wheelchair basketball player. As a presenter, he has hosted a range of travel documentaries and sports programmes for BBC television. Adepitan is a disability advocate and one of the first physically disabled television presenters in the UK, with a career of over twenty years.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ade_Adepitan"
+      "question": "Which singer and actress achieved a top-ten Billboard Hot 100 hit with the single \"Daydreamin'\" from her 1998 debut album Kiss the Sky?",
+      "options": ["Tatyana Ali", "Monica", "Aaliyah", "Brandy"],
+      "answerIndex": 0,
+      "explanation": "Tatyana Ali released her gold-certified debut album Kiss the Sky in 1998, featuring the hit track \"Daydreamin'\".",
+      "context": "Tatyana Ali (American actress and singer (born 1979)): Tatyana Marisol Ali is an American actress and singer. She began her career as a child actress, appearing on the PBS television program Sesame Street. She rose to prominence with her role as Ashley Banks on the NBC sitcom The Fresh Prince of Bel-Air from 1990 to 1996. Her debut album Kiss the Sky (1998), was certified gold by the Recording Industry Association of America, and spawned the hit single \"Daydreamin'\", which peaked in the top ten of the Billboard Hot 100.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tatyana_Ali"
     },
     {
-      "id": "2026-11-18-popular-3-q2",
+      "id": "2026-11-19-popular-1-q1",
       "category": "Art",
       "story": "Most read",
-      "question": "Which English actress and model started her career in fashion at age 16 before working with brands such as Tommy Hilfiger, Hugo Boss, and Burberry?",
+      "question": "Which criminal duo serves as the central protagonists in the open-world video game Grand Theft Auto VI?",
       "options": [
-        "Lily Cole",
-        "Rosie Huntington-Whiteley",
-        "Cara Delevingne",
-        "Suki Waterhouse"
+        "Tommy Vercetti and Claude Speed",
+        "Carl Johnson and Lance Vance",
+        "Michael De Santa and Trevor Philips",
+        "Jason Duval and Lucia Caminos"
       ],
       "answerIndex": 3,
-      "explanation": "Alice Suki Waterhouse launched her career in the modelling industry as a 16-year-old and modelled for labels including Burberry and Hugo Boss.",
-      "context": "Suki Waterhouse (English actress, singer, and model (born 1992)): Alice Suki Waterhouse is an English actress, singer, and model. Waterhouse began a career in modelling at the age of 16, and she went on to model for several major fashion labels such as Burberry, Tommy Hilfiger, Hugo Boss, Laura Mercier, and Ferragamo.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Suki_Waterhouse"
+      "explanation": "In Grand Theft Auto VI, the narrative follows criminal partners Jason Duval and Lucia Caminos through the state of Leonida.",
+      "context": "Grand Theft Auto VI (2026 video game): Grand Theft Auto VI is an action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set within the fictional US state of Leonida, based on Florida, and in the fictional city of Vice City, based on Miami, the story follows the criminal duo of Jason Duval and Lucia Caminos. Players are able to freely roam Leonida's open world.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
     },
     {
-      "id": "2026-11-18-popular-14-q9",
-      "category": "Literature",
+      "id": "2026-11-19-popular-4-q5",
+      "category": "TV",
       "story": "Most read",
-      "question": "First introduced in 1553 in novels by Ian Fleming, how many continuation authors had penned authorised James Bond novels or novelisations following Fleming's death?",
-      "options": ["Five", "Nine", "Twelve", "Seven"],
+      "question": "Which television personality and season nineteen winner served as the host for season 35 of Dancing with the Stars alongside Julianne Hough?",
+      "options": [
+        "Tyra Banks",
+        "Alfonso Ribeiro",
+        "Mario Lopez",
+        "Tom Bergeron"
+      ],
       "answerIndex": 1,
-      "explanation": "After Ian Fleming died in 1964, nine different authors took on writing official James Bond novels and adaptations.",
-      "context": "James Bond (Media franchise about a British spy): The James Bond franchise focuses on the character of James Bond, a fictional British Secret Service agent created in 1953 by writer Ian Fleming, who featured him in twelve novels and two short-story collections. Since Fleming's death in 1964, nine other authors have written authorised Bond novels or novelisations: Kingsley Amis, Christopher Wood, John Gardner, Raymond Benson, Sebastian Faulks, Jeffery Deaver, William Boyd, Anthony Horowitz and Charlie Higson.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/James_Bond"
+      "explanation": "Former Dancing with the Stars winner Alfonso Ribeiro returned to host the show's 35th season with co-host Julianne Hough.",
+      "context": "Dancing with the Stars (American TV series) season 35: Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026. This season was the fourth to air live on both networks simultaneously. Season nineteen champion Alfonso Ribeiro returned to host the installment, while former professional dancer and judge Julianne Hough returned as co-host. A holiday television special will air following the season finale.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"
     }
   ]
 }
