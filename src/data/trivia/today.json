@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-11-19",
-  "generatedAt": "2026-11-19T07:56:42.343Z",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T07:48:14.715Z",
   "model": "gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,69 +11,69 @@
   },
   "questions": [
     {
-      "id": "2026-11-19-event-37-q11",
+      "id": "2026-11-20-selected-8-q11",
       "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1942, Mutesa II was crowned as the 35th monarch of which historic African kingdom?",
-      "options": ["Ankole", "Toro", "Buganda", "Bunyoro"],
-      "answerIndex": 2,
-      "explanation": "Mutesa II became the 35th Kabaka of the Kingdom of Buganda on 19 November 1942.",
-      "context": "On this day in 1942: Mutesa II is crowned the 35th and last Kabaka (king) of Buganda, prior to the restoration of the kingdom in 1993.\nMutesa II of Buganda (Monarch of the Kingdom of Buganda from 1939 to 1969): Edward Frederick William David Walugembe Mutebi Luwangula Mutesa II was a Ugandan royal and statesman who served as the first president of Uganda from 1962 to 1966, when he was overthrown by Milton Obote.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Mutesa_II_of_Buganda"
+      "question": "On this day in 1947, Princess Elizabeth married Lieutenant Philip Mountbatten, who was created the Duke of which city?",
+      "options": ["Gloucester", "York", "Cambridge", "Edinburgh"],
+      "answerIndex": 3,
+      "explanation": "Upon marrying the future Queen Elizabeth II in November 1947, Philip Mountbatten received the title Duke of Edinburgh.",
+      "context": "On this day in 1947: Princess Elizabeth, daughter of King George VI, married Lieutenant Philip Mountbatten, who was given the title Duke of Edinburgh.\nElizabeth II (Queen of the United Kingdom from 1952 to 2022): Elizabeth II was Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022. She was queen regnant of 32 sovereign states during her lifetime and was the monarch of 15 realms at her death.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_II"
     },
     {
-      "id": "2026-11-19-popular-30-q6",
+      "id": "2026-11-20-popular-2-q1",
       "category": "Film",
       "story": "Most read",
-      "question": "Which character did Robert Downey Jr. sign on to portray as the lead antagonist in Marvel's Avengers: Doomsday?",
-      "options": ["Galactus", "Magneto", "Kang the Conqueror", "Doctor Doom"],
+      "question": "Which ancient author's classic Hindu epic provides the source material for Nitesh Tiwari's 2026 mythological film Ramayana: Part 1?",
+      "options": ["Tulsidas", "Vyasa", "Kalidasa", "Valmiki"],
       "answerIndex": 3,
-      "explanation": "Avengers: Doomsday features Robert Downey Jr. leading the ensemble cast in the role of Doctor Doom.",
-      "context": "Avengers: Doomsday (Upcoming Marvel Studios film): Avengers: Doomsday is an upcoming American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is intended to be the sequel to Avengers: Endgame (2019) and the 39th film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo, and written by Stephen McFeely and Michael Waldron, the film features an ensemble cast led by Robert Downey Jr. as Doctor Doom.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Avengers%3A_Doomsday"
+      "explanation": "Ramayana: Part 1 is an adaptation based on the epic poem attributed to the ancient poet Valmiki.",
+      "context": "Ramayana: Part 1 (2026 Indian film by Nitesh Tiwari): Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the Hindu epic Ramayana by Valmiki. It is the first instalment of a two-part film series, with Part 1 being based on the first three kāṇḍa (chapters) of Ramayana, which chronicle the life of Prince Rama from childhood up to his adventurous 14-year exile.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1"
     },
     {
-      "id": "2026-11-19-popular-20-q4",
+      "id": "2026-11-20-popular-14-q5",
       "category": "Music",
       "story": "Most read",
-      "question": "Which singer and actress achieved a top-ten Billboard Hot 100 hit with the single \"Daydreamin'\" from her 1998 debut album Kiss the Sky?",
-      "options": ["Tatyana Ali", "Monica", "Aaliyah", "Brandy"],
-      "answerIndex": 0,
-      "explanation": "Tatyana Ali released her gold-certified debut album Kiss the Sky in 1998, featuring the hit track \"Daydreamin'\".",
-      "context": "Tatyana Ali (American actress and singer (born 1979)): Tatyana Marisol Ali is an American actress and singer. She began her career as a child actress, appearing on the PBS television program Sesame Street. She rose to prominence with her role as Ashley Banks on the NBC sitcom The Fresh Prince of Bel-Air from 1990 to 1996. Her debut album Kiss the Sky (1998), was certified gold by the Recording Industry Association of America, and spawned the hit single \"Daydreamin'\", which peaked in the top ten of the Billboard Hot 100.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Tatyana_Ali"
-    },
-    {
-      "id": "2026-11-19-popular-1-q1",
-      "category": "Art",
-      "story": "Most read",
-      "question": "Which criminal duo serves as the central protagonists in the open-world video game Grand Theft Auto VI?",
+      "question": "Leigh Nash achieved international recognition in the late 1990s as the lead singer of which American band?",
       "options": [
-        "Tommy Vercetti and Claude Speed",
-        "Carl Johnson and Lance Vance",
-        "Michael De Santa and Trevor Philips",
-        "Jason Duval and Lucia Caminos"
-      ],
-      "answerIndex": 3,
-      "explanation": "In Grand Theft Auto VI, the narrative follows criminal partners Jason Duval and Lucia Caminos through the state of Leonida.",
-      "context": "Grand Theft Auto VI (2026 video game): Grand Theft Auto VI is an action-adventure game developed and published by Rockstar Games. It is the eighth main entry in the Grand Theft Auto series, following 2013's Grand Theft Auto V, and the sixteenth entry overall. Set within the fictional US state of Leonida, based on Florida, and in the fictional city of Vice City, based on Miami, the story follows the criminal duo of Jason Duval and Lucia Caminos. Players are able to freely roam Leonida's open world.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
-    },
-    {
-      "id": "2026-11-19-popular-4-q5",
-      "category": "TV",
-      "story": "Most read",
-      "question": "Which television personality and season nineteen winner served as the host for season 35 of Dancing with the Stars alongside Julianne Hough?",
-      "options": [
-        "Tyra Banks",
-        "Alfonso Ribeiro",
-        "Mario Lopez",
-        "Tom Bergeron"
+        "The Cranberries",
+        "Sixpence None the Richer",
+        "Mazzy Star",
+        "The Sundays"
       ],
       "answerIndex": 1,
-      "explanation": "Former Dancing with the Stars winner Alfonso Ribeiro returned to host the show's 35th season with co-host Julianne Hough.",
-      "context": "Dancing with the Stars (American TV series) season 35: Season thirty-five of Dancing with the Stars premiered on ABC and Disney+ on September 15, 2026, and is scheduled to conclude on November 24, 2026. This season was the fourth to air live on both networks simultaneously. Season nineteen champion Alfonso Ribeiro returned to host the installment, while former professional dancer and judge Julianne Hough returned as co-host. A holiday television special will air following the season finale.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"
+      "explanation": "Leigh Nash is the frontwoman and vocalist of the alternative rock band Sixpence None the Richer.",
+      "context": "Leigh Nash (American singer (born 1976)): Leigh Anne Nash is an American singer and songwriter. She is best known as the lead vocalist of the Christian alternative rock band Sixpence None the Richer, and was also a member of the musical collective Fauxliage. Her debut solo album, Blue on Blue, was released in August 2006, followed by two additional solo albums in 2011 and 2015. Nash has received two Grammy Award nominations: Best Rock Gospel Album in 1998 and Best Pop Performance by a Duo or Group with Vocal in 1999.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Leigh_Nash"
+    },
+    {
+      "id": "2026-11-20-popular-10-q3",
+      "category": "Science",
+      "story": "Most read",
+      "question": "Which artificial intelligence company was set up in 2021 by siblings Dario and Daniela Amodei after leaving OpenAI?",
+      "options": ["Anthropic", "Mistral AI", "Cohere", "DeepMind"],
+      "answerIndex": 0,
+      "explanation": "The Amodei siblings co-founded Anthropic, the creators of the Claude family of language models, in 2021.",
+      "context": "Anthropic (American artificial intelligence company): Anthropic, PBC is an American artificial intelligence (AI) public benefit corporation headquartered in San Francisco, California. Its flagship product is Claude, a series of proprietary large language models (LLMs). In January 2021, Anthropic was founded by former members of OpenAI over disagreements on AI safety, including siblings Daniela Amodei and Dario Amodei, who are president and CEO, respectively.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Anthropic"
+    },
+    {
+      "id": "2026-11-20-popular-22-q7",
+      "category": "History",
+      "story": "Most read",
+      "question": "Which Byzantine ruler commanded the construction of the sixth-century Iron Gate dam near Antioch to protect against flooding?",
+      "options": [
+        "Justinian I",
+        "Constantine the Great",
+        "Theodosius II",
+        "Heraclius"
+      ],
+      "answerIndex": 0,
+      "explanation": "Emperor Justinian I ordered the construction of the masonry arch dam to control torrential waters from the Parmenios stream.",
+      "context": "Iron Gate (Antioch) (Dam in Antakya, Turkey): The Iron Gate is a sixth-century dam located in the mountains to the east of Antakya in Turkey. It is one of the earliest known arch dams and is the oldest to survive. It was built in the mid–sixth century on the order of the Byzantine emperor Justinian I to impound and slow the waters of the Parmenios stream, which in the rainy season could cause torrential floods endangering Antioch's city centre.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Iron_Gate_(Antioch)"
     }
   ]
 }
