@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T07:48:14.715Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T07:45:50.871Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,69 +11,79 @@
   },
   "questions": [
     {
-      "id": "2026-11-20-selected-8-q11",
-      "category": "Royalty",
+      "id": "2026-11-21-selected-16-q12",
+      "category": "History",
       "story": "On this day",
-      "question": "On this day in 1947, Princess Elizabeth married Lieutenant Philip Mountbatten, who was created the Duke of which city?",
-      "options": ["Gloucester", "York", "Cambridge", "Edinburgh"],
-      "answerIndex": 3,
-      "explanation": "Upon marrying the future Queen Elizabeth II in November 1947, Philip Mountbatten received the title Duke of Edinburgh.",
-      "context": "On this day in 1947: Princess Elizabeth, daughter of King George VI, married Lieutenant Philip Mountbatten, who was given the title Duke of Edinburgh.\nElizabeth II (Queen of the United Kingdom from 1952 to 2022): Elizabeth II was Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022. She was queen regnant of 32 sovereign states during her lifetime and was the monarch of 15 realms at her death.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_II"
+      "question": "On this day in 1877, which American inventor formally announced his creation of the phonograph, a machine capable of recording and playing back sound?",
+      "options": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Alexander Graham Bell",
+        "Guglielmo Marconi"
+      ],
+      "answerIndex": 0,
+      "explanation": "Thomas Edison revealed his groundbreaking sound recording invention, the phonograph, on 21 November 1877.",
+      "context": "On this day in 1877: Thomas Edison announced his invention of the phonograph, a device able to record and play sound.\nThomas Edison (American inventor and businessman (1847–1931)): Thomas Alva Edison was an American inventor and businessman known for his work on the incandescent light bulb, the phonograph, electric power distribution and early motion pictures.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thomas_Edison"
     },
     {
-      "id": "2026-11-20-popular-2-q1",
+      "id": "2026-11-21-popular-27-q3",
       "category": "Film",
       "story": "Most read",
-      "question": "Which ancient author's classic Hindu epic provides the source material for Nitesh Tiwari's 2026 mythological film Ramayana: Part 1?",
-      "options": ["Tulsidas", "Vyasa", "Kalidasa", "Valmiki"],
-      "answerIndex": 3,
-      "explanation": "Ramayana: Part 1 is an adaptation based on the epic poem attributed to the ancient poet Valmiki.",
-      "context": "Ramayana: Part 1 (2026 Indian film by Nitesh Tiwari): Ramayana: Part 1 is a 2026 Indian Hindi-language epic mythological film directed by Nitesh Tiwari, who co-wrote the screenplay with Shridhar Raghavan. Produced by Namit Malhotra and Yash, the film is based on the Hindu epic Ramayana by Valmiki. It is the first instalment of a two-part film series, with Part 1 being based on the first three kāṇḍa (chapters) of Ramayana, which chronicle the life of Prince Rama from childhood up to his adventurous 14-year exile.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1"
+      "question": "Which English actor is featured alongside an ensemble cast including Matt Damon and Tom Holland in Christopher Nolan's 2026 epic adaptation of 'The Odyssey'?",
+      "options": [
+        "Nicholas Hoult",
+        "Tom Hiddleston",
+        "Robert Pattinson",
+        "Eddie Redmayne"
+      ],
+      "answerIndex": 2,
+      "explanation": "Robert Pattinson stars in Christopher Nolan's 2026 film adaptation of Homer's ancient epic poem.",
+      "context": "The Odyssey (2026 film) (Film by Christopher Nolan): The Odyssey is a 2026 epic action fantasy film written and directed by Christopher Nolan, who produced it with his wife Emma Thomas. An adaptation of Homer's ancient Greek epic poem the Odyssey, it stars an ensemble cast including Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson, Lupita Nyong'o, Samantha Morton, Zendaya, and Charlize Theron.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
     },
     {
-      "id": "2026-11-20-popular-14-q5",
+      "id": "2026-11-21-popular-19-q7",
       "category": "Music",
       "story": "Most read",
-      "question": "Leigh Nash achieved international recognition in the late 1990s as the lead singer of which American band?",
-      "options": [
-        "The Cranberries",
-        "Sixpence None the Richer",
-        "Mazzy Star",
-        "The Sundays"
-      ],
-      "answerIndex": 1,
-      "explanation": "Leigh Nash is the frontwoman and vocalist of the alternative rock band Sixpence None the Richer.",
-      "context": "Leigh Nash (American singer (born 1976)): Leigh Anne Nash is an American singer and songwriter. She is best known as the lead vocalist of the Christian alternative rock band Sixpence None the Richer, and was also a member of the musical collective Fauxliage. Her debut solo album, Blue on Blue, was released in August 2006, followed by two additional solo albums in 2011 and 2015. Nash has received two Grammy Award nominations: Best Rock Gospel Album in 1998 and Best Pop Performance by a Duo or Group with Vocal in 1999.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Leigh_Nash"
+      "question": "The 2017 song 'XXX' by rapper Kendrick Lamar features a guest performance from which legendary Irish rock band?",
+      "options": ["Coldplay", "The Script", "Snow Patrol", "U2"],
+      "answerIndex": 3,
+      "explanation": "'XXX' features vocals and songwriting contributions from members of the rock group U2.",
+      "context": "XXX (Kendrick Lamar song) (2017 song by Kendrick Lamar featuring U2): \"XXX\" is a song by American rapper Kendrick Lamar, from his fourth studio album Damn, released on April 14, 2017. The eleventh track on the album, the song was written by Lamar, Mike Will Made It, DJ Dahi, Mark Spears a.k.a. Sounwave, Anthony Tiffith, Bono, the Edge, Adam Clayton, and Larry Mullen Jr., and produced by Mike Will Made It, DJ Dahi, and Sounwave, with additional production by Top Dawg and Bēkon.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/XXX_(Kendrick_Lamar_song)"
     },
     {
-      "id": "2026-11-20-popular-10-q3",
+      "id": "2026-11-21-popular-5-q2",
       "category": "Science",
       "story": "Most read",
-      "question": "Which artificial intelligence company was set up in 2021 by siblings Dario and Daniela Amodei after leaving OpenAI?",
-      "options": ["Anthropic", "Mistral AI", "Cohere", "DeepMind"],
-      "answerIndex": 0,
-      "explanation": "The Amodei siblings co-founded Anthropic, the creators of the Claude family of language models, in 2021.",
-      "context": "Anthropic (American artificial intelligence company): Anthropic, PBC is an American artificial intelligence (AI) public benefit corporation headquartered in San Francisco, California. Its flagship product is Claude, a series of proprietary large language models (LLMs). In January 2021, Anthropic was founded by former members of OpenAI over disagreements on AI safety, including siblings Daniela Amodei and Dario Amodei, who are president and CEO, respectively.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Anthropic"
+      "question": "Which video game development company, founded in Scotland by David Jones and Mike Dailly, was originally known as DMA Design?",
+      "options": [
+        "Ubisoft Montreal",
+        "Bungie",
+        "Criterion Games",
+        "Rockstar North"
+      ],
+      "answerIndex": 3,
+      "explanation": "Rockstar North was originally founded as DMA Design in Scotland before being rebranded under its current name.",
+      "context": "Grand Theft Auto (Video game series): Grand Theft Auto (GTA) is an action-adventure video game series created by the Scottish programmers David Jones and Mike Dailly at DMA Design, now known as Rockstar North. Later titles were developed under the oversight of brothers Dan and Sam Houser, Leslie Benzies and Aaron Garbut. It is primarily developed by Rockstar North and published by its American parent company, Rockstar Games. The name of the series is a term for motor vehicle theft in the United States.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
     },
     {
-      "id": "2026-11-20-popular-22-q7",
-      "category": "History",
+      "id": "2026-11-21-popular-20-q8",
+      "category": "TV",
       "story": "Most read",
-      "question": "Which Byzantine ruler commanded the construction of the sixth-century Iron Gate dam near Antioch to protect against flooding?",
+      "question": "In the 2025 British crime drama series 'MobLand', which actor portrays the central character Harry Da Souza?",
       "options": [
-        "Justinian I",
-        "Constantine the Great",
-        "Theodosius II",
-        "Heraclius"
+        "Tom Hardy",
+        "Pierce Brosnan",
+        "Jason Statham",
+        "Cillian Murphy"
       ],
       "answerIndex": 0,
-      "explanation": "Emperor Justinian I ordered the construction of the masonry arch dam to control torrential waters from the Parmenios stream.",
-      "context": "Iron Gate (Antioch) (Dam in Antakya, Turkey): The Iron Gate is a sixth-century dam located in the mountains to the east of Antakya in Turkey. It is one of the earliest known arch dams and is the oldest to survive. It was built in the mid–sixth century on the order of the Byzantine emperor Justinian I to impound and slow the waters of the Parmenios stream, which in the rainy season could cause torrential floods endangering Antioch's city centre.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Iron_Gate_(Antioch)"
+      "explanation": "Tom Hardy heads the cast of Paramount+'s 'MobLand' in the lead role of Harry Da Souza.",
+      "context": "MobLand (2025 British crime drama television series): MobLand is a crime drama television series created by Ronan Bennett for Paramount+. The series stars Tom Hardy as Harry Da Souza, Pierce Brosnan as Conrad Harrigan and Helen Mirren as Maeve Harrigan. Additional main characters include Kevin Harrigan, Jan Da Souza, Isabella Harrigan, Eddie Harrigan, and Seraphina Harrigan. Guy Ritchie, Anthony Byrne, Daniel Syrkin, and Lawrence Gough serve as directors. Jez Butterworth and Bennett are credited with writing all ten episodes of the first season.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/MobLand"
     }
   ]
 }
