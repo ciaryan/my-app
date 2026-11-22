@@ -1,95 +1,110 @@
 {
   "version": 1,
-  "date": "2026-11-20",
-  "newsDate": "2026-11-19",
-  "generatedAt": "2026-11-20T07:20:56.259Z",
-  "model": "gemini-3.8-flash",
+  "date": "2026-11-22",
+  "newsDate": "2026-11-21",
+  "generatedAt": "2026-11-22T09:55:06.740Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
-    "revisionIds": [1386731379, 1386713985],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
+    "revisionIds": [1387065553, 1387074293],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-19-19-q6",
-      "category": "Politics and elections",
-      "story": "2027 Salvadoran presidential election",
-      "question": "Nayib Bukele registered his candidacy to seek a third six-year term as president of which country?",
-      "options": ["El Salvador", "Nicaragua", "Honduras", "Guatemala"],
-      "answerIndex": 0,
-      "explanation": "Bukele submitted his application to the Supreme Electoral Court to contest El Salvador's presidential election in 2027.",
-      "context": "2027 Salvadoran presidential election: Incumbent president of El Salvador Nayib Bukele presents his presidential candidacy to the Supreme Electoral Court seeking registration ahead of the 2027 elections. He is running for a third presidential term that will last six years.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
-      "topicUrl": "https://en.wikipedia.org/wiki/2027_Salvadoran_presidential_election",
-      "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/el-salvador-president-nayib-bukele-reelection-gangs-fbbf0ec3bba7966fa1a5d71d04e04e29"
-      }
-    },
-    {
-      "id": "2026-11-19-18-q5",
-      "category": "Law and crime",
-      "story": "Rohingya genocide case",
-      "question": "The International Court of Justice determined that which country committed genocide against the Rohingya people?",
-      "options": ["India", "Myanmar", "Thailand", "Bangladesh"],
-      "answerIndex": 1,
-      "explanation": "Judges at the UN's top court, the International Court of Justice, issued a ruling stating that Myanmar was guilty of genocide against the Rohingya.",
-      "context": "Rohingya genocide case: The International Court of Justice rules that Myanmar has committed genocide against the Rohingya people.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
-      "topicUrl": "https://en.wikipedia.org/wiki/Rohingya_genocide_case",
-      "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/myanmar-guilty-genocide-against-rohingya-says-top-un-court"
-      }
-    },
-    {
-      "id": "2026-11-19-13-q1",
+      "id": "2026-11-21-11-q7",
       "category": "International relations",
-      "story": "APEC China 2026 > Chile–Philippines relations",
-      "question": "Which Latin American country signed a free trade agreement with the Philippines at the APEC summit, marking the Philippines' first such deal with the region?",
-      "options": ["Brazil", "Chile", "Argentina", "Mexico"],
-      "answerIndex": 1,
-      "explanation": "During the APEC meeting held in Shenzhen, the Philippines signed its inaugural free trade deal with a Latin American nation by partnering with Chile.",
-      "context": "APEC China 2026 > Chile–Philippines relations: The Philippines and Chile sign a free trade agreement as part of the 33rd Asia-Pacific Economic Cooperation Economic Leaders' Meeting in Shenzhen, China, marking the former's first such agreement with a Latin American country.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
-      "topicUrl": "https://en.wikipedia.org/wiki/Chile%E2%80%93Philippines_relations",
+      "story": "Indonesia–European Union trade relations",
+      "question": "Indonesia signed a new trade deal with which international block that will eliminate tariffs on 98.5% of incoming goods?",
+      "options": ["ASEAN", "African Union", "European Union", "Mercosur"],
+      "answerIndex": 2,
+      "explanation": "The fresh economic agreements between Indonesia and the European Union will scrap nearly all tariffs on EU exports.",
+      "context": "Indonesia–European Union trade relations: Indonesia and the European Union sign trade and investment agreements that will lift 98.5% of tariffs on EU goods.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
+      "topicUrl": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93European_Union_trade_relations",
       "readMore": {
-        "publisher": "AFP via Philippine Daily Inquirer",
-        "url": "https://business.inquirer.net/621752/ph-inks-first-latin-american-free-trade-deal-with-chile/"
+        "publisher": "Euronews",
+        "url": "https://www.euronews.com/2026/11/21/european-union-and-indonesia-sign-free-trade-deal-after-decade-of-talks"
       }
     },
     {
-      "id": "2026-11-19-11-q9",
+      "id": "2026-11-21-5-q3",
       "category": "Business and economy",
       "story": "2026 Bangladesh garment workers protests",
-      "question": "Over 300 garment factories were forced to shut down due to widespread minimum wage demonstrations in which country?",
-      "options": ["Cambodia", "Vietnam", "Bangladesh", "Sri Lanka"],
-      "answerIndex": 2,
-      "explanation": "Ongoing wage disputes led to the closure of 341 apparel manufacturing sites across Bangladesh as police clashed with protesters.",
-      "context": "2026 Bangladesh garment workers protests: Across Bangladesh, 341 garment factories remain closed amid ongoing minimum wage protests, as police fire tear gas and stun grenades to disperse demonstrators in Ashulia and clear blockades on the Dhaka–Mymensingh Highway in Gazipur, while Bangladesh Nationalist Party members take up positions along highway areas in Sreepur and authorities tighten security at Kashimpur Central Jail.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
+      "question": "Dozens of garment factories in Bangladesh were forced to close and declare holidays following worker protests over which issue?",
+      "options": [
+        "Four-day work weeks",
+        "Minimum wage demands",
+        "Safety equipment standards",
+        "Paid parental leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "The industrial closures in Savar and Ashulia occurred as garment workers organized sit-ins demanding higher minimum wages.",
+      "context": "2026 Bangladesh garment workers protests: At least 80 garment factories in Savar and Ashulia, Bangladesh, declare general holidays after workers stage sit-ins and work stoppages over minimum wage demands, while police announce that 96 people, including five labour leaders, have been arrested in connection with the 4 November clashes on the Dhaka–Aricha Highway.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
       "topicUrl": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
       "readMore": {
-        "publisher": "New Age",
-        "url": "https://www.newagebd.net/post/country/323243/341-factories-shut-amid-rmg-wage-protests"
+        "publisher": "The Business Standard",
+        "url": "https://www.tbsnews.net/economy/rmg/labour-unrest-least-12-factories-declare-holiday-amid-work-abstention-savar-1609261"
       }
     },
     {
-      "id": "2026-11-19-20-q7",
-      "category": "Politics and elections",
-      "story": "Corruption in Mongolia",
-      "question": "Sandagiin Byambatsogt stepped in as acting president following the resignation of Ukhnaagiin Khürelsükh in which country?",
-      "options": ["Kyrgyzstan", "Kazakhstan", "Uzbekistan", "Mongolia"],
-      "answerIndex": 3,
-      "explanation": "Mongolia's parliament accepted President Ukhnaagiin Khürelsükh's resignation, leaving legislative chairman Byambatsogt to lead until elections are held.",
-      "context": "Corruption in Mongolia: The State Great Khural accepts the resignation of Mongolian president Ukhnaagiin Khürelsükh. The chamber's chairman, Sandagiin Byambatsogt, assumes the acting presidency until a new election is held within four months.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
-      "topicUrl": "https://en.wikipedia.org/wiki/Corruption_in_Mongolia",
+      "id": "2026-11-21-12-q8",
+      "category": "Science and technology",
+      "story": "Exploration of Mercury",
+      "question": "The European Space Agency announced that the BepiColombo probe successfully entered into orbit around which planet?",
+      "options": ["Mercury", "Mars", "Jupiter", "Venus"],
+      "answerIndex": 0,
+      "explanation": "BepiColombo has reached its final destination and successfully inserted itself into orbit around Mercury.",
+      "context": "Exploration of Mercury: The European Space Agency announces that the BepiColombo spacecraft inserted itself into orbit around Mercury.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
+      "topicUrl": "https://en.wikipedia.org/wiki/Exploration_of_Mercury",
       "readMore": {
         "publisher": "AP",
-        "url": "https://apnews.com/article/mongolia-president-resignation-corruption-accusation-226d15f2b1421c00b37266f49cef46f7"
+        "url": "https://apnews.com/article/mercury-bepicolombo-space-planet-esa-0c80bbf2039ed4f6ee4a34426b3594a0"
+      }
+    },
+    {
+      "id": "2026-11-21-1-q12",
+      "category": "Armed conflicts and attacks",
+      "story": "Middle Eastern crisis > Gaza war > Gaza genocide, Gaza humanitarian crisis",
+      "question": "Aid transport was targeted during recent violence in Gaza City according to reports from which local service?",
+      "options": [
+        "Civil defence agency",
+        "Maritime authority",
+        "Coast guard",
+        "Red Crescent Society"
+      ],
+      "answerIndex": 0,
+      "explanation": "Gaza's civil defence agency reported casualties following a drone strike on a vehicle carrying foodstuffs.",
+      "context": "Middle Eastern crisis > Gaza war > Gaza genocide, Gaza humanitarian crisis: Gaza's civil defence agency reports four people killed by Israeli fire, including three in a drone strike on a food-carrying vehicle in Gaza City and one by gunfire in Jabalia. Israel says it targeted operatives.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
+      "topicUrl": "https://en.wikipedia.org/wiki/Gaza_genocide",
+      "readMore": {
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261121-gaza-civil-defence-says-israeli-fire-kills-four"
+      }
+    },
+    {
+      "id": "2026-11-21-6-q4",
+      "category": "Business and economy",
+      "story": "2026 Bangladesh garment workers protests",
+      "question": "Laid-off clothing factory workers blocked roads in Bangladesh's Narayanganj District due to disputes regarding what issue?",
+      "options": [
+        "Shift patterns",
+        "Union recognition",
+        "Unpaid wages",
+        "Pension plans"
+      ],
+      "answerIndex": 2,
+      "explanation": "Former factory staff blocked traffic by burning tyres and cutting down trees in protest over back pay.",
+      "context": "2026 Bangladesh garment workers protests: Laid-off garment workers in Rupganj, Narayanganj District, block roads by felling trees and burning tires over unpaid wages.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
+      "readMore": {
+        "publisher": "The Business Standard",
+        "url": "https://www.tbsnews.net/bangladesh/garment-workers-block-road-over-unpaid-wages-narayanganj-1609671"
       }
     }
   ]
