@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "date": "2026-11-21",
-  "generatedAt": "2026-11-21T07:45:50.871Z",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T10:16:35.527Z",
   "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
@@ -11,79 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-11-21-selected-16-q12",
-      "category": "History",
+      "id": "2026-11-22-selected-7-q1",
+      "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1877, which American inventor formally announced his creation of the phonograph, a machine capable of recording and playing back sound?",
-      "options": [
-        "Thomas Edison",
-        "Nikola Tesla",
-        "Alexander Graham Bell",
-        "Guglielmo Marconi"
-      ],
-      "answerIndex": 0,
-      "explanation": "Thomas Edison revealed his groundbreaking sound recording invention, the phonograph, on 21 November 1877.",
-      "context": "On this day in 1877: Thomas Edison announced his invention of the phonograph, a device able to record and play sound.\nThomas Edison (American inventor and businessman (1847–1931)): Thomas Alva Edison was an American inventor and businessman known for his work on the incandescent light bulb, the phonograph, electric power distribution and early motion pictures.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Thomas_Edison"
+      "question": "On this day in 1975, who became King of Spain following the death of dictator Francisco Franco?",
+      "options": ["Charles III", "Juan Carlos I", "Felipe VI", "Alfonso XIII"],
+      "answerIndex": 1,
+      "explanation": "Juan Carlos I was declared the monarch of Spain two days after Franco passed away, according to the succession laws set out by Franco.",
+      "context": "On this day in 1975: Two days after the death of Francisco Franco, Juan Carlos I (pictured) was declared King of Spain according to the law of succession promulgated by Franco.\nFrancisco Franco (Leader of Spain from 1939 to 1975): Francisco Franco Bahamonde was a Spanish military general and the dictator of Spain from 1939 until his death in 1975. He had led the Nationalist forces in overthrowing the Second Spanish Republic during the Spanish Civil War from 1936 to 1939.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Francisco_Franco"
     },
     {
-      "id": "2026-11-21-popular-27-q3",
+      "id": "2026-11-22-popular-18-q13",
       "category": "Film",
       "story": "Most read",
-      "question": "Which English actor is featured alongside an ensemble cast including Matt Damon and Tom Holland in Christopher Nolan's 2026 epic adaptation of 'The Odyssey'?",
+      "question": "Who co-directed the 2026 experimental documentary film You Can See Everything alongside Lance Oppenheim?",
       "options": [
-        "Nicholas Hoult",
-        "Tom Hiddleston",
-        "Robert Pattinson",
-        "Eddie Redmayne"
+        "Alyce Tzue",
+        "Quinn Shephard",
+        "Nathan Fielder",
+        "Francis Lawrence"
       ],
       "answerIndex": 2,
-      "explanation": "Robert Pattinson stars in Christopher Nolan's 2026 film adaptation of Homer's ancient epic poem.",
-      "context": "The Odyssey (2026 film) (Film by Christopher Nolan): The Odyssey is a 2026 epic action fantasy film written and directed by Christopher Nolan, who produced it with his wife Emma Thomas. An adaptation of Homer's ancient Greek epic poem the Odyssey, it stars an ensemble cast including Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson, Lupita Nyong'o, Samantha Morton, Zendaya, and Charlize Theron.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)"
+      "explanation": "You Can See Everything is a 2026 documentary co-directed by Nathan Fielder and Lance Oppenheim.",
+      "context": "You Can See Everything (2026 documentary film): You Can See Everything is a 2026 American experimental documentary film directed by Nathan Fielder and Lance Oppenheim. It follows Elizabeth Holmes, the founder of the defunct health technology company Theranos, and her partner Billy Evans, who invited a film crew to document them beginning in the weeks before Holmes began serving a United States federal prison sentence for defrauding investors.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/You_Can_See_Everything"
     },
     {
-      "id": "2026-11-21-popular-19-q7",
-      "category": "Music",
+      "id": "2026-11-22-popular-20-q9",
+      "category": "Sport",
       "story": "Most read",
-      "question": "The 2017 song 'XXX' by rapper Kendrick Lamar features a guest performance from which legendary Irish rock band?",
-      "options": ["Coldplay", "The Script", "Snow Patrol", "U2"],
-      "answerIndex": 3,
-      "explanation": "'XXX' features vocals and songwriting contributions from members of the rock group U2.",
-      "context": "XXX (Kendrick Lamar song) (2017 song by Kendrick Lamar featuring U2): \"XXX\" is a song by American rapper Kendrick Lamar, from his fourth studio album Damn, released on April 14, 2017. The eleventh track on the album, the song was written by Lamar, Mike Will Made It, DJ Dahi, Mark Spears a.k.a. Sounwave, Anthony Tiffith, Bono, the Edge, Adam Clayton, and Larry Mullen Jr., and produced by Mike Will Made It, DJ Dahi, and Sounwave, with additional production by Top Dawg and Bēkon.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/XXX_(Kendrick_Lamar_song)"
+      "question": "Which English retired rugby union player, who earned the nickname 'Mad Dog', won the 2003 World Cup with England?",
+      "options": [
+        "Navajo Stirling",
+        "Boris Becker",
+        "Lewis Moody",
+        "Nikhil Chaudhary"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lewis Moody played for Leicester Tigers and Bath, won the World Cup with England in 2003, and was nicknamed 'Mad Dog'.",
+      "context": "Lewis Moody (British Lions & England international rugby union player (born 1978)): Lewis Walton Moody is an English retired rugby union player. He played for Leicester Tigers and Bath and was part of the 2003 World Cup winning side. Moody was chosen for the 2005 British & Irish Lions tour to New Zealand, being capped twice. He is known for the enthusiasm with which he played the game, his willingness to chase down opponents and his ability to compete for possession at restarts, which earned him the nickname \"Mad Dog\" from teammates and supporters.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lewis_Moody"
     },
     {
-      "id": "2026-11-21-popular-5-q2",
+      "id": "2026-11-22-popular-19-q10",
+      "category": "Literature",
+      "story": "Most read",
+      "question": "Which 2025 dystopian novel by Suzanne Collins acts as the second prequel to the main Hunger Games trilogy?",
+      "options": [
+        "Mockingjay",
+        "Catching Fire",
+        "Sunrise on the Reaping",
+        "The Ballad of Songbirds and Snakes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Suzanne Collins released Sunrise on the Reaping in 2025 as the second prequel book following The Ballad of Songbirds and Snakes.",
+      "context": "Sunrise on the Reaping (2025 novel by Suzanne Collins): Sunrise on the Reaping is a 2025 dystopian novel written by American author Suzanne Collins and the second prequel novel to the original The Hunger Games trilogy, following The Ballad of Songbirds and Snakes (2020).",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sunrise_on_the_Reaping"
+    },
+    {
+      "id": "2026-11-22-popular-2-q6",
       "category": "Science",
       "story": "Most read",
-      "question": "Which video game development company, founded in Scotland by David Jones and Mike Dailly, was originally known as DMA Design?",
-      "options": [
-        "Ubisoft Montreal",
-        "Bungie",
-        "Criterion Games",
-        "Rockstar North"
-      ],
-      "answerIndex": 3,
-      "explanation": "Rockstar North was originally founded as DMA Design in Scotland before being rebranded under its current name.",
-      "context": "Grand Theft Auto (Video game series): Grand Theft Auto (GTA) is an action-adventure video game series created by the Scottish programmers David Jones and Mike Dailly at DMA Design, now known as Rockstar North. Later titles were developed under the oversight of brothers Dan and Sam Houser, Leslie Benzies and Aaron Garbut. It is primarily developed by Rockstar North and published by its American parent company, Rockstar Games. The name of the series is a term for motor vehicle theft in the United States.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto"
-    },
-    {
-      "id": "2026-11-21-popular-20-q8",
-      "category": "TV",
-      "story": "Most read",
-      "question": "In the 2025 British crime drama series 'MobLand', which actor portrays the central character Harry Da Souza?",
-      "options": [
-        "Tom Hardy",
-        "Pierce Brosnan",
-        "Jason Statham",
-        "Cillian Murphy"
-      ],
-      "answerIndex": 0,
-      "explanation": "Tom Hardy heads the cast of Paramount+'s 'MobLand' in the lead role of Harry Da Souza.",
-      "context": "MobLand (2025 British crime drama television series): MobLand is a crime drama television series created by Ronan Bennett for Paramount+. The series stars Tom Hardy as Harry Da Souza, Pierce Brosnan as Conrad Harrigan and Helen Mirren as Maeve Harrigan. Additional main characters include Kevin Harrigan, Jan Da Souza, Isabella Harrigan, Eddie Harrigan, and Seraphina Harrigan. Guy Ritchie, Anthony Byrne, Daniel Syrkin, and Lawrence Gough serve as directors. Jez Butterworth and Bennett are credited with writing all ten episodes of the first season.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/MobLand"
+      "question": "Mathematician Bernhard Riemann first proposed his famous hypothesis regarding the zeros of the zeta function in which year?",
+      "options": ["1908", "1859", "1837", "1890"],
+      "answerIndex": 1,
+      "explanation": "Bernhard Riemann introduced the Riemann hypothesis in 1859, posing one of the most famous open problems in pure mathematics.",
+      "context": "Riemann hypothesis (Statement about zeros of the zeta function): In mathematics, the Riemann hypothesis asserts that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part. First posed in 1859 by Bernhard Riemann, it is considered by pure mathematicians to be one of the most important problems in the field. The result has importance in number theory because it implies bounds on the distribution of prime numbers.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
     }
   ]
 }
