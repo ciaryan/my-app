@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-22",
-  "generatedAt": "2026-11-22T10:16:35.527Z",
-  "model": "gemini-3.6-flash",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T08:11:04.795Z",
+  "model": "gemini-3.6-flash, gemini-3.5-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,74 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-11-22-selected-7-q1",
+      "id": "2026-11-23-event-49-q11",
       "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1975, who became King of Spain following the death of dictator Francisco Franco?",
-      "options": ["Charles III", "Juan Carlos I", "Felipe VI", "Alfonso XIII"],
-      "answerIndex": 1,
-      "explanation": "Juan Carlos I was declared the monarch of Spain two days after Franco passed away, according to the succession laws set out by Franco.",
-      "context": "On this day in 1975: Two days after the death of Francisco Franco, Juan Carlos I (pictured) was declared King of Spain according to the law of succession promulgated by Franco.\nFrancisco Franco (Leader of Spain from 1939 to 1975): Francisco Franco Bahamonde was a Spanish military general and the dictator of Spain from 1939 until his death in 1975. He had led the Nationalist forces in overthrowing the Second Spanish Republic during the Spanish Civil War from 1936 to 1939.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Francisco_Franco"
+      "question": "On this day in 1589, which Scottish monarch married Princess Anne of Denmark?",
+      "options": ["James VI", "James V", "Charles I", "Robert II"],
+      "answerIndex": 0,
+      "explanation": "James VI of Scotland, who later ascended to the English throne as James I, married Anne of Denmark on 23 November 1589.",
+      "context": "On this day in 1589: Marriage of king James VI of Scotland and Anne of Denmark.\nJames VI and I (King of Scotland from 1567 to 1625, King of England and Ireland from 1603): James VI and I was King of Scotland as James VI from 24 July 1567, and King of England and Ireland as James I from the union of the Scottish and English crowns on 24 March 1603, until his death in 1625.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/James_VI_and_I"
     },
     {
-      "id": "2026-11-22-popular-18-q13",
+      "id": "2026-11-23-popular-29-q3",
       "category": "Film",
       "story": "Most read",
-      "question": "Who co-directed the 2026 experimental documentary film You Can See Everything alongside Lance Oppenheim?",
+      "question": "Which American actor rose to international fame by starring as boxer Rocky Balboa in the long-running Rocky film series?",
       "options": [
-        "Alyce Tzue",
-        "Quinn Shephard",
-        "Nathan Fielder",
-        "Francis Lawrence"
+        "Bruce Willis",
+        "Arnold Schwarzenegger",
+        "Jean-Claude Van Damme",
+        "Sylvester Stallone"
       ],
-      "answerIndex": 2,
-      "explanation": "You Can See Everything is a 2026 documentary co-directed by Nathan Fielder and Lance Oppenheim.",
-      "context": "You Can See Everything (2026 documentary film): You Can See Everything is a 2026 American experimental documentary film directed by Nathan Fielder and Lance Oppenheim. It follows Elizabeth Holmes, the founder of the defunct health technology company Theranos, and her partner Billy Evans, who invited a film crew to document them beginning in the weeks before Holmes began serving a United States federal prison sentence for defrauding investors.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/You_Can_See_Everything"
+      "answerIndex": 3,
+      "explanation": "Sylvester Stallone achieved stardom by creating and starring in the Rocky franchise as title character Rocky Balboa.",
+      "context": "Sylvester Stallone (American actor and filmmaker (born 1946)): Sylvester Gardenzio Stallone is an American actor and filmmaker. He rose to fame as an action star for his memorable portrayals of boxer Rocky Balboa in the Rocky franchise (1976–present) and of soldier John Rambo in the Rambo franchise (1982–2019). Stallone usually portrayed underdog characters who conquer seemingly impossible challenges through perseverance and determination in his films, and his physically expressive and emotionally charged style of acting redefined the action hero.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sylvester_Stallone"
     },
     {
-      "id": "2026-11-22-popular-20-q9",
-      "category": "Sport",
+      "id": "2026-11-23-popular-9-q1",
+      "category": "Music",
       "story": "Most read",
-      "question": "Which English retired rugby union player, who earned the nickname 'Mad Dog', won the 2003 World Cup with England?",
-      "options": [
-        "Navajo Stirling",
-        "Boris Becker",
-        "Lewis Moody",
-        "Nikhil Chaudhary"
-      ],
-      "answerIndex": 2,
-      "explanation": "Lewis Moody played for Leicester Tigers and Bath, won the World Cup with England in 2003, and was nicknamed 'Mad Dog'.",
-      "context": "Lewis Moody (British Lions & England international rugby union player (born 1978)): Lewis Walton Moody is an English retired rugby union player. He played for Leicester Tigers and Bath and was part of the 2003 World Cup winning side. Moody was chosen for the 2005 British & Irish Lions tour to New Zealand, being capped twice. He is known for the enthusiasm with which he played the game, his willingness to chase down opponents and his ability to compete for possession at restarts, which earned him the nickname \"Mad Dog\" from teammates and supporters.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Lewis_Moody"
+      "question": "Which English pop group, famous for hits in the late 1990s and 2000s, was originally launched by music manager Simon Fuller in 1998?",
+      "options": ["S Club", "Steps", "Five", "Hear'Say"],
+      "answerIndex": 0,
+      "explanation": "S Club (originally known as S Club 7) was created by Simon Fuller in 1998 with seven original members.",
+      "context": "S Club (English pop group): S Club, formerly known as S Club 7, are a British pop group formed in 1998 by Simon Fuller. The original members were Tina Barrett, Paul Cattermole, Jon Lee, Bradley McIntosh, Jo O'Meara, Hannah Spearritt and Rachel Stevens.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/S_Club"
     },
     {
-      "id": "2026-11-22-popular-19-q10",
-      "category": "Literature",
+      "id": "2026-11-23-popular-35-q6",
+      "category": "TV",
       "story": "Most read",
-      "question": "Which 2025 dystopian novel by Suzanne Collins acts as the second prequel to the main Hunger Games trilogy?",
+      "question": "Which American actress played the leading role of Blair Waldorf on the hit teen drama series Gossip Girl?",
       "options": [
-        "Mockingjay",
-        "Catching Fire",
-        "Sunrise on the Reaping",
-        "The Ballad of Songbirds and Snakes"
+        "Blake Lively",
+        "Leighton Meester",
+        "Chace Crawford",
+        "Penn Badgley"
       ],
-      "answerIndex": 2,
-      "explanation": "Suzanne Collins released Sunrise on the Reaping in 2025 as the second prequel book following The Ballad of Songbirds and Snakes.",
-      "context": "Sunrise on the Reaping (2025 novel by Suzanne Collins): Sunrise on the Reaping is a 2025 dystopian novel written by American author Suzanne Collins and the second prequel novel to the original The Hunger Games trilogy, following The Ballad of Songbirds and Snakes (2020).",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Sunrise_on_the_Reaping"
+      "answerIndex": 1,
+      "explanation": "Leighton Meester portrayed Blair Waldorf on The CW series Gossip Girl throughout its run from 2007 to 2012.",
+      "context": "Leighton Meester (American actress (born 1986)): Leighton Marissa Meester is an American actress, singer, and model. She is known for her starring role as Blair Waldorf on The CW television series Gossip Girl (2007–2012). She has also appeared in films such as Killer Movie (2008), Country Strong (2010), The Roommate (2011), Monte Carlo (2011), The Oranges (2011), The Judge (2014), The Weekend Away (2022), and EXmas (2023). She portrayed Angie D'Amato on the ABC sitcom Single Parents (2018–2020).",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Leighton_Meester"
     },
     {
-      "id": "2026-11-22-popular-2-q6",
+      "id": "2026-11-23-popular-18-q9",
       "category": "Science",
       "story": "Most read",
-      "question": "Mathematician Bernhard Riemann first proposed his famous hypothesis regarding the zeros of the zeta function in which year?",
-      "options": ["1908", "1859", "1837", "1890"],
-      "answerIndex": 1,
-      "explanation": "Bernhard Riemann introduced the Riemann hypothesis in 1859, posing one of the most famous open problems in pure mathematics.",
-      "context": "Riemann hypothesis (Statement about zeros of the zeta function): In mathematics, the Riemann hypothesis asserts that the Riemann zeta function has its zeros only at the negative even integers and at complex numbers with real part. First posed in 1859 by Bernhard Riemann, it is considered by pure mathematicians to be one of the most important problems in the field. The result has importance in number theory because it implies bounds on the distribution of prime numbers.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
+      "question": "Which cryptocurrency entrepreneur launched the FTX exchange before being convicted of fraud?",
+      "options": [
+        "Brian Armstrong",
+        "Changpeng Zhao",
+        "Sam Bankman-Fried",
+        "Vitalik Buterin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sam Bankman-Fried established the FTX cryptocurrency exchange and was once listed among the wealthiest Americans before his conviction.",
+      "context": "Sam Bankman-Fried (American entrepreneur (born 1992)): Samuel Benjamin Bankman-Fried, commonly known as SBF, is an American entrepreneur convicted of fraud. Bankman-Fried founded the FTX cryptocurrency exchange and was celebrated as a \"poster boy\" for crypto, with FTX having a global reach with more than 130 international affiliates. At the peak of his net worth, he was ranked the 41st-richest American in the Forbes 400.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
     }
   ]
 }
