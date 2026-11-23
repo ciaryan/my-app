@@ -1,110 +1,109 @@
 {
   "version": 1,
-  "date": "2026-11-22",
-  "newsDate": "2026-11-21",
-  "generatedAt": "2026-11-22T09:55:06.740Z",
+  "date": "2026-11-23",
+  "newsDate": "2026-11-22",
+  "generatedAt": "2026-11-23T07:44:46.925Z",
   "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
-    "revisionIds": [1387065553, 1387074293],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+    "revisionIds": [1387270181],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-21-11-q7",
-      "category": "International relations",
-      "story": "Indonesia–European Union trade relations",
-      "question": "Indonesia signed a new trade deal with which international block that will eliminate tariffs on 98.5% of incoming goods?",
-      "options": ["ASEAN", "African Union", "European Union", "Mercosur"],
-      "answerIndex": 2,
-      "explanation": "The fresh economic agreements between Indonesia and the European Union will scrap nearly all tariffs on EU exports.",
-      "context": "Indonesia–European Union trade relations: Indonesia and the European Union sign trade and investment agreements that will lift 98.5% of tariffs on EU goods.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
-      "topicUrl": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93European_Union_trade_relations",
-      "readMore": {
-        "publisher": "Euronews",
-        "url": "https://www.euronews.com/2026/11/21/european-union-and-indonesia-sign-free-trade-deal-after-decade-of-talks"
-      }
-    },
-    {
-      "id": "2026-11-21-5-q3",
-      "category": "Business and economy",
-      "story": "2026 Bangladesh garment workers protests",
-      "question": "Dozens of garment factories in Bangladesh were forced to close and declare holidays following worker protests over which issue?",
+      "id": "2026-11-22-13-q7",
+      "category": "Sports",
+      "story": "2026 ATP Finals",
+      "question": "Which tennis star defeated Alexander Zverev to claim his first singles title at the ATP Finals?",
       "options": [
-        "Four-day work weeks",
-        "Minimum wage demands",
-        "Safety equipment standards",
-        "Paid parental leave"
+        "Jannik Sinner",
+        "Carlos Alcaraz",
+        "Daniil Medvedev",
+        "Novak Djokovic"
       ],
       "answerIndex": 1,
-      "explanation": "The industrial closures in Savar and Ashulia occurred as garment workers organized sit-ins demanding higher minimum wages.",
-      "context": "2026 Bangladesh garment workers protests: At least 80 garment factories in Savar and Ashulia, Bangladesh, declare general holidays after workers stage sit-ins and work stoppages over minimum wage demands, while police announce that 96 people, including five labour leaders, have been arrested in connection with the 4 November clashes on the Dhaka–Aricha Highway.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
+      "explanation": "Spanish player Carlos Alcaraz won his maiden ATP Finals singles title with a straight-sets victory in the final.",
+      "context": "2026 ATP Finals: In tennis, Carlos Alcaraz defeats Alexander Zverev in the final, 6–2, 7–6 to win his first singles title at the 2026 ATP Finals.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_ATP_Finals",
       "readMore": {
-        "publisher": "The Business Standard",
-        "url": "https://www.tbsnews.net/economy/rmg/labour-unrest-least-12-factories-declare-holiday-amid-work-abstention-savar-1609261"
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/sports/tennis/alcaraz-charges-past-world-number-one-zverev-clinch-atp-finals-title-2026-11-22/"
       }
     },
     {
-      "id": "2026-11-21-12-q8",
-      "category": "Science and technology",
-      "story": "Exploration of Mercury",
-      "question": "The European Space Agency announced that the BepiColombo probe successfully entered into orbit around which planet?",
-      "options": ["Mercury", "Mars", "Jupiter", "Venus"],
-      "answerIndex": 0,
-      "explanation": "BepiColombo has reached its final destination and successfully inserted itself into orbit around Mercury.",
-      "context": "Exploration of Mercury: The European Space Agency announces that the BepiColombo spacecraft inserted itself into orbit around Mercury.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
-      "topicUrl": "https://en.wikipedia.org/wiki/Exploration_of_Mercury",
-      "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/mercury-bepicolombo-space-planet-esa-0c80bbf2039ed4f6ee4a34426b3594a0"
-      }
-    },
-    {
-      "id": "2026-11-21-1-q12",
-      "category": "Armed conflicts and attacks",
-      "story": "Middle Eastern crisis > Gaza war > Gaza genocide, Gaza humanitarian crisis",
-      "question": "Aid transport was targeted during recent violence in Gaza City according to reports from which local service?",
-      "options": [
-        "Civil defence agency",
-        "Maritime authority",
-        "Coast guard",
-        "Red Crescent Society"
-      ],
-      "answerIndex": 0,
-      "explanation": "Gaza's civil defence agency reported casualties following a drone strike on a vehicle carrying foodstuffs.",
-      "context": "Middle Eastern crisis > Gaza war > Gaza genocide, Gaza humanitarian crisis: Gaza's civil defence agency reports four people killed by Israeli fire, including three in a drone strike on a food-carrying vehicle in Gaza City and one by gunfire in Jabalia. Israel says it targeted operatives.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
-      "topicUrl": "https://en.wikipedia.org/wiki/Gaza_genocide",
-      "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261121-gaza-civil-defence-says-israeli-fire-kills-four"
-      }
-    },
-    {
-      "id": "2026-11-21-6-q4",
+      "id": "2026-11-22-6-q3",
       "category": "Business and economy",
       "story": "2026 Bangladesh garment workers protests",
-      "question": "Laid-off clothing factory workers blocked roads in Bangladesh's Narayanganj District due to disputes regarding what issue?",
+      "question": "Security forces in Bangladesh deployed drones and body cameras across several districts to monitor key sites during unrest in which sector?",
       "options": [
-        "Shift patterns",
-        "Union recognition",
-        "Unpaid wages",
-        "Pension plans"
+        "Tea farming",
+        "Shipbreaking",
+        "Pharmaceutical production",
+        "Garment manufacturing"
       ],
-      "answerIndex": 2,
-      "explanation": "Former factory staff blocked traffic by burning tyres and cutting down trees in protest over back pay.",
-      "context": "2026 Bangladesh garment workers protests: Laid-off garment workers in Rupganj, Narayanganj District, block roads by felling trees and burning tires over unpaid wages.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
+      "answerIndex": 3,
+      "explanation": "Border Guard Bangladesh stepped up surveillance near industrial zones following demonstrations by garment factory employees.",
+      "context": "2026 Bangladesh garment workers protests: Border Guard Bangladesh deploys 95 platoons across seven districts, including two battalions in Gopalganj, stepping up surveillance at key installations and industrial zones using drones and police body cameras.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
       "topicUrl": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
       "readMore": {
-        "publisher": "The Business Standard",
-        "url": "https://www.tbsnews.net/bangladesh/garment-workers-block-road-over-unpaid-wages-narayanganj-1609671"
+        "publisher": "The Daily Star",
+        "url": "https://www.thedailystar.net/news/crime-justice/news/bgb-deploys-95-platoons-across-seven-districts-maintain-law-and-order-4330136"
+      }
+    },
+    {
+      "id": "2026-11-22-11-q4",
+      "category": "Health and environment",
+      "story": "2026 United Nations Climate Change Conference",
+      "question": "The UN Climate Change Conference COP31 ended without a final agreement after delegates failed to reach a consensus on which major issue?",
+      "options": [
+        "Carbon offsets",
+        "Fossil fuel policies",
+        "Maritime transport emissions",
+        "Forestry protection"
+      ],
+      "answerIndex": 1,
+      "explanation": "COP31 became the longest climate summit on record after participating nations were unable to agree on policy regarding fossil fuels.",
+      "context": "2026 United Nations Climate Change Conference: The 2026 United Nations Climate Change Conference (COP31) in Antalya, Turkey, concludes without a final agreement after countries failed to reach consensus on fossil fuel policies. It is the longest climate summit on record.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference",
+      "readMore": {
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/climate-talks-collapse-chaotic-end-cop31"
+      }
+    },
+    {
+      "id": "2026-11-22-12-q6",
+      "category": "Politics and elections",
+      "story": "",
+      "question": "The education minister of which nation stepped down after public backlash over AI-assisted cheating during university entrance exams?",
+      "options": ["South Korea", "Japan", "Singapore", "Taiwan"],
+      "answerIndex": 0,
+      "explanation": "Choi Kyo-jin offered his resignation, which was accepted by President Lee Jae Myung, following controversy over cheating on the College Scholastic Ability Test.",
+      "context": "South Korean education minister Choi Kyo-jin resigns following criticism of the government's response to artificial intelligence-assisted cheating concerns surrounding the College Scholastic Ability Test. President Lee Jae Myung accepts Choi's resignation.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+      "readMore": {
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/south-korea-education-chief-resigns-amid-ai-cheating-scandal"
+      }
+    },
+    {
+      "id": "2026-11-22-3-q12",
+      "category": "Armed conflicts and attacks",
+      "story": "Russo-Ukrainian war > Naval warfare in the Russo-Ukrainian war (2022–present), Ukrainian attacks on the Russian shadow fleet",
+      "question": "A merchant vessel flying the flag of which Mediterranean island nation was hit by sea drones off the Libyan coast?",
+      "options": ["Malta", "Cyprus", "Greece", "Italy"],
+      "answerIndex": 0,
+      "explanation": "A Maltese-flagged boat was struck by maritime drones in international waters near Benghazi.",
+      "context": "Russo-Ukrainian war > Naval warfare in the Russo-Ukrainian war (2022–present), Ukrainian attacks on the Russian shadow fleet: A Maltese-flagged ship is also struck by naval drones off the coast of Benghazi.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+      "topicUrl": "https://en.wikipedia.org/wiki/Naval_warfare_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)",
+      "readMore": {
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/"
       }
     }
   ]
