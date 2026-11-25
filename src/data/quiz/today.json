@@ -1,105 +1,109 @@
 {
   "version": 1,
-  "date": "2026-11-24",
-  "newsDate": "2026-11-23",
-  "generatedAt": "2026-11-24T10:04:22.423Z",
-  "model": "gemini-3.6-flash",
+  "date": "2026-11-25",
+  "newsDate": "2026-11-24",
+  "generatedAt": "2026-11-25T08:42:11.982Z",
+  "model": "gemini-3.6-flash, gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
-    "revisionIds": [1387522609],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
+    "revisionIds": [1387746211],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-23-16-q10",
+      "id": "2026-11-24-11-q7",
       "category": "Sports",
-      "story": "2031 and 2035 FIFA Women's World Cup bids",
-      "question": "Where is the 2031 FIFA Women's World Cup set to take place after being awarded to a four-nation joint bid?",
+      "story": "2025 Africa Cup of Nations",
+      "question": "Which international sports tribunal delivered the ruling that restored the 2025 Africa Cup of Nations title to Senegal?",
       "options": [
-        "Japan, South Korea, China, and Taiwan",
-        "Costa Rica, Jamaica, Mexico, and the United States",
-        "Spain, Portugal, Morocco, and France",
-        "Australia, New Zealand, Fiji, and Samoa"
+        "International Tribunal for Football",
+        "African Sports Arbitration Committee",
+        "FIFA Disciplinary Panel",
+        "Court of Arbitration for Sport"
       ],
+      "answerIndex": 3,
+      "explanation": "The Court of Arbitration for Sport decided in favour of the Senegalese Football Federation against CAF's earlier ruling.",
+      "context": "2025 Africa Cup of Nations: In association football, the Court of Arbitration for Sport rules in favor of the Senegalese Football Federation and against the Confederation of African Football, and reverses the latter's controversial decision to overturn Senegal's 1–0 victory against Morocco in the 2025 Africa Cup of Nations final, thereby restoring Senegal as the 2025 Africa Cup of Nations champions.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
+      "topicUrl": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations",
+      "readMore": {
+        "publisher": "AP",
+        "url": "https://apnews.com/article/africa-cup-final-afcon-senegal-morocco-cas-d3804e3923ec1b7e5ca846806e8d6040"
+      }
+    },
+    {
+      "id": "2026-11-24-9-q3",
+      "category": "Law and crime",
+      "story": "",
+      "question": "In which South American nation were 25 supermarket customers and staff held hostage following a botched security vehicle heist?",
+      "options": ["Brazil", "Venezuela", "Peru", "Colombia"],
+      "answerIndex": 3,
+      "explanation": "Gunmen in Cartagena, Colombia took hostages inside a local shop when their attempt to rob an armoured vehicle failed.",
+      "context": "Armed men in Cartagena, Colombia take 25 people hostage in a supermarket after a failed armored-car robbery.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
+      "readMore": {
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket"
+      }
+    },
+    {
+      "id": "2026-11-24-3-q1",
+      "category": "Business and economy",
+      "story": "2026 Bangladesh garment workers protests",
+      "question": "In which Asian nation did industrial disputes cause operational stoppages across nearly 500 garment factories following minimum wage protests?",
+      "options": ["Cambodia", "Bangladesh", "Myanmar", "Vietnam"],
       "answerIndex": 1,
-      "explanation": "FIFA confirmed the North and Central American joint bid from Costa Rica, Jamaica, Mexico, and the US for the 2031 tournament.",
-      "context": "2031 and 2035 FIFA Women's World Cup bids: In association football, FIFA confirms Costa Rica, Jamaica, Mexico, and the United States as joint hosts of the 2031 Women's World Cup, while England, Northern Ireland, Scotland, and Wales will jointly host the 2035 tournament.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
-      "topicUrl": "https://en.wikipedia.org/wiki/2031_and_2035_FIFA_Women%27s_World_Cup_bids",
+      "explanation": "Manufacturing at 481 factories was suspended in Bangladesh after widespread demonstrations broke out over worker pay.",
+      "context": "2026 Bangladesh garment workers protests: Police fire tear gas and stun grenades to disperse protesting garment workers across Gazipur, Savar, and Ashulia, Bangladesh, as production halts at 481 factories amid minimum wage disputes.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
       "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/usa-joint-bid-host-2031-womens-world-cup-uk-host-2035"
+        "publisher": "The Business Standard",
+        "url": "https://www.tbsnews.net/economy/rmg/production-halted-481-garment-factories-amid-minimum-wage-negotiations-1612891"
       }
     },
     {
-      "id": "2026-11-23-12-q4",
-      "category": "Law and crime",
-      "story": "2017–18 Spanish constitutional crisis",
-      "question": "The Supreme Court of Spain granted an amnesty to which former regional leader living in self-imposed exile in Belgium?",
+      "id": "2026-11-24-10-q4",
+      "category": "Politics and elections",
+      "story": "Aftermath of the July Uprising",
+      "question": "Former Bangladesh Prime Minister Sheikh Hasina announced her intention to return to the country on which national occasion?",
       "options": [
-        "Quim Torra",
-        "Pere Aragonès",
-        "Artur Mas",
-        "Carles Puigdemont"
+        "Victory Day",
+        "Republic Day",
+        "Independence Day",
+        "Revolution Day"
       ],
-      "answerIndex": 3,
-      "explanation": "Spanish judges granted an amnesty to former Catalan leader Carles Puigdemont, concluding legal proceedings related to the 2017 independence declaration.",
-      "context": "2017–18 Spanish constitutional crisis: The Supreme Court of Spain grants amnesty to former Catalan president Carles Puigdemont, who is currently in self-imposed exile in Belgium, thereby bringing the legal proceedings against the leaders of the October 2017 declaration of independence to a definitive close.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
-      "topicUrl": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Spanish_constitutional_crisis",
-      "readMore": {
-        "publisher": "CNN",
-        "url": "https://edition.cnn.com/2026/11/23/europe/spanish-court-carles-puigdemont-exile-intl"
-      }
-    },
-    {
-      "id": "2026-11-23-10-q2",
-      "category": "International relations",
-      "story": "Myanmar–United Kingdom relations, Rohingya genocide case",
-      "question": "UK Foreign Secretary Ed Miliband recently announced sanctions against military figures from which nation, while formally recognising the Rohingya genocide?",
-      "options": ["Bangladesh", "Thailand", "Vietnam", "Myanmar"],
-      "answerIndex": 3,
-      "explanation": "The British government targetted five military figures in Myanmar with new sanctions and officially recognised the Rohingya genocide.",
-      "context": "Myanmar–United Kingdom relations, Rohingya genocide case: British foreign secretary Ed Miliband announces sanctions against five military leaders of Myanmar, while also granting recognition of the Rohingya genocide.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
-      "topicUrl": "https://en.wikipedia.org/wiki/Myanmar%E2%80%93United_Kingdom_relations",
-      "readMore": {
-        "publisher": "BBC News",
-        "url": "https://www.bbc.com/news/articles/c6wy4ng1rznxo"
-      }
-    },
-    {
-      "id": "2026-11-23-4-q9",
-      "category": "Armed conflicts and attacks",
-      "story": "Kurdish–Turkish conflict",
-      "question": "According to Turkish intelligence, the Kurdistan Workers' Party has begun pulling out of additional bases in which country as part of a disarmament agreement?",
-      "options": ["Iraq", "Syria", "Armenia", "Iran"],
       "answerIndex": 0,
-      "explanation": "Disarmament steps saw the Kurdistan Workers' Party abandon 14 positions in northern Iraq.",
-      "context": "Kurdish–Turkish conflict: Turkish intelligence reports that the Kurdistan Workers' Party withdraws from 14 additional bases in northern Iraq as part of an ongoing disarmament process aimed at ending its conflict with Turkey.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
-      "topicUrl": "https://en.wikipedia.org/wiki/Kurdish%E2%80%93Turkish_conflict",
-      "readMore": {
-        "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261123-turkey-says-pkk-evacuated-14-more-bases-in-northern-iraq"
-      }
-    },
-    {
-      "id": "2026-11-23-13-q5",
-      "category": "Law and crime",
-      "story": "2026 European bomb threat wave",
-      "question": "Schools in Germany and which neighbouring Scandinavian country were targeted by widespread bomb threats via email?",
-      "options": ["Finland", "Norway", "Denmark", "Sweden"],
-      "answerIndex": 2,
-      "explanation": "Hundreds of academic institutions across Denmark and Germany were sent automated threat messages, though police advised them to stay open.",
-      "context": "2026 European bomb threat wave: Hundreds of schools across Denmark and Germany receive bomb threats via email, with police ordering the schools to continue operations as normal.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_European_bomb_threat_wave",
+      "explanation": "Sheikh Hasina stated she intends to travel back to Bangladesh on 16 December, coinciding with the nation's Victory Day.",
+      "context": "Aftermath of the July Uprising: Former Bangladesh Prime Minister Sheikh Hasina announces she plans to return to the country on December 16, coinciding with Victory Day.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
+      "topicUrl": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/hundreds-german-schools-received-bomb-threats-bild-reports-2026-11-23/"
+        "url": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"
+      }
+    },
+    {
+      "id": "2026-11-24-8-q6",
+      "category": "Law and crime",
+      "story": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests",
+      "question": "Security forces deployed over a hundred platoons across multiple districts in Bangladesh to safeguard industrial zones and key infrastructure following directives from which government department?",
+      "options": [
+        "Ministry of Labour",
+        "Ministry of Defence",
+        "Home ministry",
+        "Ministry of Commerce"
+      ],
+      "answerIndex": 2,
+      "explanation": "The deployment of border guards across Bangladesh was ordered by the country's home ministry to maintain security around strategic assets.",
+      "context": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests: Border Guard Bangladesh deploys 101 platoons across Dhaka and seven other districts, including two battalions in Gopalganj, following instructions from the home ministry to increase surveillance at key installations and industrial areas.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
+      "topicUrl": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising",
+      "readMore": {
+        "publisher": "The Daily Star",
+        "url": "https://www.thedailystar.net/news/news/bgb-deploys-101-platoons-dhaka-7-districts-4331806"
       }
     }
   ]
