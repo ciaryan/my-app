@@ -1,109 +1,98 @@
 {
   "version": 1,
-  "date": "2026-11-25",
-  "newsDate": "2026-11-24",
-  "generatedAt": "2026-11-25T08:42:11.982Z",
-  "model": "gemini-3.6-flash, gemini-3.8-flash",
+  "date": "2026-11-26",
+  "newsDate": "2026-11-25",
+  "generatedAt": "2026-11-26T08:26:14.262Z",
+  "model": "gemini-3.6-flash, gemini-3.5-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
-    "revisionIds": [1387746211],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
+    "revisionIds": [1387977409, 1387855291],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-24-11-q7",
-      "category": "Sports",
-      "story": "2025 Africa Cup of Nations",
-      "question": "Which international sports tribunal delivered the ruling that restored the 2025 Africa Cup of Nations title to Senegal?",
-      "options": [
-        "International Tribunal for Football",
-        "African Sports Arbitration Committee",
-        "FIFA Disciplinary Panel",
-        "Court of Arbitration for Sport"
-      ],
-      "answerIndex": 3,
-      "explanation": "The Court of Arbitration for Sport decided in favour of the Senegalese Football Federation against CAF's earlier ruling.",
-      "context": "2025 Africa Cup of Nations: In association football, the Court of Arbitration for Sport rules in favor of the Senegalese Football Federation and against the Confederation of African Football, and reverses the latter's controversial decision to overturn Senegal's 1–0 victory against Morocco in the 2025 Africa Cup of Nations final, thereby restoring Senegal as the 2025 Africa Cup of Nations champions.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
-      "topicUrl": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations",
+      "id": "2026-11-25-17-q3",
+      "category": "Science and technology",
+      "story": "Shenzhou 24",
+      "question": "A historical first was achieved when an astronaut from which country boarded China's Tiangong space station?",
+      "options": ["Pakistan", "Bangladesh", "Malaysia", "Indonesia"],
+      "answerIndex": 0,
+      "explanation": "Muhammad Zeeshan Ali became the first foreign astronaut to visit the Tiangong space station after launching on the Shenzhou-24 mission.",
+      "context": "Shenzhou 24: Pakistani astronaut Muhammad Zeeshan Ali becomes the first Pakistani to reach orbit and the first foreign national to board China's Tiangong space station, arriving aboard the Shenzhou-24 spacecraft alongside two Chinese astronauts to conduct scientific experiments during a five-day mission.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
+      "topicUrl": "https://en.wikipedia.org/wiki/Shenzhou_24",
       "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/africa-cup-final-afcon-senegal-morocco-cas-d3804e3923ec1b7e5ca846806e8d6040"
+        "publisher": "AFP",
+        "url": "https://www.afp.com/en/china-space-station-receives-pakistani-astronaut-historic-mission"
       }
     },
     {
-      "id": "2026-11-24-9-q3",
+      "id": "2026-11-25-15-q7",
       "category": "Law and crime",
       "story": "",
-      "question": "In which South American nation were 25 supermarket customers and staff held hostage following a botched security vehicle heist?",
-      "options": ["Brazil", "Venezuela", "Peru", "Colombia"],
-      "answerIndex": 3,
-      "explanation": "Gunmen in Cartagena, Colombia took hostages inside a local shop when their attempt to rob an armoured vehicle failed.",
-      "context": "Armed men in Cartagena, Colombia take 25 people hostage in a supermarket after a failed armored-car robbery.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
-      "readMore": {
-        "publisher": "Al Jazeera",
-        "url": "https://www.aljazeera.com/amp/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket"
-      }
-    },
-    {
-      "id": "2026-11-24-3-q1",
-      "category": "Business and economy",
-      "story": "2026 Bangladesh garment workers protests",
-      "question": "In which Asian nation did industrial disputes cause operational stoppages across nearly 500 garment factories following minimum wage protests?",
-      "options": ["Cambodia", "Bangladesh", "Myanmar", "Vietnam"],
+      "question": "A US federal jury found which major technology company guilty on multiple charges, including bank fraud and industrial trade secret theft?",
+      "options": ["Xiaomi", "Huawei", "Lenovo", "ZTE"],
       "answerIndex": 1,
-      "explanation": "Manufacturing at 481 factories was suspended in Bangladesh after widespread demonstrations broke out over worker pay.",
-      "context": "2026 Bangladesh garment workers protests: Police fire tear gas and stun grenades to disperse protesting garment workers across Gazipur, Savar, and Ashulia, Bangladesh, as production halts at 481 factories amid minimum wage disputes.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
-      "topicUrl": "https://en.wikipedia.org/wiki/2026_Bangladesh_garment_workers_protests",
-      "readMore": {
-        "publisher": "The Business Standard",
-        "url": "https://www.tbsnews.net/economy/rmg/production-halted-481-garment-factories-amid-minimum-wage-negotiations-1612891"
-      }
-    },
-    {
-      "id": "2026-11-24-10-q4",
-      "category": "Politics and elections",
-      "story": "Aftermath of the July Uprising",
-      "question": "Former Bangladesh Prime Minister Sheikh Hasina announced her intention to return to the country on which national occasion?",
-      "options": [
-        "Victory Day",
-        "Republic Day",
-        "Independence Day",
-        "Revolution Day"
-      ],
-      "answerIndex": 0,
-      "explanation": "Sheikh Hasina stated she intends to travel back to Bangladesh on 16 December, coinciding with the nation's Victory Day.",
-      "context": "Aftermath of the July Uprising: Former Bangladesh Prime Minister Sheikh Hasina announces she plans to return to the country on December 16, coinciding with Victory Day.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
-      "topicUrl": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising",
+      "explanation": "The telecom giant was convicted in a Brooklyn court after prosecutors proved it deceived financial institutions about its operations in Iran.",
+      "context": "A federal jury in Brooklyn, New York, United States, finds Huawei and three of its subsidiaries guilty on 10 of 12 counts, including bank fraud, wire fraud, money laundering, conspiracy to steal trade secrets, and violating the International Emergency Economic Powers Act by misleading banks about its business in Iran.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"
+        "url": "https://www.reuters.com/legal/litigation/chinas-huawei-convicted-us-criminal-trial-stemming-iran-business-2026-11-24/"
       }
     },
     {
-      "id": "2026-11-24-8-q6",
-      "category": "Law and crime",
-      "story": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests",
-      "question": "Security forces deployed over a hundred platoons across multiple districts in Bangladesh to safeguard industrial zones and key infrastructure following directives from which government department?",
+      "id": "2026-11-25-7-q1",
+      "category": "Business and economy",
+      "story": "",
+      "question": "The European Union and the UK issued fines total over €570 million to several major companies in which industry for anti-competitive behaviour?",
       "options": [
-        "Ministry of Labour",
-        "Ministry of Defence",
-        "Home ministry",
-        "Ministry of Commerce"
+        "Automotive parts production",
+        "Pharmaceutical research",
+        "Telecommunications infrastructure",
+        "Fragrance and flavour manufacturing"
       ],
-      "answerIndex": 2,
-      "explanation": "The deployment of border guards across Bangladesh was ordered by the country's home ministry to maintain security around strategic assets.",
-      "context": "Aftermath of the July Uprising, 2026 Bangladesh garment workers protests: Border Guard Bangladesh deploys 101 platoons across Dhaka and seven other districts, including two battalions in Gopalganj, following instructions from the home ministry to increase surveillance at key installations and industrial areas.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_24",
-      "topicUrl": "https://en.wikipedia.org/wiki/Aftermath_of_the_July_Uprising",
+      "answerIndex": 3,
+      "explanation": "Regulators penalized top perfume and fragrance makers after discovering they had been sharing commercially sensitive data and operating as a cartel.",
+      "context": "The European Union and United Kingdom impose fines totalling more than €570 million (US$626 million) on fragrance manufacturers Firmenich, Givaudan, and International Flavors & Fragrances for exchanging commercially sensitive information and cartel behavior between 2019 and 2023.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
       "readMore": {
-        "publisher": "The Daily Star",
-        "url": "https://www.thedailystar.net/news/news/bgb-deploys-101-platoons-dhaka-7-districts-4331806"
+        "publisher": "AFP",
+        "url": "https://www.afp.com/es/node/3854796"
+      }
+    },
+    {
+      "id": "2026-11-25-11-q2",
+      "category": "International relations",
+      "story": "Australia–Solomon Islands relations",
+      "question": "Which country recently designated Australia as its primary security partner after terminating a previous deal with China?",
+      "options": ["Fiji", "Solomon Islands", "Vanuatu", "Papua New Guinea"],
+      "answerIndex": 1,
+      "explanation": "Prime Minister Matthew Wale signed a new bilateral treaty with Australia, shifting the nation's key defence ties away from Beijing.",
+      "context": "Australia–Solomon Islands relations: Solomon Islands prime minister Matthew Wale signs a treaty with Australian prime minister Anthony Albanese to designate Australia as the \"primary security partner\" after ending the 2022 security pact with China.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
+      "topicUrl": "https://en.wikipedia.org/wiki/Australia%E2%80%93Solomon_Islands_relations",
+      "readMore": {
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/world/asia/solomon-islands-signs-treaty-australia-checks-chinas-influence-pacific-rcna611254"
+      }
+    },
+    {
+      "id": "2026-11-25-1-q11",
+      "category": "Armed conflicts and attacks",
+      "story": "Middle Eastern crisis > Yemeni civil war > Houthi–Saudi conflict",
+      "question": "Houthi forces targeted the Ras Tanura oil refinery during an attack in which country?",
+      "options": ["Kuwait", "United Arab Emirates", "Saudi Arabia", "Oman"],
+      "answerIndex": 2,
+      "explanation": "The key energy facility situated in Saudi Arabia's Eastern Province suffered damage during the strike.",
+      "context": "Middle Eastern crisis > Yemeni civil war > Houthi–Saudi conflict: The Ras Tanura oil refinery in Saudi Arabia's Eastern Province is damaged in an attack by the Houthis.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
+      "topicUrl": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict",
+      "readMore": {
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/world/saudi-arabia/yemen-houthi-rebels-attack-saudi-arabia-largest-oil-refinery-rcna611319"
       }
     }
   ]
