@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-23",
-  "generatedAt": "2026-11-23T08:11:04.795Z",
-  "model": "gemini-3.6-flash, gemini-3.5-flash",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T09:02:14.457Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,74 +11,74 @@
   },
   "questions": [
     {
-      "id": "2026-11-23-event-49-q11",
+      "id": "2026-11-27-selected-14-q12",
       "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1589, which Scottish monarch married Princess Anne of Denmark?",
-      "options": ["James VI", "James V", "Charles I", "Robert II"],
-      "answerIndex": 0,
-      "explanation": "James VI of Scotland, who later ascended to the English throne as James I, married Anne of Denmark on 23 November 1589.",
-      "context": "On this day in 1589: Marriage of king James VI of Scotland and Anne of Denmark.\nJames VI and I (King of Scotland from 1567 to 1625, King of England and Ireland from 1603): James VI and I was King of Scotland as James VI from 24 July 1567, and King of England and Ireland as James I from the union of the Scottish and English crowns on 24 March 1603, until his death in 1625.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/James_VI_and_I"
+      "question": "On this day in 1856, King William III unilaterally modified the constitution of which European country to significantly expand his royal powers?",
+      "options": ["Liechtenstein", "Belgium", "The Netherlands", "Luxembourg"],
+      "answerIndex": 3,
+      "explanation": "As Grand Duke of Luxembourg, William III altered the nation's constitution on this date in 1856 to gain greater authority.",
+      "context": "On this day in 1856: William III (pictured) unilaterally revised the constitution of Luxembourg, greatly expanding his powers as grand duke.\nWilliam III of the Netherlands (King of the Netherlands from 1849 to 1890): William III was King of the Netherlands and Grand Duke of Luxembourg from 1849 until his death in 1890, and was also the Duke of Limburg from 1849 until the abolition of the duchy in 1866.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/William_III_of_the_Netherlands"
     },
     {
-      "id": "2026-11-23-popular-29-q3",
+      "id": "2026-11-27-popular-35-q7",
       "category": "Film",
       "story": "Most read",
-      "question": "Which American actor rose to international fame by starring as boxer Rocky Balboa in the long-running Rocky film series?",
+      "question": "Before starring in films like St. Elmo's Fire and About Last Night..., which American actor came to prominence in the 1980s as a member of the 'Brat Pack'?",
       "options": [
-        "Bruce Willis",
-        "Arnold Schwarzenegger",
-        "Jean-Claude Van Damme",
-        "Sylvester Stallone"
-      ],
-      "answerIndex": 3,
-      "explanation": "Sylvester Stallone achieved stardom by creating and starring in the Rocky franchise as title character Rocky Balboa.",
-      "context": "Sylvester Stallone (American actor and filmmaker (born 1946)): Sylvester Gardenzio Stallone is an American actor and filmmaker. He rose to fame as an action star for his memorable portrayals of boxer Rocky Balboa in the Rocky franchise (1976–present) and of soldier John Rambo in the Rambo franchise (1982–2019). Stallone usually portrayed underdog characters who conquer seemingly impossible challenges through perseverance and determination in his films, and his physically expressive and emotionally charged style of acting redefined the action hero.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Sylvester_Stallone"
-    },
-    {
-      "id": "2026-11-23-popular-9-q1",
-      "category": "Music",
-      "story": "Most read",
-      "question": "Which English pop group, famous for hits in the late 1990s and 2000s, was originally launched by music manager Simon Fuller in 1998?",
-      "options": ["S Club", "Steps", "Five", "Hear'Say"],
-      "answerIndex": 0,
-      "explanation": "S Club (originally known as S Club 7) was created by Simon Fuller in 1998 with seven original members.",
-      "context": "S Club (English pop group): S Club, formerly known as S Club 7, are a British pop group formed in 1998 by Simon Fuller. The original members were Tina Barrett, Paul Cattermole, Jon Lee, Bradley McIntosh, Jo O'Meara, Hannah Spearritt and Rachel Stevens.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/S_Club"
-    },
-    {
-      "id": "2026-11-23-popular-35-q6",
-      "category": "TV",
-      "story": "Most read",
-      "question": "Which American actress played the leading role of Blair Waldorf on the hit teen drama series Gossip Girl?",
-      "options": [
-        "Blake Lively",
-        "Leighton Meester",
-        "Chace Crawford",
-        "Penn Badgley"
-      ],
-      "answerIndex": 1,
-      "explanation": "Leighton Meester portrayed Blair Waldorf on The CW series Gossip Girl throughout its run from 2007 to 2012.",
-      "context": "Leighton Meester (American actress (born 1986)): Leighton Marissa Meester is an American actress, singer, and model. She is known for her starring role as Blair Waldorf on The CW television series Gossip Girl (2007–2012). She has also appeared in films such as Killer Movie (2008), Country Strong (2010), The Roommate (2011), Monte Carlo (2011), The Oranges (2011), The Judge (2014), The Weekend Away (2022), and EXmas (2023). She portrayed Angie D'Amato on the ABC sitcom Single Parents (2018–2020).",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Leighton_Meester"
-    },
-    {
-      "id": "2026-11-23-popular-18-q9",
-      "category": "Science",
-      "story": "Most read",
-      "question": "Which cryptocurrency entrepreneur launched the FTX exchange before being convicted of fraud?",
-      "options": [
-        "Brian Armstrong",
-        "Changpeng Zhao",
-        "Sam Bankman-Fried",
-        "Vitalik Buterin"
+        "Andrew McCarthy",
+        "Emilio Estevez",
+        "Rob Lowe",
+        "Judd Nelson"
       ],
       "answerIndex": 2,
-      "explanation": "Sam Bankman-Fried established the FTX cryptocurrency exchange and was once listed among the wealthiest Americans before his conviction.",
-      "context": "Sam Bankman-Fried (American entrepreneur (born 1992)): Samuel Benjamin Bankman-Fried, commonly known as SBF, is an American entrepreneur convicted of fraud. Bankman-Fried founded the FTX cryptocurrency exchange and was celebrated as a \"poster boy\" for crypto, with FTX having a global reach with more than 130 international affiliates. At the peak of his net worth, he was ranked the 41st-richest American in the Forbes 400.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
+      "explanation": "Rob Lowe rose to fame as a teen idol in the 1980s through roles in classic Brat Pack films such as St. Elmo's Fire.",
+      "context": "Rob Lowe (American actor (born 1964)): Robert Hepler Lowe is an American actor and entertainment host. Following numerous television roles in the early 1980s, he came to prominence as a teen idol and member of the Brat Pack with starring roles in The Outsiders (1983), Class (1983), The Hotel New Hampshire (1984), Oxford Blues (1984), St. Elmo's Fire (1985), About Last Night... (1986), Youngblood (1986), Masquerade (1988), and Bad Influence (1990).",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rob_Lowe"
+    },
+    {
+      "id": "2026-11-27-popular-4-q1",
+      "category": "Music",
+      "story": "Most read",
+      "question": "Which English pop rock group was established in Birmingham in 1978 by Nick Rhodes, John Taylor, and Stephen Duffy?",
+      "options": [
+        "Tears for Fears",
+        "Spandau Ballet",
+        "Duran Duran",
+        "The Human League"
+      ],
+      "answerIndex": 2,
+      "explanation": "Duran Duran was originally formed in Birmingham in 1978 by Rhodes, Taylor, and Duffy before arriving at their famous line-up two years later.",
+      "context": "Duran Duran (English rock band): Duran Duran are an English pop rock band. They were formed in Birmingham in 1978 by keyboardist Nick Rhodes, guitarist John Taylor and singer/bassist Stephen Duffy. The band went through several early changes before the band's line-up settled in May 1980 as Rhodes, Taylor, singer Simon Le Bon, guitarist Andy Taylor and drummer Roger Taylor.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Duran_Duran"
+    },
+    {
+      "id": "2026-11-27-popular-7-q3",
+      "category": "Sport",
+      "story": "Most read",
+      "question": "American athlete Ezra Frech won the 35th season of Dancing with the Stars alongside dance partner Daniella Karagach in 2026. In which sport does he compete at the Paralympic Games?",
+      "options": [
+        "Wheelchair basketball",
+        "Para cycling",
+        "Swimming",
+        "Track and field"
+      ],
+      "answerIndex": 3,
+      "explanation": "Ezra Frech is a Paralympic track and field athlete who gained gold medals in high jump, long jump, and sprint events.",
+      "context": "Ezra Frech (American Paralympic athlete (born 2005)): Ezra Frech is an American track and field athlete who competes in high jump, long jump and sprinting events. He is a two-time Paralympian, having competed at the 2020 Summer Paralympics and won two gold medals at the 2024 Summer Paralympics. He also won two silver medals at the 2019 Parapan American Games. Frech is a motivational speaker and disability rights advocate. In 2026, Frech won the thirty-fifth season of Dancing with the Stars, alongside his dance partner Daniella Karagach.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ezra_Frech"
+    },
+    {
+      "id": "2026-11-27-popular-31-q9",
+      "category": "Geography",
+      "story": "Most read",
+      "question": "Which country hosted the 75th Miss Universe pageant in November 2026 at the José Miguel Agrelot Coliseum?",
+      "options": ["Puerto Rico", "Colombia", "Philippines", "Mexico"],
+      "answerIndex": 0,
+      "explanation": "The 75th Miss Universe pageant was held in San Juan, Puerto Rico.",
+      "context": "Miss Universe 2026 (75th Miss Universe beauty pageant): Miss Universe 2026 was the 75th Miss Universe pageant, held at the José Miguel Agrelot Coliseum in San Juan, Puerto Rico, on 24 November 2026. The event was presented by R'Bonney Gabriel, Mario Lopez, Zuri Hall, and Dayanara Torres.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Miss_Universe_2026"
     }
   ]
 }
