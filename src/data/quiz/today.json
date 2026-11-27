@@ -1,98 +1,102 @@
 {
   "version": 1,
-  "date": "2026-11-26",
-  "newsDate": "2026-11-25",
-  "generatedAt": "2026-11-26T08:26:14.262Z",
-  "model": "gemini-3.6-flash, gemini-3.5-flash",
+  "date": "2026-11-27",
+  "newsDate": "2026-11-26",
+  "generatedAt": "2026-11-27T08:42:23.857Z",
+  "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
-    "revisionIds": [1387977409, 1387855291],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
+    "revisionIds": [1388241307, 1388229754],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-25-17-q3",
-      "category": "Science and technology",
-      "story": "Shenzhou 24",
-      "question": "A historical first was achieved when an astronaut from which country boarded China's Tiangong space station?",
-      "options": ["Pakistan", "Bangladesh", "Malaysia", "Indonesia"],
-      "answerIndex": 0,
-      "explanation": "Muhammad Zeeshan Ali became the first foreign astronaut to visit the Tiangong space station after launching on the Shenzhou-24 mission.",
-      "context": "Shenzhou 24: Pakistani astronaut Muhammad Zeeshan Ali becomes the first Pakistani to reach orbit and the first foreign national to board China's Tiangong space station, arriving aboard the Shenzhou-24 spacecraft alongside two Chinese astronauts to conduct scientific experiments during a five-day mission.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
-      "topicUrl": "https://en.wikipedia.org/wiki/Shenzhou_24",
+      "id": "2026-11-26-15-q3",
+      "category": "Politics and elections",
+      "story": "Anti-corruption campaign under Xi Jinping",
+      "question": "Dozens of venues for which sport have recently announced closures across China following government directives?",
+      "options": ["Tennis", "Snooker", "Golf", "Polo"],
+      "answerIndex": 2,
+      "explanation": "At least 18 golf courses in China are closing following official orders linked to the country's ongoing anti-corruption campaign.",
+      "context": "Anti-corruption campaign under Xi Jinping: At least 18 golf courses across China announce closures, including ten in Beijing, with many citing government orders following earlier restrictions on golf associated with paramount leader Xi Jinping's anti-corruption campaign.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
+      "topicUrl": "https://en.wikipedia.org/wiki/Anti-corruption_campaign_under_Xi_Jinping",
       "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/en/china-space-station-receives-pakistani-astronaut-historic-mission"
+        "publisher": "AFP via France 24",
+        "url": "https://www.france24.com/en/live-news/20261126-china-shuts-down-golf-courses-in-apparent-new-clampdown"
       }
     },
     {
-      "id": "2026-11-25-15-q7",
-      "category": "Law and crime",
+      "id": "2026-11-26-9-q12",
+      "category": "Disasters and accidents",
       "story": "",
-      "question": "A US federal jury found which major technology company guilty on multiple charges, including bank fraud and industrial trade secret theft?",
-      "options": ["Xiaomi", "Huawei", "Lenovo", "ZTE"],
+      "question": "Coastguard units safely rescued 16 crew members after a oil tanker registered in Malta sank off the coast of which Spanish island?",
+      "options": ["Menorca", "Ibiza", "Formentera", "Majorca"],
       "answerIndex": 1,
-      "explanation": "The telecom giant was convicted in a Brooklyn court after prosecutors proved it deceived financial institutions about its operations in Iran.",
-      "context": "A federal jury in Brooklyn, New York, United States, finds Huawei and three of its subsidiaries guilty on 10 of 12 counts, including bank fraud, wire fraud, money laundering, conspiracy to steal trade secrets, and violating the International Emergency Economic Powers Act by misleading banks about its business in Iran.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
+      "explanation": "A rescue operation saved 16 sailors after their Maltese-flagged tanker foundered off Ibiza.",
+      "context": "One crew member is killed and 16 more are rescued after the sinking of a Malta-flagged tanker off the coast of Ibiza, Spain.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
       "readMore": {
         "publisher": "Reuters",
-        "url": "https://www.reuters.com/legal/litigation/chinas-huawei-convicted-us-criminal-trial-stemming-iran-business-2026-11-24/"
+        "url": "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/"
       }
     },
     {
-      "id": "2026-11-25-7-q1",
+      "id": "2026-11-26-8-q2",
       "category": "Business and economy",
       "story": "",
-      "question": "The European Union and the UK issued fines total over €570 million to several major companies in which industry for anti-competitive behaviour?",
+      "question": "A consortium led by the US firm Eldridge has agreed to buy the international operations of which major oil producer?",
+      "options": ["Tatneft", "Gazprom", "Rosneft", "Lukoil"],
+      "answerIndex": 3,
+      "explanation": "American asset manager Eldridge leads a group acquiring the international assets of Russian energy company Lukoil.",
+      "context": "A business consortium led by U.S.-based asset management company Eldridge agrees to purchase international assets of Russian oil company Lukoil, including oil and gas fields, refineries, pipelines, and other infrastructure.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
+      "readMore": {
+        "publisher": "AP",
+        "url": "https://apnews.com/article/russia-ukraine-war-us-sanctions-oil-lukoil-8d5df1befb2ebb2a0ce4f6b259fcdf14"
+      }
+    },
+    {
+      "id": "2026-11-26-11-q8",
+      "category": "Law and crime",
+      "story": "2025 Cambridgeshire train stabbing",
+      "question": "An English court has convicted 32-year-old Anthony Williams of attempted murder following a series of attacks, including a knife incident on which train service?",
       "options": [
-        "Automotive parts production",
-        "Pharmaceutical research",
-        "Telecommunications infrastructure",
-        "Fragrance and flavour manufacturing"
+        "Great Western Railway",
+        "Avanti West Coast",
+        "TransPennine Express",
+        "LNER"
       ],
       "answerIndex": 3,
-      "explanation": "Regulators penalized top perfume and fragrance makers after discovering they had been sharing commercially sensitive data and operating as a cartel.",
-      "context": "The European Union and United Kingdom impose fines totalling more than €570 million (US$626 million) on fragrance manufacturers Firmenich, Givaudan, and International Flavors & Fragrances for exchanging commercially sensitive information and cartel behavior between 2019 and 2023.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
+      "explanation": "Anthony Williams was found guilty of multiple attempted murders, including stabbing passengers onboard an LNER train.",
+      "context": "2025 Cambridgeshire train stabbing: The Cambridge Crown Court in the United Kingdom finds 32-year-old Anthony Williams guilty of the attempted murders of 14 people in three separate incidents, including the stabbing of ten people on a LNER train in November 2025.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
+      "topicUrl": "https://en.wikipedia.org/wiki/2025_Cambridgeshire_train_stabbing",
       "readMore": {
-        "publisher": "AFP",
-        "url": "https://www.afp.com/es/node/3854796"
+        "publisher": "AP",
+        "url": "https://apnews.com/article/britain-train-stabbings-williams-guilty-attempted-murder-4d8ae19ba73ed8b556417abd910812cf"
       }
     },
     {
-      "id": "2026-11-25-11-q2",
-      "category": "International relations",
-      "story": "Australia–Solomon Islands relations",
-      "question": "Which country recently designated Australia as its primary security partner after terminating a previous deal with China?",
-      "options": ["Fiji", "Solomon Islands", "Vanuatu", "Papua New Guinea"],
-      "answerIndex": 1,
-      "explanation": "Prime Minister Matthew Wale signed a new bilateral treaty with Australia, shifting the nation's key defence ties away from Beijing.",
-      "context": "Australia–Solomon Islands relations: Solomon Islands prime minister Matthew Wale signs a treaty with Australian prime minister Anthony Albanese to designate Australia as the \"primary security partner\" after ending the 2022 security pact with China.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
-      "topicUrl": "https://en.wikipedia.org/wiki/Australia%E2%80%93Solomon_Islands_relations",
+      "id": "2026-11-26-7-q1",
+      "category": "Business and economy",
+      "story": "",
+      "question": "Which Spanish economist has been chosen to take over as the president of the European Central Bank following Christine Lagarde's resignation?",
+      "options": [
+        "Pablo Hernández de Cos",
+        "Luis de Guindos",
+        "Nadia Calviño",
+        "Carlos Cuerpo"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pablo Hernández de Cos was elected to lead the European Central Bank after the departure of Christine Lagarde.",
+      "context": "Spanish economist Pablo Hernández de Cos is elected as the new president of the European Central Bank, succeeding French lawyer Christine Lagarde after her resignation.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
       "readMore": {
-        "publisher": "NBC News",
-        "url": "https://www.nbcnews.com/world/asia/solomon-islands-signs-treaty-australia-checks-chinas-influence-pacific-rcna611254"
-      }
-    },
-    {
-      "id": "2026-11-25-1-q11",
-      "category": "Armed conflicts and attacks",
-      "story": "Middle Eastern crisis > Yemeni civil war > Houthi–Saudi conflict",
-      "question": "Houthi forces targeted the Ras Tanura oil refinery during an attack in which country?",
-      "options": ["Kuwait", "United Arab Emirates", "Saudi Arabia", "Oman"],
-      "answerIndex": 2,
-      "explanation": "The key energy facility situated in Saudi Arabia's Eastern Province suffered damage during the strike.",
-      "context": "Middle Eastern crisis > Yemeni civil war > Houthi–Saudi conflict: The Ras Tanura oil refinery in Saudi Arabia's Eastern Province is damaged in an attack by the Houthis.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
-      "topicUrl": "https://en.wikipedia.org/wiki/Houthi%E2%80%93Saudi_conflict",
-      "readMore": {
-        "publisher": "NBC News",
-        "url": "https://www.nbcnews.com/world/saudi-arabia/yemen-houthi-rebels-attack-saudi-arabia-largest-oil-refinery-rcna611319"
+        "publisher": "Financial Times",
+        "url": "https://www.ft.com/content/88a0691a-6ce8-4c97-abf4-7aee0351fd51?syn-25a6b1a6=1"
       }
     }
   ]
