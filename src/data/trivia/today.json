@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T09:02:14.457Z",
-  "model": "gemini-3.6-flash",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T08:25:19.018Z",
+  "model": "gemini-3.6-flash, gemini-3.8-flash",
   "source": {
     "name": "Wikipedia: most-read articles and On this day",
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -11,74 +11,84 @@
   },
   "questions": [
     {
-      "id": "2026-11-27-selected-14-q12",
+      "id": "2026-11-28-event-29-q13",
       "category": "Royalty",
       "story": "On this day",
-      "question": "On this day in 1856, King William III unilaterally modified the constitution of which European country to significantly expand his royal powers?",
-      "options": ["Liechtenstein", "Belgium", "The Netherlands", "Luxembourg"],
+      "question": "On this day in 1919, who made history by taking her seat as the very first female Member of Parliament in the UK House of Commons?",
+      "options": [
+        "Countess Markievicz",
+        "Eleanor Rathbone",
+        "Margaret Bondfield",
+        "Lady Astor"
+      ],
       "answerIndex": 3,
-      "explanation": "As Grand Duke of Luxembourg, William III altered the nation's constitution on this date in 1856 to gain greater authority.",
-      "context": "On this day in 1856: William III (pictured) unilaterally revised the constitution of Luxembourg, greatly expanding his powers as grand duke.\nWilliam III of the Netherlands (King of the Netherlands from 1849 to 1890): William III was King of the Netherlands and Grand Duke of Luxembourg from 1849 until his death in 1890, and was also the Duke of Limburg from 1849 until the abolition of the duchy in 1866.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/William_III_of_the_Netherlands"
+      "explanation": "Nancy Astor, Viscountess Astor, became the first woman to physically sit in the House of Commons after her election in 1919.",
+      "context": "On this day in 1919: Lady Astor is elected as a Member of the Parliament of the United Kingdom. She is the first woman to sit in the House of Commons. (Countess Markievicz, the first to be elected, refused to sit.)\nNancy Astor, Viscountess Astor (British politician (1879–1964)): Nancy Witcher Langhorne Astor, Viscountess Astor was an American-born British politician who was the first woman seated as a Member of Parliament (MP), serving from 1919 to 1945. Astor was born in Danville, Virginia, and raised in Greenwood, Virginia.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nancy_Astor%2C_Viscountess_Astor"
     },
     {
-      "id": "2026-11-27-popular-35-q7",
+      "id": "2026-11-28-popular-18-q4",
       "category": "Film",
       "story": "Most read",
-      "question": "Before starring in films like St. Elmo's Fire and About Last Night..., which American actor came to prominence in the 1980s as a member of the 'Brat Pack'?",
+      "question": "Which upcoming Marvel Cinematic Universe film, directed by the Russo brothers, features Robert Downey Jr. portraying Doctor Doom?",
       "options": [
-        "Andrew McCarthy",
-        "Emilio Estevez",
-        "Rob Lowe",
-        "Judd Nelson"
+        "Avengers: Doomsday",
+        "Avengers: Secret Wars",
+        "Fantastic Four: First Steps",
+        "Armor Wars"
       ],
-      "answerIndex": 2,
-      "explanation": "Rob Lowe rose to fame as a teen idol in the 1980s through roles in classic Brat Pack films such as St. Elmo's Fire.",
-      "context": "Rob Lowe (American actor (born 1964)): Robert Hepler Lowe is an American actor and entertainment host. Following numerous television roles in the early 1980s, he came to prominence as a teen idol and member of the Brat Pack with starring roles in The Outsiders (1983), Class (1983), The Hotel New Hampshire (1984), Oxford Blues (1984), St. Elmo's Fire (1985), About Last Night... (1986), Youngblood (1986), Masquerade (1988), and Bad Influence (1990).",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Rob_Lowe"
+      "answerIndex": 0,
+      "explanation": "Robert Downey Jr. returns to the Marvel Cinematic Universe to play main villain Doctor Doom in Avengers: Doomsday.",
+      "context": "Avengers: Doomsday (Upcoming Marvel Studios film): Avengers: Doomsday is an upcoming American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is intended to be the sequel to Avengers: Endgame (2019) and the 39th film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo, and written by Stephen McFeely and Michael Waldron, the film features an ensemble cast led by Robert Downey Jr. as Doctor Doom.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Avengers%3A_Doomsday"
     },
     {
-      "id": "2026-11-27-popular-4-q1",
+      "id": "2026-11-28-popular-39-q1",
       "category": "Music",
       "story": "Most read",
-      "question": "Which English pop rock group was established in Birmingham in 1978 by Nick Rhodes, John Taylor, and Stephen Duffy?",
+      "question": "Which English rock, blues and jazz singer achieved a top-ten hit in 1977 with the song 'Pearl's a Singer'?",
       "options": [
-        "Tears for Fears",
-        "Spandau Ballet",
-        "Duran Duran",
-        "The Human League"
+        "Kiki Dee",
+        "Dusty Springfield",
+        "Elkie Brooks",
+        "Bonnie Tyler"
       ],
       "answerIndex": 2,
-      "explanation": "Duran Duran was originally formed in Birmingham in 1978 by Rhodes, Taylor, and Duffy before arriving at their famous line-up two years later.",
-      "context": "Duran Duran (English rock band): Duran Duran are an English pop rock band. They were formed in Birmingham in 1978 by keyboardist Nick Rhodes, guitarist John Taylor and singer/bassist Stephen Duffy. The band went through several early changes before the band's line-up settled in May 1980 as Rhodes, Taylor, singer Simon Le Bon, guitarist Andy Taylor and drummer Roger Taylor.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Duran_Duran"
+      "explanation": "Elkie Brooks earned a top-ten UK single with 'Pearl's a Singer' in the late 1970s following her tenure in bands like Dada and Vinegar Joe.",
+      "context": "Elkie Brooks (English singer (born 1945)): Elkie Brooks is an English rock, blues and jazz singer. She was a vocalist with the bands Dada and Vinegar Joe, and later became a solo artist. She gained her biggest success in the late 1970s and 1980s, releasing 13 UK Top 75 singles, and reached the top ten with \"Pearl's a Singer\", \"Sunshine After the Rain\", \"Fool (1981), and \"No More the Fool\" (1986). She has been nominated twice for the Brit Awards.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Elkie_Brooks"
     },
     {
-      "id": "2026-11-27-popular-7-q3",
+      "id": "2026-11-28-popular-10-q7",
       "category": "Sport",
       "story": "Most read",
-      "question": "American athlete Ezra Frech won the 35th season of Dancing with the Stars alongside dance partner Daniella Karagach in 2026. In which sport does he compete at the Paralympic Games?",
+      "question": "Which professional motorcycle racer achieved eight of his first ten Grand Prix World Championships in the premier MotoGP class?",
       "options": [
-        "Wheelchair basketball",
-        "Para cycling",
-        "Swimming",
-        "Track and field"
+        "Jorge Lorenzo",
+        "Marc Márquez",
+        "Valentino Rossi",
+        "Dani Pedrosa"
       ],
-      "answerIndex": 3,
-      "explanation": "Ezra Frech is a Paralympic track and field athlete who gained gold medals in high jump, long jump, and sprint events.",
-      "context": "Ezra Frech (American Paralympic athlete (born 2005)): Ezra Frech is an American track and field athlete who competes in high jump, long jump and sprinting events. He is a two-time Paralympian, having competed at the 2020 Summer Paralympics and won two gold medals at the 2024 Summer Paralympics. He also won two silver medals at the 2019 Parapan American Games. Frech is a motivational speaker and disability rights advocate. In 2026, Frech won the thirty-fifth season of Dancing with the Stars, alongside his dance partner Daniella Karagach.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ezra_Frech"
+      "answerIndex": 1,
+      "explanation": "Spanish road racer Marc Márquez has accumulated ten Grand Prix titles, including eight top-tier MotoGP class championships.",
+      "context": "Marc Márquez (Spanish motorcycle racer (born 1993)): Marc Márquez Alentà is a Spanish Grand Prix motorcycle road racer who races for the Ducati Lenovo Team in MotoGP. He previously raced for Honda's factory team from 2013 to 2023, and for the Ducati satellite team Gresini Racing in 2024. Widely considered one of the greatest motorcycle racers of all time, he has won 10 Grand Prix World Championships, including eight in the MotoGP class.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Marc_M%C3%A1rquez"
     },
     {
-      "id": "2026-11-27-popular-31-q9",
-      "category": "Geography",
+      "id": "2026-11-28-popular-13-q9",
+      "category": "Science",
       "story": "Most read",
-      "question": "Which country hosted the 75th Miss Universe pageant in November 2026 at the José Miguel Agrelot Coliseum?",
-      "options": ["Puerto Rico", "Colombia", "Philippines", "Mexico"],
-      "answerIndex": 0,
-      "explanation": "The 75th Miss Universe pageant was held in San Juan, Puerto Rico.",
-      "context": "Miss Universe 2026 (75th Miss Universe beauty pageant): Miss Universe 2026 was the 75th Miss Universe pageant, held at the José Miguel Agrelot Coliseum in San Juan, Puerto Rico, on 24 November 2026. The event was presented by R'Bonney Gabriel, Mario Lopez, Zuri Hall, and Dayanara Torres.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Miss_Universe_2026"
+      "question": "Which general anatomical term describes a flexible body framework maintained purely by fluid pressure inside an organism?",
+      "options": [
+        "Cytoskeleton",
+        "Endoskeleton",
+        "Hydroskeleton",
+        "Exoskeleton"
+      ],
+      "answerIndex": 2,
+      "explanation": "A hydroskeleton relies on hydrostatic pressure from internal body fluids to maintain structural shape, unlike endoskeletons or rigid exoskeletons.",
+      "context": "Skeleton (Part of the body that forms the supporting structure): A skeleton is the structural frame that supports the body of most animals. There are several types of skeletons, including the exoskeleton, which is a rigid outer shell that holds up an organism's shape; the endoskeleton, a rigid internal frame to which the organs and soft tissues attach; and the hydroskeleton, a flexible internal structure supported by the hydrostatic pressure of body fluids.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Skeleton"
     }
   ]
 }
