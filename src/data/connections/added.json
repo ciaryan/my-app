@@ -1278,5 +1278,405 @@
     "words": ["Soul", "Place", "Row", "Muscle"],
     "overlapTags": ["homophones", "body"],
     "addedOn": "2026-10-27"
+  },
+  {
+    "id": "pizza-toppings",
+    "category": "Pizza toppings",
+    "difficulty": 1,
+    "words": ["Pepperoni", "Anchovy", "Olive", "Jalapeño"],
+    "overlapTags": ["colour", "fish"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "italian-cities",
+    "category": "Italian cities",
+    "difficulty": 1,
+    "words": ["Florence", "Venice", "Milan", "Turin"],
+    "overlapTags": ["girls names", "shroud"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "volcanoes",
+    "category": "Volcanoes",
+    "difficulty": 1,
+    "words": ["Etna", "Vesuvius", "Fuji", "Krakatoa"],
+    "overlapTags": ["film brand", "apple", "italy"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "european-cheeses",
+    "category": "European cheeses",
+    "difficulty": 1,
+    "words": ["Brie", "Feta", "Gouda", "Edam"],
+    "overlapTags": ["anagram", "greece"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "big-cats",
+    "category": "Big cats",
+    "difficulty": 1,
+    "words": ["Lion", "Tiger", "Jaguar", "Puma"],
+    "overlapTags": ["car brand", "sportswear", "rugby"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "classical-composers",
+    "category": "Classical composers",
+    "difficulty": 1,
+    "words": ["Bach", "Mozart", "Handel", "Chopin"],
+    "overlapTags": ["homophone", "handle", "chopping"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "trees",
+    "category": "Trees",
+    "difficulty": 1,
+    "words": ["Oak", "Elm", "Birch", "Willow"],
+    "overlapTags": ["street names", "pattern"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "tropical-fruits",
+    "category": "Tropical fruits",
+    "difficulty": 1,
+    "words": ["Mango", "Papaya", "Guava", "Lychee"],
+    "overlapTags": ["colour"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "organs-of-the-body",
+    "category": "Organs of the body",
+    "difficulty": 1,
+    "words": ["Liver", "Heart", "Lung", "Spleen"],
+    "overlapTags": ["card suit", "liverpool"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "chemical-elements",
+    "category": "Chemical elements",
+    "difficulty": 1,
+    "words": ["Iron", "Neon", "Helium", "Copper"],
+    "overlapTags": ["golf club", "police slang", "lights"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "mythical-creatures",
+    "category": "Mythical creatures",
+    "difficulty": 1,
+    "words": ["Unicorn", "Griffin", "Phoenix", "Kraken"],
+    "overlapTags": ["start-up", "city", "surname", "rum"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "woodwind-instruments",
+    "category": "Woodwind instruments",
+    "difficulty": 1,
+    "words": ["Flute", "Oboe", "Clarinet", "Bassoon"],
+    "overlapTags": ["glass"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "greek-gods",
+    "category": "Greek gods and goddesses",
+    "difficulty": 2,
+    "words": ["Zeus", "Apollo", "Athena", "Poseidon"],
+    "overlapTags": ["space programme", "theatre"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "blank-sea",
+    "category": "___ Sea",
+    "difficulty": 2,
+    "words": ["Black", "Red", "Dead", "Coral"],
+    "overlapTags": ["colours"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "things-with-rings",
+    "category": "Things with rings",
+    "difficulty": 2,
+    "words": ["Saturn", "Olympics", "Onion", "Circus"],
+    "overlapTags": ["planet", "sport", "vegetable"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "things-with-shells",
+    "category": "Things with shells",
+    "difficulty": 2,
+    "words": ["Egg", "Snail", "Tortoise", "Walnut"],
+    "overlapTags": ["wood", "breakfast", "slow"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "cocktails",
+    "category": "Cocktails",
+    "difficulty": 2,
+    "words": ["Mojito", "Negroni", "Daiquiri", "Martini"],
+    "overlapTags": ["brand", "italian"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "norse-gods",
+    "category": "Norse gods and goddesses",
+    "difficulty": 2,
+    "words": ["Thor", "Odin", "Loki", "Freya"],
+    "overlapTags": ["marvel", "names"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "formula-one-teams",
+    "category": "Formula One teams",
+    "difficulty": 2,
+    "words": ["Ferrari", "McLaren", "Williams", "Mercedes"],
+    "overlapTags": ["surname", "first name", "car brand"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "cuts-of-steak",
+    "category": "Cuts of steak",
+    "difficulty": 2,
+    "words": ["Sirloin", "Rump", "Flank", "Ribeye"],
+    "overlapTags": ["body", "side"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "tapas",
+    "category": "Tapas",
+    "difficulty": 2,
+    "words": ["Chorizo", "Calamari", "Tortilla", "Patatas Bravas"],
+    "overlapTags": ["mexican"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "things-with-a-bark",
+    "category": "Things with a bark",
+    "difficulty": 2,
+    "words": ["Dog", "Tree", "Seal", "Fox"],
+    "overlapTags": ["animals", "stamp"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "things-with-a-needle",
+    "category": "Things with a needle",
+    "difficulty": 2,
+    "words": ["Pine", "Compass", "Syringe", "Haystack"],
+    "overlapTags": ["tree", "stationery", "idiom"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "things-you-catch",
+    "category": "Things you catch",
+    "difficulty": 2,
+    "words": ["Cold", "Bus", "Breath", "Wave"],
+    "overlapTags": ["weather", "transport", "sea"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "eponyms",
+    "category": "Named after people",
+    "difficulty": 3,
+    "words": ["Sandwich", "Cardigan", "Boycott", "Leotard"],
+    "overlapTags": ["clothes", "food", "town", "protest"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "words-from-japanese",
+    "category": "Words from Japanese",
+    "difficulty": 3,
+    "words": ["Tsunami", "Karaoke", "Emoji", "Tycoon"],
+    "overlapTags": ["business", "weather"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "words-from-hindi",
+    "category": "Words from Hindi or Urdu",
+    "difficulty": 3,
+    "words": ["Shampoo", "Bungalow", "Jungle", "Pyjamas"],
+    "overlapTags": ["music genre", "house", "bedtime"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "units-named-after-scientists",
+    "category": "Units named after scientists",
+    "difficulty": 3,
+    "words": ["Watt", "Newton", "Kelvin", "Hertz"],
+    "overlapTags": ["homophone", "car hire", "first name", "town"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "australian-capitals",
+    "category": "Australian state and territory capitals",
+    "difficulty": 3,
+    "words": ["Perth", "Darwin", "Hobart", "Adelaide"],
+    "overlapTags": ["scotland", "scientist", "queen"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "seven-blank",
+    "category": "Seven ___",
+    "difficulty": 3,
+    "words": ["Seas", "Wonders", "Dwarfs", "Samurai"],
+    "overlapTags": ["film", "fairy tale"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "chess-terms",
+    "category": "Chess terms",
+    "difficulty": 3,
+    "words": ["Castle", "Fork", "Pin", "Gambit"],
+    "overlapTags": ["cutlery", "building", "sewing"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "yoga-poses",
+    "category": "Yoga poses",
+    "difficulty": 3,
+    "words": ["Cobra", "Warrior", "Plank", "Lotus"],
+    "overlapTags": ["snake", "car brand", "beer", "flower"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "famous-towers",
+    "category": "___ Tower",
+    "difficulty": 3,
+    "words": ["Eiffel", "Pisa", "Blackpool", "Babel"],
+    "overlapTags": ["football", "pizza", "italy"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "flags-with-a-cross",
+    "category": "Countries with a cross on their flag",
+    "difficulty": 3,
+    "words": ["Denmark", "Switzerland", "Greece", "Georgia"],
+    "overlapTags": ["us state", "musical", "pastry"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "landlocked-countries",
+    "category": "Landlocked countries",
+    "difficulty": 3,
+    "words": ["Austria", "Hungary", "Nepal", "Bolivia"],
+    "overlapTags": ["homophone", "hungry"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "pre-euro-currencies",
+    "category": "Currencies replaced by the euro",
+    "difficulty": 3,
+    "words": ["Franc", "Lira", "Peseta", "Punt"],
+    "overlapTags": ["boat", "bet", "name"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "birds-that-are-verbs",
+    "category": "Birds that are also verbs",
+    "difficulty": 3,
+    "words": ["Duck", "Swallow", "Grouse", "Crane"],
+    "overlapTags": ["machine", "complain", "dodge"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "blank-mate",
+    "category": "___mate",
+    "difficulty": 4,
+    "words": ["Play", "Flat", "Class", "Room"],
+    "overlapTags": ["theatre", "music"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "homophones-of-countries",
+    "category": "Sound like countries",
+    "difficulty": 4,
+    "words": ["Wails", "Chilly", "Grease", "Check"],
+    "overlapTags": ["musical", "cold", "chess"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "things-you-raise",
+    "category": "Things you raise",
+    "difficulty": 4,
+    "words": ["Eyebrow", "Alarm", "Roof", "Glass"],
+    "overlapTags": ["face", "house"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "blank-fly",
+    "category": "___fly",
+    "difficulty": 4,
+    "words": ["Butter", "Dragon", "Fire", "Horse"],
+    "overlapTags": ["mythical", "dairy", "farm animal", "elements"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "starts-with-water",
+    "category": "Start with a body of water",
+    "difficulty": 4,
+    "words": ["Bayonet", "Season", "Pondering", "Streamline"],
+    "overlapTags": ["weapon", "weather"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "starts-with-a-day",
+    "category": "Start with a short day of the week",
+    "difficulty": 4,
+    "words": ["Monkey", "Wedding", "Frisbee", "Satchel"],
+    "overlapTags": ["animal", "bag", "toy"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "add-s-to-the-front",
+    "category": "Add S to the front for a new word",
+    "difficulty": 4,
+    "words": ["Cream", "Witch", "Mile", "Hovel"],
+    "overlapTags": ["dairy", "halloween"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "sound-like-two-letters",
+    "category": "Sound like two letters",
+    "difficulty": 4,
+    "words": ["Envy", "Excel", "Essay", "Cutie"],
+    "overlapTags": ["software", "school", "sins"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "ends-with-greek-letter",
+    "category": "End with a Greek letter",
+    "difficulty": 4,
+    "words": ["Taxi", "Okapi", "Kimchi", "Emu"],
+    "overlapTags": ["animals", "korean food", "transport"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "things-you-break",
+    "category": "Things you break",
+    "difficulty": 4,
+    "words": ["Record", "News", "Ice", "Silence"],
+    "overlapTags": ["music", "weather"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "things-you-keep",
+    "category": "Things you keep",
+    "difficulty": 4,
+    "words": ["Promise", "Secret", "Score", "Time"],
+    "overlapTags": ["music", "football"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "things-with-a-crown",
+    "category": "Things with a crown",
+    "difficulty": 4,
+    "words": ["King", "Tooth", "Pineapple", "Head"],
+    "overlapTags": ["chess", "fruit", "body"],
+    "addedOn": "2026-11-29"
+  },
+  {
+    "id": "things-with-scales",
+    "category": "Things with scales",
+    "difficulty": 4,
+    "words": ["Fish", "Map", "Snake", "Thermometer"],
+    "overlapTags": ["music", "weighing", "animals"],
+    "addedOn": "2026-11-29"
   }
 ]
