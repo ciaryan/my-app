@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { getDailyPuzzle } from '@/lib/connections/daily';
 import type { DailyPuzzle } from '@/lib/connections/daily';
 import type { PuzzleGroup } from '@/data/connections/puzzles';
+import PlayCount from '../_components/PlayCount';
 
 // ── Types ──────────────────────────────────────────────────────────
 
@@ -362,6 +363,7 @@ function ConnectionsGame() {
             #{puzzle.number} &middot; {puzzle.date}
           </p>
           <p className="text-sm text-muted">Find four groups of four</p>
+          <PlayCount page="connections" />
         </div>
 
         {/* Solved groups */}

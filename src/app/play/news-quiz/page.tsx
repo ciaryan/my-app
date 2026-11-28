@@ -15,6 +15,7 @@ const quiz = QuizFileSchema.parse(quizData);
 export default function NewsQuizPage() {
   return (
     <DailyQuiz
+      game="news-quiz"
       quiz={quiz}
       title="News Quiz"
       subtitle={`Five questions on the news from ${formatLongDate(quiz.newsDate)}`}

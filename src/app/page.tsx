@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import PlayCount from './play/_components/PlayCount';
 
 export default function Home() {
   return (
     <div className="flex flex-1 items-center justify-center px-6 py-24">
       <main className="w-full max-w-xl space-y-12">
+        <PlayCount page="home" show={false} />
         <header className="space-y-4">
           <h1 className="text-4xl font-bold tracking-tight text-foreground">
             Ciarán Ryan

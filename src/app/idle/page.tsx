@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
+import PlayCount from '../play/_components/PlayCount';
 
 interface Upgrade {
   id: string;
@@ -129,6 +130,7 @@ export default function IdlePage() {
   return (
     <div className="flex flex-1 items-start justify-center px-6 py-12 md:py-24">
       <main className="w-full max-w-xl space-y-8">
+        <PlayCount page="idle" show={false} />
         <div className="flex items-center justify-between">
           <Link
             href="/"

@@ -14,6 +14,7 @@ const quiz = TriviaFileSchema.parse(triviaData);
 export default function TriviaPage() {
   return (
     <DailyQuiz
+      game="trivia"
       quiz={quiz}
       title="Daily Trivia"
       subtitle="Five pub quiz rounds, from what people are reading and what happened on this day"

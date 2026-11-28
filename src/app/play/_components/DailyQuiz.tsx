@@ -4,6 +4,8 @@ import { useState, useSyncExternalStore } from 'react';
 import Link from 'next/link';
 import { formatLongDate, londonDate } from '@/lib/quiz/dates';
 import type { QuizQuestion } from '@/lib/quiz/schema';
+import type { TrackedPage } from '@/lib/plays';
+import PlayCount from './PlayCount';
 
 // ── Types ──────────────────────────────────────────────────────────
 
@@ -19,6 +21,8 @@ export interface DailyQuizProps {
     source: { url: string; license: string; licenseUrl: string };
   };
   title: string;
+  /** Key for the "played today" counter. */
+  game: TrackedPage;
   subtitle: string;
   /** localStorage key for answers, keyed by quiz date. */
   storageKey: string;
@@ -129,6 +133,7 @@ function optionClass(
 export default function DailyQuiz({
   quiz,
   title,
+  game,
   subtitle,
   storageKey,
   epoch,
@@ -204,6 +209,7 @@ export default function DailyQuiz({
             #{number} &middot; {quiz.date}
           </p>
           <p className="text-sm text-muted">{subtitle}</p>
+          <PlayCount page={game} />
           {isStale && (
             <p className="text-xs text-muted">
               Today&apos;s quiz isn&apos;t ready yet &mdash; this is the quiz
