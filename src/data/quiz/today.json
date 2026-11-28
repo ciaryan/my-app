@@ -1,102 +1,108 @@
 {
   "version": 1,
-  "date": "2026-11-27",
-  "newsDate": "2026-11-26",
-  "generatedAt": "2026-11-27T08:42:23.857Z",
+  "date": "2026-11-28",
+  "newsDate": "2026-11-27",
+  "generatedAt": "2026-11-28T07:55:13.417Z",
   "model": "gemini-3.6-flash",
   "source": {
     "name": "Wikipedia: Portal:Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
-    "revisionIds": [1388241307, 1388229754],
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27",
+    "revisionIds": [1388443216, 1388427453],
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "questions": [
     {
-      "id": "2026-11-26-15-q3",
-      "category": "Politics and elections",
-      "story": "Anti-corruption campaign under Xi Jinping",
-      "question": "Dozens of venues for which sport have recently announced closures across China following government directives?",
-      "options": ["Tennis", "Snooker", "Golf", "Polo"],
+      "id": "2026-11-27-8-q3",
+      "category": "Sports",
+      "story": "2026–27 ISU Grand Prix of Figure Skating > 2026 NHK Trophy",
+      "question": "American figure skater Ilia Malinin set a new men's short programme world record at which international competition in Japan?",
+      "options": [
+        "World Championships",
+        "Skate America",
+        "NHK Trophy",
+        "Four Continents"
+      ],
       "answerIndex": 2,
-      "explanation": "At least 18 golf courses in China are closing following official orders linked to the country's ongoing anti-corruption campaign.",
-      "context": "Anti-corruption campaign under Xi Jinping: At least 18 golf courses across China announce closures, including ten in Beijing, with many citing government orders following earlier restrictions on golf associated with paramount leader Xi Jinping's anti-corruption campaign.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
-      "topicUrl": "https://en.wikipedia.org/wiki/Anti-corruption_campaign_under_Xi_Jinping",
+      "explanation": "Ilia Malinin scored 114.81 points in the short programme at the NHK Trophy in Tokyo to break the previous record.",
+      "context": "2026–27 ISU Grand Prix of Figure Skating > 2026 NHK Trophy: In figure skating, Ilia Malinin of the United States sets a men's short programme world record with 114.81 points at the NHK Trophy in Tokyo, Japan, surpassing compatriot Nathan Chen's previous record of 113.97 points set at the 2022 Winter Olympics.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_NHK_Trophy",
       "readMore": {
         "publisher": "AFP via France 24",
-        "url": "https://www.france24.com/en/live-news/20261126-china-shuts-down-golf-courses-in-apparent-new-clampdown"
+        "url": "https://www.france24.com/en/live-news/20261127-majestic-malinin-breaks-short-programme-world-record"
       }
     },
     {
-      "id": "2026-11-26-9-q12",
-      "category": "Disasters and accidents",
-      "story": "",
-      "question": "Coastguard units safely rescued 16 crew members after a oil tanker registered in Malta sank off the coast of which Spanish island?",
-      "options": ["Menorca", "Ibiza", "Formentera", "Majorca"],
-      "answerIndex": 1,
-      "explanation": "A rescue operation saved 16 sailors after their Maltese-flagged tanker foundered off Ibiza.",
-      "context": "One crew member is killed and 16 more are rescued after the sinking of a Malta-flagged tanker off the coast of Ibiza, Spain.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
-      "readMore": {
-        "publisher": "Reuters",
-        "url": "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/"
-      }
-    },
-    {
-      "id": "2026-11-26-8-q2",
+      "id": "2026-11-27-3-q9",
       "category": "Business and economy",
-      "story": "",
-      "question": "A consortium led by the US firm Eldridge has agreed to buy the international operations of which major oil producer?",
-      "options": ["Tatneft", "Gazprom", "Rosneft", "Lukoil"],
-      "answerIndex": 3,
-      "explanation": "American asset manager Eldridge leads a group acquiring the international assets of Russian energy company Lukoil.",
-      "context": "A business consortium led by U.S.-based asset management company Eldridge agrees to purchase international assets of Russian oil company Lukoil, including oil and gas fields, refineries, pipelines, and other infrastructure.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
+      "story": "2026 Iran war fuel crisis",
+      "question": "Which international low-cost airline saw its main operating subsidiary file for bankruptcy following a surge in jet fuel prices?",
+      "options": [
+        "Wizz Air",
+        "Play",
+        "Norse Atlantic Airways",
+        "Norwegian Air Shuttle"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rising fuel expenses led the subsidiary of Norse Atlantic Airways to seek insolvency protection and halt flight operations.",
+      "context": "2026 Iran war fuel crisis: Norwegian low-cost carrier Norse Atlantic Airways announces that its Norwegian operating subsidiary filed for bankruptcy after failing to secure short-term funding amid rising fuel costs, cancelling all flights and suspending ticket sales.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis",
       "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/russia-ukraine-war-us-sanctions-oil-lukoil-8d5df1befb2ebb2a0ce4f6b259fcdf14"
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html"
       }
     },
     {
-      "id": "2026-11-26-11-q8",
+      "id": "2026-11-27-7-q2",
+      "category": "Politics and elections",
+      "story": "2026 New Zealand general election",
+      "question": "Following special vote counting in New Zealand's election, which political group found itself holding a potential kingmaker position after the ruling coalition lost its majority?",
+      "options": [
+        "ACT New Zealand",
+        "The Green Party",
+        "Te Pāti Māori",
+        "The Opportunity Party"
+      ],
+      "answerIndex": 3,
+      "explanation": "As the governing coalition fell to 65 seats, the Opportunity Party ended up in a position to determine the parliamentary majority.",
+      "context": "2026 New Zealand general election: The counting of special votes results in the National Party losing two electorate seats, including one overhang seat. The National–ACT–NZ First coalition government falls below a majority to 65 seats, placing the Opportunity Party into a kingmaker position.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27",
+      "topicUrl": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
+      "readMore": {
+        "publisher": "BBC News",
+        "url": "https://www.bbc.com/news/articles/c670278qk879o"
+      }
+    },
+    {
+      "id": "2026-11-26-15-q5",
       "category": "Law and crime",
-      "story": "2025 Cambridgeshire train stabbing",
-      "question": "An English court has convicted 32-year-old Anthony Williams of attempted murder following a series of attacks, including a knife incident on which train service?",
-      "options": [
-        "Great Western Railway",
-        "Avanti West Coast",
-        "TransPennine Express",
-        "LNER"
-      ],
-      "answerIndex": 3,
-      "explanation": "Anthony Williams was found guilty of multiple attempted murders, including stabbing passengers onboard an LNER train.",
-      "context": "2025 Cambridgeshire train stabbing: The Cambridge Crown Court in the United Kingdom finds 32-year-old Anthony Williams guilty of the attempted murders of 14 people in three separate incidents, including the stabbing of ten people on a LNER train in November 2025.",
+      "story": "",
+      "question": "An argument between drivers operating which mode of transport in Beirut escalated into a deadly street shootout?",
+      "options": ["Trams", "Minibuses", "Taxis", "Delivery vans"],
+      "answerIndex": 1,
+      "explanation": "A dispute between minibus drivers in the Lebanese capital escalated into gunfire on the street.",
+      "context": "A shootout between minibus drivers after a quarrel on a street in Beirut, Lebanon, kills two people and injures three more.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
-      "topicUrl": "https://en.wikipedia.org/wiki/2025_Cambridgeshire_train_stabbing",
       "readMore": {
-        "publisher": "AP",
-        "url": "https://apnews.com/article/britain-train-stabbings-williams-guilty-attempted-murder-4d8ae19ba73ed8b556417abd910812cf"
+        "publisher": "L’Orient Today",
+        "url": "https://today.lorientlejour.com/article/1555723/minibus-drivers-exchange-gunfire-in-broad-daylight-on-a-south-beirut-street.html"
       }
     },
     {
-      "id": "2026-11-26-7-q1",
+      "id": "2026-11-27-4-q1",
       "category": "Business and economy",
       "story": "",
-      "question": "Which Spanish economist has been chosen to take over as the president of the European Central Bank following Christine Lagarde's resignation?",
-      "options": [
-        "Pablo Hernández de Cos",
-        "Luis de Guindos",
-        "Nadia Calviño",
-        "Carlos Cuerpo"
-      ],
-      "answerIndex": 0,
-      "explanation": "Pablo Hernández de Cos was elected to lead the European Central Bank after the departure of Christine Lagarde.",
-      "context": "Spanish economist Pablo Hernández de Cos is elected as the new president of the European Central Bank, succeeding French lawyer Christine Lagarde after her resignation.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
+      "question": "Which European nation officially entered a recession after its economy shrank for two quarters in a row?",
+      "options": ["Germany", "France", "Italy", "Spain"],
+      "answerIndex": 1,
+      "explanation": "France experienced two consecutive quarters of economic contraction, resulting in a formal recession.",
+      "context": "France’s economy is contracted for two consecutive quarters and enters into a recession.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27",
       "readMore": {
-        "publisher": "Financial Times",
-        "url": "https://www.ft.com/content/88a0691a-6ce8-4c97-abf4-7aee0351fd51?syn-25a6b1a6=1"
+        "publisher": "AOL",
+        "url": "https://www.aol.com/articles/france-falls-recession-143511000.html"
       }
     }
   ]
