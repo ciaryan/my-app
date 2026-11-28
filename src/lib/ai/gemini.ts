@@ -9,14 +9,24 @@ import { z } from 'zod';
 // server's deadline too: too short and slow responses come back as 504.
 const DEFAULT_TIMEOUT_MS = 300_000;
 // Every attempt counts against the free-tier daily quota, even failed ones,
-// and the workflows' later scheduled runs already act as retries.
-const MAX_ATTEMPTS = 2;
+// and the workflows' later scheduled runs already act as retries. So each
+// model gets at most this many requests per call, one per pass over the
+// chain. Overload (503) spikes pass within minutes, so the passes are spaced
+// out rather than retrying the same model straight away.
+const MAX_PASSES = 2;
+const PASS_DELAY_MS = 90_000;
 /** Longest server-requested wait we'll honour before giving up. */
 const MAX_RETRY_DELAY_MS = 60_000;
 
 let client: GoogleGenAI | undefined;
 /** Models that reported daily-quota exhaustion; skipped for this process. */
 const exhausted = new Set<string>();
+/**
+ * Models that were overloaded or timed out earlier in this process. Later
+ * calls try them last, so the verify call doesn't spend a request on a model
+ * that just failed the generate call.
+ */
+const struggling = new Set<string>();
 
 function requireEnv(name: string): string {
   const value = process.env[name];
@@ -43,7 +53,7 @@ function getClient(): GoogleGenAI {
     apiKey: requireEnv('GEMINI_API_KEY'),
     httpOptions: {
       timeout: DEFAULT_TIMEOUT_MS,
-      // Retries are handled in withRetry so daily-quota errors fail fast.
+      // Retries are handled in generateJson so daily-quota errors fail fast.
       retryOptions: { attempts: 1 },
     },
   });
@@ -71,28 +81,23 @@ function isUnavailable(err: unknown): boolean {
 }
 
 /**
- * Retries transient failures (5xx, timeouts, short rate-limit waits). Daily
- * quota exhaustion asks for a wait of hours, so that is rethrown immediately
- * rather than burning more quota or hanging the job.
+ * Honours one short server-requested rate-limit wait (429 with a retryDelay
+ * of up to a minute). Daily quota exhaustion asks for a wait of hours, so
+ * that and every other error is rethrown for generateJson to handle.
  */
-async function withRetry<T>(call: () => Promise<T>): Promise<T> {
-  for (let attempt = 1; ; attempt++) {
-    try {
-      return await call();
-    } catch (err) {
-      if (attempt >= MAX_ATTEMPTS || !isUnavailable(err)) throw err;
-      let delay = 2 ** attempt * 5_000;
-      if (err instanceof ApiError && err.status === 429) {
-        const requested = retryDelayMs(err);
-        if (requested === undefined || requested > MAX_RETRY_DELAY_MS) {
-          throw err;
-        }
-        delay = requested + 1_000;
-      }
-      await new Promise((resolve) => setTimeout(resolve, delay));
-    }
+async function withRateLimitRetry<T>(call: () => Promise<T>): Promise<T> {
+  try {
+    return await call();
+  } catch (err) {
+    if (!(err instanceof ApiError) || err.status !== 429) throw err;
+    const requested = retryDelayMs(err);
+    if (requested === undefined || requested > MAX_RETRY_DELAY_MS) throw err;
+    await new Promise((resolve) => setTimeout(resolve, requested + 1_000));
+    return call();
   }
 }
+
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 export interface GenerateJsonOptions<T extends z.ZodType> {
   system: string;
@@ -112,8 +117,9 @@ export interface GenerateJsonResult<T> {
 /**
  * Calls Gemini with structured JSON output and validates the response against
  * the given Zod schema. If a model is unavailable (quota exhausted, overloaded,
- * timing out) after retries, the next model is tried. Throws if every model
- * fails, or if the response is invalid JSON or doesn't match the schema.
+ * timing out), the next model is tried; if all are, the chain is tried once
+ * more after a pause (skipping models out of quota). Throws if that fails too,
+ * or if the response is invalid JSON or doesn't match the schema.
  */
 export async function generateJson<T extends z.ZodType>({
   system,
@@ -122,28 +128,47 @@ export async function generateJson<T extends z.ZodType>({
   temperature = 0.4,
   models = getGeminiModels(),
 }: GenerateJsonOptions<T>): Promise<GenerateJsonResult<z.infer<T>>> {
-  const available = models.filter((m) => !exhausted.has(m));
-  if (available.length === 0) {
-    throw new Error(`Daily quota exhausted for ${models.join(', ')}`);
-  }
   let lastError: unknown;
-  for (const [i, model] of available.entries()) {
-    try {
-      const data = await generateWithModel(
-        model,
-        system,
-        prompt,
-        schema,
-        temperature,
-      );
-      return { data, model };
-    } catch (err) {
-      if (err instanceof ApiError && err.status === 429) exhausted.add(model);
-      if (!isUnavailable(err) || i === available.length - 1) throw err;
-      lastError = err;
+  for (let pass = 1; pass <= MAX_PASSES; pass++) {
+    // Healthy models first; ones that struggled earlier keep their order.
+    const available = models.filter((m) => !exhausted.has(m));
+    const ordered = [
+      ...available.filter((m) => !struggling.has(m)),
+      ...available.filter((m) => struggling.has(m)),
+    ];
+    if (ordered.length === 0) {
+      if (lastError) throw lastError;
+      throw new Error(`Daily quota exhausted for ${models.join(', ')}`);
+    }
+    if (pass > 1) {
       console.warn(
-        `[gemini] ${model} unavailable, falling back to ${available[i + 1]}: ${err instanceof Error ? err.message.slice(0, 200) : err}`,
+        `[gemini] all models unavailable; waiting ${PASS_DELAY_MS / 1000}s before pass ${pass}`,
       );
+      await sleep(PASS_DELAY_MS);
+    }
+    for (const model of ordered) {
+      try {
+        const data = await generateWithModel(
+          model,
+          system,
+          prompt,
+          schema,
+          temperature,
+        );
+        struggling.delete(model);
+        return { data, model };
+      } catch (err) {
+        if (!isUnavailable(err)) throw err;
+        if (err instanceof ApiError && err.status === 429) {
+          exhausted.add(model);
+        } else {
+          struggling.add(model);
+        }
+        lastError = err;
+        console.warn(
+          `[gemini] ${model} unavailable (pass ${pass}): ${err instanceof Error ? err.message.slice(0, 200) : err}`,
+        );
+      }
     }
   }
   throw lastError;
@@ -157,7 +182,7 @@ async function generateWithModel<T extends z.ZodType>(
   temperature: number,
 ): Promise<z.infer<T>> {
   const request = (thinking: boolean) =>
-    withRetry(() =>
+    withRateLimitRetry(() =>
       getClient().models.generateContent({
         model,
         contents: prompt,

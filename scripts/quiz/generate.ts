@@ -20,6 +20,7 @@ import {
   buildQuestion,
   CandidateSchema,
   log,
+  pickWithReserve,
   runGenerator,
   verifyAll,
   writeJsonAtomic,
@@ -224,9 +225,7 @@ async function main() {
   }
 
   const verification = await verifyAll(checked);
-  const verified = verification.questions;
-
-  const questions = pickVaried(verified);
+  const questions = pickWithReserve(pickVaried, verification, QUESTION_COUNT);
   if (questions.length < QUESTION_COUNT) {
     throw new Error(
       `Only ${questions.length} of ${QUESTION_COUNT} questions passed verification`,

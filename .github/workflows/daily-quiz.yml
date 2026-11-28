@@ -9,6 +9,7 @@ on:
     # Retries if Google was overloaded earlier. They skip once today's quiz exists.
     - cron: '17 2 * * *'
     - cron: '17 4 * * *'
+    - cron: '17 6 * * *'
   workflow_dispatch:
 
 permissions:

@@ -94,16 +94,28 @@ const VerdictsSchema = z.object({
   ),
 });
 
+export interface Verification {
+  /** Correct, unambiguous, not obscure and not a giveaway; best first. */
+  questions: QuizQuestion[];
+  /**
+   * Answered correctly and unambiguously, but flagged obscure or giveaway.
+   * Only used when there aren't enough good questions (see pickWithReserve).
+   */
+  reserve: QuizQuestion[];
+  model: string;
+}
+
 /**
  * One batched Gemini call answers every question blind from its own
  * `context` and rates it for fun and guessability. Keeps only questions it
  * answers correctly, unambiguously and finds not obscure, sorted best-first
  * (guessable 3+ first, then fun + guessable) so pickers that walk the list in
- * order take the best.
+ * order take the best. Correct questions dropped only for being obscure or a
+ * giveaway go to `reserve`.
  */
 export async function verifyAll(
   questions: QuizQuestion[],
-): Promise<{ questions: QuizQuestion[]; model: string }> {
+): Promise<Verification> {
   const { data, model } = await generateJson({
     system: VERIFIER_SYSTEM,
     prompt: JSON.stringify(
@@ -126,14 +138,15 @@ export async function verifyAll(
     if (!v) return 0;
     return (v.guessable >= MIN_GUESSABLE ? 100 : 0) + v.fun + v.guessable;
   };
+  const reserve: QuizQuestion[] = [];
   const kept = questions.filter((q) => {
     const verdict = byId.get(q.id);
-    const ok =
+    const correct =
       verdict !== undefined &&
       verdict.chosenIndex === q.answerIndex &&
-      !verdict.ambiguous &&
-      !verdict.obscure &&
-      !verdict.giveaway;
+      !verdict.ambiguous;
+    const ok = correct && !verdict.obscure && !verdict.giveaway;
+    if (correct && !ok) reserve.push(q);
     const rating = verdict
       ? ` [fun ${verdict.fun}, guessable ${verdict.guessable}]`
       : '';
@@ -144,7 +157,30 @@ export async function verifyAll(
   });
   // Stable sort: ties keep the generator's order.
   kept.sort((a, b) => score(b) - score(a));
-  return { questions: kept, model };
+  reserve.sort((a, b) => score(b) - score(a));
+  return { questions: kept, reserve, model };
+}
+
+/**
+ * Runs a picker on the verified questions. If it can't fill the quiz, runs it
+ * again with the reserve (correct but obscure or giveaway questions) appended
+ * after them, so a thin day still gets a quiz rather than none. Good questions
+ * stay first, so pickers that walk in order still prefer them.
+ */
+export function pickWithReserve(
+  pick: (questions: QuizQuestion[]) => QuizQuestion[],
+  { questions, reserve }: Pick<Verification, 'questions' | 'reserve'>,
+  count: number,
+): QuizQuestion[] {
+  const picked = pick(questions);
+  if (picked.length >= count || reserve.length === 0) return picked;
+  const withReserve = pick([...questions, ...reserve]);
+  if (withReserve.length <= picked.length) return picked;
+  const used = withReserve.filter((q) => reserve.includes(q));
+  log(
+    `only ${picked.length} of ${count} from good questions; using reserve ${used.map((q) => q.id).join(', ')}`,
+  );
+  return withReserve;
 }
 
 /** Writes JSON via a temp file and rename, so readers never see a partial file. */
